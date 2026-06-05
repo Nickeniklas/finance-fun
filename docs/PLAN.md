@@ -52,7 +52,7 @@ The v1 design must not block any v2 item. Each v2 feature bolts on cleanly.
 | Frontend | Vanilla HTML / CSS / JS | No framework. Owner does not write React. |
 | Charts | TradingView Lightweight Charts | Plain JS, ~40kb, finance-native. Drawing only — no data fetching. |
 | Backend | Python + FastAPI | Owner uses Python daily. |
-| Hosting | Railway | Usage-based pricing, scales toward zero, beginner-friendly onboarding. |
+| Hosting | Render (free tier) | Free tier, ~1-min cold start on idle; fine tradeoff for a low-traffic hobby site. |
 | Data provider | Finnhub (free tier) | 60 calls/min, real-time US quotes, news, basic fundamentals. |
 | Favorites storage | Browser localStorage | No accounts, no DB in v1. |
 | Prompt library storage | Static JSON file in repo | Read-only, authored by owner. |
@@ -61,10 +61,10 @@ The v1 design must not block any v2 item. Each v2 feature bolts on cleanly.
 ### Why these (short rationale)
 - **Python/FastAPI over TypeScript/serverless:** fluency in Python beats the cheaper
   serverless tier for a side project. FastAPI feels familiar immediately.
-- **Railway over Render:** usage-based pricing fits hobby-scale (near-zero when idle);
-  Render's free tier sleeps with a ~1-minute cold start that hurts a public site.
-  Note: Railway disabled its CDN in May 2026 — irrelevant here since static assets
-  can sit elsewhere and data is cached in-backend.
+- **Render (free tier):** Railway has no real free tier (trial credit only, ~$5/mo
+  after). Render's free tier is genuinely free; the ~1-minute cold start on idle is an
+  acceptable tradeoff for a low-traffic hobby site. The setup stays portable — the
+  Procfile and `$PORT` convention work on Railway, Fly.io, or any other host too.
 - **Finnhub over FMP/Alpha Vantage:** 60 calls/**minute** free beats FMP's 250/**day**.
   One provider covers quotes + news + basic fundamentals. Limitation: deep historical
   fundamentals need a paid tier — revisit with FMP in v2 if needed.
@@ -88,7 +88,7 @@ Browser (vanilla HTML/CSS/JS)
         │
         │  (HTTP/JSON)
         ▼
-FastAPI backend (Railway)
+FastAPI backend (Render)
   └── Data module ......... the ONLY thing that talks to Finnhub
         ├── in-process cache (Python dict) with per-type TTLs
         ├── reshapes Finnhub responses into clean objects
@@ -109,7 +109,7 @@ The prompt library is **standalone** — it does not touch the data layer at all
 
 Planning is complete. When building begins, suggested first bricks:
 
-1. FastAPI skeleton deployable to Railway ("hello world" endpoint live).
+1. FastAPI skeleton deployable to Render ("hello world" endpoint live).
 2. Data module + one endpoint end to end (`/quote/{symbol}`), with cache.
 3. Remaining endpoints (candles, fundamentals, news).
 4. Frontend shell + watchlist (localStorage) + one chart.

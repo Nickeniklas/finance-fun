@@ -12,7 +12,7 @@ a price line chart, and a curated copy-only prompt library. See `docs/PLAN.md`.
 - Frontend: **vanilla HTML/CSS/JS** (no framework — owner does not write React)
 - Charts: **TradingView Lightweight Charts** (plain JS; drawing only, no fetching)
 - Backend: **Python + FastAPI**
-- Hosting: **Railway**
+- Hosting: **Render** (free tier)
 - Data: **Finnhub free tier** (60 calls/min) via the `finnhub-python` client
 - Favorites: **browser localStorage** (no accounts, no DB in v1)
 - Prompt library: **static JSON** in repo, read-only
@@ -42,7 +42,7 @@ a price line chart, and a curated copy-only prompt library. See `docs/PLAN.md`.
 - [ ] Step 6 — Prompt library (static JSON + copy UI)
 
 ## Build order (suggested)
-1. ~~FastAPI skeleton deployable to Railway (one live endpoint).~~ **Done.**
+1. ~~FastAPI skeleton deployable to Render (one live endpoint).~~ **Done.**
 2. Data module + `/quote/{symbol}` end to end, with cache.
 3. Remaining endpoints: candles, fundamentals (`company_basic_financials`), news.
 4. Frontend shell + watchlist (localStorage) + one chart.
@@ -55,4 +55,4 @@ a price line chart, and a curated copy-only prompt library. See `docs/PLAN.md`.
 - `company_news` takes a date range; pass ~last 7 days, not a huge window.
 - In-process dict cache is fine for v1 (vanishes on restart). Redis only if we ever
   run multiple instances.
-- Secrets: the Finnhub API key is an env var on Railway. Never commit it.
+- Secrets: the Finnhub API key is an env var on Render. Never commit it.

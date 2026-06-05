@@ -10,13 +10,13 @@ See [`docs/PLAN.md`](docs/PLAN.md) for the full project plan and rationale.
 ## Current status
 
 **Step 1 complete** — FastAPI skeleton is live with a `/health` endpoint and is
-deployable to Railway. No data calls yet.
+deployable to Render. No data calls yet.
 
 **Next: Step 2** — data module + `/quote/{symbol}` end to end with Finnhub cache.
 
 ### Build order
 
-- [x] Step 1 — FastAPI skeleton, Railway deploy pipeline
+- [x] Step 1 — FastAPI skeleton, Render deploy pipeline
 - [ ] Step 2 — Data module + `/quote/{symbol}` (Finnhub, cache)
 - [ ] Step 3 — Remaining endpoints: candles, fundamentals, news
 - [ ] Step 4 — Frontend shell, watchlist (localStorage), one chart
@@ -32,7 +32,7 @@ deployable to Railway. No data calls yet.
 | Frontend | Vanilla HTML / CSS / JS |
 | Charts | TradingView Lightweight Charts |
 | Backend | Python + FastAPI |
-| Hosting | Railway |
+| Hosting | Render (free tier) |
 | Data | Finnhub free tier (60 calls/min) |
 | Favorites | Browser localStorage |
 | Prompt library | Static JSON in repo |
@@ -57,13 +57,20 @@ Then open `http://127.0.0.1:8000/health` — should return `{"status":"ok"}`.
 
 ---
 
-## Railway deployment
+## Render deployment
 
-1. Push to GitHub — Railway auto-deploys from the main branch.
-2. In Railway dashboard → **Variables** → add `FINNHUB_API_KEY` with your key.
-3. The `Procfile` tells Railway how to start: `uvicorn main:app --host 0.0.0.0 --port $PORT`.
+1. Push to GitHub.
+2. In [Render](https://render.com) → **New → Web Service** → connect your repo.
+3. Set these in the Render dashboard:
+   - **Build command:** `pip install -r requirements.txt`
+   - **Start command:** `uvicorn main:app --host 0.0.0.0 --port $PORT`
+4. Under **Environment** → add `FINNHUB_API_KEY` with your key.
+5. Deploy — Render assigns a public URL automatically.
 
-**Never commit the API key** — it must live only in Railway's environment variables.
+**Never commit the API key** — it must live only in Render's environment variables.
+
+> Free-tier services spin down after ~15 min of inactivity and take ~1 min to wake on
+> the next request. This is fine for a low-traffic hobby site.
 
 ---
 
