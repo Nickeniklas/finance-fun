@@ -41,7 +41,10 @@ a price line chart, and a curated copy-only prompt library. See `docs/PLAN.md`.
       reshaping. `python-dotenv` wired for local `.env`.
 - [x] Step 3 — Remaining endpoints: `/candles/{symbol}` (yfinance), `/fundamentals/{symbol}`,
       `/profile/{symbol}`, `/news/{symbol}`. All cached and reshaped.
-- [ ] Step 4 — Frontend shell, watchlist (localStorage), one chart
+- [x] Step 4 — Frontend shell (`static/index.html`, `static/style.css`, `static/app.js`):
+      dark-themed watchlist with localStorage, live prices from `/quote`, 90-day
+      TradingView Lightweight Charts line chart from `/candles`. FastAPI serves the
+      `static/` dir via `StaticFiles(html=True)` mounted at `/` in `main.py`.
 - [ ] Step 5 — Compare view, news view
 - [ ] Step 6 — Prompt library (static JSON + copy UI)
 
@@ -49,8 +52,8 @@ a price line chart, and a curated copy-only prompt library. See `docs/PLAN.md`.
 1. ~~FastAPI skeleton deployable to Render (one live endpoint).~~ **Done.**
 2. ~~Data module + `/quote/{symbol}` end to end, with cache.~~ **Done.**
 3. ~~Remaining endpoints: candles (yfinance), fundamentals, profile, news.~~ **Done.**
-4. Frontend shell + watchlist (localStorage) + one chart. **(next)**
-5. Compare view, news view.
+4. ~~Frontend shell + watchlist (localStorage) + one chart.~~ **Done.**
+5. Compare view, news view. **(next)**
 6. Prompt library (static JSON + copy UI).
 
 ## Gotchas

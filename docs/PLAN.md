@@ -119,8 +119,8 @@ The prompt library is **standalone** — it does not touch the data layer at all
 1. ~~FastAPI skeleton deployable to Render ("hello world" endpoint live).~~ **Done.**
 2. ~~Data module + one endpoint end to end (`/quote/{symbol}`), with cache.~~ **Done.**
 3. ~~Remaining endpoints (candles via yfinance, fundamentals, profile, news).~~ **Done.**
-4. Frontend shell + watchlist (localStorage) + one chart. **(next)**
-5. Compare view, news view.
+4. ~~Frontend shell + watchlist (localStorage) + one chart.~~ **Done.**
+5. Compare view, news view. **(next)**
 6. Prompt library (static JSON + copy UI).
 
 See `DATA_MODULE.md` and `PROMPT_LIBRARY.md` for the detailed contracts.

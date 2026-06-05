@@ -9,17 +9,16 @@ See [`docs/PLAN.md`](docs/PLAN.md) for the full project plan and rationale.
 
 ## Current status
 
-**Steps 1–3 complete** — FastAPI + full data layer is live. All five endpoints are
-working and cached. No frontend yet.
+**Steps 1–4 complete** — FastAPI + full data layer + frontend watchlist with chart are live.
 
-**Next: Step 4** — frontend shell, watchlist (localStorage), one price chart.
+**Next: Step 5** — Compare view, news view.
 
 ### Build order
 
 - [x] Step 1 — FastAPI skeleton, Render deploy pipeline
 - [x] Step 2 — Data module + `/quote/{symbol}` (Finnhub, cache)
 - [x] Step 3 — Remaining endpoints: candles (yfinance), fundamentals, profile, news
-- [ ] Step 4 — Frontend shell, watchlist (localStorage), one chart
+- [x] Step 4 — Frontend shell, watchlist (localStorage), 90-day TradingView chart
 - [ ] Step 5 — Compare view, news view
 - [ ] Step 6 — Prompt library (static JSON + copy UI)
 
@@ -39,6 +38,12 @@ working and cached. No frontend yet.
 
 ---
 
+## Data flow
+
+![data flow diagram](docs/finance_fun_request_lifecycle.svg)
+
+---
+
 ## Local development
 
 ```powershell
@@ -54,10 +59,10 @@ python -m venv .venv
 .\.venv\Scripts\uvicorn main:app --reload
 ```
 
-Then open `http://127.0.0.1:8000/health` — should return `{"status":"ok"}`.
+Then open `http://127.0.0.1:8000` — the watchlist + chart frontend loads directly.
 
-Live endpoints: `/quote/AAPL`, `/candles/AAPL?days=30`, `/fundamentals/AAPL`,
-`/profile/AAPL`, `/news/AAPL`.
+API endpoints: `/quote/AAPL`, `/candles/AAPL?days=30`, `/fundamentals/AAPL`,
+`/profile/AAPL`, `/news/AAPL`. Health check: `/health`.
 
 **VS Code:** select `.venv/Scripts/python.exe` as the Python interpreter
 (`Ctrl+Shift+P → Python: Select Interpreter`).
