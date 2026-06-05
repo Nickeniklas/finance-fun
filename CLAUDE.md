@@ -31,8 +31,18 @@ a price line chart, and a curated copy-only prompt library. See `docs/PLAN.md`.
 - Keep v1 from blocking any v2 item (own-key prompt running, FMP fundamentals,
   real accounts). Don't paint us into a corner.
 
+## Current state (update this as steps complete)
+
+- [x] Step 1 — FastAPI skeleton (`main.py`, `Procfile`, `requirements.txt`), `/health`
+      endpoint live, `FINNHUB_API_KEY` read from env but not used yet.
+- [ ] Step 2 — Data module + `/quote/{symbol}` (next)
+- [ ] Step 3 — Remaining endpoints: candles, fundamentals, news
+- [ ] Step 4 — Frontend shell, watchlist (localStorage), one chart
+- [ ] Step 5 — Compare view, news view
+- [ ] Step 6 — Prompt library (static JSON + copy UI)
+
 ## Build order (suggested)
-1. FastAPI skeleton deployable to Railway (one live endpoint).
+1. ~~FastAPI skeleton deployable to Railway (one live endpoint).~~ **Done.**
 2. Data module + `/quote/{symbol}` end to end, with cache.
 3. Remaining endpoints: candles, fundamentals (`company_basic_financials`), news.
 4. Frontend shell + watchlist (localStorage) + one chart.
