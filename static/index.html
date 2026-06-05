@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Finance Fun</title>
+  <link rel="stylesheet" href="/style.css" />
+  <script src="https://unpkg.com/lightweight-charts@4.2.0/dist/lightweight-charts.standalone.production.js"></script>
+</head>
+<body>
+  <header>
+    <span class="logo">Finance Fun</span>
+    <nav>
+      <a href="/" class="active">Watchlist</a>
+      <a href="/compare.html">Compare</a>
+      <a href="/news.html">News</a>
+      <a href="/prompts.html">Prompts</a>
+    </nav>
+  </header>
+
+  <main>
+    <aside id="watchlist-panel">
+      <div class="add-row">
+        <input id="ticker-input" type="text" placeholder="Add ticker…" maxlength="10" autocomplete="off" />
+        <button id="add-btn" title="Add ticker">+</button>
+      </div>
+      <ul id="ticker-list"></ul>
+      <p id="empty-hint" class="hint">Add a ticker above to get started.</p>
+    </aside>
+
+    <section id="chart-section">
+      <div id="ticker-header">
+        <span id="header-sym" class="header-sym"></span>
+        <span id="header-name" class="header-name"></span>
+        <span id="header-price" class="header-price"></span>
+        <span id="header-change" class="header-change"></span>
+      </div>
+      <div id="chart-container"></div>
+      <p id="chart-empty" class="hint center">Select a ticker from the watchlist to see its chart.</p>
+    </section>
+  </main>
+
+  <script src="/app.js"></script>
+</body>
+</html>
