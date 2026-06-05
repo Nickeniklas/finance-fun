@@ -1,6 +1,9 @@
 import os
 
+from dotenv import load_dotenv
 from fastapi import FastAPI
+
+load_dotenv()
 
 FINNHUB_API_KEY = os.environ.get("FINNHUB_API_KEY", "")
 
