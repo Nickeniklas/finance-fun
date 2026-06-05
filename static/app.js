@@ -1,0 +1,259 @@
+const STORAGE_KEY = 'ff_watchlist_v1';
+
+let favorites = [];
+let selectedSymbol = null;
+let chart = null;
+let chartResizeObserver = null;
+
+// ── Storage ──────────────────────────────────────────────────────────────────
+
+function loadFavorites() {
+  try {
+    favorites = JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]');
+  } catch {
+    favorites = [];
+  }
+}
+
+function saveFavorites() {
+  localStorage.setItem(STORAGE_KEY, JSON.stringify(favorites));
+}
+
+// ── API helpers ───────────────────────────────────────────────────────────────
+
+async function apiGet(path) {
+  const res = await fetch(path);
+  if (!res.ok) throw new Error(`${res.status} ${path}`);
+  return res.json();
+}
+
+// ── Watchlist actions ─────────────────────────────────────────────────────────
+
+function addTicker(raw) {
+  const symbol = raw.trim().toUpperCase();
+  if (!symbol || favorites.includes(symbol)) return;
+  favorites.push(symbol);
+  saveFavorites();
+  renderWatchlist();
+  if (!selectedSymbol) selectTicker(symbol);
+  refreshPrice(symbol);
+}
+
+function removeTicker(symbol) {
+  favorites = favorites.filter(s => s !== symbol);
+  saveFavorites();
+  const wasSelected = selectedSymbol === symbol;
+  if (wasSelected) selectedSymbol = favorites[0] || null;
+  renderWatchlist();
+  if (wasSelected) {
+    if (selectedSymbol) loadChart(selectedSymbol);
+    else clearChart();
+  }
+}
+
+function selectTicker(symbol) {
+  if (selectedSymbol === symbol) return;
+  selectedSymbol = symbol;
+  renderWatchlist();
+  loadChart(symbol);
+}
+
+// ── Render watchlist ──────────────────────────────────────────────────────────
+
+function renderWatchlist() {
+  const list = document.getElementById('ticker-list');
+  const hint = document.getElementById('empty-hint');
+
+  if (favorites.length === 0) {
+    list.innerHTML = '';
+    hint.style.display = '';
+    return;
+  }
+  hint.style.display = 'none';
+
+  // Preserve existing items so prices don't flash on re-render from selection change
+  const existing = new Map();
+  list.querySelectorAll('.ticker-item').forEach(el => {
+    existing.set(el.dataset.symbol, el);
+  });
+
+  const fragment = document.createDocumentFragment();
+  favorites.forEach(sym => {
+    let li = existing.get(sym);
+    if (!li) {
+      li = buildTickerItem(sym);
+    } else {
+      // Just update active state
+      li.classList.toggle('active', sym === selectedSymbol);
+    }
+    fragment.appendChild(li);
+  });
+  list.innerHTML = '';
+  list.appendChild(fragment);
+}
+
+function buildTickerItem(sym) {
+  const li = document.createElement('li');
+  li.className = 'ticker-item' + (sym === selectedSymbol ? ' active' : '');
+  li.dataset.symbol = sym;
+  li.innerHTML = `
+    <span class="ticker-sym">${sym}</span>
+    <span class="ticker-info">
+      <span class="ticker-price" id="tp-${sym}">—</span>
+      <span class="ticker-pct" id="tpct-${sym}"></span>
+    </span>
+    <button class="remove-btn" title="Remove">×</button>
+  `;
+  li.querySelector('.ticker-sym').addEventListener('click', () => selectTicker(sym));
+  li.querySelector('.ticker-info').addEventListener('click', () => selectTicker(sym));
+  li.querySelector('.remove-btn').addEventListener('click', (e) => {
+    e.stopPropagation();
+    removeTicker(sym);
+  });
+  return li;
+}
+
+function updatePriceEl(symbol, quote) {
+  const priceEl = document.getElementById(`tp-${symbol}`);
+  const pctEl = document.getElementById(`tpct-${symbol}`);
+  if (!priceEl || !pctEl) return;
+  priceEl.textContent = `$${quote.price.toFixed(2)}`;
+  const sign = quote.changePercent >= 0 ? '+' : '';
+  pctEl.textContent = `${sign}${quote.changePercent.toFixed(2)}%`;
+  pctEl.className = `ticker-pct ${quote.changePercent >= 0 ? 'up' : 'down'}`;
+}
+
+async function refreshPrice(symbol) {
+  try {
+    const quote = await apiGet(`/quote/${symbol}`);
+    updatePriceEl(symbol, quote);
+  } catch {
+    // silently ignore — price just stays as placeholder
+  }
+}
+
+// ── Chart ─────────────────────────────────────────────────────────────────────
+
+function clearChart() {
+  const container = document.getElementById('chart-container');
+  if (chart) { chart.remove(); chart = null; }
+  if (chartResizeObserver) { chartResizeObserver.disconnect(); chartResizeObserver = null; }
+  container.innerHTML = '';
+  document.getElementById('chart-empty').style.display = '';
+  document.getElementById('ticker-header').querySelectorAll('span').forEach(s => s.textContent = '');
+}
+
+async function loadChart(symbol) {
+  document.getElementById('chart-empty').style.display = 'none';
+
+  // Update header immediately with symbol so it doesn't feel frozen
+  document.getElementById('header-sym').textContent = symbol;
+  document.getElementById('header-name').textContent = '';
+  document.getElementById('header-price').textContent = '…';
+  document.getElementById('header-change').textContent = '';
+  document.getElementById('header-change').className = 'header-change';
+
+  try {
+    const [quote, candlesData, profileData] = await Promise.all([
+      apiGet(`/quote/${symbol}`),
+      apiGet(`/candles/${symbol}?days=90`),
+      apiGet(`/profile/${symbol}`),
+    ]);
+
+    // Header
+    document.getElementById('header-name').textContent = profileData.name || '';
+    document.getElementById('header-price').textContent = `$${quote.price.toFixed(2)}`;
+    const sign = quote.changePercent >= 0 ? '+' : '';
+    const changeEl = document.getElementById('header-change');
+    changeEl.textContent = `${sign}${quote.changePercent.toFixed(2)}%`;
+    changeEl.className = `header-change ${quote.changePercent >= 0 ? 'up' : 'down'}`;
+
+    // Also update the watchlist price in case it wasn't loaded yet
+    updatePriceEl(symbol, quote);
+
+    drawChart(candlesData.series || []);
+  } catch (err) {
+    document.getElementById('header-price').textContent = 'Error loading data';
+    console.error(err);
+  }
+}
+
+function drawChart(series) {
+  const container = document.getElementById('chart-container');
+
+  // Tear down previous chart
+  if (chart) { chart.remove(); chart = null; }
+  if (chartResizeObserver) { chartResizeObserver.disconnect(); chartResizeObserver = null; }
+  container.innerHTML = '';
+
+  if (!series.length) {
+    container.innerHTML = '<p class="hint center">No candle data available.</p>';
+    return;
+  }
+
+  chart = LightweightCharts.createChart(container, {
+    width: container.clientWidth,
+    height: container.clientHeight || 400,
+    layout: {
+      background: { color: '#0f1117' },
+      textColor: '#d1d4dc',
+    },
+    grid: {
+      vertLines: { color: '#1e2230' },
+      horzLines: { color: '#1e2230' },
+    },
+    crosshair: { mode: LightweightCharts.CrosshairMode.Normal },
+    rightPriceScale: { borderColor: '#2a2e3d' },
+    timeScale: { borderColor: '#2a2e3d', timeVisible: false },
+    handleScroll: true,
+    handleScale: true,
+  });
+
+  const lineSeries = chart.addLineSeries({
+    color: '#2962ff',
+    lineWidth: 2,
+    priceLineVisible: false,
+    lastValueVisible: true,
+  });
+
+  lineSeries.setData(series);
+  chart.timeScale().fitContent();
+
+  // Keep chart width in sync with container
+  chartResizeObserver = new ResizeObserver(() => {
+    if (chart) {
+      chart.applyOptions({
+        width: container.clientWidth,
+        height: container.clientHeight || 400,
+      });
+    }
+  });
+  chartResizeObserver.observe(container);
+}
+
+// ── Init ──────────────────────────────────────────────────────────────────────
+
+document.addEventListener('DOMContentLoaded', () => {
+  loadFavorites();
+  renderWatchlist();
+
+  const input = document.getElementById('ticker-input');
+  const addBtn = document.getElementById('add-btn');
+
+  addBtn.addEventListener('click', () => {
+    addTicker(input.value);
+    input.value = '';
+  });
+  input.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter') { addTicker(input.value); input.value = ''; }
+  });
+
+  if (favorites.length > 0) {
+    selectedSymbol = favorites[0];
+    renderWatchlist();
+    loadChart(selectedSymbol);
+    favorites.forEach(sym => refreshPrice(sym));
+  } else {
+    document.getElementById('chart-empty').style.display = '';
+  }
+});
