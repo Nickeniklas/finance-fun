@@ -9,16 +9,16 @@ See [`docs/PLAN.md`](docs/PLAN.md) for the full project plan and rationale.
 
 ## Current status
 
-**Step 1 complete** — FastAPI skeleton is live with a `/health` endpoint and is
-deployable to Render. No data calls yet.
+**Steps 1–3 complete** — FastAPI + full data layer is live. All five endpoints are
+working and cached. No frontend yet.
 
-**Next: Step 2** — data module + `/quote/{symbol}` end to end with Finnhub cache.
+**Next: Step 4** — frontend shell, watchlist (localStorage), one price chart.
 
 ### Build order
 
 - [x] Step 1 — FastAPI skeleton, Render deploy pipeline
-- [ ] Step 2 — Data module + `/quote/{symbol}` (Finnhub, cache)
-- [ ] Step 3 — Remaining endpoints: candles, fundamentals, news
+- [x] Step 2 — Data module + `/quote/{symbol}` (Finnhub, cache)
+- [x] Step 3 — Remaining endpoints: candles (yfinance), fundamentals, profile, news
 - [ ] Step 4 — Frontend shell, watchlist (localStorage), one chart
 - [ ] Step 5 — Compare view, news view
 - [ ] Step 6 — Prompt library (static JSON + copy UI)
@@ -33,7 +33,7 @@ deployable to Render. No data calls yet.
 | Charts | TradingView Lightweight Charts |
 | Backend | Python + FastAPI |
 | Hosting | Render (free tier) |
-| Data | Finnhub free tier (60 calls/min) |
+| Data | Finnhub free tier (quotes, news, fundamentals) + yfinance (candles) |
 | Favorites | Browser localStorage |
 | Prompt library | Static JSON in repo |
 
@@ -46,11 +46,18 @@ deployable to Render. No data calls yet.
 python -m venv .venv
 .\.venv\Scripts\pip install -r requirements.txt
 
+# Add your Finnhub key (never commit this file)
+# Create .env in the repo root:
+#   FINNHUB_API_KEY=your_key_here
+
 # Start the dev server
 .\.venv\Scripts\uvicorn main:app --reload
 ```
 
 Then open `http://127.0.0.1:8000/health` — should return `{"status":"ok"}`.
+
+Live endpoints: `/quote/AAPL`, `/candles/AAPL?days=30`, `/fundamentals/AAPL`,
+`/profile/AAPL`, `/news/AAPL`.
 
 **VS Code:** select `.venv/Scripts/python.exe` as the Python interpreter
 (`Ctrl+Shift+P → Python: Select Interpreter`).
@@ -78,7 +85,8 @@ Then open `http://127.0.0.1:8000/health` — should return `{"status":"ok"}`.
 
 | File | Contents |
 |---|---|
+| [`docs/PROJECT_CONTEXT.md`](docs/PROJECT_CONTEXT.md) | Quick orient: build status, two-provider design, hard constraints |
 | [`docs/PLAN.md`](docs/PLAN.md) | Full project plan, stack rationale, architecture |
-| [`docs/DATA_MODULE.md`](docs/DATA_MODULE.md) | Data module contract: endpoints, cache TTLs, output shapes |
+| [`docs/DATA_MODULE.md`](docs/DATA_MODULE.md) | Data module contract: endpoints, cache TTLs, provider exceptions, output shapes |
 | [`docs/PROMPT_LIBRARY.md`](docs/PROMPT_LIBRARY.md) | Prompt library contract: record shape, frontend behaviour |
 | [`CLAUDE.md`](CLAUDE.md) | Operating brief for Claude Code |
