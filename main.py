@@ -1,5 +1,6 @@
 from dotenv import load_dotenv
 from fastapi import FastAPI, HTTPException
+from fastapi.staticfiles import StaticFiles
 
 load_dotenv()  # no-op on Render where the var is already in the environment
 
@@ -51,3 +52,7 @@ def news(symbol: str):
         return data.get_news(symbol)
     except Exception:
         raise HTTPException(status_code=502, detail="Finnhub fetch failed")
+
+
+# Static files must be mounted last so API routes take priority
+app.mount("/", StaticFiles(directory="static", html=True), name="static")
