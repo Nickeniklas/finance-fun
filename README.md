@@ -9,17 +9,21 @@ See [`docs/PLAN.md`](docs/PLAN.md) for the full project plan and rationale.
 
 ## Current status
 
-**Steps 1–4 complete** — FastAPI + full data layer + frontend watchlist with chart are live.
+**Steps 1–5 complete** — FastAPI + full data layer + the whole frontend (watchlist
+with chart, compare view, news view) are live.
 
-**Next: Step 5** — Compare view, news view.
+**Next: Step 6** — Prompt library (static JSON + copy UI).
 
 ### Build order
 
 - [x] Step 1 — FastAPI skeleton, Render deploy pipeline
 - [x] Step 2 — Data module + `/quote/{symbol}` (Finnhub, cache)
 - [x] Step 3 — Remaining endpoints: candles (yfinance), fundamentals, profile, news
-- [x] Step 4 — Frontend shell, watchlist (localStorage), 90-day TradingView chart
-- [ ] Step 5 — Compare view, news view
+- [x] Step 4 — Frontend shell, watchlist (localStorage, capped at 10 tickers), 90-day
+      TradingView chart
+- [x] Step 5 — Compare view (`compare.html`/`compare.js`: two-ticker side-by-side
+      framework table, `?a=&b=` deep links) and news view (`news.html`/`news.js`:
+      ticker search + watchlist quick-chips, article list)
 - [ ] Step 6 — Prompt library (static JSON + copy UI)
 
 ---
@@ -60,6 +64,8 @@ python -m venv .venv
 ```
 
 Then open `http://127.0.0.1:8000` — the watchlist + chart frontend loads directly.
+Other pages: `/compare.html` (two-ticker comparison) and `/news.html` (ticker news
+search + watchlist quick-chips); both linked from the header nav.
 
 API endpoints: `/quote/AAPL`, `/candles/AAPL?days=30`, `/fundamentals/AAPL`,
 `/profile/AAPL`, `/news/AAPL`. Health check: `/health`.

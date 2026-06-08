@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>News — Finance Fun</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <header>
+    <span class="logo">Finance Fun</span>
+    <nav>
+      <a href="/">Watchlist</a>
+      <a href="/compare.html">Compare</a>
+      <a href="/news.html" class="active">News</a>
+      <a href="/prompts.html">Prompts</a>
+    </nav>
+  </header>
+
+  <main class="page">
+    <div class="news-search">
+      <input id="news-ticker" type="text" placeholder="Enter ticker…" maxlength="10" autocomplete="off" />
+      <button id="news-btn" class="btn-primary">Get News</button>
+    </div>
+    <div id="watchlist-chips" class="watchlist-chips"></div>
+    <div id="news-result"></div>
+  </main>
+
+  <script src="/news.js"></script>
+</body>
+</html>

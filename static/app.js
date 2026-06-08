@@ -1,4 +1,5 @@
 const STORAGE_KEY = 'ff_watchlist_v1';
+const MAX_FAVORITES = 10;
 
 let favorites = [];
 let selectedSymbol = null;
@@ -32,6 +33,7 @@ async function apiGet(path) {
 function addTicker(raw) {
   const symbol = raw.trim().toUpperCase();
   if (!symbol || favorites.includes(symbol)) return;
+  if (favorites.length >= MAX_FAVORITES) return;
   favorites.push(symbol);
   saveFavorites();
   renderWatchlist();
@@ -60,9 +62,17 @@ function selectTicker(symbol) {
 
 // ── Render watchlist ──────────────────────────────────────────────────────────
 
+function updateAddState() {
+  const atLimit = favorites.length >= MAX_FAVORITES;
+  document.getElementById('limit-hint').style.display = atLimit ? '' : 'none';
+  document.getElementById('ticker-input').disabled = atLimit;
+  document.getElementById('add-btn').disabled = atLimit;
+}
+
 function renderWatchlist() {
   const list = document.getElementById('ticker-list');
   const hint = document.getElementById('empty-hint');
+  updateAddState();
 
   if (favorites.length === 0) {
     list.innerHTML = '';

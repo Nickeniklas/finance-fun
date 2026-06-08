@@ -42,10 +42,15 @@ a price line chart, and a curated copy-only prompt library. See `docs/PLAN.md`.
 - [x] Step 3 — Remaining endpoints: `/candles/{symbol}` (yfinance), `/fundamentals/{symbol}`,
       `/profile/{symbol}`, `/news/{symbol}`. All cached and reshaped.
 - [x] Step 4 — Frontend shell (`static/index.html`, `static/style.css`, `static/app.js`):
-      dark-themed watchlist with localStorage, live prices from `/quote`, 90-day
-      TradingView Lightweight Charts line chart from `/candles`. FastAPI serves the
-      `static/` dir via `StaticFiles(html=True)` mounted at `/` in `main.py`.
-- [ ] Step 5 — Compare view, news view
+      dark-themed watchlist with localStorage (capped at `MAX_FAVORITES = 10`, with
+      an inline "watchlist is full" hint and disabled add controls when full), live
+      prices from `/quote`, 90-day TradingView Lightweight Charts line chart from
+      `/candles`. FastAPI serves the `static/` dir via `StaticFiles(html=True)`
+      mounted at `/` in `main.py`.
+- [x] Step 5 — Compare view (`static/compare.html`/`compare.js`: two-ticker
+      side-by-side framework table from `/profile` + `/fundamentals`, plus
+      `?a=&b=` deep-link prefill) and news view (`static/news.html`/`news.js`:
+      ticker search + watchlist quick-chips, articles from `/news`).
 - [ ] Step 6 — Prompt library (static JSON + copy UI)
 
 ## Build order (suggested)
@@ -53,8 +58,8 @@ a price line chart, and a curated copy-only prompt library. See `docs/PLAN.md`.
 2. ~~Data module + `/quote/{symbol}` end to end, with cache.~~ **Done.**
 3. ~~Remaining endpoints: candles (yfinance), fundamentals, profile, news.~~ **Done.**
 4. ~~Frontend shell + watchlist (localStorage) + one chart.~~ **Done.**
-5. Compare view, news view. **(next)**
-6. Prompt library (static JSON + copy UI).
+5. ~~Compare view, news view.~~ **Done.**
+6. Prompt library (static JSON + copy UI). **(next)**
 
 ## Gotchas
 - **Candles use yfinance — do not "fix" this.** Finnhub's free tier returns 403 for
@@ -62,6 +67,10 @@ a price line chart, and a curated copy-only prompt library. See `docs/PLAN.md`.
   for candles only. If it breaks, the chart returns an empty series (graceful); fix by
   paying for Finnhub candles or finding a new free source.
 - `company_news` takes a date range; pass ~last 7 days, not a huge window.
+- **`profile.marketCap` is in millions of USD** (Finnhub `marketCapitalization`,
+  passed through unchanged by `get_profile`). AAPL ≈ `4514012` → $4.51T. When
+  formatting for display, divide by `1_000_000` for trillions / `1_000` for
+  billions — see `fmt()` in `static/compare.js` for the working tiered conversion.
 - In-process dict cache is fine for v1 (vanishes on restart). Redis only if we ever
   run multiple instances.
 - Secrets: the Finnhub API key is an env var on Render. Never commit it.

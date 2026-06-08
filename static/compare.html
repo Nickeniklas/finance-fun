@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Compare — Finance Fun</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <header>
+    <span class="logo">Finance Fun</span>
+    <nav>
+      <a href="/">Watchlist</a>
+      <a href="/compare.html" class="active">Compare</a>
+      <a href="/news.html">News</a>
+      <a href="/prompts.html">Prompts</a>
+    </nav>
+  </header>
+
+  <main class="page">
+    <div class="compare-inputs">
+      <input id="sym-a" type="text" placeholder="Ticker A (e.g. AAPL)" maxlength="10" autocomplete="off" />
+      <input id="sym-b" type="text" placeholder="Ticker B (e.g. MSFT)" maxlength="10" autocomplete="off" />
+      <button id="compare-btn" class="btn-primary">Compare</button>
+    </div>
+    <div id="compare-result"></div>
+  </main>
+
+  <script src="/compare.js"></script>
+</body>
+</html>

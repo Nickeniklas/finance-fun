@@ -79,6 +79,7 @@ main {
 }
 .add-row input::placeholder { color: var(--muted); text-transform: none; }
 .add-row input:focus { border-color: var(--accent); }
+.add-row input:disabled { opacity: 0.5; cursor: not-allowed; }
 
 .add-row button {
   background: var(--accent);
@@ -92,6 +93,7 @@ main {
   flex-shrink: 0;
 }
 .add-row button:hover { opacity: 0.85; }
+.add-row button:disabled { opacity: 0.4; cursor: not-allowed; }
 
 #ticker-list { list-style: none; flex: 1; }
 
@@ -163,3 +165,158 @@ main {
   overflow: hidden;
   min-height: 0;
 }
+
+/* ── Generic page layout (compare / news) ─── */
+main.page {
+  display: block;
+  height: calc(100vh - var(--header-h));
+  overflow-y: auto;
+  padding: 24px;
+}
+
+.btn-primary {
+  background: var(--accent);
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  padding: 8px 18px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.btn-primary:hover { opacity: 0.85; }
+.btn-primary:disabled { opacity: 0.4; cursor: default; }
+
+.status-msg { color: var(--muted); padding: 24px 0; font-size: 13px; }
+
+/* ── Compare page ────────────────────────── */
+.compare-inputs {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 28px;
+}
+.compare-inputs input {
+  width: 180px;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  color: var(--text);
+  padding: 8px 12px;
+  font-size: 14px;
+  outline: none;
+  text-transform: uppercase;
+}
+.compare-inputs input::placeholder { color: var(--muted); text-transform: none; }
+.compare-inputs input:focus { border-color: var(--accent); }
+
+.company-info-row {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 24px;
+  flex-wrap: wrap;
+}
+.company-card {
+  flex: 1;
+  min-width: 220px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 16px;
+}
+.company-card .sym { font-size: 18px; font-weight: 700; color: var(--accent); }
+.company-card .name { font-size: 14px; color: var(--text); margin-top: 2px; }
+.company-card .meta { font-size: 12px; color: var(--muted); margin-top: 6px; }
+
+.compare-table-wrap { overflow-x: auto; }
+.compare-table {
+  width: 100%;
+  min-width: 480px;
+  border-collapse: collapse;
+}
+.compare-table th, .compare-table td {
+  padding: 10px 14px;
+  text-align: right;
+  border-bottom: 1px solid var(--border);
+  font-size: 13px;
+}
+.compare-table th:first-child,
+.compare-table td:first-child {
+  text-align: left;
+  color: var(--muted);
+  font-weight: 400;
+}
+.compare-table th {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--text);
+}
+.compare-table .section-header td {
+  color: var(--muted);
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding-top: 18px;
+  border-bottom-color: transparent;
+}
+
+/* ── News page ───────────────────────────── */
+.news-search {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 14px;
+}
+.news-search input {
+  width: 220px;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  color: var(--text);
+  padding: 8px 12px;
+  font-size: 14px;
+  outline: none;
+  text-transform: uppercase;
+}
+.news-search input::placeholder { color: var(--muted); text-transform: none; }
+.news-search input:focus { border-color: var(--accent); }
+
+.watchlist-chips {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+.chip {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 600;
+  padding: 4px 9px;
+  cursor: pointer;
+  transition: color 0.1s, border-color 0.1s;
+}
+.chip:hover, .chip.active { color: var(--text); border-color: var(--accent); }
+
+.article-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 760px;
+}
+.article-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 16px;
+  transition: border-color 0.15s;
+}
+.article-card:hover { border-color: var(--accent); }
+.article-meta { font-size: 11px; color: var(--muted); margin-bottom: 6px; }
+.article-headline { font-size: 14px; font-weight: 600; line-height: 1.4; margin-bottom: 6px; }
+.article-headline a { color: var(--text); text-decoration: none; }
+.article-headline a:hover { color: var(--accent); }
+.article-summary { font-size: 13px; color: var(--muted); line-height: 1.5; }

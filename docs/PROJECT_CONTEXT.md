@@ -32,9 +32,10 @@ breaks, the chart endpoint returns an empty series rather than crashing.
 - [x] Step 1 — FastAPI skeleton, `/health`, Render deploy pipeline
 - [x] Step 2 — Data module: `get_quote`, cache, `/quote/{symbol}`
 - [x] Step 3 — Remaining endpoints: candles, fundamentals, profile, news
-- [x] Step 4 — Frontend shell (`static/`): watchlist (localStorage), live prices, 90-day chart
-- [ ] Step 5 — Compare view, news view
-- [ ] Step 6 — Prompt library (static JSON + copy UI)
+- [x] Step 4 — Frontend shell (`static/`): watchlist (localStorage, capped at 10
+      tickers), live prices, 90-day chart
+- [x] Step 5 — Compare view + news view (`static/compare.*`, `static/news.*`)
+- [ ] Step 6 — Prompt library (static JSON + copy UI) **(next)**
 
 ## Hard constraints (do not re-litigate without asking)
 
