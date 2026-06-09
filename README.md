@@ -35,7 +35,8 @@ frontend (watchlist with chart, compare view, news view, prompt library).
 | Charts | TradingView Lightweight Charts |
 | Backend | Python + FastAPI |
 | Hosting | Render (free tier) |
-| Data | Finnhub free tier (quotes, news, fundamentals) + yfinance (candles) |
+| Data | Finnhub free tier (quotes, news, fundamentals) + yfinance (candles, 24h cache) |
+| Rate limiting | slowapi — candles 20/min, other data endpoints 60/min (per IP) |
 | Favorites | Browser localStorage |
 | Prompt library | Static JSON in repo |
 

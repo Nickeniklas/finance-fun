@@ -26,7 +26,7 @@ Candles exception: **yfinance** — see *Provider exceptions* below.
 | Feature | Provider | Call | Returns | Cache TTL | Why that TTL |
 |---|---|---|---|---|---|
 | Watchlist current price | Finnhub | `quote(symbol)` | price, day high/low, prev close, % change | 30 sec | Prices move constantly; sub-minute not needed for a glance |
-| Watchlist line chart | **yfinance** | `Ticker(symbol).history(start, end)` | daily closes over a date range | 4 hours | Past closes never change |
+| Watchlist line chart | **yfinance** | `Ticker(symbol).history(start, end)` | daily closes over a date range | 24 hours | Completed daily closes are final; 24h is safe |
 | Compare — fundamentals | Finnhub | `company_basic_financials(symbol, 'all')` | P/E, margins, ROE, ratios | 12 hours | Fundamentals update quarterly at most |
 | Compare — company info | Finnhub | `company_profile2(symbol)` | name, sector, industry, market cap | 24 hours | Effectively static |
 | News (per ticker) | Finnhub | `company_news(symbol, from, to)` | recent articles for the ticker | 20 min | Updates through the day |
@@ -92,7 +92,7 @@ without notice. If that happens:
 - **The "today" point is intentionally excluded.** Completed daily closes are stable;
   a partial-day close would go stale fast. v1 decision: **charts show completed daily
   closes (through yesterday); the live price lives in the watchlist display, not the
-  chart.** Keeps the 4-hour candle TTL safe.
+  chart.** Keeps the 24-hour candle TTL safe.
 - **News:** `company_news` takes a `from`/`to` date range. Pass ~last 7 days. Don't
   pass huge ranges — heavier call, more to cache.
 - **Quote fields are terse** (`c` = current price, etc.) — reshape to named fields.

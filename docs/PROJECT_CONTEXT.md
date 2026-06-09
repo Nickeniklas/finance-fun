@@ -25,7 +25,9 @@ Render's ~1-min cold start on idle is an accepted tradeoff for a low-traffic hob
 it returns 403 for US equities. This is permanent. Alpha Vantage free (25 req/day) is
 unusable for a public site. yfinance fills the gap for candles only. The data module
 boundary is preserved — nothing outside `data.py` touches either provider. If yfinance
-breaks, the chart endpoint returns an empty series rather than crashing.
+breaks, the chart endpoint returns an empty series rather than crashing. Candles are
+cached 24h (completed daily closes are final); the `/candles` endpoint is rate-limited
+at 20/min per IP via slowapi.
 
 ## Build status
 
@@ -43,4 +45,6 @@ breaks, the chart endpoint returns an empty series rather than crashing.
 - No accounts, no database, no server-side LLM calls in v1
 - All provider calls go through `data.py` — frontend never calls Finnhub or yfinance
 - Cache every external call (TTLs in `DATA_MODULE.md`)
+- Data endpoints are rate-limited via slowapi (candles 20/min, others 60/min) to
+  protect the unofficial yfinance scraping from symbol-enumeration abuse
 - Finnhub API key lives only in Render's environment variables — never in code

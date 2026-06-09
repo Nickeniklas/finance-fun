@@ -24,6 +24,9 @@ a price line chart, and a curated copy-only prompt library. See `docs/PLAN.md`.
   (candles only — deliberate exception, see below).
 - **Cache every provider call** with the TTL from `docs/DATA_MODULE.md`. Finnhub is
   60/min free tier — caching is not optional. Same discipline applies to yfinance.
+  All data endpoints are also rate-limited via **slowapi** (candles: 20/min;
+  quote/fundamentals/profile/news: 60/min) to protect the unofficial yfinance
+  scraping from symbol-enumeration abuse that per-symbol caching cannot block.
 - **Reshape all provider responses** into the clean output shapes in `docs/DATA_MODULE.md`.
   The frontend must never see Finnhub's raw/terse fields or yfinance DataFrames.
 - **Charts show completed daily closes (through yesterday).** Live price goes in the
@@ -70,6 +73,9 @@ a price line chart, and a curated copy-only prompt library. See `docs/PLAN.md`.
   `stock/candle` on US equities; this is permanent. yfinance is the deliberate fallback
   for candles only. If it breaks, the chart returns an empty series (graceful); fix by
   paying for Finnhub candles or finding a new free source.
+  Candles are cached for **24 hours** (completed daily closes are final and never change,
+  so 24h is safe). The `/candles/{symbol}` endpoint is also rate-limited at **20/min**
+  per IP via slowapi.
 - `company_news` takes a date range; pass ~last 7 days, not a huge window.
 - **`profile.marketCap` is in millions of USD** (Finnhub `marketCapitalization`,
   passed through unchanged by `get_profile`). AAPL ≈ `4514012` → $4.51T. When
