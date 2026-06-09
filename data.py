@@ -9,7 +9,7 @@ _cache: dict = {}
 _client: finnhub.Client | None = None
 
 QUOTE_TTL = 30             # seconds
-CANDLE_TTL = 4 * 3600      # past closes don't change; 4 h is generous
+CANDLE_TTL = 24 * 3600     # completed daily closes never change; 24h is safe
 FUNDAMENTALS_TTL = 12 * 3600
 PROFILE_TTL = 24 * 3600
 NEWS_TTL = 20 * 60

@@ -3,3 +3,4 @@ uvicorn==0.34.3
 finnhub-python==2.4.20
 python-dotenv==1.1.0
 yfinance==0.2.61
+slowapi==0.1.9

@@ -1,12 +1,19 @@
 from dotenv import load_dotenv
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, Request
 from fastapi.staticfiles import StaticFiles
+from slowapi import Limiter, _rate_limit_exceeded_handler
+from slowapi.errors import RateLimitExceeded
+from slowapi.util import get_remote_address
 
 load_dotenv()  # no-op on Render where the var is already in the environment
 
 import data
 
 app = FastAPI(title="Finance Fun API")
+
+limiter = Limiter(key_func=get_remote_address)
+app.state.limiter = limiter
+app.add_exception_handler(RateLimitExceeded, _rate_limit_exceeded_handler)
 
 
 @app.get("/health")
@@ -15,7 +22,8 @@ def health():
 
 
 @app.get("/quote/{symbol}")
-def quote(symbol: str):
+@limiter.limit("60/minute")
+def quote(request: Request, symbol: str):
     try:
         return data.get_quote(symbol)
     except Exception:
@@ -23,7 +31,8 @@ def quote(symbol: str):
 
 
 @app.get("/candles/{symbol}")
-def candles(symbol: str, days: int = 30):
+@limiter.limit("20/minute")
+def candles(request: Request, symbol: str, days: int = 30):
     try:
         return data.get_candles(symbol, days)
     except Exception:
@@ -31,7 +40,8 @@ def candles(symbol: str, days: int = 30):
 
 
 @app.get("/fundamentals/{symbol}")
-def fundamentals(symbol: str):
+@limiter.limit("60/minute")
+def fundamentals(request: Request, symbol: str):
     try:
         return data.get_fundamentals(symbol)
     except Exception:
@@ -39,7 +49,8 @@ def fundamentals(symbol: str):
 
 
 @app.get("/profile/{symbol}")
-def profile(symbol: str):
+@limiter.limit("60/minute")
+def profile(request: Request, symbol: str):
     try:
         return data.get_profile(symbol)
     except Exception:
@@ -47,7 +58,8 @@ def profile(symbol: str):
 
 
 @app.get("/news/{symbol}")
-def news(symbol: str):
+@limiter.limit("60/minute")
+def news(request: Request, symbol: str):
     try:
         return data.get_news(symbol)
     except Exception:
