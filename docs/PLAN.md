@@ -121,6 +121,6 @@ The prompt library is **standalone** — it does not touch the data layer at all
 3. ~~Remaining endpoints (candles via yfinance, fundamentals, profile, news).~~ **Done.**
 4. ~~Frontend shell + watchlist (localStorage) + one chart.~~ **Done.**
 5. ~~Compare view, news view.~~ **Done.**
-6. Prompt library (static JSON + copy UI). **(next)**
+6. ~~Prompt library (static JSON + copy UI).~~ **Done.**
 
 See `DATA_MODULE.md` and `PROMPT_LIBRARY.md` for the detailed contracts.

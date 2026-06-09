@@ -9,10 +9,8 @@ See [`docs/PLAN.md`](docs/PLAN.md) for the full project plan and rationale.
 
 ## Current status
 
-**Steps 1–5 complete** — FastAPI + full data layer + the whole frontend (watchlist
-with chart, compare view, news view) are live.
-
-**Next: Step 6** — Prompt library (static JSON + copy UI).
+**v1 complete.** All six build steps are done — FastAPI + full data layer + the whole
+frontend (watchlist with chart, compare view, news view, prompt library).
 
 ### Build order
 
@@ -24,7 +22,8 @@ with chart, compare view, news view) are live.
 - [x] Step 5 — Compare view (`compare.html`/`compare.js`: two-ticker side-by-side
       framework table, `?a=&b=` deep links) and news view (`news.html`/`news.js`:
       ticker search + watchlist quick-chips, article list)
-- [ ] Step 6 — Prompt library (static JSON + copy UI)
+- [x] Step 6 — Prompt library (`static/prompts.json` served as a static asset;
+      `prompts.html`/`prompts.js`: category-filter chips + copy-to-clipboard cards)
 
 ---
 
@@ -64,8 +63,9 @@ python -m venv .venv
 ```
 
 Then open `http://127.0.0.1:8000` — the watchlist + chart frontend loads directly.
-Other pages: `/compare.html` (two-ticker comparison) and `/news.html` (ticker news
-search + watchlist quick-chips); both linked from the header nav.
+Other pages: `/compare.html` (two-ticker comparison), `/news.html` (ticker news
+search + watchlist quick-chips), `/prompts.html` (prompt library, copy-to-clipboard);
+all linked from the header nav.
 
 API endpoints: `/quote/AAPL`, `/candles/AAPL?days=30`, `/fundamentals/AAPL`,
 `/profile/AAPL`, `/news/AAPL`. Health check: `/health`.

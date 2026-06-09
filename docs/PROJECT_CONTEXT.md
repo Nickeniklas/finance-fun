@@ -35,7 +35,7 @@ breaks, the chart endpoint returns an empty series rather than crashing.
 - [x] Step 4 — Frontend shell (`static/`): watchlist (localStorage, capped at 10
       tickers), live prices, 90-day chart
 - [x] Step 5 — Compare view + news view (`static/compare.*`, `static/news.*`)
-- [ ] Step 6 — Prompt library (static JSON + copy UI) **(next)**
+- [x] Step 6 — Prompt library (`static/prompts.json` + `static/prompts.*`) — v1 complete
 
 ## Hard constraints (do not re-litigate without asking)
 

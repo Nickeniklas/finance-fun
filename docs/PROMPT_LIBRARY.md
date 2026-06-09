@@ -24,9 +24,17 @@ The number of prompts is irrelevant to the architecture — works with 3 or 30.
   "title": "Compare two stocks on valuation",
   "category": "comparison",          // e.g. valuation | comparison | news-analysis
   "description": "Side-by-side valuation read on two tickers.",
-  "text": "Compare [TICKER 1] and [TICKER 2] on valuation. Look at P/E, P/B, and EV/EBITDA, and tell me which looks cheaper relative to its growth."
+  "text": [
+    "Compare [TICKER 1] and [TICKER 2] on valuation. Look at P/E, P/B, and",
+    "EV/EBITDA, and tell me which looks cheaper relative to its growth."
+  ]
 }
 ```
+
+`text` is an **array of lines**, not one big string — this keeps long, structured
+prompts (multi-section ones with headers and bullet lists) readable and editable in
+the JSON file without `\n`/quote-escaping. The frontend joins them with `\n` at
+render/copy time, so the pasted result reads as normal multi-line text.
 
 Placeholders are **human-readable** and left for the user: `[TICKER]`,
 `[TICKER 1] vs [TICKER 2]`, etc. No machine substitution in v1.

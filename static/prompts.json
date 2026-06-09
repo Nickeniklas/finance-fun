@@ -1,0 +1,58 @@
+[
+  {
+    "id": "full-stock-analysis",
+    "title": "Full stock analysis",
+    "category": "analysis",
+    "description": "Senior-analyst read on a stock's fundamentals with a buy/hold/sell call.",
+    "text": [
+      "Act as a senior Wall Street analyst. Analyze [stock ticker] covering revenue",
+      "growth, profit margins, debt levels, competitive position, and valuation.",
+      "Give me a clear buy, hold, or sell recommendation with reasoning."
+    ]
+  },
+  {
+    "id": "build-stock-screener",
+    "title": "Build a stock screener",
+    "category": "screening",
+    "description": "Generate concrete filter criteria for finding stocks that match a strategy.",
+    "text": [
+      "Create a stock screening criteria list for finding [growth / dividend / value]",
+      "stocks. Include the exact financial metrics, ratios, and thresholds I should",
+      "filter by to find high-quality opportunities in [sector/market]."
+    ]
+  },
+  {
+    "id": "stock-purchase-timing",
+    "title": "Stock purchase timing",
+    "category": "timing",
+    "description": "Get a read on whether to buy now, wait, or set a target entry price.",
+    "text": [
+      "I want to buy [stock ticker] but want to enter at the best possible price.",
+      "Analyze its current valuation, recent price action, and key support levels",
+      "to tell me whether to buy now, wait for a pullback, or set a specific",
+      "target entry price."
+    ]
+  },
+  {
+    "id": "assess-stock-risk",
+    "title": "Assess stock risk",
+    "category": "risk",
+    "description": "Surface the downside scenarios and vulnerabilities behind a position.",
+    "text": [
+      "Analyze the downside risk of investing in [stock ticker]. Cover industry",
+      "threats, competitive risks, balance sheet vulnerabilities, macro exposure,",
+      "and the realistic worst-case scenario for this position."
+    ]
+  },
+  {
+    "id": "compare-stocks",
+    "title": "Compare two stocks",
+    "category": "comparison",
+    "description": "Head-to-head read on two tickers for a given investing style and horizon.",
+    "text": [
+      "Compare [stock A] vs [stock B] for a [growth / income / value] investor with",
+      "a [timeframe] horizon. Analyze valuation, growth trajectory, financial health,",
+      "and competitive moat. Tell me which is the stronger buy and why."
+    ]
+  }
+]

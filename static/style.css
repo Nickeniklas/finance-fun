@@ -320,3 +320,20 @@ main.page {
 .article-headline a { color: var(--text); text-decoration: none; }
 .article-headline a:hover { color: var(--accent); }
 .article-summary { font-size: 13px; color: var(--muted); line-height: 1.5; }
+
+/* ── Prompt library ──────────────────────── */
+.prompt-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  transition: border-color 0.15s;
+}
+.prompt-card:hover { border-color: var(--accent); }
+.prompt-title { font-size: 14px; font-weight: 600; margin-bottom: 4px; }
+.prompt-description { font-size: 13px; color: var(--muted); line-height: 1.5; }
+.prompt-copy-btn { flex-shrink: 0; padding: 8px 16px; min-width: 84px; }

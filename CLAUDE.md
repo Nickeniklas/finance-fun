@@ -51,7 +51,11 @@ a price line chart, and a curated copy-only prompt library. See `docs/PLAN.md`.
       side-by-side framework table from `/profile` + `/fundamentals`, plus
       `?a=&b=` deep-link prefill) and news view (`static/news.html`/`news.js`:
       ticker search + watchlist quick-chips, articles from `/news`).
-- [ ] Step 6 — Prompt library (static JSON + copy UI)
+- [x] Step 6 — Prompt library (`static/prompts.json` served directly through the
+      `StaticFiles` mount — no backend dependency; `text` stored as an array of
+      lines so multi-line prompts stay hand-editable without `\n` escaping;
+      `static/prompts.html`/`prompts.js`: category-filter chips and
+      copy-to-clipboard cards in the existing dark theme).
 
 ## Build order (suggested)
 1. ~~FastAPI skeleton deployable to Render (one live endpoint).~~ **Done.**
@@ -59,7 +63,7 @@ a price line chart, and a curated copy-only prompt library. See `docs/PLAN.md`.
 3. ~~Remaining endpoints: candles (yfinance), fundamentals, profile, news.~~ **Done.**
 4. ~~Frontend shell + watchlist (localStorage) + one chart.~~ **Done.**
 5. ~~Compare view, news view.~~ **Done.**
-6. Prompt library (static JSON + copy UI). **(next)**
+6. ~~Prompt library (static JSON + copy UI).~~ **Done.**
 
 ## Gotchas
 - **Candles use yfinance — do not "fix" this.** Finnhub's free tier returns 403 for
