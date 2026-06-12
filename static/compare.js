@@ -8,15 +8,17 @@ async function apiGet(path) {
 
 // ── Formatting ────────────────────────────────────────────────────────────────
 
-function fmt(val, type) {
+function fmt(val, type, currency) {
   if (val == null || (typeof val === 'number' && isNaN(val))) return '—';
   if (type === 'pct') return `${val.toFixed(1)}%`;
   if (type === 'x') return `${val.toFixed(1)}x`;
   if (type === 'mcap') {
-    // Finnhub returns marketCapitalization in millions of USD
-    if (val >= 1_000_000) return `$${(val / 1_000_000).toFixed(2)}T`;
-    if (val >= 1_000) return `$${(val / 1_000).toFixed(1)}B`;
-    return `$${val.toFixed(0)}M`;
+    // marketCap is raw units in the instrument's native currency
+    const symbol = currencySymbol(currency);
+    if (val >= 1e12) return `${symbol}${(val / 1e12).toFixed(2)}T`;
+    if (val >= 1e9) return `${symbol}${(val / 1e9).toFixed(1)}B`;
+    if (val >= 1e6) return `${symbol}${(val / 1e6).toFixed(0)}M`;
+    return `${symbol}${val.toFixed(0)}`;
   }
   return val.toFixed(2);
 }
@@ -83,7 +85,7 @@ async function runCompare(symA, symB) {
 }
 
 function companyCard(d) {
-  const mcap = d.profile.marketCap != null ? fmt(d.profile.marketCap, 'mcap') : '—';
+  const mcap = d.profile.marketCap != null ? fmt(d.profile.marketCap, 'mcap', d.profile.currency) : '—';
   return `
     <div class="company-card">
       <div class="sym">${d.symbol}</div>

@@ -53,7 +53,7 @@ The v1 design must not block any v2 item. Each v2 feature bolts on cleanly.
 | Charts | TradingView Lightweight Charts | Plain JS, ~40kb, finance-native. Drawing only — no data fetching. |
 | Backend | Python + FastAPI | Owner uses Python daily. |
 | Hosting | Render (free tier) | Free tier, ~1-min cold start on idle; fine tradeoff for a low-traffic hobby site. |
-| Data provider | Finnhub (free tier) + yfinance | Finnhub: 60 calls/min, quotes, news, fundamentals. yfinance: candles only (see rationale). |
+| Data provider | Finnhub (free tier) + yfinance | Finnhub: 60 calls/min, quotes/news/fundamentals/profile for **US tickers**. yfinance: candles (all tickers) plus quote/news/fundamentals/profile for **non-US/suffixed tickers** (see rationale). |
 | Favorites storage | Browser localStorage | No accounts, no DB in v1. |
 | Prompt library storage | Static JSON file in repo | Read-only, authored by owner. |
 | LLM | None in v1 | v2 uses user-supplied key, browser-side only. |
@@ -122,5 +122,7 @@ The prompt library is **standalone** — it does not touch the data layer at all
 4. ~~Frontend shell + watchlist (localStorage) + one chart.~~ **Done.**
 5. ~~Compare view, news view.~~ **Done.**
 6. ~~Prompt library (static JSON + copy UI).~~ **Done.**
+7. ~~Non-US ticker support (Finnish/OMX Helsinki): symbol aliasing, dual-provider
+   routing, currency-aware display.~~ **Done.**
 
 See `DATA_MODULE.md` and `PROMPT_LIBRARY.md` for the detailed contracts.

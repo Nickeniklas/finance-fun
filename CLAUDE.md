@@ -13,15 +13,21 @@ a price line chart, and a curated copy-only prompt library. See `docs/PLAN.md`.
 - Charts: **TradingView Lightweight Charts** (plain JS; drawing only, no fetching)
 - Backend: **Python + FastAPI**
 - Hosting: **Render** (free tier)
-- Data: **Finnhub free tier** (60 calls/min) via `finnhub-python` · **yfinance** for candles (deliberate exception — see Gotchas)
+- Data: **Finnhub free tier** (60 calls/min) via `finnhub-python` for US-listed
+  tickers · **yfinance** for candles (all symbols) plus quote/profile/fundamentals/news
+  for non-US/suffixed symbols (e.g. `NOKIA.HE`) — see Gotchas
 - Favorites: **browser localStorage** (no accounts, no DB in v1)
 - Prompt library: **static JSON** in repo, read-only
 - LLM: **none in v1** (v2 = user's own API key, browser-side only)
 
 ## Hard rules
 - **Only the data module talks to external data providers.** Everything else goes
-  through it. Providers: Finnhub (quote, news, fundamentals, profile) + yfinance
-  (candles only — deliberate exception, see below).
+  through it. Providers: Finnhub (quote, news, fundamentals, profile for US-listed
+  tickers) + yfinance (candles for all symbols; also quote, news, fundamentals,
+  profile for non-US/suffixed symbols like `NOKIA.HE`, since Finnhub's free tier has
+  zero coverage outside US exchanges — see Gotchas). Routing is decided per-symbol in
+  `data.py` (`_is_yfinance_routed`, `SYMBOL_ALIASES`); the frontend never knows which
+  provider served a response.
 - **Cache every provider call** with the TTL from `docs/DATA_MODULE.md`. Finnhub is
   60/min free tier — caching is not optional. Same discipline applies to yfinance.
   All data endpoints are also rate-limited via **slowapi** (candles: 20/min;
@@ -59,6 +65,14 @@ a price line chart, and a curated copy-only prompt library. See `docs/PLAN.md`.
       lines so multi-line prompts stay hand-editable without `\n` escaping;
       `static/prompts.html`/`prompts.js`: category-filter chips and
       copy-to-clipboard cards in the existing dark theme).
+- [x] Step 7 — Non-US ticker support (Finnish/OMX Helsinki). `SYMBOL_ALIASES` in
+      `data.py` maps bare symbols (NOKIA, FORTUM, KNEBV, ...) to their Yahoo suffix
+      (`.HE`); any symbol containing `.` routes quote/profile/fundamentals/news to
+      yfinance instead of Finnhub. Added a `currency` field to quote/profile output;
+      `static/format.js` provides currency-aware price/market-cap formatting used by
+      `app.js`/`compare.js`. `profile.marketCap` is now raw units (both providers)
+      instead of millions-of-USD. `loadChart` uses `Promise.allSettled` so one failed
+      call degrades gracefully instead of blanking the whole view.
 
 ## Build order (suggested)
 1. ~~FastAPI skeleton deployable to Render (one live endpoint).~~ **Done.**
@@ -68,6 +82,8 @@ a price line chart, and a curated copy-only prompt library. See `docs/PLAN.md`.
 4. ~~Frontend shell + watchlist (localStorage) + one chart.~~ **Done.**
 5. ~~Compare view, news view.~~ **Done.**
 6. ~~Prompt library (static JSON + copy UI).~~ **Done.**
+7. ~~Non-US ticker support (symbol aliasing + yfinance routing for
+   quote/profile/fundamentals/news, currency-aware display).~~ **Done.**
 
 ## Next steps (v2 — not started)
 v1 is complete and hardened. v2 is designed-for but not built — see `docs/PLAN.md`
@@ -86,10 +102,22 @@ v1 is complete and hardened. v2 is designed-for but not built — see `docs/PLAN
   so 24h is safe). The `/candles/{symbol}` endpoint is also rate-limited at **20/min**
   per IP via slowapi.
 - `company_news` takes a date range; pass ~last 7 days, not a huge window.
-- **`profile.marketCap` is in millions of USD** (Finnhub `marketCapitalization`,
-  passed through unchanged by `get_profile`). AAPL ≈ `4514012` → $4.51T. When
-  formatting for display, divide by `1_000_000` for trillions / `1_000` for
-  billions — see `fmt()` in `static/compare.js` for the working tiered conversion.
+- **`profile.marketCap` is raw units in the instrument's native currency**, for both
+  providers. Finnhub's `marketCapitalization` (millions of USD) is multiplied by
+  `1_000_000` in `get_profile` to match yfinance's raw-unit convention. AAPL ≈
+  `4.34e12` → $4.34T. Always check `profile.currency` (`"USD"`, `"EUR"`, ...) before
+  formatting — see `fmt()` in `static/compare.js` and `formatPrice()` in
+  `static/format.js` for the working tiered/currency-aware conversion.
+- **Non-US symbols**: a bare symbol like `NOKIA` is mapped to `NOKIA.HE` via
+  `SYMBOL_ALIASES` in `data.py` (`_normalize_symbol`) before any provider call.
+  Symbols already containing `.` pass through unchanged. Any normalized symbol
+  containing `.` is routed to yfinance for quote/profile/fundamentals/news
+  (`_is_yfinance_routed`) — Finnhub's free tier 403s on these. Add new tickers to
+  `SYMBOL_ALIASES` as needed; it's a flat dict, no schema migration.
+- **yfinance fundamentals need unit reconciliation** (see `_fetch_fundamentals_yf` in
+  `data.py`): growth/margin/ROE come back as decimal fractions (×100 to match
+  Finnhub's percent convention), and `debtToEquity` comes back as a percent-like
+  number (÷100 to match Finnhub's plain-ratio convention).
 - In-process dict cache is fine for v1 (vanishes on restart). Redis only if we ever
   run multiple instances.
 - Secrets: the Finnhub API key is an env var on Render. Never commit it.

@@ -127,7 +127,7 @@ function updatePriceEl(symbol, quote) {
   const priceEl = document.getElementById(`tp-${symbol}`);
   const pctEl = document.getElementById(`tpct-${symbol}`);
   if (!priceEl || !pctEl) return;
-  priceEl.textContent = `$${quote.price.toFixed(2)}`;
+  priceEl.textContent = formatPrice(quote.price, quote.currency);
   const sign = quote.changePercent >= 0 ? '+' : '';
   pctEl.textContent = `${sign}${quote.changePercent.toFixed(2)}%`;
   pctEl.className = `ticker-pct ${quote.changePercent >= 0 ? 'up' : 'down'}`;
@@ -163,16 +163,21 @@ async function loadChart(symbol) {
   document.getElementById('header-change').textContent = '';
   document.getElementById('header-change').className = 'header-change';
 
-  try {
-    const [quote, candlesData, profileData] = await Promise.all([
-      apiGet(`/quote/${symbol}`),
-      apiGet(`/candles/${symbol}?days=90`),
-      apiGet(`/profile/${symbol}`),
-    ]);
+  const [quoteRes, candlesRes, profileRes] = await Promise.allSettled([
+    apiGet(`/quote/${symbol}`),
+    apiGet(`/candles/${symbol}?days=90`),
+    apiGet(`/profile/${symbol}`),
+  ]);
 
-    // Header
-    document.getElementById('header-name').textContent = profileData.name || '';
-    document.getElementById('header-price').textContent = `$${quote.price.toFixed(2)}`;
+  if (profileRes.status === 'fulfilled') {
+    document.getElementById('header-name').textContent = profileRes.value.name || '';
+  } else {
+    console.error(profileRes.reason);
+  }
+
+  if (quoteRes.status === 'fulfilled') {
+    const quote = quoteRes.value;
+    document.getElementById('header-price').textContent = formatPrice(quote.price, quote.currency);
     const sign = quote.changePercent >= 0 ? '+' : '';
     const changeEl = document.getElementById('header-change');
     changeEl.textContent = `${sign}${quote.changePercent.toFixed(2)}%`;
@@ -180,11 +185,16 @@ async function loadChart(symbol) {
 
     // Also update the watchlist price in case it wasn't loaded yet
     updatePriceEl(symbol, quote);
+  } else {
+    document.getElementById('header-price').textContent = '—';
+    console.error(quoteRes.reason);
+  }
 
-    drawChart(candlesData.series || []);
-  } catch (err) {
-    document.getElementById('header-price').textContent = 'Error loading data';
-    console.error(err);
+  if (candlesRes.status === 'fulfilled') {
+    drawChart(candlesRes.value.series || []);
+  } else {
+    drawChart([]);
+    console.error(candlesRes.reason);
   }
 }
 

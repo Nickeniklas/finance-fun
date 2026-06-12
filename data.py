@@ -1,6 +1,6 @@
 import os
 import time
-from datetime import date, timedelta
+from datetime import date, datetime, timedelta
 
 import finnhub
 import yfinance as yf
@@ -9,10 +9,33 @@ _cache: dict = {}
 _client: finnhub.Client | None = None
 
 QUOTE_TTL = 30             # seconds
+QUOTE_TTL_YF = 5 * 60      # yfinance-routed quotes: longer TTL, limits scraper load
 CANDLE_TTL = 24 * 3600     # completed daily closes never change; 24h is safe
 FUNDAMENTALS_TTL = 12 * 3600
 PROFILE_TTL = 24 * 3600
 NEWS_TTL = 20 * 60
+
+# Bare non-US symbols (e.g. "NOKIA") need their Yahoo Finance exchange suffix
+# (e.g. "NOKIA.HE") for yfinance to recognize them. Symbols that already contain "."
+# pass through unchanged. Finnhub's free tier has zero coverage for these exchanges,
+# so any suffixed symbol routes quote/profile/fundamentals/news to yfinance too.
+SYMBOL_ALIASES = {
+    "NOKIA": "NOKIA.HE",
+    "FORTUM": "FORTUM.HE",
+    "KNEBV": "KNEBV.HE",    # KONE
+    "SAMPO": "SAMPO.HE",
+    "NESTE": "NESTE.HE",
+    "UPM": "UPM.HE",
+    "STERV": "STERV.HE",    # Stora Enso
+    "ELISA": "ELISA.HE",
+    "ORNBV": "ORNBV.HE",    # Orion B
+    "WRT1V": "WRT1V.HE",    # Wartsila
+    "TIETO": "TIETO.HE",    # TietoEVRY
+    "OUT1V": "OUT1V.HE",    # Outokumpu
+    "METSO": "METSO.HE",
+    "KESKOB": "KESKOB.HE",  # Kesko B
+    "MOCORP": "MOCORP.HE",  # Metsa Board
+}
 
 
 def _get_client() -> finnhub.Client:
@@ -20,6 +43,22 @@ def _get_client() -> finnhub.Client:
     if _client is None:
         _client = finnhub.Client(api_key=os.environ["FINNHUB_API_KEY"])
     return _client
+
+
+def _normalize_symbol(symbol: str) -> str:
+    symbol = symbol.upper().strip()
+    if "." in symbol:
+        return symbol
+    return SYMBOL_ALIASES.get(symbol, symbol)
+
+
+def _is_yfinance_routed(symbol: str) -> bool:
+    # Suffixed symbols (e.g. "NOKIA.HE") have no Finnhub free-tier coverage.
+    return "." in symbol
+
+
+def _iso_to_unix(iso_str: str) -> int:
+    return int(datetime.fromisoformat(iso_str.replace("Z", "+00:00")).timestamp())
 
 
 def _cached(key: str, ttl: int):
@@ -42,121 +81,232 @@ def _stale_or_raise(key: str, exc: Exception):
 
 
 # ---------------------------------------------------------------------------
+# Provider fetchers (return data without the "symbol" field — callers add it)
+# ---------------------------------------------------------------------------
+
+def _fetch_quote_finnhub(symbol: str) -> dict:
+    raw = _get_client().quote(symbol)
+    return {
+        "price": raw.get("c", 0),
+        "change": raw.get("d", 0),
+        "changePercent": raw.get("dp", 0),
+        "high": raw.get("h", 0),
+        "low": raw.get("l", 0),
+        "previousClose": raw.get("pc", 0),
+        "currency": "USD",
+    }
+
+
+def _fetch_quote_yf(symbol: str) -> dict:
+    info = yf.Ticker(symbol).fast_info
+    price = info.get("lastPrice") or 0
+    previous_close = info.get("previousClose") or 0
+    change = price - previous_close
+    change_percent = (change / previous_close * 100) if previous_close else 0
+    return {
+        "price": price,
+        "change": change,
+        "changePercent": change_percent,
+        "high": info.get("dayHigh") or 0,
+        "low": info.get("dayLow") or 0,
+        "previousClose": previous_close,
+        "currency": info.get("currency"),
+    }
+
+
+def _fetch_profile_finnhub(symbol: str) -> dict:
+    raw = _get_client().company_profile2(symbol=symbol)
+    market_cap = raw.get("marketCapitalization")
+    return {
+        "name": raw.get("name"),
+        "sector": raw.get("finnhubIndustry"),   # Finnhub has no separate sector field
+        "industry": raw.get("finnhubIndustry"),
+        # Finnhub returns marketCapitalization in millions of USD; normalize to raw
+        # units so the field is provider-agnostic (yfinance returns raw units).
+        "marketCap": market_cap * 1_000_000 if market_cap is not None else None,
+        "currency": "USD",
+    }
+
+
+def _fetch_profile_yf(symbol: str) -> dict:
+    info = yf.Ticker(symbol).info
+    return {
+        "name": info.get("longName"),
+        "sector": info.get("sector"),
+        "industry": info.get("industry"),
+        "marketCap": info.get("marketCap"),
+        "currency": info.get("currency"),
+    }
+
+
+def _fetch_fundamentals_finnhub(symbol: str) -> dict:
+    raw = _get_client().company_basic_financials(symbol, "all")
+    m = raw.get("metric", {})
+    return {
+        # Valuation
+        "peRatio": m.get("peTTM"),
+        "pbRatio": m.get("pbAnnual"),
+        "evEbitda": m.get("evEbitdaTTM"),
+        # Growth
+        "revenueGrowthYoy": m.get("revenueGrowthTTMYoy"),
+        "epsGrowthYoy": m.get("epsGrowthTTMYoy"),
+        # Profitability
+        "grossMargin": m.get("grossMarginTTM"),
+        "netMargin": m.get("netProfitMarginTTM"),
+        "roe": m.get("roeTTM"),
+        # Financial health
+        "currentRatio": m.get("currentRatioAnnual"),
+        "debtToEquity": m.get("totalDebt/totalEquityAnnual"),
+    }
+
+
+def _fetch_fundamentals_yf(symbol: str) -> dict:
+    info = yf.Ticker(symbol).info
+
+    def pct(key):
+        # yfinance gives growth/margin/ROE as decimal fractions (0.05 = 5%);
+        # Finnhub gives them as percent numbers already (5.0) — scale to match.
+        value = info.get(key)
+        return value * 100 if value is not None else None
+
+    debt_to_equity = info.get("debtToEquity")
+    return {
+        "peRatio": info.get("trailingPE"),
+        "pbRatio": info.get("priceToBook"),
+        "evEbitda": info.get("enterpriseToEbitda"),
+        "revenueGrowthYoy": pct("revenueGrowth"),
+        "epsGrowthYoy": pct("earningsGrowth"),
+        "grossMargin": pct("grossMargins"),
+        "netMargin": pct("profitMargins"),
+        "roe": pct("returnOnEquity"),
+        "currentRatio": info.get("currentRatio"),
+        # yfinance's debtToEquity is a percent-like number (ratio * 100); Finnhub's
+        # totalDebt/totalEquityAnnual is a plain ratio — divide to match Finnhub.
+        "debtToEquity": debt_to_equity / 100 if debt_to_equity is not None else None,
+    }
+
+
+def _fetch_news_finnhub(symbol: str) -> list[dict]:
+    today = date.today()
+    from_date = (today - timedelta(days=7)).isoformat()
+    to_date = today.isoformat()
+    raw = _get_client().company_news(symbol, _from=from_date, to=to_date)
+    return [
+        {
+            "headline": item.get("headline"),
+            "source": item.get("source"),
+            "url": item.get("url"),
+            "datetime": item.get("datetime"),
+            "summary": item.get("summary"),
+        }
+        for item in (raw or [])
+    ]
+
+
+def _fetch_news_yf(symbol: str) -> list[dict]:
+    raw = yf.Ticker(symbol).news
+    result = []
+    for item in (raw or []):
+        content = item.get("content") or {}
+        provider = content.get("provider") or {}
+        url = (
+            (content.get("canonicalUrl") or {}).get("url")
+            or (content.get("clickThroughUrl") or {}).get("url")
+            or ""
+        )
+        pub_date = content.get("pubDate")
+        result.append({
+            "headline": content.get("title"),
+            "source": provider.get("displayName"),
+            "url": url,
+            "datetime": _iso_to_unix(pub_date) if pub_date else 0,
+            "summary": content.get("summary"),
+        })
+    return result
+
+
+# ---------------------------------------------------------------------------
 # Public functions
 # ---------------------------------------------------------------------------
 
 def get_quote(symbol: str) -> dict:
-    symbol = symbol.upper()
-    key = f"quote:{symbol}"
-    hit = _cached(key, QUOTE_TTL)
-    if hit is not None:
-        return hit
-    try:
-        raw = _get_client().quote(symbol)
-        return _store(key, {
-            "symbol": symbol,
-            "price": raw.get("c", 0),
-            "change": raw.get("d", 0),
-            "changePercent": raw.get("dp", 0),
-            "high": raw.get("h", 0),
-            "low": raw.get("l", 0),
-            "previousClose": raw.get("pc", 0),
-        })
-    except Exception as e:
-        return _stale_or_raise(key, e)
+    requested = symbol.upper().strip()
+    norm = _normalize_symbol(requested)
+    yf_routed = _is_yfinance_routed(norm)
+    key = f"quote:{norm}"
+    ttl = QUOTE_TTL_YF if yf_routed else QUOTE_TTL
+    hit = _cached(key, ttl)
+    if hit is None:
+        try:
+            data = _fetch_quote_yf(norm) if yf_routed else _fetch_quote_finnhub(norm)
+            hit = _store(key, data)
+        except Exception as e:
+            hit = _stale_or_raise(key, e)
+    return {**hit, "symbol": requested}
 
 
 def get_candles(symbol: str, days: int = 30) -> dict:
-    symbol = symbol.upper()
-    key = f"candles:{symbol}:{days}"
+    requested = symbol.upper().strip()
+    norm = _normalize_symbol(requested)
+    key = f"candles:{norm}:{days}"
     hit = _cached(key, CANDLE_TTL)
-    if hit is not None:
-        return hit
-    try:
-        # Charts show completed daily closes through yesterday — no partial-day point.
-        # yfinance end date is exclusive, so passing today gives us through yesterday.
-        start = (date.today() - timedelta(days=days)).isoformat()
-        end = date.today().isoformat()
-        hist = yf.Ticker(symbol).history(start=start, end=end)
-        series = [
-            {"time": idx.date().isoformat(), "value": round(row["Close"], 4)}
-            for idx, row in hist.iterrows()
-        ]
-        return _store(key, {"symbol": symbol, "series": series})
-    except Exception as e:
-        return _stale_or_raise(key, e)
+    if hit is None:
+        try:
+            # Charts show completed daily closes through yesterday — no partial-day point.
+            # yfinance end date is exclusive, so passing today gives us through yesterday.
+            start = (date.today() - timedelta(days=days)).isoformat()
+            end = date.today().isoformat()
+            history = yf.Ticker(norm).history(start=start, end=end)
+            series = [
+                {"time": idx.date().isoformat(), "value": round(row["Close"], 4)}
+                for idx, row in history.iterrows()
+            ]
+            hit = _store(key, {"series": series})
+        except Exception as e:
+            hit = _stale_or_raise(key, e)
+    return {**hit, "symbol": requested}
 
 
 def get_fundamentals(symbol: str) -> dict:
-    symbol = symbol.upper()
-    key = f"fundamentals:{symbol}"
+    requested = symbol.upper().strip()
+    norm = _normalize_symbol(requested)
+    yf_routed = _is_yfinance_routed(norm)
+    key = f"fundamentals:{norm}"
     hit = _cached(key, FUNDAMENTALS_TTL)
-    if hit is not None:
-        return hit
-    try:
-        raw = _get_client().company_basic_financials(symbol, "all")
-        m = raw.get("metric", {})
-        return _store(key, {
-            "symbol": symbol,
-            # Valuation
-            "peRatio": m.get("peTTM"),
-            "pbRatio": m.get("pbAnnual"),
-            "evEbitda": m.get("evEbitdaTTM"),
-            # Growth
-            "revenueGrowthYoy": m.get("revenueGrowthTTMYoy"),
-            "epsGrowthYoy": m.get("epsGrowthTTMYoy"),
-            # Profitability
-            "grossMargin": m.get("grossMarginTTM"),
-            "netMargin": m.get("netProfitMarginTTM"),
-            "roe": m.get("roeTTM"),
-            # Financial health
-            "currentRatio": m.get("currentRatioAnnual"),
-            "debtToEquity": m.get("totalDebt/totalEquityAnnual"),
-        })
-    except Exception as e:
-        return _stale_or_raise(key, e)
+    if hit is None:
+        try:
+            data = _fetch_fundamentals_yf(norm) if yf_routed else _fetch_fundamentals_finnhub(norm)
+            hit = _store(key, data)
+        except Exception as e:
+            hit = _stale_or_raise(key, e)
+    return {**hit, "symbol": requested}
 
 
 def get_profile(symbol: str) -> dict:
-    symbol = symbol.upper()
-    key = f"profile:{symbol}"
+    requested = symbol.upper().strip()
+    norm = _normalize_symbol(requested)
+    yf_routed = _is_yfinance_routed(norm)
+    key = f"profile:{norm}"
     hit = _cached(key, PROFILE_TTL)
-    if hit is not None:
-        return hit
-    try:
-        raw = _get_client().company_profile2(symbol=symbol)
-        return _store(key, {
-            "symbol": symbol,
-            "name": raw.get("name"),
-            "sector": raw.get("finnhubIndustry"),   # Finnhub has no separate sector field
-            "industry": raw.get("finnhubIndustry"),
-            "marketCap": raw.get("marketCapitalization"),
-        })
-    except Exception as e:
-        return _stale_or_raise(key, e)
+    if hit is None:
+        try:
+            data = _fetch_profile_yf(norm) if yf_routed else _fetch_profile_finnhub(norm)
+            hit = _store(key, data)
+        except Exception as e:
+            hit = _stale_or_raise(key, e)
+    return {**hit, "symbol": requested}
 
 
 def get_news(symbol: str) -> list[dict]:
-    symbol = symbol.upper()
-    key = f"news:{symbol}"
+    requested = symbol.upper().strip()
+    norm = _normalize_symbol(requested)
+    yf_routed = _is_yfinance_routed(norm)
+    key = f"news:{norm}"
     hit = _cached(key, NEWS_TTL)
     if hit is not None:
         return hit
     try:
-        today = date.today()
-        from_date = (today - timedelta(days=7)).isoformat()
-        to_date = today.isoformat()
-        raw = _get_client().company_news(symbol, _from=from_date, to=to_date)
-        result = [
-            {
-                "headline": item.get("headline"),
-                "source": item.get("source"),
-                "url": item.get("url"),
-                "datetime": item.get("datetime"),
-                "summary": item.get("summary"),
-            }
-            for item in (raw or [])
-        ]
+        result = _fetch_news_yf(norm) if yf_routed else _fetch_news_finnhub(norm)
         return _store(key, result)
     except Exception as e:
         return _stale_or_raise(key, e)

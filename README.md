@@ -11,9 +11,10 @@ See [`docs/PLAN.md`](docs/PLAN.md) for the full project plan and rationale.
 
 **v1 complete and hardened.** All six build steps are done — FastAPI + full data layer
 + the whole frontend (watchlist with chart, compare view, news view, prompt library) —
-plus slowapi rate limiting and a 24h candle cache. v2 (own-key prompts, deeper
-fundamentals, accounts) is designed-for but not started — see
-[`docs/PLAN.md`](docs/PLAN.md) § Versioning.
+plus slowapi rate limiting and a 24h candle cache. Step 7 adds non-US ticker support
+(Finnish/OMX Helsinki tickers like NOKIA, FORTUM, KNEBV) via yfinance routing and
+currency-aware display. v2 (own-key prompts, deeper fundamentals, accounts) is
+designed-for but not started — see [`docs/PLAN.md`](docs/PLAN.md) § Versioning.
 
 ### Build order
 
@@ -27,6 +28,11 @@ fundamentals, accounts) is designed-for but not started — see
       ticker search + watchlist quick-chips, article list)
 - [x] Step 6 — Prompt library (`static/prompts.json` served as a static asset;
       `prompts.html`/`prompts.js`: category-filter chips + copy-to-clipboard cards)
+- [x] Step 7 — Non-US ticker support (Finnish/OMX Helsinki): bare symbols like
+      `NOKIA`, `FORTUM`, `KNEBV` are aliased to their Yahoo symbols (`NOKIA.HE`, ...)
+      and routed through yfinance for quote/profile/fundamentals/news (Finnhub has no
+      coverage there); prices and market caps display in the instrument's native
+      currency (EUR, etc.)
 
 ---
 
@@ -38,7 +44,7 @@ fundamentals, accounts) is designed-for but not started — see
 | Charts | TradingView Lightweight Charts |
 | Backend | Python + FastAPI |
 | Hosting | Render (free tier) |
-| Data | Finnhub free tier (quotes, news, fundamentals) + yfinance (candles, 24h cache) |
+| Data | Finnhub free tier (quotes, news, fundamentals, profile — US tickers) + yfinance (candles for all tickers, 24h cache; quotes/news/fundamentals/profile for non-US/suffixed tickers) |
 | Rate limiting | slowapi — candles 20/min, other data endpoints 60/min (per IP) |
 | Favorites | Browser localStorage |
 | Prompt library | Static JSON in repo |
@@ -73,6 +79,10 @@ all linked from the header nav.
 
 API endpoints: `/quote/AAPL`, `/candles/AAPL?days=30`, `/fundamentals/AAPL`,
 `/profile/AAPL`, `/news/AAPL`. Health check: `/health`.
+
+Non-US tickers like `NOKIA`, `FORTUM`, `KNEBV` (and any `SYMBOL.HE`-style suffixed
+symbol) are supported via yfinance routing — see
+[`docs/DATA_MODULE.md`](docs/DATA_MODULE.md) § Non-US ticker support.
 
 **VS Code:** select `.venv/Scripts/python.exe` as the Python interpreter
 (`Ctrl+Shift+P → Python: Select Interpreter`).

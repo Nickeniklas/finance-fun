@@ -18,8 +18,9 @@ Render's ~1-min cold start on idle is an accepted tradeoff for a low-traffic hob
 
 | Data type | Provider | Why |
 |---|---|---|
-| Quote, news, fundamentals, profile | **Finnhub** (free tier, 60 calls/min) | Primary provider |
-| Daily candle history | **yfinance** | Deliberate exception — see below |
+| Quote, news, fundamentals, profile — **US-listed tickers** | **Finnhub** (free tier, 60 calls/min) | Primary provider |
+| Daily candle history — **all tickers** | **yfinance** | Deliberate exception — see below |
+| Quote, news, fundamentals, profile — **non-US/suffixed tickers** (e.g. `NOKIA.HE`) | **yfinance** | Finnhub free tier has zero coverage outside US exchanges — see below |
 
 **Candles use yfinance by design.** Finnhub moved `stock/candle` off the free tier;
 it returns 403 for US equities. This is permanent. Alpha Vantage free (25 req/day) is
@@ -28,6 +29,16 @@ boundary is preserved — nothing outside `data.py` touches either provider. If 
 breaks, the chart endpoint returns an empty series rather than crashing. Candles are
 cached 24h (completed daily closes are final); the `/candles` endpoint is rate-limited
 at 20/min per IP via slowapi.
+
+**Non-US tickers (e.g. Finnish stocks: NOKIA, FORTUM, KNEBV) route through yfinance
+for everything**, not just candles — Finnhub's free tier has no data for these
+exchanges at all (zero quote, 403 on profile/fundamentals/news). `data.py` maps bare
+symbols to their Yahoo suffix (`NOKIA` → `NOKIA.HE`) via `SYMBOL_ALIASES`; any
+suffixed symbol routes to yfinance. Quote/profile responses include a `currency`
+field (`"USD"` or the instrument's native currency, e.g. `"EUR"`); `marketCap` is raw
+units in that currency for both providers. yfinance-routed quotes use a 5-minute
+cache (vs Finnhub's 30s) to limit scraper load. See `DATA_MODULE.md` § Non-US ticker
+support for full detail.
 
 ## Build status
 

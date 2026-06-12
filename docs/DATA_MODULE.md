@@ -4,8 +4,9 @@ The data module is the single layer between the app and external data providers.
 Nothing else calls any data provider directly. It does three jobs: **fetch**,
 **cache**, **reshape**.
 
-Primary provider: **Finnhub** (`finnhub-python` client).
-Candles exception: **yfinance** — see *Provider exceptions* below.
+Primary provider: **Finnhub** (`finnhub-python` client), for US-listed tickers.
+Candles, and any non-US/suffixed symbol (e.g. `NOKIA.HE`) for every data type: **yfinance**
+— see *Provider exceptions* and *Non-US ticker support* below.
 
 ---
 
@@ -25,13 +26,16 @@ Candles exception: **yfinance** — see *Provider exceptions* below.
 
 | Feature | Provider | Call | Returns | Cache TTL | Why that TTL |
 |---|---|---|---|---|---|
-| Watchlist current price | Finnhub | `quote(symbol)` | price, day high/low, prev close, % change | 30 sec | Prices move constantly; sub-minute not needed for a glance |
-| Watchlist line chart | **yfinance** | `Ticker(symbol).history(start, end)` | daily closes over a date range | 24 hours | Completed daily closes are final; 24h is safe |
-| Compare — fundamentals | Finnhub | `company_basic_financials(symbol, 'all')` | P/E, margins, ROE, ratios | 12 hours | Fundamentals update quarterly at most |
-| Compare — company info | Finnhub | `company_profile2(symbol)` | name, sector, industry, market cap | 24 hours | Effectively static |
-| News (per ticker) | Finnhub | `company_news(symbol, from, to)` | recent articles for the ticker | 20 min | Updates through the day |
+| Watchlist current price | Finnhub (US) / **yfinance** (non-US) | `quote(symbol)` / `Ticker(symbol).fast_info` | price, day high/low, prev close, % change, currency | 30 sec (Finnhub) / **5 min** (yfinance) | Prices move constantly; sub-minute not needed for a glance. yfinance gets a longer TTL to limit scraper load. |
+| Watchlist line chart | **yfinance** (all symbols) | `Ticker(symbol).history(start, end)` | daily closes over a date range | 24 hours | Completed daily closes are final; 24h is safe |
+| Compare — fundamentals | Finnhub (US) / **yfinance** (non-US) | `company_basic_financials(symbol, 'all')` / `Ticker(symbol).info` | P/E, margins, ROE, ratios | 12 hours | Fundamentals update quarterly at most |
+| Compare — company info | Finnhub (US) / **yfinance** (non-US) | `company_profile2(symbol)` / `Ticker(symbol).info` | name, sector, industry, market cap, currency | 24 hours | Effectively static |
+| News (per ticker) | Finnhub (US) / **yfinance** (non-US) | `company_news(symbol, from, to)` / `Ticker(symbol).news` | recent articles for the ticker | 20 min | Updates through the day |
 | (optional) General market news | Finnhub | `general_news('general')` | broad headlines | 20 min | Same |
 | (optional) Peer suggestions | Finnhub | `company_peers(symbol)` | similar tickers | 24 hours | Rarely changes; nice for "compare vs peers" |
+
+"Non-US" means: the symbol (after alias normalization) contains a `.`, e.g.
+`NOKIA.HE`. See *Non-US ticker support* below for the full routing rule.
 
 Core app touches only 4 endpoints: **quote, candles, basic financials, company news.**
 Two optional ones (general news, peers) can come later.
@@ -82,6 +86,66 @@ without notice. If that happens:
 
 ---
 
+## Non-US ticker support
+
+**What happened:** Finnhub's free tier has **zero coverage outside US exchanges**.
+A bare symbol like `NOKIA` returns an all-zero quote (not an error); a suffixed
+symbol like `NOKIA.HE` returns a hard 403. yfinance, however, recognizes
+exchange-suffixed symbols (`NOKIA.HE`, `FORTUM.HE`, `KNEBV.HE`, ...) and its
+`fast_info` / `.info` / `.news` provide everything needed for quote, profile,
+fundamentals, and news — not just candles.
+
+**Decision:** Extend yfinance's role (previously candles-only) to also cover
+quote/profile/fundamentals/news **for any symbol that, after normalization, contains
+a `.`** (e.g. `NOKIA.HE`). Plain US tickers (`AAPL`, `MSFT`, ...) are unaffected and
+keep using Finnhub.
+
+**Symbol normalization (`data.py`):**
+- `SYMBOL_ALIASES` is a flat dict mapping bare symbols a user would naturally type
+  (`NOKIA`, `FORTUM`, `KNEBV`, and a starter set of other OMX Helsinki large-caps) to
+  their Yahoo Finance symbol (`NOKIA.HE`, etc.).
+- `_normalize_symbol(symbol)`: uppercase/strip; if the symbol already contains `.`,
+  pass through unchanged (so `NOKIA.HE` typed directly works too); otherwise look up
+  in `SYMBOL_ALIASES` (falls back to the symbol unchanged if not found).
+- `_is_yfinance_routed(symbol)`: `"." in symbol` — the routing decision for
+  quote/profile/fundamentals/news.
+- The cache key uses the *normalized* symbol; the output `symbol` field always
+  echoes the *user-requested* symbol (so `NOKIA` round-trips through localStorage
+  and `?a=&b=` deep links, not `NOKIA.HE`).
+
+**Reshaping yfinance → the same output contracts** (see `_fetch_*_yf` helpers):
+- **Quote**: `fast_info` gives `lastPrice`, `previousClose`, `dayHigh`, `dayLow`,
+  `currency`. `change`/`changePercent` are derived (`price - previousClose`, guarding
+  divide-by-zero).
+- **Profile**: `.info` gives `longName`, `sector`, `industry`, `marketCap` (raw
+  units), `currency`.
+- **Fundamentals**: `.info` fields need unit reconciliation to match Finnhub's
+  conventions:
+  - `revenueGrowth`, `earningsGrowth`, `grossMargins`, `profitMargins`,
+    `returnOnEquity` are decimal fractions (0.05 = 5%) → **×100** to match Finnhub's
+    percent numbers.
+  - `debtToEquity` is a percent-like number (ratio×100) → **÷100** to match
+    Finnhub's plain-ratio `totalDebt/totalEquityAnnual`.
+  - `trailingPE` → `peRatio`, `priceToBook` → `pbRatio`,
+    `enterpriseToEbitda` → `evEbitda`, `currentRatio` → `currentRatio` (no
+    conversion needed for these).
+- **News**: `.news` items nest data under `content` (`title`, `summary`,
+  `provider.displayName`, `pubDate` as an ISO string, and a clickthrough URL under
+  `canonicalUrl`/`clickThroughUrl`). `pubDate` is converted to a Unix timestamp via
+  `_iso_to_unix()` to match Finnhub's `datetime` convention.
+
+**Caching:** yfinance-routed quote calls use `QUOTE_TTL_YF = 5 min` (vs Finnhub's
+30 sec) — quote is the only frequently-polled endpoint, so this is the main lever for
+limiting yfinance scraper load from non-US symbols. Profile/fundamentals/news reuse
+the existing TTLs (24h / 12h / 20min) — those are effectively static either way.
+
+**Currency:** every quote and profile response now includes `"currency"`
+(`"USD"` for Finnhub-routed responses, the instrument's native currency — e.g.
+`"EUR"` — for yfinance-routed ones). The frontend formats prices and market caps with
+`formatPrice()` / `fmt()` in `static/format.js` / `static/compare.js`.
+
+---
+
 ## Endpoint specifics & gotchas
 
 - **Candles (yfinance):** `yf.Ticker(symbol).history(start, end)` takes ISO date
@@ -107,7 +171,7 @@ but the shape stays clean and provider-agnostic.
 ```jsonc
 // quote
 { "symbol": "AAPL", "price": 0, "change": 0, "changePercent": 0,
-  "high": 0, "low": 0, "previousClose": 0 }
+  "high": 0, "low": 0, "previousClose": 0, "currency": "USD" }
 
 // candle series (for TradingView line/area)
 { "symbol": "AAPL",
@@ -117,12 +181,16 @@ but the shape stays clean and provider-agnostic.
 { "symbol": "AAPL", "peRatio": 0, "netMargin": 0, "roe": 0,
   "debtToEquity": 0, /* framework dimensions */ }
 
-// company info
-{ "symbol": "AAPL", "name": "", "sector": "", "industry": "", "marketCap": 0 }
+// company info — marketCap is raw units in `currency` (not millions)
+{ "symbol": "AAPL", "name": "", "sector": "", "industry": "",
+  "marketCap": 0, "currency": "USD" }
 
 // news item
 { "headline": "", "source": "", "url": "", "datetime": 0, "summary": "" }
 ```
+
+For a non-US symbol (e.g. `NOKIA`), `symbol` echoes the user-requested form,
+`currency` is `"EUR"`, and `marketCap` is in EUR.
 
 ---
 
