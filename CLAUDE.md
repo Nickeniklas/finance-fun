@@ -63,10 +63,19 @@ a price line chart, and a curated copy-only prompt library. See `docs/PLAN.md`.
 ## Build order (suggested)
 1. ~~FastAPI skeleton deployable to Render (one live endpoint).~~ **Done.**
 2. ~~Data module + `/quote/{symbol}` end to end, with cache.~~ **Done.**
+   - Hardening done: slowapi rate limiting + 24h candle cache (see Gotchas).
 3. ~~Remaining endpoints: candles (yfinance), fundamentals, profile, news.~~ **Done.**
 4. ~~Frontend shell + watchlist (localStorage) + one chart.~~ **Done.**
 5. ~~Compare view, news view.~~ **Done.**
 6. ~~Prompt library (static JSON + copy UI).~~ **Done.**
+
+## Next steps (v2 — not started)
+v1 is complete and hardened. v2 is designed-for but not built — see `docs/PLAN.md`
+§ Versioning for full rationale:
+- "Run this prompt for me" using the user's own API key (browser-side only)
+- Auto-fill prompts with live fetched data
+- Deeper fundamentals (possibly add FMP as a second provider)
+- Real accounts for syncing favorites across devices
 
 ## Gotchas
 - **Candles use yfinance — do not "fix" this.** Finnhub's free tier returns 403 for

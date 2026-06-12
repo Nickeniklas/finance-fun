@@ -9,8 +9,11 @@ See [`docs/PLAN.md`](docs/PLAN.md) for the full project plan and rationale.
 
 ## Current status
 
-**v1 complete.** All six build steps are done — FastAPI + full data layer + the whole
-frontend (watchlist with chart, compare view, news view, prompt library).
+**v1 complete and hardened.** All six build steps are done — FastAPI + full data layer
++ the whole frontend (watchlist with chart, compare view, news view, prompt library) —
+plus slowapi rate limiting and a 24h candle cache. v2 (own-key prompts, deeper
+fundamentals, accounts) is designed-for but not started — see
+[`docs/PLAN.md`](docs/PLAN.md) § Versioning.
 
 ### Build order
 
