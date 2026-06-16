@@ -76,11 +76,26 @@ caching discipline applies.
 profile, news) stays on Finnhub. The data module boundary is preserved — nothing
 outside `data.py` touches yfinance directly, same discipline as the Finnhub calls.
 
+**Version & session:** pinned to **yfinance 1.4.1**. All yfinance calls (candles *and*
+the non-US quote/profile/fundamentals/news routes) go through a single module-level
+**curl_cffi** Chrome-impersonation session (`_yf_session`, created once and reused).
+Yahoo rate-limits/blocks Render's datacenter IP; impersonating a real browser
+**reduces but does not eliminate** that blocking. `yf.Ticker(symbol, session=_yf_session)`
+— confirmed against installed 1.4.1, which accepts a `session` kwarg.
+
+**Graceful degradation (candles only):** `get_candles` never raises. On any provider
+exception it serves stale cache if a cached series exists, otherwise returns
+`{"symbol": symbol, "series": []}`. (Quote/fundamentals/profile/news keep raising via
+`_stale_or_raise`.) It also skips any row whose `Close` is `NaN` — Yahoo occasionally
+returns a `NaN` close for the most recent bar, and `NaN` serializes to invalid JSON
+that would blank the chart.
+
 **Known risk:** yfinance is an unofficial Yahoo Finance scraper. Yahoo can break it
-without notice. If that happens:
-1. `get_candles()` will return an empty series (graceful degradation — chart shows
+or block Render's IP without notice. If that happens:
+1. `get_candles()` returns an empty series (graceful degradation — chart shows
    nothing rather than crashing the page).
-2. Short-term fix: serve stale cache if a cached series exists.
+2. Short-term: the curl_cffi session is the cheapest mitigation; stale cache is served
+   if a cached series exists.
 3. Long-term fix: pay for Finnhub candles, or defer charts until a free alternative
    appears.
 

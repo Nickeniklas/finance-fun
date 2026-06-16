@@ -44,7 +44,7 @@ designed-for but not started — see [`docs/PLAN.md`](docs/PLAN.md) § Versionin
 | Charts | TradingView Lightweight Charts |
 | Backend | Python + FastAPI |
 | Hosting | Render (free tier) |
-| Data | Finnhub free tier (quotes, news, fundamentals, profile — US tickers) + yfinance (candles for all tickers, 24h cache; quotes/news/fundamentals/profile for non-US/suffixed tickers) |
+| Data | Finnhub free tier (quotes, news, fundamentals, profile — US tickers) + yfinance 1.4.1 (candles for all tickers, 24h cache; quotes/news/fundamentals/profile for non-US/suffixed tickers; calls go through a curl_cffi Chrome-impersonation session to reduce datacenter-IP blocking) |
 | Rate limiting | slowapi — candles 20/min, other data endpoints 60/min (per IP) |
 | Favorites | Browser localStorage |
 | Prompt library | Static JSON in repo |

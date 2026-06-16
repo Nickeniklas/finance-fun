@@ -4,9 +4,15 @@ from datetime import date, datetime, timedelta
 
 import finnhub
 import yfinance as yf
+from curl_cffi import requests as curl_requests
 
 _cache: dict = {}
 _client: finnhub.Client | None = None
+
+# Reused browser-impersonation session for all yfinance calls. yfinance runs on
+# Render's datacenter IP, which Yahoo rate-limits/blocks aggressively; a curl_cffi
+# Chrome-impersonation session reduces (but does not eliminate) that blocking.
+_yf_session = curl_requests.Session(impersonate="chrome")
 
 QUOTE_TTL = 30             # seconds
 QUOTE_TTL_YF = 5 * 60      # yfinance-routed quotes: longer TTL, limits scraper load
@@ -98,7 +104,7 @@ def _fetch_quote_finnhub(symbol: str) -> dict:
 
 
 def _fetch_quote_yf(symbol: str) -> dict:
-    info = yf.Ticker(symbol).fast_info
+    info = yf.Ticker(symbol, session=_yf_session).fast_info
     price = info.get("lastPrice") or 0
     previous_close = info.get("previousClose") or 0
     change = price - previous_close
@@ -129,7 +135,7 @@ def _fetch_profile_finnhub(symbol: str) -> dict:
 
 
 def _fetch_profile_yf(symbol: str) -> dict:
-    info = yf.Ticker(symbol).info
+    info = yf.Ticker(symbol, session=_yf_session).info
     return {
         "name": info.get("longName"),
         "sector": info.get("sector"),
@@ -161,7 +167,7 @@ def _fetch_fundamentals_finnhub(symbol: str) -> dict:
 
 
 def _fetch_fundamentals_yf(symbol: str) -> dict:
-    info = yf.Ticker(symbol).info
+    info = yf.Ticker(symbol, session=_yf_session).info
 
     def pct(key):
         # yfinance gives growth/margin/ROE as decimal fractions (0.05 = 5%);
@@ -204,7 +210,7 @@ def _fetch_news_finnhub(symbol: str) -> list[dict]:
 
 
 def _fetch_news_yf(symbol: str) -> list[dict]:
-    raw = yf.Ticker(symbol).news
+    raw = yf.Ticker(symbol, session=_yf_session).news
     result = []
     for item in (raw or []):
         content = item.get("content") or {}
@@ -256,14 +262,21 @@ def get_candles(symbol: str, days: int = 30) -> dict:
             # yfinance end date is exclusive, so passing today gives us through yesterday.
             start = (date.today() - timedelta(days=days)).isoformat()
             end = date.today().isoformat()
-            history = yf.Ticker(norm).history(start=start, end=end)
+            history = yf.Ticker(norm, session=_yf_session).history(start=start, end=end)
             series = [
                 {"time": idx.date().isoformat(), "value": round(row["Close"], 4)}
                 for idx, row in history.iterrows()
+                # Yahoo occasionally returns a NaN close for the most recent bar;
+                # NaN serializes to invalid JSON and would break the chart, so skip it.
+                if row["Close"] == row["Close"]  # False only for NaN
             ]
             hit = _store(key, {"series": series})
-        except Exception as e:
-            hit = _stale_or_raise(key, e)
+        except Exception:
+            # Candles are the documented exception (see DATA_MODULE.md): a provider
+            # failure must degrade to an empty series, never crash the page. Serve
+            # stale cache if we have any, otherwise an empty series.
+            stale = _cache.get(key)
+            hit = stale["data"] if stale else {"series": []}
     return {**hit, "symbol": requested}
 
 

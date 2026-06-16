@@ -14,8 +14,10 @@ a price line chart, and a curated copy-only prompt library. See `docs/PLAN.md`.
 - Backend: **Python + FastAPI**
 - Hosting: **Render** (free tier)
 - Data: **Finnhub free tier** (60 calls/min) via `finnhub-python` for US-listed
-  tickers · **yfinance** for candles (all symbols) plus quote/profile/fundamentals/news
-  for non-US/suffixed symbols (e.g. `NOKIA.HE`) — see Gotchas
+  tickers · **yfinance 1.4.1** for candles (all symbols) plus quote/profile/fundamentals/news
+  for non-US/suffixed symbols (e.g. `NOKIA.HE`) — all yfinance calls go through a shared
+  **curl_cffi** Chrome-impersonation session (`_yf_session` in `data.py`) to reduce
+  datacenter-IP blocking on Render — see Gotchas
 - Favorites: **browser localStorage** (no accounts, no DB in v1)
 - Prompt library: **static JSON** in repo, read-only
 - LLM: **none in v1** (v2 = user's own API key, browser-side only)
@@ -96,11 +98,20 @@ v1 is complete and hardened. v2 is designed-for but not built — see `docs/PLAN
 ## Gotchas
 - **Candles use yfinance — do not "fix" this.** Finnhub's free tier returns 403 for
   `stock/candle` on US equities; this is permanent. yfinance is the deliberate fallback
-  for candles only. If it breaks, the chart returns an empty series (graceful); fix by
-  paying for Finnhub candles or finding a new free source.
-  Candles are cached for **24 hours** (completed daily closes are final and never change,
-  so 24h is safe). The `/candles/{symbol}` endpoint is also rate-limited at **20/min**
-  per IP via slowapi.
+  for candles only. If it breaks, `get_candles` returns an **empty series** (`{"series": []}`)
+  rather than raising — it serves stale cache first if present, else the empty series.
+  This is the documented exception: quote/fundamentals/profile/news still raise via
+  `_stale_or_raise`. Fix a real outage by paying for Finnhub candles or finding a new
+  free source. Candles are cached for **24 hours** (completed daily closes are final and
+  never change, so 24h is safe). The `/candles/{symbol}` endpoint is also rate-limited
+  at **20/min** per IP via slowapi.
+- **yfinance datacenter-IP blocking.** Yahoo rate-limits/blocks Render's datacenter IP.
+  All yfinance calls share a module-level **curl_cffi** Chrome-impersonation session
+  (`_yf_session` in `data.py`). This **reduces but does not eliminate** blocking — if
+  Yahoo still refuses Render's IP, charts degrade to empty and yfinance-routed quotes
+  serve stale cache. The standing fallback remains paid Finnhub candles or another
+  provider. `get_candles` also skips any `NaN` close (Yahoo sometimes returns one for
+  the most recent bar; `NaN` serializes to invalid JSON and would blank the chart).
 - `company_news` takes a date range; pass ~last 7 days, not a huge window.
 - **`profile.marketCap` is raw units in the instrument's native currency**, for both
   providers. Finnhub's `marketCapitalization` (millions of USD) is multiplied by
