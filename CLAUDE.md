@@ -76,6 +76,14 @@ a price line chart, and a curated copy-only prompt library. See `docs/PLAN.md`.
       instead of millions-of-USD. `loadChart` uses `Promise.allSettled` so one failed
       call degrades gracefully instead of blanking the whole view.
 
+## Frontend conventions
+- **`static/format.js` is the shared helper module** — loaded via `<script src="/format.js">`
+  before each page's own script (in every `*.html`). Cross-page helpers live there:
+  `apiGet`, `escapeHtml`, `safeUrl`, currency formatting. Don't duplicate them per page.
+- **The frontend renders via innerHTML template strings**, so any provider- or
+  JSON-sourced string must be wrapped in `escapeHtml()` (and URLs in `safeUrl()`)
+  before interpolation — see `news.js`/`compare.js`/`prompts.js`. (XSS hardening.)
+
 ## Next steps (v2 — not started)
 v1 is complete and hardened. v2 is designed-for but not built — see `docs/PLAN.md`
 § Versioning for full rationale:
@@ -85,6 +93,9 @@ v1 is complete and hardened. v2 is designed-for but not built — see `docs/PLAN
 - Real accounts for syncing favorites across devices
 
 ## Gotchas
+- **Every `@limiter.limit` endpoint must keep `request: Request` in its signature**
+  even though the body never uses it — slowapi requires it. The IDE
+  "request is not accessed" hint is expected; do not remove the param.
 - **Candles use yfinance — do not "fix" this.** Finnhub's free tier returns 403 for
   `stock/candle` on US equities; this is permanent. yfinance is the deliberate fallback
   for candles only. If it breaks, `get_candles` returns an **empty series** (`{"series": []}`)
