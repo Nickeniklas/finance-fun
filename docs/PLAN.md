@@ -116,13 +116,6 @@ The prompt library is **standalone** — it does not touch the data layer at all
 
 ## Build status
 
-1. ~~FastAPI skeleton deployable to Render ("hello world" endpoint live).~~ **Done.**
-2. ~~Data module + one endpoint end to end (`/quote/{symbol}`), with cache.~~ **Done.**
-3. ~~Remaining endpoints (candles via yfinance, fundamentals, profile, news).~~ **Done.**
-4. ~~Frontend shell + watchlist (localStorage) + one chart.~~ **Done.**
-5. ~~Compare view, news view.~~ **Done.**
-6. ~~Prompt library (static JSON + copy UI).~~ **Done.**
-7. ~~Non-US ticker support (Finnish/OMX Helsinki): symbol aliasing, dual-provider
-   routing, currency-aware display.~~ **Done.**
-
-See `DATA_MODULE.md` and `PROMPT_LIBRARY.md` for the detailed contracts.
+**v1 complete and hardened, plus non-US ticker support.** The step-by-step build log
+lives in [`../README.md`](../README.md); the contracts live in `DATA_MODULE.md` and
+`PROMPT_LIBRARY.md`. v2 scope is in § Versioning above.

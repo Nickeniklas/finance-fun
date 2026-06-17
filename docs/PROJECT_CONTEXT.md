@@ -42,13 +42,9 @@ support for full detail.
 
 ## Build status
 
-- [x] Step 1 — FastAPI skeleton, `/health`, Render deploy pipeline
-- [x] Step 2 — Data module: `get_quote`, cache, `/quote/{symbol}`
-- [x] Step 3 — Remaining endpoints: candles, fundamentals, profile, news
-- [x] Step 4 — Frontend shell (`static/`): watchlist (localStorage, capped at 10
-      tickers), live prices, 90-day chart
-- [x] Step 5 — Compare view + news view (`static/compare.*`, `static/news.*`)
-- [x] Step 6 — Prompt library (`static/prompts.json` + `static/prompts.*`) — v1 complete
+**v1 complete and hardened, plus non-US ticker support (Finnish/OMX Helsinki via
+yfinance routing).** v2 is designed-for but not started. See the build log in
+[`../README.md`](../README.md) and v2 scope in [`PLAN.md`](PLAN.md) § Versioning.
 
 ## Hard constraints (do not re-litigate without asking)
 

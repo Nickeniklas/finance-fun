@@ -76,17 +76,6 @@ a price line chart, and a curated copy-only prompt library. See `docs/PLAN.md`.
       instead of millions-of-USD. `loadChart` uses `Promise.allSettled` so one failed
       call degrades gracefully instead of blanking the whole view.
 
-## Build order (suggested)
-1. ~~FastAPI skeleton deployable to Render (one live endpoint).~~ **Done.**
-2. ~~Data module + `/quote/{symbol}` end to end, with cache.~~ **Done.**
-   - Hardening done: slowapi rate limiting + 24h candle cache (see Gotchas).
-3. ~~Remaining endpoints: candles (yfinance), fundamentals, profile, news.~~ **Done.**
-4. ~~Frontend shell + watchlist (localStorage) + one chart.~~ **Done.**
-5. ~~Compare view, news view.~~ **Done.**
-6. ~~Prompt library (static JSON + copy UI).~~ **Done.**
-7. ~~Non-US ticker support (symbol aliasing + yfinance routing for
-   quote/profile/fundamentals/news, currency-aware display).~~ **Done.**
-
 ## Next steps (v2 — not started)
 v1 is complete and hardened. v2 is designed-for but not built — see `docs/PLAN.md`
 § Versioning for full rationale:
