@@ -20,13 +20,7 @@ function saveFavorites() {
   localStorage.setItem(STORAGE_KEY, JSON.stringify(favorites));
 }
 
-// ── API helpers ───────────────────────────────────────────────────────────────
-
-async function apiGet(path) {
-  const res = await fetch(path);
-  if (!res.ok) throw new Error(`${res.status} ${path}`);
-  return res.json();
-}
+// apiGet lives in format.js (loaded before this script).
 
 // ── Watchlist actions ─────────────────────────────────────────────────────────
 
@@ -168,6 +162,10 @@ async function loadChart(symbol) {
     apiGet(`/candles/${symbol}?days=90`),
     apiGet(`/profile/${symbol}`),
   ]);
+
+  // The user may have switched tickers while these were in flight; if so, a
+  // stale response must not overwrite the now-selected ticker's chart/header.
+  if (symbol !== selectedSymbol) return;
 
   if (profileRes.status === 'fulfilled') {
     document.getElementById('header-name').textContent = profileRes.value.name || '';

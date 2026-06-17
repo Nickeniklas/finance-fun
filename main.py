@@ -21,22 +21,26 @@ def health():
     return {"status": "ok"}
 
 
+# Endpoints route to Finnhub or yfinance per-symbol inside data.py, so the error
+# detail stays provider-agnostic rather than naming a specific provider.
+_UPSTREAM_ERROR = "upstream data fetch failed"
+
+
 @app.get("/quote/{symbol}")
 @limiter.limit("60/minute")
 def quote(request: Request, symbol: str):
     try:
         return data.get_quote(symbol)
     except Exception:
-        raise HTTPException(status_code=502, detail="Finnhub fetch failed")
+        raise HTTPException(status_code=502, detail=_UPSTREAM_ERROR)
 
 
 @app.get("/candles/{symbol}")
 @limiter.limit("20/minute")
 def candles(request: Request, symbol: str, days: int = 30):
-    try:
-        return data.get_candles(symbol, days)
-    except Exception:
-        raise HTTPException(status_code=502, detail="Finnhub fetch failed")
+    # get_candles degrades to an empty series rather than raising (see DATA_MODULE.md),
+    # so this never 502s — the handler stays only as a defensive backstop.
+    return data.get_candles(symbol, days)
 
 
 @app.get("/fundamentals/{symbol}")
@@ -45,7 +49,7 @@ def fundamentals(request: Request, symbol: str):
     try:
         return data.get_fundamentals(symbol)
     except Exception:
-        raise HTTPException(status_code=502, detail="Finnhub fetch failed")
+        raise HTTPException(status_code=502, detail=_UPSTREAM_ERROR)
 
 
 @app.get("/profile/{symbol}")
@@ -54,7 +58,7 @@ def profile(request: Request, symbol: str):
     try:
         return data.get_profile(symbol)
     except Exception:
-        raise HTTPException(status_code=502, detail="Finnhub fetch failed")
+        raise HTTPException(status_code=502, detail=_UPSTREAM_ERROR)
 
 
 @app.get("/news/{symbol}")
@@ -63,7 +67,7 @@ def news(request: Request, symbol: str):
     try:
         return data.get_news(symbol)
     except Exception:
-        raise HTTPException(status_code=502, detail="Finnhub fetch failed")
+        raise HTTPException(status_code=502, detail=_UPSTREAM_ERROR)
 
 
 # Static files must be mounted last so API routes take priority

@@ -1,5 +1,12 @@
 // Shared formatting + escaping helpers (used by app.js, compare.js, news.js, prompts.js).
 
+// Fetch JSON from an API path, throwing on a non-2xx response.
+async function apiGet(path) {
+  const res = await fetch(path);
+  if (!res.ok) throw new Error(`${res.status} ${path}`);
+  return res.json();
+}
+
 // Escape text before it goes into an innerHTML template string. Provider-sourced
 // strings (news headlines, company names, ...) are untrusted and can contain HTML.
 function escapeHtml(value) {

@@ -1,10 +1,4 @@
-// ── API helper ────────────────────────────────────────────────────────────────
-
-async function apiGet(path) {
-  const res = await fetch(path);
-  if (!res.ok) throw new Error(`${res.status} ${path}`);
-  return res.json();
-}
+// apiGet lives in format.js (loaded before this script).
 
 // ── Formatting ────────────────────────────────────────────────────────────────
 

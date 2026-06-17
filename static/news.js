@@ -1,12 +1,7 @@
 const STORAGE_KEY = 'ff_watchlist_v1';
 
-// ── API + storage helpers ─────────────────────────────────────────────────────
-
-async function apiGet(path) {
-  const res = await fetch(path);
-  if (!res.ok) throw new Error(`${res.status} ${path}`);
-  return res.json();
-}
+// ── Storage helpers ───────────────────────────────────────────────────────────
+// apiGet lives in format.js (loaded before this script).
 
 function loadWatchlist() {
   try {
@@ -17,6 +12,7 @@ function loadWatchlist() {
 }
 
 function formatDate(unixSeconds) {
+  if (!unixSeconds) return 'Unknown date';  // yfinance items can lack a pubDate (datetime === 0)
   return new Date(unixSeconds * 1000).toLocaleString(undefined, {
     month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit',
   });
