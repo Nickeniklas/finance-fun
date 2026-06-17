@@ -1,4 +1,23 @@
-// Shared currency formatting helpers (used by app.js and compare.js).
+// Shared formatting + escaping helpers (used by app.js, compare.js, news.js, prompts.js).
+
+// Escape text before it goes into an innerHTML template string. Provider-sourced
+// strings (news headlines, company names, ...) are untrusted and can contain HTML.
+function escapeHtml(value) {
+  if (value == null) return '';
+  return String(value)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;');
+}
+
+// Only allow http(s) URLs as link targets; reject javascript:/data: and anything
+// else by returning '#'. Also HTML-escapes for safe use inside an href attribute.
+function safeUrl(value) {
+  const url = String(value || '').trim();
+  return /^https?:\/\//i.test(url) ? escapeHtml(url) : '#';
+}
 
 const CURRENCY_SYMBOLS = { USD: '$', EUR: '€', GBP: '£' };
 

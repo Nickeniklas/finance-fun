@@ -27,9 +27,9 @@ function formatDate(unixSeconds) {
 function renderArticle(item) {
   return `
     <div class="article-card">
-      <div class="article-meta">${item.source || 'Unknown source'} · ${formatDate(item.datetime)}</div>
-      <div class="article-headline"><a href="${item.url}" target="_blank" rel="noopener">${item.headline}</a></div>
-      ${item.summary ? `<div class="article-summary">${item.summary}</div>` : ''}
+      <div class="article-meta">${escapeHtml(item.source || 'Unknown source')} · ${formatDate(item.datetime)}</div>
+      <div class="article-headline"><a href="${safeUrl(item.url)}" target="_blank" rel="noopener">${escapeHtml(item.headline)}</a></div>
+      ${item.summary ? `<div class="article-summary">${escapeHtml(item.summary)}</div>` : ''}
     </div>
   `;
 }

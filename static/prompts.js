@@ -2,12 +2,12 @@
 
 function renderPrompt(prompt) {
   return `
-    <div class="prompt-card" data-id="${prompt.id}">
+    <div class="prompt-card" data-id="${escapeHtml(prompt.id)}">
       <div>
-        <div class="prompt-title">${prompt.title}</div>
-        <div class="prompt-description">${prompt.description}</div>
+        <div class="prompt-title">${escapeHtml(prompt.title)}</div>
+        <div class="prompt-description">${escapeHtml(prompt.description)}</div>
       </div>
-      <button class="btn-primary prompt-copy-btn" data-id="${prompt.id}">Copy</button>
+      <button class="btn-primary prompt-copy-btn" data-id="${escapeHtml(prompt.id)}">Copy</button>
     </div>
   `;
 }
@@ -62,7 +62,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   const categories = ['all', ...new Set(prompts.map(p => p.category))];
   chipsEl.innerHTML = categories
-    .map(cat => `<span class="chip${cat === 'all' ? ' active' : ''}" data-category="${cat}">${cat}</span>`)
+    .map(cat => `<span class="chip${cat === 'all' ? ' active' : ''}" data-category="${escapeHtml(cat)}">${escapeHtml(cat)}</span>`)
     .join('');
 
   chipsEl.querySelectorAll('.chip').forEach(chip => {

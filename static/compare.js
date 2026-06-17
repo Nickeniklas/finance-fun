@@ -76,7 +76,7 @@ async function runCompare(symA, symB) {
     <div class="compare-table-wrap">
       <table class="compare-table">
         <thead>
-          <tr><th></th><th>${a.symbol}</th><th>${b.symbol}</th></tr>
+          <tr><th></th><th>${escapeHtml(a.symbol)}</th><th>${escapeHtml(b.symbol)}</th></tr>
         </thead>
         <tbody>${renderRows(a, b)}</tbody>
       </table>
@@ -88,9 +88,9 @@ function companyCard(d) {
   const mcap = d.profile.marketCap != null ? fmt(d.profile.marketCap, 'mcap', d.profile.currency) : '—';
   return `
     <div class="company-card">
-      <div class="sym">${d.symbol}</div>
-      <div class="name">${d.profile.name || '—'}</div>
-      <div class="meta">${d.profile.sector || '—'} · Market Cap: ${mcap}</div>
+      <div class="sym">${escapeHtml(d.symbol)}</div>
+      <div class="name">${escapeHtml(d.profile.name || '—')}</div>
+      <div class="meta">${escapeHtml(d.profile.sector || '—')} · Market Cap: ${mcap}</div>
     </div>
   `;
 }
