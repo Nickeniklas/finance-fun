@@ -1,5 +1,15 @@
 // apiGet lives in format.js (loaded before this script).
 
+const STORAGE_KEY = 'ff_watchlist_v1';
+
+function loadWatchlist() {
+  try {
+    return JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]');
+  } catch {
+    return [];
+  }
+}
+
 // ── Formatting ────────────────────────────────────────────────────────────────
 
 function fmt(val, type, currency) {
@@ -106,6 +116,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const symA = document.getElementById('sym-a');
   const symB = document.getElementById('sym-b');
   const btn = document.getElementById('compare-btn');
+  const chipsEl = document.getElementById('watchlist-chips');
 
   function go() {
     const a = symA.value.trim().toUpperCase();
@@ -118,6 +129,29 @@ document.addEventListener('DOMContentLoaded', () => {
   [symA, symB].forEach(input => {
     input.addEventListener('keydown', e => { if (e.key === 'Enter') go(); });
   });
+
+  // ── Watchlist chips: click to fill an input ──────────────────────────────────
+  // Clicking a chip fills the last-focused input (default A), then advances the
+  // target to B so two clicks populate both sides → ready to Compare.
+  let target = symA;
+  [symA, symB].forEach(input => {
+    input.addEventListener('focus', () => { target = input; });
+  });
+
+  const watchlist = loadWatchlist();
+  if (watchlist.length) {
+    chipsEl.innerHTML = watchlist
+      .map(sym => `<span class="chip" data-sym="${escapeHtml(sym)}">${escapeHtml(sym)}</span>`)
+      .join('');
+    chipsEl.querySelectorAll('.chip').forEach(chip => {
+      chip.addEventListener('click', () => {
+        target.value = chip.dataset.sym;
+        // Advance to the other input so the next chip fills the empty side.
+        target = target === symA ? symB : symA;
+        target.focus();
+      });
+    });
+  }
 
   // Pre-fill from ?a=SYM&b=SYM for shareable comparisons
   const params = new URLSearchParams(location.search);
