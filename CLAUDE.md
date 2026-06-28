@@ -44,37 +44,14 @@ a price line chart, and a curated copy-only prompt library. See `docs/PLAN.md`.
 - Keep v1 from blocking any v2 item (own-key prompt running, FMP fundamentals,
   real accounts). Don't paint us into a corner.
 
-## Current state (update this as steps complete)
+## Current state
 
-- [x] Step 1 — FastAPI skeleton (`main.py`, `Procfile`, `requirements.txt`), `/health`
-      endpoint live, `FINNHUB_API_KEY` read from env but not used yet.
-- [x] Step 2 — Data module (`data.py`) + `/quote/{symbol}`, in-process cache, Finnhub
-      reshaping. `python-dotenv` wired for local `.env`.
-- [x] Step 3 — Remaining endpoints: `/candles/{symbol}` (yfinance), `/fundamentals/{symbol}`,
-      `/profile/{symbol}`, `/news/{symbol}`. All cached and reshaped.
-- [x] Step 4 — Frontend shell (`static/index.html`, `static/style.css`, `static/app.js`):
-      dark-themed watchlist with localStorage (capped at `MAX_FAVORITES = 10`, with
-      an inline "watchlist is full" hint and disabled add controls when full), live
-      prices from `/quote`, 90-day TradingView Lightweight Charts line chart from
-      `/candles`. FastAPI serves the `static/` dir via `StaticFiles(html=True)`
-      mounted at `/` in `main.py`.
-- [x] Step 5 — Compare view (`static/compare.html`/`compare.js`: two-ticker
-      side-by-side framework table from `/profile` + `/fundamentals`, plus
-      `?a=&b=` deep-link prefill) and news view (`static/news.html`/`news.js`:
-      ticker search + watchlist quick-chips, articles from `/news`).
-- [x] Step 6 — Prompt library (`static/prompts.json` served directly through the
-      `StaticFiles` mount — no backend dependency; `text` stored as an array of
-      lines so multi-line prompts stay hand-editable without `\n` escaping;
-      `static/prompts.html`/`prompts.js`: category-filter chips and
-      copy-to-clipboard cards in the existing dark theme).
-- [x] Step 7 — Non-US ticker support (Finnish/OMX Helsinki). `SYMBOL_ALIASES` in
-      `data.py` maps bare symbols (NOKIA, FORTUM, KNEBV, ...) to their Yahoo suffix
-      (`.HE`); any symbol containing `.` routes quote/profile/fundamentals/news to
-      yfinance instead of Finnhub. Added a `currency` field to quote/profile output;
-      `static/format.js` provides currency-aware price/market-cap formatting used by
-      `app.js`/`compare.js`. `profile.marketCap` is now raw units (both providers)
-      instead of millions-of-USD. `loadChart` uses `Promise.allSettled` so one failed
-      call degrades gracefully instead of blanking the whole view.
+**v1 complete and hardened, plus non-US ticker support (Step 7).** v2 not started.
+The build log lives in `README.md` § Current status — don't duplicate it here; update
+that file when steps land. This section only flags what's in flight or just-changed.
+
+- Compare and News pages render **watchlist quick-chips** (from `ff_watchlist_v1`
+  localStorage) that fill the ticker inputs on click — see `compare.js`/`news.js`.
 
 ## Frontend conventions
 - **`static/format.js` is the shared helper module** — loaded via `<script src="/format.js">`

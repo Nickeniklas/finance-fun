@@ -9,30 +9,13 @@ See [`docs/PLAN.md`](docs/PLAN.md) for the full project plan and rationale.
 
 ## Current status
 
-**v1 complete and hardened.** All six build steps are done — FastAPI + full data layer
-+ the whole frontend (watchlist with chart, compare view, news view, prompt library) —
-plus slowapi rate limiting and a 24h candle cache. Step 7 adds non-US ticker support
-(Finnish/OMX Helsinki tickers like NOKIA, FORTUM, KNEBV) via yfinance routing and
-currency-aware display. v2 (own-key prompts, deeper fundamentals, accounts) is
-designed-for but not started — see [`docs/PLAN.md`](docs/PLAN.md) § Versioning.
+**v1 complete and hardened.** FastAPI backend + full data layer and the whole frontend
+(watchlist with chart, compare view, news view, prompt library), plus slowapi rate
+limiting, a 24h candle cache, and non-US ticker support (Finnish/OMX Helsinki tickers
+like NOKIA, FORTUM, KNEBV via yfinance routing with currency-aware display).
 
-### Build order
-
-- [x] Step 1 — FastAPI skeleton, Render deploy pipeline
-- [x] Step 2 — Data module + `/quote/{symbol}` (Finnhub, cache)
-- [x] Step 3 — Remaining endpoints: candles (yfinance), fundamentals, profile, news
-- [x] Step 4 — Frontend shell, watchlist (localStorage, capped at 10 tickers), 90-day
-      TradingView chart
-- [x] Step 5 — Compare view (`compare.html`/`compare.js`: two-ticker side-by-side
-      framework table, `?a=&b=` deep links) and news view (`news.html`/`news.js`:
-      ticker search + watchlist quick-chips, article list)
-- [x] Step 6 — Prompt library (`static/prompts.json` served as a static asset;
-      `prompts.html`/`prompts.js`: category-filter chips + copy-to-clipboard cards)
-- [x] Step 7 — Non-US ticker support (Finnish/OMX Helsinki): bare symbols like
-      `NOKIA`, `FORTUM`, `KNEBV` are aliased to their Yahoo symbols (`NOKIA.HE`, ...)
-      and routed through yfinance for quote/profile/fundamentals/news (Finnhub has no
-      coverage there); prices and market caps display in the instrument's native
-      currency (EUR, etc.)
+v2 — own-key prompts, deeper fundamentals, real accounts — is designed-for but not
+started. See [`docs/PLAN.md`](docs/PLAN.md) § Versioning.
 
 ---
 
@@ -73,9 +56,9 @@ python -m venv .venv
 ```
 
 Then open `http://127.0.0.1:8000` — the watchlist + chart frontend loads directly.
-Other pages: `/compare.html` (two-ticker comparison), `/news.html` (ticker news
-search + watchlist quick-chips), `/prompts.html` (prompt library, copy-to-clipboard);
-all linked from the header nav.
+Other pages: `/compare.html` (two-ticker comparison, with watchlist quick-chips to
+fill either side), `/news.html` (ticker news search + watchlist quick-chips),
+`/prompts.html` (prompt library, copy-to-clipboard); all linked from the header nav.
 
 API endpoints: `/quote/AAPL`, `/candles/AAPL?days=30`, `/fundamentals/AAPL`,
 `/profile/AAPL`, `/news/AAPL`. Health check: `/health`.
