@@ -21,9 +21,14 @@ def health():
     return {"status": "ok"}
 
 
-# Endpoints route to Finnhub or yfinance per-symbol inside data.py, so the error
-# detail stays provider-agnostic rather than naming a specific provider.
-_UPSTREAM_ERROR = "upstream data fetch failed"
+def _provider_label(symbol: str) -> str:
+    # Routing (Finnhub vs yfinance) is decided per-symbol in data.py, so the error
+    # message names whichever provider actually served (or failed to serve) this symbol.
+    try:
+        norm = data._normalize_symbol(symbol.upper().strip())
+    except Exception:
+        return "Finnhub"
+    return "yfinance" if data._is_yfinance_routed(norm) else "Finnhub"
 
 
 @app.get("/quote/{symbol}")
@@ -31,16 +36,22 @@ _UPSTREAM_ERROR = "upstream data fetch failed"
 def quote(request: Request, symbol: str):
     try:
         return data.get_quote(symbol)
+    except ValueError:
+        raise HTTPException(status_code=422, detail="Invalid ticker symbol")
     except Exception:
-        raise HTTPException(status_code=502, detail=_UPSTREAM_ERROR)
+        raise HTTPException(status_code=502, detail=f"Quote fetch failed ({_provider_label(symbol)})")
 
 
 @app.get("/candles/{symbol}")
 @limiter.limit("20/minute")
 def candles(request: Request, symbol: str, days: int = 30):
-    # get_candles degrades to an empty series rather than raising (see DATA_MODULE.md),
-    # so this never 502s — the handler stays only as a defensive backstop.
-    return data.get_candles(symbol, days)
+    try:
+        # get_candles degrades to an empty series rather than raising (see
+        # DATA_MODULE.md) for provider errors, so this only ever raises on a
+        # malformed symbol.
+        return data.get_candles(symbol, days)
+    except ValueError:
+        raise HTTPException(status_code=422, detail="Invalid ticker symbol")
 
 
 @app.get("/fundamentals/{symbol}")
@@ -48,8 +59,10 @@ def candles(request: Request, symbol: str, days: int = 30):
 def fundamentals(request: Request, symbol: str):
     try:
         return data.get_fundamentals(symbol)
+    except ValueError:
+        raise HTTPException(status_code=422, detail="Invalid ticker symbol")
     except Exception:
-        raise HTTPException(status_code=502, detail=_UPSTREAM_ERROR)
+        raise HTTPException(status_code=502, detail=f"Fundamentals fetch failed ({_provider_label(symbol)})")
 
 
 @app.get("/profile/{symbol}")
@@ -57,8 +70,10 @@ def fundamentals(request: Request, symbol: str):
 def profile(request: Request, symbol: str):
     try:
         return data.get_profile(symbol)
+    except ValueError:
+        raise HTTPException(status_code=422, detail="Invalid ticker symbol")
     except Exception:
-        raise HTTPException(status_code=502, detail=_UPSTREAM_ERROR)
+        raise HTTPException(status_code=502, detail=f"Profile fetch failed ({_provider_label(symbol)})")
 
 
 @app.get("/news/{symbol}")
@@ -66,8 +81,10 @@ def profile(request: Request, symbol: str):
 def news(request: Request, symbol: str):
     try:
         return data.get_news(symbol)
+    except ValueError:
+        raise HTTPException(status_code=422, detail="Invalid ticker symbol")
     except Exception:
-        raise HTTPException(status_code=502, detail=_UPSTREAM_ERROR)
+        raise HTTPException(status_code=502, detail=f"News fetch failed ({_provider_label(symbol)})")
 
 
 # Static files must be mounted last so API routes take priority
