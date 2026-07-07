@@ -1,4 +1,5 @@
 import os
+import re
 import time
 from datetime import date, datetime, timedelta
 
@@ -8,6 +9,14 @@ from curl_cffi import requests as curl_requests
 
 _cache: dict = {}
 _client: finnhub.Client | None = None
+
+# Public input is arbitrary and unauthenticated, so the cache is bounded: once it
+# exceeds this size, evict the oldest entries (by stored timestamp) down to a lower
+# watermark, rather than evicting on every single insert.
+_CACHE_MAX_SIZE = 500
+_CACHE_EVICT_TO = 400
+
+_SYMBOL_RE = re.compile(r"^[A-Z0-9.^-]{1,10}$")
 
 # Reused browser-impersonation session for all yfinance calls. yfinance runs on
 # Render's datacenter IP, which Yahoo rate-limits/blocks aggressively; a curl_cffi
@@ -51,6 +60,13 @@ def _get_client() -> finnhub.Client:
     return _client
 
 
+def _validate_symbol(symbol: str) -> str:
+    upper = symbol.upper().strip()
+    if not _SYMBOL_RE.match(upper):
+        raise ValueError(f"Invalid ticker symbol: {symbol!r}")
+    return upper
+
+
 def _normalize_symbol(symbol: str) -> str:
     symbol = symbol.upper().strip()
     if "." in symbol:
@@ -74,8 +90,16 @@ def _cached(key: str, ttl: int):
     return None
 
 
+def _evict_if_needed():
+    if len(_cache) > _CACHE_MAX_SIZE:
+        oldest_first = sorted(_cache.items(), key=lambda kv: kv[1]["at"])
+        for key, _ in oldest_first[: len(_cache) - _CACHE_EVICT_TO]:
+            del _cache[key]
+
+
 def _store(key: str, value):
     _cache[key] = {"data": value, "at": time.time()}
+    _evict_if_needed()
     return value
 
 
@@ -125,7 +149,7 @@ def _fetch_profile_finnhub(symbol: str) -> dict:
     market_cap = raw.get("marketCapitalization")
     return {
         "name": raw.get("name"),
-        "sector": raw.get("finnhubIndustry"),   # Finnhub has no separate sector field
+        # Finnhub's free profile has no separate sector field — only industry is real.
         "industry": raw.get("finnhubIndustry"),
         # Finnhub returns marketCapitalization in millions of USD; normalize to raw
         # units so the field is provider-agnostic (yfinance returns raw units).
@@ -236,7 +260,7 @@ def _fetch_news_yf(symbol: str) -> list[dict]:
 # ---------------------------------------------------------------------------
 
 def get_quote(symbol: str) -> dict:
-    requested = symbol.upper().strip()
+    requested = _validate_symbol(symbol)
     norm = _normalize_symbol(requested)
     yf_routed = _is_yfinance_routed(norm)
     key = f"quote:{norm}"
@@ -252,7 +276,7 @@ def get_quote(symbol: str) -> dict:
 
 
 def get_candles(symbol: str, days: int = 30) -> dict:
-    requested = symbol.upper().strip()
+    requested = _validate_symbol(symbol)
     norm = _normalize_symbol(requested)
     key = f"candles:{norm}:{days}"
     hit = _cached(key, CANDLE_TTL)
@@ -281,7 +305,7 @@ def get_candles(symbol: str, days: int = 30) -> dict:
 
 
 def get_fundamentals(symbol: str) -> dict:
-    requested = symbol.upper().strip()
+    requested = _validate_symbol(symbol)
     norm = _normalize_symbol(requested)
     yf_routed = _is_yfinance_routed(norm)
     key = f"fundamentals:{norm}"
@@ -296,7 +320,7 @@ def get_fundamentals(symbol: str) -> dict:
 
 
 def get_profile(symbol: str) -> dict:
-    requested = symbol.upper().strip()
+    requested = _validate_symbol(symbol)
     norm = _normalize_symbol(requested)
     yf_routed = _is_yfinance_routed(norm)
     key = f"profile:{norm}"
@@ -311,7 +335,7 @@ def get_profile(symbol: str) -> dict:
 
 
 def get_news(symbol: str) -> list[dict]:
-    requested = symbol.upper().strip()
+    requested = _validate_symbol(symbol)
     norm = _normalize_symbol(requested)
     yf_routed = _is_yfinance_routed(norm)
     key = f"news:{norm}"
