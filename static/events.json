@@ -1,0 +1,63 @@
+{
+  "generatedAt": "2026-06-28T08:00:00Z",
+  "events": [
+    {
+      "id": "intc-aapl-partnership",
+      "ticker": "INTC",
+      "counterparty": "AAPL",
+      "type": "partnership",
+      "currentStatus": "confirmed",
+      "whyItMatters": "First time Apple has committed fab work to Intel Foundry. Signals Intel's foundry turnaround is landing real marquee customers, not just government deals.",
+      "phases": [
+        {
+          "status": "rumored",
+          "date": "2026-06-20",
+          "headline": "Report: Apple in talks with Intel over custom chip manufacturing",
+          "source": "Bloomberg",
+          "priceReaction": "+3% intraday"
+        },
+        {
+          "status": "confirmed",
+          "date": "2026-06-28",
+          "headline": "Apple and Intel announce multi-year chip manufacturing partnership",
+          "source": "Reuters",
+          "priceReaction": "+10% premarket"
+        }
+      ]
+    },
+    {
+      "id": "nvda-buyback",
+      "ticker": "NVDA",
+      "counterparty": null,
+      "type": "capital-allocation",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Largest buyback authorization in company history. Reads as management signalling the stock is undervalued at current levels despite the run-up.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-06-26",
+          "headline": "Nvidia board approves $50B share repurchase program",
+          "source": "CNBC",
+          "priceReaction": "+2% after-hours"
+        }
+      ]
+    },
+    {
+      "id": "amd-xlnx-followup-acquisition",
+      "ticker": "AMD",
+      "counterparty": "LSCC",
+      "type": "acquisition",
+      "currentStatus": "rumored",
+      "whyItMatters": "Would extend AMD's adaptive-computing push beyond the Xilinx deal. Still unconfirmed, so treat as speculative — included because it's already widely reported.",
+      "phases": [
+        {
+          "status": "rumored",
+          "date": "2026-06-27",
+          "headline": "AMD reportedly exploring bid for Lattice Semiconductor",
+          "source": "The Information",
+          "priceReaction": "LSCC +6%, AMD flat"
+        }
+      ]
+    }
+  ]
+}

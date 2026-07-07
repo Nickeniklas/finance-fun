@@ -94,7 +94,7 @@ function companyCard(d) {
     <div class="company-card">
       <div class="sym">${escapeHtml(d.symbol)}</div>
       <div class="name">${escapeHtml(d.profile.name || '—')}</div>
-      <div class="meta">${escapeHtml(d.profile.sector || '—')} · Market Cap: ${mcap}</div>
+      <div class="meta">${escapeHtml(d.profile.sector || d.profile.industry || '—')} · Market Cap: ${mcap}</div>
     </div>
   `;
 }

@@ -29,7 +29,7 @@ Candles, and any non-US/suffixed symbol (e.g. `NOKIA.HE`) for every data type: *
 | Watchlist current price | Finnhub (US) / **yfinance** (non-US) | `quote(symbol)` / `Ticker(symbol).fast_info` | price, day high/low, prev close, % change, currency | 30 sec (Finnhub) / **5 min** (yfinance) | Prices move constantly; sub-minute not needed for a glance. yfinance gets a longer TTL to limit scraper load. |
 | Watchlist line chart | **yfinance** (all symbols) | `Ticker(symbol).history(start, end)` | daily closes over a date range | 24 hours | Completed daily closes are final; 24h is safe |
 | Compare — fundamentals | Finnhub (US) / **yfinance** (non-US) | `company_basic_financials(symbol, 'all')` / `Ticker(symbol).info` | P/E, margins, ROE, ratios | 12 hours | Fundamentals update quarterly at most |
-| Compare — company info | Finnhub (US) / **yfinance** (non-US) | `company_profile2(symbol)` / `Ticker(symbol).info` | name, sector, industry, market cap, currency | 24 hours | Effectively static |
+| Compare — company info | Finnhub (US) / **yfinance** (non-US) | `company_profile2(symbol)` / `Ticker(symbol).info` | name, industry, (+sector for yfinance-routed), market cap, currency | 24 hours | Effectively static |
 | News (per ticker) | Finnhub (US) / **yfinance** (non-US) | `company_news(symbol, from, to)` / `Ticker(symbol).news` | recent articles for the ticker | 20 min | Updates through the day |
 | (optional) General market news | Finnhub | `general_news('general')` | broad headlines | 20 min | Same |
 | (optional) Peer suggestions | Finnhub | `company_peers(symbol)` | similar tickers | 24 hours | Rarely changes; nice for "compare vs peers" |
@@ -57,6 +57,19 @@ only later if running multiple instances or wanting cache to survive restarts.
 visitors we make at most a few Finnhub calls per ticker per minute. First visitor pays
 the fetch; everyone else rides the cache. yfinance has no hard rate limit, but the same
 caching discipline applies.
+
+**Bounded size:** since ticker symbols are public, unauthenticated input, the cache
+key space is effectively arbitrary (symbol-enumeration could otherwise grow it
+without limit). `_store` evicts once the dict exceeds 500 entries, removing the
+oldest (by stored timestamp) down to ~400 — an eviction sweep, not a cap enforced on
+every insert.
+
+**Input validation:** every public `get_*` function validates the symbol first via
+`_validate_symbol` — uppercase, then match `^[A-Z0-9.^-]{1,10}$` (the `.` is required
+for suffixed non-US symbols like `NOKIA.HE`; `^` covers index tickers like `^GSPC`).
+A malformed symbol raises `ValueError` before any provider call or cache lookup;
+`main.py` maps that to `HTTPException(422, "Invalid ticker symbol")`, separate from
+the `502` used for actual provider failures.
 
 ---
 
@@ -133,7 +146,8 @@ keep using Finnhub.
   `currency`. `change`/`changePercent` are derived (`price - previousClose`, guarding
   divide-by-zero).
 - **Profile**: `.info` gives `longName`, `sector`, `industry`, `marketCap` (raw
-  units), `currency`.
+  units), `currency`. `sector` is real and distinct from `industry` here — unlike
+  the Finnhub path, which omits `sector` entirely (see output shape below).
 - **Fundamentals**: `.info` fields need unit reconciliation to match Finnhub's
   conventions:
   - `revenueGrowth`, `earningsGrowth`, `grossMargins`, `profitMargins`,
@@ -196,9 +210,15 @@ but the shape stays clean and provider-agnostic.
 { "symbol": "AAPL", "peRatio": 0, "netMargin": 0, "roe": 0,
   "debtToEquity": 0, /* framework dimensions */ }
 
-// company info — marketCap is raw units in `currency` (not millions)
-{ "symbol": "AAPL", "name": "", "sector": "", "industry": "",
+// company info — marketCap is raw units in `currency` (not millions).
+// `sector` is present only for yfinance-routed (non-US) profiles, where it's a
+// real field distinct from `industry`. Finnhub's free profile has no separate
+// sector, so Finnhub-routed profiles omit the key rather than duplicating
+// `industry` under it — the frontend falls back to `industry` when absent.
+{ "symbol": "AAPL", "name": "", "industry": "",
   "marketCap": 0, "currency": "USD" }
+// non-US example: { "symbol": "NOKIA", "name": "Nokia Oyj", "sector": "Technology",
+//   "industry": "Communication Equipment", "marketCap": 0, "currency": "EUR" }
 
 // news item
 { "headline": "", "source": "", "url": "", "datetime": 0, "summary": "" }

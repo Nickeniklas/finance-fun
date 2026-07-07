@@ -28,8 +28,9 @@ a price line chart, and a curated copy-only prompt library. See `docs/PLAN.md`.
   tickers) + yfinance (candles for all symbols; also quote, news, fundamentals,
   profile for non-US/suffixed symbols like `NOKIA.HE`, since Finnhub's free tier has
   zero coverage outside US exchanges — see Gotchas). Routing is decided per-symbol in
-  `data.py` (`_is_yfinance_routed`, `SYMBOL_ALIASES`); the frontend never knows which
-  provider served a response.
+  `data.py` (`_is_yfinance_routed`, `SYMBOL_ALIASES`); successful response shapes never
+  reveal which provider served them — only a `502` error's `detail` names the real
+  provider (e.g. `"Quote fetch failed (yfinance)"`), to make outages diagnosable.
 - **Cache every provider call** with the TTL from `docs/DATA_MODULE.md`. Finnhub is
   60/min free tier — caching is not optional. Same discipline applies to yfinance.
   All data endpoints are also rate-limited via **slowapi** (candles: 20/min;
@@ -107,5 +108,16 @@ v1 is complete and hardened. v2 is designed-for but not built — see `docs/PLAN
   Finnhub's percent convention), and `debtToEquity` comes back as a percent-like
   number (÷100 to match Finnhub's plain-ratio convention).
 - In-process dict cache is fine for v1 (vanishes on restart). Redis only if we ever
-  run multiple instances.
+  run multiple instances. It's also **bounded**: `_store` evicts the oldest entries
+  (by timestamp) once the dict exceeds 500 keys, down to ~400 — ticker symbols are
+  public/unauthenticated input, so the key space is otherwise unbounded.
+- **Every public `get_*` in `data.py` validates the symbol first** via
+  `_validate_symbol`: uppercase, then must match `^[A-Z0-9.^-]{1,10}$`. A malformed
+  symbol raises `ValueError` before any cache lookup or provider call; `main.py`
+  catches that separately and returns `422 "Invalid ticker symbol"` (distinct from
+  the `502` used for actual provider failures).
+- **`profile.sector` is present only for yfinance-routed (non-US) profiles** —
+  Finnhub's free profile has no separate sector field, so the Finnhub path omits
+  `sector` entirely rather than duplicating `industry` under it. `static/compare.js`
+  falls back to `industry` when `sector` is absent.
 - Secrets: the Finnhub API key is an env var on Render. Never commit it.
