@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T08:00:00Z",
+  "generatedAt": "2026-07-08T08:00:00Z",
   "events": [
     {
       "id": "intc-aapl-partnership",
@@ -56,6 +56,56 @@
           "headline": "AMD reportedly exploring bid for Lattice Semiconductor",
           "source": "The Information",
           "priceReaction": "LSCC +6%, AMD flat"
+        }
+      ]
+    },
+    {
+      "id": "ezj-castlelake-takeover",
+      "ticker": "EZJ",
+      "counterparty": "Castlelake",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Castlelake's fifth and finally-accepted bid would take one of Europe's biggest low-cost carriers private at £6.90/share (£5.5bn), ending EasyJet's run as a listed stock. The private-equity firm still has until Aug 3 to table a binding offer, so completion isn't assured — the stock trading below the offer price shows that skepticism.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-07-06",
+          "headline": "EasyJet board backs £5.5bn ($7.3bn) take-private proposal from Castlelake",
+          "source": "CNBC",
+          "priceReaction": "+10% intraday"
+        }
+      ]
+    },
+    {
+      "id": "itv-sky-me-sale",
+      "ticker": "ITV",
+      "counterparty": "Sky (Comcast)",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "ITV exits broadcasting: selling ITVX and its free-to-air channels to Comcast's Sky for up to £1.6bn leaves ITV a pure-play content producer (ITV Studios) and funds a ~£950m (25p/share) cash return to shareholders. Consolidates UK TV into a Sky-led streaming and advertising champion.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-07-06",
+          "headline": "ITV agrees sale of Media & Entertainment arm to Sky for up to £1.6bn",
+          "source": "ITV News"
+        }
+      ]
+    },
+    {
+      "id": "wulf-anthropic-lease",
+      "ticker": "WULF",
+      "counterparty": "Anthropic",
+      "type": "partnership",
+      "currentStatus": "confirmed",
+      "whyItMatters": "A 20-year lease worth ~$19bn in contracted revenue turns TeraWulf from a bitcoin miner into an AI-infrastructure landlord with two decades of visible revenue — a step-change versus its prior scale. A paired sale of its Abernathy JV stake to Fluidstack (~$450m) funds redeployment into wholly-owned AI capacity.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-07-06",
+          "headline": "TeraWulf signs 20-year, ~$19bn AI data-center lease with Anthropic",
+          "source": "CNBC",
+          "priceReaction": "+13%"
         }
       ]
     }

@@ -1,0 +1,20 @@
+{
+  "date": "2026-07-08",
+  "whatChanged": [
+    "NEW: EasyJet (EZJ) board backs Castlelake's £5.5bn take-private proposal (confirmed)",
+    "NEW: ITV sells its Media & Entertainment arm to Comcast's Sky for up to £1.6bn (confirmed)",
+    "NEW: TeraWulf (WULF) signs 20-year, ~$19bn AI data-center lease with Anthropic (confirmed)"
+  ],
+  "themes": [
+    {
+      "label": "UK-listed franchises broken up or taken private",
+      "note": "Two UK-listed names restructured in the same week — EasyJet agreeing a Castlelake take-private (ezj-castlelake-takeover) and ITV selling its broadcast arm to Sky (itv-sky-me-sale).",
+      "streak": 1
+    },
+    {
+      "label": "Semiconductor deals stay active",
+      "note": "Chip-sector consolidation and partnerships remain live — the Intel-Apple foundry partnership (intc-aapl-partnership) and the rumored AMD bid for Lattice (amd-xlnx-followup-acquisition).",
+      "streak": 1
+    }
+  ]
+}
