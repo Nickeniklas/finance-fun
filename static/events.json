@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-08T08:00:00Z",
+  "generatedAt": "2026-07-09T12:00:00Z",
   "events": [
     {
       "id": "intc-aapl-partnership",
@@ -106,6 +106,55 @@
           "headline": "TeraWulf signs 20-year, ~$19bn AI data-center lease with Anthropic",
           "source": "CNBC",
           "priceReaction": "+13%"
+        }
+      ]
+    },
+    {
+      "id": "nas-nltg-acquisition",
+      "ticker": "NAS",
+      "counterparty": "Nordic Leisure Travel Group",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Buying the Nordics' biggest package-holiday group (Ving, Spies, Tjareborg) turns Norwegian from a point-to-point airline into an end-to-end travel group serving ~30m customers a year, lifting group revenue by close to 50%. The ~SEK 7.94bn price is part-funded with 300m new shares, so holders take dilution now in exchange for vertical integration and a promised 2027 earnings accretion.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-07-07",
+          "headline": "Norwegian agrees to acquire Nordic Leisure Travel Group for ~SEK 7.94bn",
+          "source": "Oslo Bors"
+        }
+      ]
+    },
+    {
+      "id": "ho-exail-acquisition",
+      "ticker": "HO",
+      "counterparty": "Exail Technologies",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "At EUR 134/share (EUR 3.9bn enterprise value, a 44% premium) Thales buys into surging demand for naval drones used in underwater mine-clearing and anti-submarine warfare, after beating Safran for the asset. It has a binding deal for the Gorge family's 35.5% stake plus a mandatory tender for the rest, so Thales gains critical mass in unmanned mine countermeasures with full control expected by 2028.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-07-06",
+          "headline": "Thales agrees EUR 3.9bn deal to acquire control of Exail Technologies",
+          "source": "Bloomberg"
+        }
+      ]
+    },
+    {
+      "id": "inmd-steel-partners-buyout",
+      "ticker": "INMD",
+      "counterparty": "Steel Partners",
+      "type": "acquisition",
+      "currentStatus": "rumored",
+      "whyItMatters": "InMode is now the target of a contested take-private: activist holder Steel Partners' $16.75/share all-cash offer (a 20% premium to the unaffected price) tops the CEO-led group's $16.20 bid and lets public holders roll up to 40% into the private company. The board's independent directors must respond by July 13, so the near-term catalyst is whether a bidding war develops or the CEO group prevails.",
+      "phases": [
+        {
+          "status": "rumored",
+          "date": "2026-07-09",
+          "headline": "Steel Partners offers to acquire InMode for $16.75 per share in cash",
+          "source": "Business Wire",
+          "priceReaction": "up premarket"
         }
       ]
     }
