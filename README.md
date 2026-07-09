@@ -17,6 +17,15 @@ like NOKIA, FORTUM, KNEBV via yfinance routing with currency-aware display).
 v2 — own-key prompts, deeper fundamentals, real accounts — is designed-for but not
 started. See [`docs/PLAN.md`](docs/PLAN.md) § Versioning.
 
+**Events Feed (new, standalone):** a daily content routine
+([`routines/events-feed.md`](routines/events-feed.md)) web-searches for material
+company M&A/partnership/capital-allocation news and maintains
+[`static/events.json`](static/events.json) (append-only deal records) and
+[`static/digest.json`](static/digest.json) (daily delta + themes snapshot). Schema is
+locked in [`docs/EVENTS_FEATURE.md`](docs/EVENTS_FEATURE.md). It's independent of the
+Finnhub/yfinance data layer and has no frontend page yet — the JSON files exist but
+aren't rendered anywhere in the app.
+
 ---
 
 ## Stack
@@ -97,4 +106,5 @@ symbol) are supported via yfinance routing — see
 | [`docs/PLAN.md`](docs/PLAN.md) | Full project plan, stack rationale, architecture |
 | [`docs/DATA_MODULE.md`](docs/DATA_MODULE.md) | Data module contract: endpoints, cache TTLs, provider exceptions, output shapes |
 | [`docs/PROMPT_LIBRARY.md`](docs/PROMPT_LIBRARY.md) | Prompt library contract: record shape, frontend behaviour |
+| [`docs/EVENTS_FEATURE.md`](docs/EVENTS_FEATURE.md) | Events Feed contract: deal/digest record shapes, status lifecycle, validation rules |
 | [`CLAUDE.md`](CLAUDE.md) | Operating brief for Claude Code |

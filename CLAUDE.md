@@ -1,8 +1,8 @@
 # CLAUDE.md
 
 Guidance for Claude Code working in this repo. Read `docs/PROJECT_CONTEXT.md` first for
-a fast orient, then `docs/PLAN.md`, `docs/DATA_MODULE.md`, and `docs/PROMPT_LIBRARY.md`
-for full detail — this file is the quick operating brief.
+a fast orient, then `docs/PLAN.md`, `docs/DATA_MODULE.md`, `docs/PROMPT_LIBRARY.md`, and
+`docs/EVENTS_FEATURE.md` for full detail — this file is the quick operating brief.
 
 ## What we're building
 A public (no-login) finance site: compare stocks, finance news, favorite tickers with
@@ -53,6 +53,13 @@ that file when steps land. This section only flags what's in flight or just-chan
 
 - Compare and News pages render **watchlist quick-chips** (from `ff_watchlist_v1`
   localStorage) that fill the ticker inputs on click — see `compare.js`/`news.js`.
+- **Events Feed** (`routines/events-feed.md`) is a separate, out-of-band content
+  routine — it web-searches for material M&A/partnership/capital-allocation news and
+  writes `static/events.json` + `static/digest.json`. It does not call Finnhub or
+  yfinance and is not invoked by the running app, so it doesn't fall under the "only
+  the data module talks to providers" hard rule. Schema contract lives in
+  `docs/EVENTS_FEATURE.md` (wins over the routine prompt if they disagree). No
+  frontend page consumes these files yet.
 
 ## Frontend conventions
 - **`static/format.js` is the shared helper module** — loaded via `<script src="/format.js">`
