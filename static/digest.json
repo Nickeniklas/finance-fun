@@ -1,25 +1,32 @@
 {
-  "date": "2026-07-09",
+  "date": "2026-07-10",
   "whatChanged": [
-    "NEW: Norwegian (NAS) agrees to acquire Nordic Leisure Travel Group for ~SEK 7.94bn (confirmed)",
-    "NEW: Thales (HO) agrees EUR 3.9bn deal to take control of naval-drone maker Exail Technologies (confirmed)",
-    "NEW: Steel Partners tables $16.75/share cash offer for InMode (INMD), topping the CEO-led buyout (rumored)"
+    "NEW: Prologis (PLD) pushes for takeover talks on its $16.9bn/£12.6bn bid for Segro (rumored)",
+    "NEW: Lockheed Martin (LMT) agrees to acquire Ultra Maritime Solutions for $3.45bn (confirmed)",
+    "NEW: Xavier Niel's Vega becomes Vodafone's (VOD) largest shareholder via £4.4bn stake purchase from e& (confirmed)",
+    "NEW: Equifax (EFX) agrees to acquire Mexico's Circulo de Credito for $750m (confirmed)",
+    "NEW: Qiagen (QGEN) draws early takeover interest from EQT, Advent, and KKR (rumored)"
   ],
   "themes": [
     {
       "label": "UK-listed franchises broken up or taken private",
       "note": "EasyJet's Castlelake take-private (ezj-castlelake-takeover) and ITV's sale of its broadcast arm to Comcast's Sky (itv-sky-me-sale) remain the two active UK restructurings.",
-      "streak": 2
+      "streak": 3
     },
     {
       "label": "Public-to-private buyout offers on listed companies",
-      "note": "Sponsors and insiders keep taking listed names private: Castlelake's accepted EasyJet buyout (ezj-castlelake-takeover) and Steel Partners' competing $16.75/share cash offer for InMode (inmd-steel-partners-buyout).",
-      "streak": 1
+      "note": "Sponsors and insiders keep taking listed names private: Castlelake's accepted EasyJet buyout (ezj-castlelake-takeover), Steel Partners' competing $16.75/share cash offer for InMode (inmd-steel-partners-buyout), and now early PE interest in Qiagen from EQT, Advent, and KKR (qgen-pe-consortium-takeover-interest).",
+      "streak": 2
     },
     {
       "label": "Semiconductor deals stay active",
       "note": "Chip-sector partnerships and consolidation stay live — the Intel-Apple foundry partnership (intc-aapl-partnership) and the rumored AMD bid for Lattice (amd-xlnx-followup-acquisition).",
-      "streak": 2
+      "streak": 3
+    },
+    {
+      "label": "Defense primes racing for undersea/anti-submarine-warfare tech",
+      "note": "Thales's control deal for mine-clearing drone maker Exail (ho-exail-acquisition) and Lockheed's $3.45bn purchase of sonar specialist Ultra Maritime (lmt-ultra-maritime-acquisition) landed within days of each other.",
+      "streak": 1
     }
   ]
 }
