@@ -45,14 +45,21 @@ present in the JSON files unless you are deliberately extending the schema
 - `"approved"`
 - `"closed"`
 - `"blocked"`
+- `"abandoned"`
 
-This applies to both `currentStatus` and every `phases[].status`. These five
+This applies to both `currentStatus` and every `phases[].status`. These six
 values cover the full deal lifecycle a phase can be in. Only `"rumored"` and
-`"confirmed"` appear in the current data, but the other three are legitimate
+`"confirmed"` appear in the current data, but the other four are legitimate
 and expected as tracked deals progress (e.g. a take-private moving from
 `"confirmed"` to regulatory `"approved"` to `"closed"`, or a bid that gets
-`"blocked"`). Do not invent a sixth value without first updating this
+`"blocked"`). Do not invent a seventh value without first updating this
 document (see "Extending this schema").
+
+`"blocked"` and `"abandoned"` are both terminal, but distinct in cause:
+`"blocked"` is an externally imposed stop (e.g. a regulator rejects the
+deal); `"abandoned"` is a voluntary withdrawal by the parties themselves
+(bid withdrawn, talks collapsed, offer lapsed) with no external party
+forcing the outcome.
 
 #### Phase object shape
 
@@ -152,7 +159,7 @@ following hold:
    8601 datetime.
 6. Every `status` value (both `currentStatus` and all `phases[].status`) is
    one of the closed list: `"rumored"`, `"confirmed"`, `"approved"`,
-   `"closed"`, `"blocked"`.
+   `"closed"`, `"blocked"`, `"abandoned"`.
 7. Compared to the previous `events.json`, no existing deal's `phases` array
    had an entry edited, reordered, or removed (only appends, or
    whole-record removal for staleness, are legal diffs). `whyItMatters` may

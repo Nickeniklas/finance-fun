@@ -22,7 +22,9 @@ Read, in order:
 
 Web search for material company investment events from roughly the last
 48 hours. You are looking for:
-- M&A (announced, rumored-by-credible-press, approved, closed, blocked)
+- M&A (announced, rumored-by-credible-press, approved, closed, blocked,
+  abandoned — a bid withdrawn, talks that collapsed, or an offer that
+  lapsed)
 - Major partnerships and joint ventures
 - Capital allocation shifts (major buybacks, dividend policy changes,
   large capex commitments, spin-offs)
@@ -81,7 +83,11 @@ The two failure directions, both of which you must avoid:
 - New phase → append to that deal's `phases`, update `currentStatus` to
   the new phase's status. `priceReaction` is whatever the reporting says,
   as a string ("+10% premarket"); if reporting mentions no price move,
-  omit the field rather than inventing one.
+  omit the field rather than inventing one. A deal the parties themselves
+  dropped (bid withdrawn, talks collapsed, offer lapsed) gets a phase
+  ADVANCED to `"abandoned"` — never silently drop it from the file. Use
+  `"blocked"` instead when the stop was externally imposed (e.g. a
+  regulator).
 - **Never edit, reword, or delete existing phases or existing
   whyItMatters text. History is append-only.** The only permitted
   mutations are: append phase, update currentStatus, add new deal,
