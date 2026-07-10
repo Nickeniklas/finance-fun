@@ -17,14 +17,16 @@ like NOKIA, FORTUM, KNEBV via yfinance routing with currency-aware display).
 v2 — own-key prompts, deeper fundamentals, real accounts — is designed-for but not
 started. See [`docs/PLAN.md`](docs/PLAN.md) § Versioning.
 
-**Events Feed (new, standalone):** a daily content routine
+**Events Feed (standalone content + new frontend tab):** a daily content routine
 ([`routines/events-feed.md`](routines/events-feed.md)) web-searches for material
 company M&A/partnership/capital-allocation news and maintains
 [`static/events.json`](static/events.json) (append-only deal records) and
 [`static/digest.json`](static/digest.json) (daily delta + themes snapshot). Schema is
 locked in [`docs/EVENTS_FEATURE.md`](docs/EVENTS_FEATURE.md). It's independent of the
-Finnhub/yfinance data layer and has no frontend page yet — the JSON files exist but
-aren't rendered anywhere in the app.
+Finnhub/yfinance data layer. **`/events.html`** now renders both files directly (no API
+endpoint — plain `fetch` of the static JSON): the digest (what changed + themes) up
+top, then each tracked deal with its full phase history and current status. Linked from
+the header nav on every page.
 
 ---
 
@@ -67,7 +69,9 @@ python -m venv .venv
 Then open `http://127.0.0.1:8000` — the watchlist + chart frontend loads directly.
 Other pages: `/compare.html` (two-ticker comparison, with watchlist quick-chips to
 fill either side), `/news.html` (ticker news search + watchlist quick-chips),
-`/prompts.html` (prompt library, copy-to-clipboard); all linked from the header nav.
+`/events.html` (Events Feed digest + tracked deals, reads the static JSON files
+directly), `/prompts.html` (prompt library, copy-to-clipboard); all linked from the
+header nav.
 
 API endpoints: `/quote/AAPL`, `/candles/AAPL?days=30`, `/fundamentals/AAPL`,
 `/profile/AAPL`, `/news/AAPL`. Health check: `/health`.

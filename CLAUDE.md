@@ -58,8 +58,11 @@ that file when steps land. This section only flags what's in flight or just-chan
   writes `static/events.json` + `static/digest.json`. It does not call Finnhub or
   yfinance and is not invoked by the running app, so it doesn't fall under the "only
   the data module talks to providers" hard rule. Schema contract lives in
-  `docs/EVENTS_FEATURE.md` (wins over the routine prompt if they disagree). No
-  frontend page consumes these files yet.
+  `docs/EVENTS_FEATURE.md` (wins over the routine prompt if they disagree).
+  **`static/events.html` + `static/events.js`** render both files — fetched directly
+  as static JSON via `apiGet()` (no API endpoint, no `data.py` involvement). Digest
+  (`whatChanged` + `themes`) renders above the deal list; each deal card shows its
+  full `phases` history plus `currentStatus`. Linked from the nav on every page.
 
 ## Frontend conventions
 - **`static/format.js` is the shared helper module** — loaded via `<script src="/format.js">`

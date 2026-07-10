@@ -321,6 +321,80 @@ main.page {
 .article-headline a:hover { color: var(--accent); }
 .article-summary { font-size: 13px; color: var(--muted); line-height: 1.5; }
 
+/* ── Events feed ─────────────────────────── */
+.digest-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 20px;
+  max-width: 760px;
+}
+.digest-date { font-size: 13px; font-weight: 600; color: var(--muted); margin-bottom: 10px; }
+.digest-changes { list-style: none; display: flex; flex-direction: column; gap: 6px; margin-bottom: 14px; }
+.digest-changes li { font-size: 13px; line-height: 1.5; padding-left: 14px; position: relative; }
+.digest-changes li::before { content: '•'; position: absolute; left: 0; color: var(--accent); }
+
+.theme-list { display: flex; flex-direction: column; gap: 10px; }
+.theme-card { border-top: 1px solid var(--border); padding-top: 10px; }
+.theme-label { font-size: 13px; font-weight: 600; margin-bottom: 4px; }
+.theme-streak { font-size: 11px; font-weight: 400; color: var(--muted); }
+.theme-note { font-size: 12px; color: var(--muted); line-height: 1.5; }
+
+.deal-list { display: flex; flex-direction: column; gap: 12px; max-width: 760px; }
+.deal-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 16px;
+  transition: border-color 0.15s;
+}
+.deal-card:hover { border-color: var(--accent); }
+.deal-header { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; margin-bottom: 8px; }
+.deal-ticker { font-size: 15px; font-weight: 700; color: var(--accent); }
+.deal-counterparty { font-size: 13px; color: var(--text); }
+.deal-type {
+  font-size: 11px;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 2px 6px;
+}
+.deal-current-status { margin-left: auto; }
+.deal-why { font-size: 13px; color: var(--muted); line-height: 1.5; margin-bottom: 12px; }
+
+.phase-list { list-style: none; display: flex; flex-direction: column; gap: 8px; }
+.phase-item {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  flex-wrap: wrap;
+  font-size: 12px;
+  border-top: 1px solid var(--border);
+  padding-top: 8px;
+}
+.phase-date { color: var(--muted); }
+.phase-headline { flex: 1; min-width: 200px; color: var(--text); }
+.phase-source { color: var(--muted); font-style: italic; }
+.phase-reaction { color: var(--up); font-weight: 600; }
+
+.phase-status {
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  border-radius: 4px;
+  padding: 2px 7px;
+  flex-shrink: 0;
+}
+.status-rumored { color: var(--muted); background: rgba(107, 114, 128, 0.15); }
+.status-confirmed { color: var(--accent); background: rgba(41, 98, 255, 0.15); }
+.status-approved { color: #a78bfa; background: rgba(167, 139, 250, 0.15); }
+.status-closed { color: var(--up); background: rgba(38, 166, 154, 0.15); }
+.status-blocked { color: var(--down); background: rgba(239, 83, 80, 0.15); }
+
 /* ── Prompt library ──────────────────────── */
 .prompt-card {
   background: var(--surface);
