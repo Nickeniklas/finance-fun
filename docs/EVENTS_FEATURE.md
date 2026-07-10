@@ -151,7 +151,8 @@ following hold:
    `YYYY-MM-DD`; `events.json`'s top-level `generatedAt` matches full ISO
    8601 datetime.
 6. Every `status` value (both `currentStatus` and all `phases[].status`) is
-   one of the closed list: `"rumored"`, `"confirmed"`.
+   one of the closed list: `"rumored"`, `"confirmed"`, `"approved"`,
+   `"closed"`, `"blocked"`.
 7. Compared to the previous `events.json`, no existing deal's `phases` array
    had an entry edited, reordered, or removed (only appends, or
    whole-record removal for staleness, are legal diffs). `whyItMatters` may

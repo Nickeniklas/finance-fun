@@ -18,6 +18,8 @@ An open, public site (no login) offering:
    line chart of recent price history per ticker.
 4. **Prompt library** — a curated, read-only collection of good finance/stock prompts
    the user can copy and paste into their own ChatGPT/Claude.
+5. **Events feed** — a daily-updated feed of M&A/partnership/capital-allocation deals
+   (rendered client-side from static JSON, no backend endpoint involved).
 
 The site is for general public use. A core design goal is **no per-user inference
 cost to us** — the prompt library works by the user copying prompts and running them
@@ -92,6 +94,7 @@ Browser (vanilla HTML/CSS/JS)
   ├── Charts .............. TradingView Lightweight Charts, fed clean arrays
   ├── Compare UI .......... renders side-by-side framework
   ├── News UI ............. renders article lists
+  ├── Events UI ........... renders static events/digest JSON, no backend call
   └── Prompt Library UI ... shows curated prompts, copy-to-clipboard
         │
         │  (HTTP/JSON)
@@ -116,6 +119,8 @@ The prompt library is **standalone** — it does not touch the data layer at all
 
 ## Build status
 
-**v1 complete and hardened, plus non-US ticker support.** The step-by-step build log
-lives in [`../README.md`](../README.md); the contracts live in `DATA_MODULE.md` and
-`PROMPT_LIBRARY.md`. v2 scope is in § Versioning above.
+**v1 complete and hardened, plus non-US ticker support.** Also shipped since: a
+standalone Events Feed (daily content routine + a frontend tab that renders it, no
+data-layer involvement). The step-by-step build log lives in
+[`../README.md`](../README.md); the contracts live in `DATA_MODULE.md`,
+`PROMPT_LIBRARY.md`, and `EVENTS_FEATURE.md`. v2 scope is in § Versioning above.

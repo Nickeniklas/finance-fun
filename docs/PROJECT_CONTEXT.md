@@ -43,8 +43,14 @@ support for full detail.
 ## Build status
 
 **v1 complete and hardened, plus non-US ticker support (Finnish/OMX Helsinki via
-yfinance routing).** v2 is designed-for but not started. See the status summary in
-[`../README.md`](../README.md) and v2 scope in [`PLAN.md`](PLAN.md) § Versioning.
+yfinance routing).** v2 is designed-for but not started. Also shipped: the **Events
+Feed** — a standalone daily content routine (`routines/events-feed.md`) that
+web-searches M&A/partnership/capital-allocation news into `static/events.json` +
+`static/digest.json` (schema locked in `EVENTS_FEATURE.md`), plus a frontend tab
+(`static/events.html`/`events.js`) that renders both files directly as static JSON —
+no backend endpoint, independent of the Finnhub/yfinance data layer. See the status
+summary in [`../README.md`](../README.md) and v2 scope in [`PLAN.md`](PLAN.md) §
+Versioning.
 
 ## Hard constraints (do not re-litigate without asking)
 

@@ -37,7 +37,7 @@ Candles, and any non-US/suffixed symbol (e.g. `NOKIA.HE`) for every data type: *
 "Non-US" means: the symbol (after alias normalization) contains a `.`, e.g.
 `NOKIA.HE`. See *Non-US ticker support* below for the full routing rule.
 
-Core app touches only 4 endpoints: **quote, candles, basic financials, company news.**
+Core app touches 5 endpoints: **quote, candles, fundamentals, profile, company news.**
 Two optional ones (general news, peers) can come later.
 
 ---
