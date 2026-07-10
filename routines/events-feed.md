@@ -120,6 +120,11 @@ Regenerate the whole file (it is a snapshot, not a log):
 - Sanity checks: every deal has ≥1 phase; every `currentStatus` equals
   its last phase's status; no two deals share an `id`; all dates are
   YYYY-MM-DD.
-- Commit both files to main with message
-  "events: daily update YYYY-MM-DD (+N new, +M phases, -K stale)".
+- Commit both files to your current working branch with message
+  "events: daily update YYYY-MM-DD (+N new, +M phases, -K stale)" and
+  push the branch.
+- Open a pull request from that branch into main with the same title,
+  then immediately merge it yourself using the GitHub
+  `merge_pull_request` tool (squash merge). Do not wait for review.
+- Delete the branch after merging.
 - Finish with a 3-line summary of what you did.
