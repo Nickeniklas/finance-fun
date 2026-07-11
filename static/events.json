@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:00:00Z",
+  "generatedAt": "2026-07-11T12:00:00Z",
   "events": [
     {
       "id": "intc-aapl-partnership",
@@ -65,7 +65,7 @@
       "counterparty": "Castlelake",
       "type": "acquisition",
       "currentStatus": "confirmed",
-      "whyItMatters": "Castlelake's fifth and finally-accepted bid would take one of Europe's biggest low-cost carriers private at £6.90/share (£5.5bn), ending EasyJet's run as a listed stock. The private-equity firm still has until Aug 3 to table a binding offer, so completion isn't assured — the stock trading below the offer price shows that skepticism.",
+      "whyItMatters": "Castlelake's fifth bid was accepted first, but on 2026-07-10 EasyJet's board said it is 'no longer minded to recommend' this £6.90/share (£5.5bn) proposal after Apollo tabled a higher £7.15/share offer. Castlelake still has until Aug 3 to counter, so this is now the trailing bid in a live auction, not the settled outcome.",
       "phases": [
         {
           "status": "confirmed",
@@ -219,6 +219,55 @@
           "status": "confirmed",
           "date": "2026-07-07",
           "headline": "Equifax Announces Definitive Agreement to Acquire Circulo de Credito in Mexico",
+          "source": "PR Newswire"
+        }
+      ]
+    },
+    {
+      "id": "ezj-apollo-takeover",
+      "ticker": "EZJ",
+      "counterparty": "Apollo Global Management",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Apollo's £7.15/share (£5.7bn/$7.7bn) offer beats Castlelake's accepted £6.90 bid by roughly £1bn and flipped the EasyJet board's recommendation within days of the Castlelake deal being struck, turning what looked like a settled take-private into a live bidding war with the final price and winner both unresolved.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-07-10",
+          "headline": "EasyJet board agrees in principle to rival £5.7bn takeover bid from Apollo, topping Castlelake offer",
+          "source": "Bloomberg",
+          "priceReaction": "+13% intraday"
+        }
+      ]
+    },
+    {
+      "id": "aapl-avgo-chipmaking-partnership",
+      "ticker": "AAPL",
+      "counterparty": "AVGO",
+      "type": "partnership",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Apple's $30bn+ multiyear commitment to Broadcom is its largest US manufacturing investment to date, locking in onshore supply of custom RF/wireless chips (15bn+ units) and deepening a strategic silicon dependency between the two companies that outlasts any single tariff or trade-policy cycle.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-07-08",
+          "headline": "Apple commits $30 billion to Broadcom for U.S. chipmaking push",
+          "source": "CNBC"
+        }
+      ]
+    },
+    {
+      "id": "kr-giant-eagle-acquisition",
+      "ticker": "KR",
+      "counterparty": "Giant Eagle",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Kroger's first deal since its $25bn Albertsons merger collapsed in 2024 is a much smaller, lower-risk bolt-on ($1.65bn) that adds ~$9bn of annual sales across five states and signals management is back in dealmaking mode after the antitrust defeat.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-07-08",
+          "headline": "Kroger Announces Agreement to Acquire Giant Eagle",
           "source": "PR Newswire"
         }
       ]
