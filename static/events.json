@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-11T12:00:00Z",
+  "generatedAt": "2026-07-12T12:00:00Z",
   "events": [
     {
       "id": "intc-aapl-partnership",
@@ -286,6 +286,87 @@
           "headline": "Qiagen Draws Early Takeover Interest From EQT, Advent, KKR",
           "source": "Bloomberg",
           "priceReaction": "+11%"
+        }
+      ]
+    },
+    {
+      "id": "perf-projectny-going-private",
+      "ticker": "PERF",
+      "counterparty": "ProjectNY (Alice Chang / CyberLink)",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Founder Alice Chang and CyberLink, together holding 81.2% of voting power, sign a binding deal to take Perfect Corp private for $2.00/share cash (a 48% premium), removing the AR/AI beauty-tech name from public markets entirely.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-07-10",
+          "headline": "Perfect Corp. Enters into a Definitive Agreement for a Going-Private Transaction",
+          "source": "Business Wire"
+        }
+      ]
+    },
+    {
+      "id": "crto-vista-quinti-takeover-interest",
+      "ticker": "CRTO",
+      "counterparty": "Vista Equity Partners, Quinti Capital",
+      "type": "acquisition",
+      "currentStatus": "rumored",
+      "whyItMatters": "A PE approach values Criteo at roughly $3.7bn, a 50%+ premium, reviving a sale process that stalled in December 2025 — a sign PE still sees value in ad-tech despite the sector's post-cookie malaise. Criteo's board has not yet responded.",
+      "phases": [
+        {
+          "status": "rumored",
+          "date": "2026-07-06",
+          "headline": "Vista Equity, Quinti Capital offer to buy French adtech firm Criteo, sources say",
+          "source": "Bloomberg",
+          "priceReaction": "+21% (US-listed shares)"
+        }
+      ]
+    },
+    {
+      "id": "eni-mercuria-trading-jv",
+      "ticker": "ENI",
+      "counterparty": "Mercuria",
+      "type": "partnership",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Eni re-enters global commodities trading through a 50/50 JV with Mercuria spanning oil, gas, LNG and biofuels — a strategic pivot to capture the trading profits European peers have booked since the 2022 volatility, pending regulatory approval before launch.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-07-01",
+          "headline": "Eni and Mercuria to Establish a Global Trading Joint Venture",
+          "source": "PR Newswire"
+        }
+      ]
+    },
+    {
+      "id": "carlsberg-sapporo-sea-jv",
+      "ticker": "CARL-B",
+      "counterparty": "Sapporo Breweries",
+      "type": "partnership",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Sapporo pays ~$643m for a 25% stake in Carlsberg's new Southeast Asia/Hong Kong venture, handing Carlsberg fresh capital and exclusive regional rights to Sapporo Premium while Sapporo buys distribution scale in a fast-growing beer market it couldn't reach alone.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-07-06",
+          "headline": "Carlsberg and Sapporo to form strategic partnership",
+          "source": "Carlsberg Group"
+        }
+      ]
+    },
+    {
+      "id": "fct-underwater-champion-acquisitions",
+      "ticker": "FCT",
+      "counterparty": "Next Geosolutions, WSense, Graal Tech, Defcomm",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Fincantieri bundles four bolt-ons (marine survey, underwater comms, AUVs/ASVs) into a vertically-integrated underwater unit already on track for over EUR1.1bn pro forma revenue, joining Thales and Lockheed in the same undersea-defense build-out rather than opportunistic one-off dealmaking.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-07-06",
+          "headline": "Fincantieri creates an international underwater champion: acquisition of four companies for an initial expenditure of approximately EUR 600 million",
+          "source": "Fincantieri"
         }
       ]
     }
