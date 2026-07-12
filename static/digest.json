@@ -1,30 +1,32 @@
 {
-  "date": "2026-07-11",
+  "date": "2026-07-12",
   "whatChanged": [
-    "NEW: Apollo tables rival £5.7bn ($7.7bn) takeover bid for easyJet (EZJ), topping Castlelake's accepted offer (confirmed)",
-    "NEW: Apple (AAPL) commits $30bn+ to Broadcom (AVGO) for US chipmaking, its largest US manufacturing investment yet (confirmed)",
-    "NEW: Kroger (KR) agrees to acquire Giant Eagle for $1.65bn (confirmed)"
+    "NEW: Perfect Corp. (PERF) agrees to $2.00/share going-private buyout led by founder Alice Chang and CyberLink, a 48% premium (confirmed)",
+    "NEW: Vista Equity Partners and Quinti Capital make a ~$3.7bn takeover approach for Criteo (CRTO), a 50%+ premium (rumored)",
+    "NEW: Eni (ENI) and Mercuria form a 50/50 global energy-commodities trading joint venture (confirmed)",
+    "NEW: Carlsberg (CARL-B) and Sapporo form a Southeast Asia/Hong Kong brewing joint venture, with Sapporo investing ~$643m (confirmed)",
+    "NEW: Fincantieri (FCT) acquires four underwater-tech companies for ~EUR 600m to build an integrated underwater champion (confirmed)"
   ],
   "themes": [
     {
       "label": "Public-to-private buyout offers on listed companies",
-      "note": "Sponsors and insiders keep taking listed names private, and it's now a live auction in one case: Castlelake's easyJet take-private (ezj-castlelake-takeover) has been topped by a rival Apollo bid (ezj-apollo-takeover), alongside Steel Partners' competing $16.75/share cash offer for InMode (inmd-steel-partners-buyout) and early PE interest in Qiagen from EQT, Advent, and KKR (qgen-pe-consortium-takeover-interest).",
-      "streak": 3
+      "note": "PE and founder-led buyouts keep pulling listed names private: Castlelake's easyJet take-private (ezj-castlelake-takeover) was topped by a rival Apollo bid (ezj-apollo-takeover), Steel Partners is bidding $16.75/share for InMode (inmd-steel-partners-buyout), EQT/Advent/KKR are circling Qiagen (qgen-pe-consortium-takeover-interest), Vista Equity Partners and Quinti Capital have approached Criteo (crto-vista-quinti-takeover-interest), and Perfect Corp.'s founder is taking the company private outright (perf-projectny-going-private).",
+      "streak": 4
     },
     {
       "label": "UK-listed franchises broken up or taken private",
       "note": "EasyJet's take-private is now a two-bidder contest between Castlelake (ezj-castlelake-takeover) and Apollo (ezj-apollo-takeover), alongside ITV's sale of its broadcast arm to Comcast's Sky (itv-sky-me-sale).",
-      "streak": 4
+      "streak": 5
     },
     {
       "label": "Semiconductor deals stay active",
-      "note": "Chip-sector partnerships and consolidation stay live: the Intel-Apple foundry partnership (intc-aapl-partnership), the rumored AMD bid for Lattice (amd-xlnx-followup-acquisition), and now Apple's $30bn+ US chipmaking commitment to Broadcom (aapl-avgo-chipmaking-partnership).",
-      "streak": 4
+      "note": "Chip-sector partnerships and consolidation stay live: the Intel-Apple foundry partnership (intc-aapl-partnership), the rumored AMD bid for Lattice (amd-xlnx-followup-acquisition), and Apple's $30bn+ US chipmaking commitment to Broadcom (aapl-avgo-chipmaking-partnership).",
+      "streak": 5
     },
     {
       "label": "Defense primes racing for undersea/anti-submarine-warfare tech",
-      "note": "Thales's control deal for mine-clearing drone maker Exail (ho-exail-acquisition) and Lockheed's $3.45bn purchase of sonar specialist Ultra Maritime (lmt-ultra-maritime-acquisition) remain the two active deals in this space.",
-      "streak": 2
+      "note": "Defense primes keep building out undersea-warfare capability: Thales's control deal for mine-clearing drone maker Exail (ho-exail-acquisition), Lockheed's $3.45bn purchase of sonar specialist Ultra Maritime (lmt-ultra-maritime-acquisition), and now Fincantieri bundling four acquisitions into an underwater-tech champion (fct-underwater-champion-acquisitions).",
+      "streak": 3
     }
   ]
 }
