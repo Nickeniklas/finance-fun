@@ -1,28 +1,38 @@
 {
-  "date": "2026-07-13",
+  "date": "2026-07-14",
   "whatChanged": [
-    "No material changes today."
+    "NEW: First Hawaiian agrees to acquire TriCo Bancshares in ~$2bn all-stock deal",
+    "NEW: 12-state coalition sues to block Paramount Skydance's Warner Bros. Discovery merger",
+    "NEW: Getty Images terminates $3.7bn Shutterstock merger after UK CMA divestment demand",
+    "NEW: Solstice Advanced Materials agrees to acquire Element Solutions for ~$14.5bn",
+    "ADVANCED: InMode contested take-private — Haifa court blocks board decision on competing bids, extends deadline to July 19 (rumored, litigation delay)",
+    "ADVANCED: Prologis-Segro takeover approach — Segro board unanimously rejects the unsolicited proposal (rumored, unresolved)"
   ],
   "themes": [
     {
       "label": "Public-to-private buyout offers on listed companies",
       "note": "PE and founder-led buyouts keep pulling listed names private: Castlelake's easyJet take-private (ezj-castlelake-takeover) was topped by a rival Apollo bid (ezj-apollo-takeover), Steel Partners is bidding $16.75/share for InMode (inmd-steel-partners-buyout), EQT/Advent/KKR are circling Qiagen (qgen-pe-consortium-takeover-interest), Vista Equity Partners and Quinti Capital have approached Criteo (crto-vista-quinti-takeover-interest), and Perfect Corp.'s founder is taking the company private outright (perf-projectny-going-private).",
-      "streak": 5
+      "streak": 6
     },
     {
       "label": "UK-listed franchises broken up or taken private",
-      "note": "EasyJet's take-private is now a two-bidder contest between Castlelake (ezj-castlelake-takeover) and Apollo (ezj-apollo-takeover), alongside ITV's sale of its broadcast arm to Comcast's Sky (itv-sky-me-sale).",
-      "streak": 6
+      "note": "EasyJet's take-private is now a two-bidder contest between Castlelake (ezj-castlelake-takeover) and Apollo (ezj-apollo-takeover), ITV sold its broadcast arm to Comcast's Sky (itv-sky-me-sale), and Segro's board is fending off Prologis's unsolicited approach (pld-sgro-takeover-bid) — UK-listed names remain a magnet for control-changing bids.",
+      "streak": 7
     },
     {
       "label": "Semiconductor deals stay active",
       "note": "Chip-sector partnerships and consolidation stay live: the Intel-Apple foundry partnership (intc-aapl-partnership), the rumored AMD bid for Lattice (amd-xlnx-followup-acquisition), and Apple's $30bn+ US chipmaking commitment to Broadcom (aapl-avgo-chipmaking-partnership).",
-      "streak": 6
+      "streak": 7
     },
     {
       "label": "Defense primes racing for undersea/anti-submarine-warfare tech",
       "note": "Defense primes keep building out undersea-warfare capability: Thales's control deal for mine-clearing drone maker Exail (ho-exail-acquisition), Lockheed's $3.45bn purchase of sonar specialist Ultra Maritime (lmt-ultra-maritime-acquisition), and now Fincantieri bundling four acquisitions into an underwater-tech champion (fct-underwater-champion-acquisitions).",
-      "streak": 4
+      "streak": 5
+    },
+    {
+      "label": "Signed M&A deals hitting regulatory or legal roadblocks",
+      "note": "Regulators and courts are complicating deals investors thought were settled: a 12-state coalition sued to block the already-signed, DOJ-cleared Paramount Skydance-Warner Bros. Discovery merger (psky-wbd-acquisition), the UK CMA's divestment demand killed the Getty Images-Shutterstock tie-up outright (gety-sstk-acquisition), and an Israeli court froze InMode's board from deciding between competing buyout bids (inmd-steel-partners-buyout).",
+      "streak": 1
     }
   ]
 }

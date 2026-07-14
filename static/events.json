@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-13T12:00:00Z",
+  "generatedAt": "2026-07-14T12:00:00Z",
   "events": [
     {
       "id": "intc-aapl-partnership",
@@ -155,6 +155,12 @@
           "headline": "Steel Partners offers to acquire InMode for $16.75 per share in cash",
           "source": "Business Wire",
           "priceReaction": "up premarket"
+        },
+        {
+          "status": "rumored",
+          "date": "2026-07-12",
+          "headline": "Haifa court blocks InMode board from deciding between competing buyout bids pending Steel Partners injunction hearing, extends response deadline to July 19",
+          "source": "StockTitan"
         }
       ]
     },
@@ -171,6 +177,12 @@
           "date": "2026-07-09",
           "headline": "Prologis pushes for SEGRO engagement on potential combination",
           "source": "Investing.com"
+        },
+        {
+          "status": "rumored",
+          "date": "2026-07-09",
+          "headline": "Segro board unanimously rejects Prologis's unsolicited ~886p/share takeover proposal as inadequate",
+          "source": "Segro plc (RNS)"
         }
       ]
     },
@@ -367,6 +379,72 @@
           "date": "2026-07-06",
           "headline": "Fincantieri creates an international underwater champion: acquisition of four companies for an initial expenditure of approximately EUR 600 million",
           "source": "Fincantieri"
+        }
+      ]
+    },
+    {
+      "id": "fhb-tcbk-acquisition",
+      "ticker": "FHB",
+      "counterparty": "TCBK",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "First Hawaiian's ~$2bn all-stock purchase of California's TriCo Bancshares (2.095 FHB shares per TCBK share, ~$63.12/share) creates a ~$34bn-asset top-6 western US bank and marks First Hawaiian's first sizable expansion onto the US mainland beyond its Hawaii/Guam/Saipan home market.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-07-13",
+          "headline": "First Hawaiian to acquire TriCo Bancshares in all-stock deal valuing combined bank at ~$34bn in assets",
+          "source": "Honolulu Star-Advertiser"
+        }
+      ]
+    },
+    {
+      "id": "psky-wbd-acquisition",
+      "ticker": "PSKY",
+      "counterparty": "WBD",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "A 12-state antitrust coalition led by California's AG is suing to block Paramount Skydance's ~$110bn Warner Bros. Discovery merger and seeking a court order to halt closing — even though the deal is already signed and was DOJ-cleared in June 2026, a state-level legal challenge to theatrical and cable-distribution concentration adds a real risk of delay or an unwound deal.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-07-13",
+          "headline": "Coalition of 12 states sues to block Paramount Skydance's Warner Bros. Discovery merger",
+          "source": "Washington Post"
+        }
+      ]
+    },
+    {
+      "id": "gety-sstk-acquisition",
+      "ticker": "GETY",
+      "counterparty": "SSTK",
+      "type": "acquisition",
+      "currentStatus": "abandoned",
+      "whyItMatters": "The stock-photo industry's marquee consolidation collapses after Getty declined to pursue the UK CMA's demand to divest Shutterstock's editorial business (Rex Features, Splash News, Backgrid) as a condition of clearance — both companies remain standalone rivals facing the same AI-image-generation squeeze the deal was meant to help them fight together.",
+      "phases": [
+        {
+          "status": "abandoned",
+          "date": "2026-07-07",
+          "headline": "Getty Images terminates $3.7bn Shutterstock merger after UK CMA divestment demand",
+          "source": "CNBC",
+          "priceReaction": "SSTK ~-30%, GETY ~-5%"
+        }
+      ]
+    },
+    {
+      "id": "sols-esi-acquisition",
+      "ticker": "SOLS",
+      "counterparty": "ESI",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Solstice Advanced Materials' first major deal since its October 2025 Honeywell spin-off — a $10-cash-plus-0.5-SOLS-shares ($14.5bn total) purchase of Element Solutions — instead triggered a sharp arbitrage-driven selloff in Solstice's own stock, cutting the effective deal value to ESI holders and testing investor confidence in the newly independent company's dealmaking.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-07-06",
+          "headline": "Solstice Advanced Materials agrees to acquire Element Solutions for ~$14.5bn in cash and stock",
+          "source": "CNBC",
+          "priceReaction": "SOLS ~-15%, ESI ~-3%"
         }
       ]
     }
