@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-14T12:00:00Z",
+  "generatedAt": "2026-07-15T12:00:00Z",
   "events": [
     {
       "id": "intc-aapl-partnership",
@@ -445,6 +445,38 @@
           "headline": "Solstice Advanced Materials agrees to acquire Element Solutions for ~$14.5bn in cash and stock",
           "source": "CNBC",
           "priceReaction": "SOLS ~-15%, ESI ~-3%"
+        }
+      ]
+    },
+    {
+      "id": "akza-nippon-paint-bid",
+      "ticker": "AKZA",
+      "counterparty": "Nippon Paint Holdings",
+      "type": "acquisition",
+      "currentStatus": "rumored",
+      "whyItMatters": "Nippon Paint's renewed approach for AkzoNobel's decorative paints business (after an earlier joint bid for the whole company with Sherwin-Williams was withdrawn in May) collides with Akzo Nobel's already-agreed merger of that same business with Axalta — the board's rejection keeps the Axalta deal as the recommended path, but a persistent, well-funded rival bidder for the crown-jewel unit is now a live overhang on that transaction.",
+      "phases": [
+        {
+          "status": "rumored",
+          "date": "2026-07-13",
+          "headline": "Akzo Nobel Rejects $8.6 Billion Nippon Offer for Paint Unit",
+          "source": "Bloomberg"
+        }
+      ]
+    },
+    {
+      "id": "meta-richland-parish-capex",
+      "ticker": "META",
+      "counterparty": null,
+      "type": "capital-allocation",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Meta lifts committed spend on its Richland Parish, Louisiana campus to over $50bn and expands it to 5 gigawatts, one of the largest data centers ever built — a scale signal on how much capital Meta is willing to commit to AI infrastructure, well beyond guidance from just months earlier.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-07-13",
+          "headline": "Meta expands data center campus in Richland Parish, Louisiana, to 5GW & $50bn",
+          "source": "Data Center Dynamics"
         }
       ]
     }
