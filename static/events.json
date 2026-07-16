@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T12:00:00Z",
+  "generatedAt": "2026-07-16T12:00:00Z",
   "events": [
     {
       "id": "intc-aapl-partnership",
@@ -411,6 +411,12 @@
           "date": "2026-07-13",
           "headline": "Coalition of 12 states sues to block Paramount Skydance's Warner Bros. Discovery merger",
           "source": "Washington Post"
+        },
+        {
+          "status": "confirmed",
+          "date": "2026-07-14",
+          "headline": "Writers Guild of America sues to block Paramount Skydance-Warner Bros. Discovery merger, alleging the deal will suppress writers' wages and cut job opportunities",
+          "source": "Bloomberg"
         }
       ]
     },
@@ -477,6 +483,44 @@
           "date": "2026-07-13",
           "headline": "Meta expands data center campus in Richland Parish, Louisiana, to 5GW & $50bn",
           "source": "Data Center Dynamics"
+        }
+      ]
+    },
+    {
+      "id": "ppt-eqt-takeover-bid",
+      "ticker": "PPT",
+      "counterparty": "EQT",
+      "type": "acquisition",
+      "currentStatus": "rumored",
+      "whyItMatters": "EQT's revised A$2.5bn (A$22.07/share, ~22% premium) approach for Perpetual — raised just two weeks after the board rejected an earlier A$2.45bn bid — keeps the storied Australian wealth/asset manager in a live takeover process; it's the firm's fourth takeover approach since 2022, and the board has still not committed to engage.",
+      "phases": [
+        {
+          "status": "rumored",
+          "date": "2026-07-01",
+          "headline": "Australia's Perpetual Snubs $1.69 Billion Takeover Offer From EQT Over Valuation",
+          "source": "Reuters"
+        },
+        {
+          "status": "rumored",
+          "date": "2026-07-15",
+          "headline": "EQT Sweetens Pursuit of Australia's Perpetual With $1.75 Billion Bid",
+          "source": "Bloomberg"
+        }
+      ]
+    },
+    {
+      "id": "bx-anthropic-ode-partnership",
+      "ticker": "BX",
+      "counterparty": "Anthropic",
+      "type": "partnership",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Blackstone, Hellman & Friedman and Anthropic officially launch Ode, a $1.5bn enterprise AI implementation firm anchored by Wall Street capital (Goldman Sachs, Apollo, GIC, Sequoia) — a bet that deploying AI inside portfolio companies, not just building models, is the next scaled AI business, and a new balance-sheet-backed distribution channel for Claude into PE-owned enterprises.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-07-15",
+          "headline": "Anthropic, Blackstone, and Hellman & Friedman Introduce Ode with Anthropic, an Enterprise AI Services Firm",
+          "source": "Blackstone"
         }
       ]
     }
