@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T12:00:00Z",
+  "generatedAt": "2026-07-17T12:00:00Z",
   "events": [
     {
       "id": "intc-aapl-partnership",
@@ -22,23 +22,6 @@
           "headline": "Apple and Intel announce multi-year chip manufacturing partnership",
           "source": "Reuters",
           "priceReaction": "+10% premarket"
-        }
-      ]
-    },
-    {
-      "id": "nvda-buyback",
-      "ticker": "NVDA",
-      "counterparty": null,
-      "type": "capital-allocation",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Largest buyback authorization in company history. Reads as management signalling the stock is undervalued at current levels despite the run-up.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-06-26",
-          "headline": "Nvidia board approves $50B share repurchase program",
-          "source": "CNBC",
-          "priceReaction": "+2% after-hours"
         }
       ]
     },
@@ -492,7 +475,7 @@
       "counterparty": "EQT",
       "type": "acquisition",
       "currentStatus": "rumored",
-      "whyItMatters": "EQT's revised A$2.5bn (A$22.07/share, ~22% premium) approach for Perpetual — raised just two weeks after the board rejected an earlier A$2.45bn bid — keeps the storied Australian wealth/asset manager in a live takeover process; it's the firm's fourth takeover approach since 2022, and the board has still not committed to engage.",
+      "whyItMatters": "EQT's revised A$2.6bn (A$22.07/share, ~22% premium) approach for Perpetual — raised twice in a week, and just two weeks after the board rejected an earlier A$2.45bn bid — keeps the storied Australian wealth/asset manager in a live takeover process; it's the firm's fourth takeover approach since 2022, and the board has still not committed to engage.",
       "phases": [
         {
           "status": "rumored",
@@ -505,6 +488,12 @@
           "date": "2026-07-15",
           "headline": "EQT Sweetens Pursuit of Australia's Perpetual With $1.75 Billion Bid",
           "source": "Bloomberg"
+        },
+        {
+          "status": "rumored",
+          "date": "2026-07-16",
+          "headline": "EQT Raises Perpetual Takeover Bid to A$22.07 a Share (~A$2.6bn) After Board Rejects A$21.64 Approach",
+          "source": "Law360"
         }
       ]
     },
@@ -521,6 +510,45 @@
           "date": "2026-07-15",
           "headline": "Anthropic, Blackstone, and Hellman & Friedman Introduce Ode with Anthropic, an Enterprise AI Services Firm",
           "source": "Blackstone"
+        }
+      ]
+    },
+    {
+      "id": "lly-ataibeckley-acquisition",
+      "ticker": "LLY",
+      "counterparty": "ATAI",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Eli Lilly's $2.8bn-upfront (up to $3.8bn with milestone CVRs) purchase of AtaiBeckley is a direct bet on psychedelic-derived mental-health drugs (BPL-003, VLS-01), putting Big Pharma balance-sheet backing behind a modality that's mostly been the domain of smaller biotechs and setting up head-to-head competition with J&J in depression therapeutics.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-07-15",
+          "headline": "Eli Lilly to buy psychedelic drugmaker AtaiBeckley for up to $3.8 billion in bet on depression therapy",
+          "source": "Fierce Biotech"
+        }
+      ]
+    },
+    {
+      "id": "boss-frasers-takeover-offer",
+      "ticker": "BOSS",
+      "counterparty": "Frasers Group",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Frasers Group, already Hugo Boss's largest shareholder at ~26.6%, has launched a formal, regulator-approved EUR38/share tender for the rest of the company; Hugo Boss's own board says the price undervalues the business and is urging shareholders to reject it, so the outcome of a contested control fight at a major European fashion house now hinges on the acceptance period running to July 27.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-06-10",
+          "headline": "Hugo Boss pops 8% after top shareholder Frasers launches $2 billion takeover offer",
+          "source": "CNBC",
+          "priceReaction": "+8%"
+        },
+        {
+          "status": "confirmed",
+          "date": "2026-07-09",
+          "headline": "Hugo Boss board rejects Frasers Group bid, urges shareholders not to accept",
+          "source": "Bloomberg"
         }
       ]
     }
