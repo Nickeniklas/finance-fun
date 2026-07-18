@@ -1,36 +1,34 @@
 {
-  "date": "2026-07-17",
+  "date": "2026-07-18",
   "whatChanged": [
-    "NEW: Eli Lilly agrees to acquire AtaiBeckley for up to $3.8bn, entering the psychedelic-derived mental-health drug market (lly-ataibeckley-acquisition)",
-    "NEW: Frasers Group's formal EUR38/share tender for the rest of Hugo Boss draws a board recommendation to reject it as inadequate (boss-frasers-takeover-offer)",
-    "ADVANCED: EQT raises its Perpetual takeover bid to A$22.07/share (~A$2.6bn) after the board rejects an improved A$21.64 approach (ppt-eqt-takeover-bid) (rumored → rumored)",
+    "NEW: Williams brings in $5.34bn from a Blackstone-led group (with Apollo and KKR) for a 49% stake in five behind-the-meter data-center power projects, funding its 6+ GW AI-power backlog off-balance-sheet (wmb-blackstone-power-jv)",
     "DROPPED: 1 stale deal"
   ],
   "themes": [
     {
       "label": "Public-to-private buyout offers on listed companies",
       "note": "PE- and shareholder-led buyouts keep pulling listed names private: EasyJet's take-private is a live Castlelake vs Apollo bidding war (ezj-castlelake-takeover, ezj-apollo-takeover), Steel Partners is bidding $16.75/share for InMode (inmd-steel-partners-buyout), EQT/Advent/KKR are circling Qiagen (qgen-pe-consortium-takeover-interest), Vista Equity Partners and Quinti Capital have approached Criteo (crto-vista-quinti-takeover-interest), Perfect Corp.'s founder took the company private (perf-projectny-going-private), EQT keeps sweetening its Perpetual bid — now A$22.07/share (ppt-eqt-takeover-bid), and Frasers Group's largest-shareholder-led hostile tender for Hugo Boss (boss-frasers-takeover-offer) adds a European fashion name to the list.",
-      "streak": 9
+      "streak": 10
     },
     {
       "label": "UK-listed franchises broken up or taken private",
       "note": "EasyJet's take-private is now a two-bidder contest between Castlelake (ezj-castlelake-takeover) and Apollo (ezj-apollo-takeover), ITV sold its broadcast arm to Comcast's Sky (itv-sky-me-sale), and Segro's board is fending off Prologis's unsolicited approach (pld-sgro-takeover-bid) — UK-listed names remain a magnet for control-changing bids.",
-      "streak": 10
-    },
-    {
-      "label": "Semiconductor deals stay active",
-      "note": "Chip-sector partnerships and consolidation stay live: the Intel-Apple foundry partnership (intc-aapl-partnership), the rumored AMD bid for Lattice (amd-xlnx-followup-acquisition), and Apple's $30bn+ US chipmaking commitment to Broadcom (aapl-avgo-chipmaking-partnership).",
-      "streak": 10
+      "streak": 11
     },
     {
       "label": "Defense primes racing for undersea/anti-submarine-warfare tech",
       "note": "Defense primes keep building out undersea-warfare capability: Thales's control deal for mine-clearing drone maker Exail (ho-exail-acquisition), Lockheed's $3.45bn purchase of sonar specialist Ultra Maritime (lmt-ultra-maritime-acquisition), and Fincantieri bundling four acquisitions into an underwater-tech champion (fct-underwater-champion-acquisitions).",
-      "streak": 8
+      "streak": 9
     },
     {
       "label": "Signed M&A deals hitting regulatory or legal roadblocks",
-      "note": "Signed deals investors thought were settled keep drawing legal fire: the already-signed, DOJ-cleared Paramount Skydance-Warner Bros. Discovery merger now faces two separate lawsuits, from a 12-state AG coalition and from the Writers Guild of America (psky-wbd-acquisition), while an Israeli court has frozen InMode's board from deciding between competing buyout bids (inmd-steel-partners-buyout).",
-      "streak": 4
+      "note": "Deals investors thought were settled keep drawing legal fire: the already-signed, DOJ-cleared Paramount Skydance-Warner Bros. Discovery merger faces two separate lawsuits, from a 12-state AG coalition and from the Writers Guild of America (psky-wbd-acquisition), while an Israeli court has frozen InMode's board from deciding between competing buyout bids pending a hearing (inmd-steel-partners-buyout).",
+      "streak": 5
+    },
+    {
+      "label": "AI data-center capacity and power build-out",
+      "note": "Capital is pouring into the physical layer of AI compute: TeraWulf's 20-year, ~$19bn AI data-center lease with Anthropic (wulf-anthropic-lease), Meta's expansion of its Louisiana campus to 5GW and $50bn+ (meta-richland-parish-capex), and Williams's $5.34bn Blackstone-led JV to fund five behind-the-meter data-center power projects (wmb-blackstone-power-jv) all fund AI power and capacity rather than models.",
+      "streak": 1
     }
   ]
 }
