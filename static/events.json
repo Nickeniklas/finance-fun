@@ -1,30 +1,6 @@
 {
-  "generatedAt": "2026-07-18T08:00:00Z",
+  "generatedAt": "2026-07-19T08:00:00Z",
   "events": [
-    {
-      "id": "intc-aapl-partnership",
-      "ticker": "INTC",
-      "counterparty": "AAPL",
-      "type": "partnership",
-      "currentStatus": "confirmed",
-      "whyItMatters": "First time Apple has committed fab work to Intel Foundry. Signals Intel's foundry turnaround is landing real marquee customers, not just government deals.",
-      "phases": [
-        {
-          "status": "rumored",
-          "date": "2026-06-20",
-          "headline": "Report: Apple in talks with Intel over custom chip manufacturing",
-          "source": "Bloomberg",
-          "priceReaction": "+3% intraday"
-        },
-        {
-          "status": "confirmed",
-          "date": "2026-06-28",
-          "headline": "Apple and Intel announce multi-year chip manufacturing partnership",
-          "source": "Reuters",
-          "priceReaction": "+10% premarket"
-        }
-      ]
-    },
     {
       "id": "ezj-castlelake-takeover",
       "ticker": "EZJ",
@@ -548,6 +524,55 @@
           "date": "2026-07-13",
           "headline": "Williams Announces $5.34 Billion Investment in Power Innovation Joint Venture from Blackstone",
           "source": "Business Wire"
+        }
+      ]
+    },
+    {
+      "id": "uber-deliveryhero-acquisition",
+      "ticker": "UBER",
+      "counterparty": "Delivery Hero",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Uber's $14.8bn business combination agreement for Delivery Hero — its largest-ever acquisition — extends the combined mobility-and-delivery platform to 99 markets and $236bn of pro-forma gross bookings, a bet on buying global delivery scale rather than building it market by market.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-07-15",
+          "headline": "Uber Announces Acquisition Offer for Delivery Hero",
+          "source": "Business Wire"
+        }
+      ]
+    },
+    {
+      "id": "pypl-stripe-advent-takeover-bid",
+      "ticker": "PYPL",
+      "counterparty": "Stripe, Advent International",
+      "type": "acquisition",
+      "currentStatus": "rumored",
+      "whyItMatters": "A joint unsolicited $53bn+ ($60.50/share, ~28% premium) offer from payments rival Stripe and PE firm Advent, backed by ~$50bn of committed financing, would combine two of the largest payment networks and lands as PayPal has struggled to reignite growth; the board has not yet responded and meets as soon as July 20.",
+      "phases": [
+        {
+          "status": "rumored",
+          "date": "2026-07-15",
+          "headline": "Stripe, Advent make $53 billion takeover offer for PayPal, sending stock soaring",
+          "source": "CNBC",
+          "priceReaction": "+17%"
+        }
+      ]
+    },
+    {
+      "id": "mmm-msft-ai-datacenter-partnership",
+      "ticker": "MMM",
+      "counterparty": "MSFT",
+      "type": "partnership",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Microsoft becomes the first announced hyperscaler to deploy 3M's Expanded Beam Optical technology across Azure's AI data centers, giving 3M a named commercial foothold in the physical AI-infrastructure buildout beyond its legacy industrial businesses, while 3M in turn adopts Microsoft's AI platforms to overhaul its own enterprise operations.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-07-15",
+          "headline": "3M and Microsoft announce strategic partnership to advance AI data center infrastructure and enterprise transformation",
+          "source": "Microsoft"
         }
       ]
     }
