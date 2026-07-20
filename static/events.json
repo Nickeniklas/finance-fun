@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-19T08:00:00Z",
+  "generatedAt": "2026-07-20T08:00:00Z",
   "events": [
     {
       "id": "ezj-castlelake-takeover",
@@ -557,6 +557,12 @@
           "headline": "Stripe, Advent make $53 billion takeover offer for PayPal, sending stock soaring",
           "source": "CNBC",
           "priceReaction": "+17%"
+        },
+        {
+          "status": "rumored",
+          "date": "2026-07-17",
+          "headline": "PayPal board privately views Stripe-Advent's $53 billion offer as inadequate, sources say",
+          "source": "Reuters"
         }
       ]
     },
@@ -573,6 +579,38 @@
           "date": "2026-07-15",
           "headline": "3M and Microsoft announce strategic partnership to advance AI data center infrastructure and enterprise transformation",
           "source": "Microsoft"
+        }
+      ]
+    },
+    {
+      "id": "tit-poste-tender-offer",
+      "ticker": "TIT",
+      "counterparty": "Poste Italiane",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Telecom Italia's board unanimously endorsed Poste Italiane's EUR10.8bn tender offer as financially fair, and the subscription period opened July 20 (running to September 11) — a step toward consolidating Italy's former phone monopoly under majority state-linked ownership (Poste already holds ~27% of TIM), with ~EUR0.7bn of claimed annual pre-tax synergies.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-07-18",
+          "headline": "Telecom Italia Board Endorses EUR10.8 Billion Poste Bid as Fair",
+          "source": "Bloomberg"
+        }
+      ]
+    },
+    {
+      "id": "hon-jmat-catalyst-acquisition",
+      "ticker": "HON",
+      "counterparty": "Johnson Matthey (Catalyst Technologies)",
+      "type": "acquisition",
+      "currentStatus": "closed",
+      "whyItMatters": "Honeywell completes its GBP1.325bn all-cash purchase of Johnson Matthey's Catalyst Technologies business, adding refining, petrochemicals and renewable-fuels catalyst technology to its portfolio and removing execution risk from what was already a signed deal.",
+      "phases": [
+        {
+          "status": "closed",
+          "date": "2026-07-17",
+          "headline": "Honeywell Completes Acquisition of Johnson Matthey's Catalyst Technologies Business",
+          "source": "Business Wire"
         }
       ]
     }
