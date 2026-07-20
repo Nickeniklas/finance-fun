@@ -1,36 +1,35 @@
 {
-  "date": "2026-07-19",
+  "date": "2026-07-20",
   "whatChanged": [
-    "NEW: Uber's $14.8bn business combination agreement to acquire Delivery Hero, extending its platform to 99 markets (uber-deliveryhero-acquisition)",
-    "NEW: Stripe and Advent International's unsolicited $53bn+ ($60.50/share) takeover offer for PayPal; board meets as soon as July 20 (pypl-stripe-advent-takeover-bid)",
-    "NEW: 3M and Microsoft announce a strategic partnership on AI data-center optical infrastructure and enterprise AI transformation (mmm-msft-ai-datacenter-partnership)",
-    "DROPPED: 1 stale deal"
+    "NEW: Telecom Italia board endorses Poste Italiane's EUR10.8bn tender offer as fair; subscription period opens July 20-Sept 11 (tit-poste-tender-offer)",
+    "NEW: Honeywell completes GBP1.325bn acquisition of Johnson Matthey's Catalyst Technologies business (hon-jmat-catalyst-acquisition)",
+    "ADVANCED: PayPal board reportedly views Stripe-Advent's $53bn offer as inadequate, per Reuters sources (rumored → rumored)"
   ],
   "themes": [
     {
       "label": "Public-to-private buyout offers on listed companies",
-      "note": "PE- and shareholder-led buyouts keep pulling listed names private: EasyJet's take-private is a live Castlelake vs Apollo bidding war (ezj-castlelake-takeover, ezj-apollo-takeover), Steel Partners is bidding $16.75/share for InMode (inmd-steel-partners-buyout), EQT/Advent/KKR are circling Qiagen (qgen-pe-consortium-takeover-interest), Vista Equity Partners and Quinti Capital have approached Criteo (crto-vista-quinti-takeover-interest), Perfect Corp.'s founder took the company private (perf-projectny-going-private), EQT keeps sweetening its Perpetual bid — now A$22.07/share (ppt-eqt-takeover-bid), Frasers Group's largest-shareholder-led hostile tender for Hugo Boss (boss-frasers-takeover-offer), and now Stripe and Advent's joint $53bn+ offer for PayPal (pypl-stripe-advent-takeover-bid) brings a major US fintech into the same wave.",
-      "streak": 11
+      "note": "PE- and shareholder-led buyouts keep pulling listed names private: EasyJet's take-private is a live Castlelake vs Apollo bidding war (ezj-castlelake-takeover, ezj-apollo-takeover), Steel Partners is bidding $16.75/share for InMode (inmd-steel-partners-buyout), EQT/Advent/KKR are circling Qiagen (qgen-pe-consortium-takeover-interest), Vista Equity Partners and Quinti Capital have approached Criteo (crto-vista-quinti-takeover-interest), Perfect Corp.'s founder took the company private (perf-projectny-going-private), EQT keeps sweetening its Perpetual bid — now A$22.07/share (ppt-eqt-takeover-bid), Frasers Group's largest-shareholder-led hostile tender for Hugo Boss (boss-frasers-takeover-offer), and Stripe and Advent's joint $53bn+ offer for PayPal, which the board reportedly views as inadequate (pypl-stripe-advent-takeover-bid).",
+      "streak": 12
     },
     {
       "label": "UK-listed franchises broken up or taken private",
       "note": "EasyJet's take-private is now a two-bidder contest between Castlelake (ezj-castlelake-takeover) and Apollo (ezj-apollo-takeover), ITV sold its broadcast arm to Comcast's Sky (itv-sky-me-sale), and Segro's board is fending off Prologis's unsolicited approach (pld-sgro-takeover-bid) — UK-listed names remain a magnet for control-changing bids.",
-      "streak": 12
+      "streak": 13
     },
     {
       "label": "Defense primes racing for undersea/anti-submarine-warfare tech",
       "note": "Defense primes keep building out undersea-warfare capability: Thales's control deal for mine-clearing drone maker Exail (ho-exail-acquisition), Lockheed's $3.45bn purchase of sonar specialist Ultra Maritime (lmt-ultra-maritime-acquisition), and Fincantieri bundling four acquisitions into an underwater-tech champion (fct-underwater-champion-acquisitions).",
-      "streak": 10
+      "streak": 11
     },
     {
       "label": "Signed M&A deals hitting regulatory or legal roadblocks",
       "note": "Deals investors thought were settled keep drawing legal fire: the already-signed, DOJ-cleared Paramount Skydance-Warner Bros. Discovery merger faces two separate lawsuits, from a 12-state AG coalition and from the Writers Guild of America (psky-wbd-acquisition), while an Israeli court has frozen InMode's board from deciding between competing buyout bids pending a hearing (inmd-steel-partners-buyout).",
-      "streak": 6
+      "streak": 7
     },
     {
       "label": "AI data-center capacity and power build-out",
-      "note": "Capital and commercial partnerships keep pouring into the physical layer of AI compute: TeraWulf's 20-year, ~$19bn AI data-center lease with Anthropic (wulf-anthropic-lease), Meta's expansion of its Louisiana campus to 5GW and $50bn+ (meta-richland-parish-capex), Williams's $5.34bn Blackstone-led JV to fund five behind-the-meter data-center power projects (wmb-blackstone-power-jv), and now 3M and Microsoft's partnership to deploy 3M's optical technology across Azure's AI data centers (mmm-msft-ai-datacenter-partnership).",
-      "streak": 2
+      "note": "Capital and commercial partnerships keep pouring into the physical layer of AI compute: TeraWulf's 20-year, ~$19bn AI data-center lease with Anthropic (wulf-anthropic-lease), Meta's expansion of its Louisiana campus to 5GW and $50bn+ (meta-richland-parish-capex), Williams's $5.34bn Blackstone-led JV to fund five behind-the-meter data-center power projects (wmb-blackstone-power-jv), and 3M and Microsoft's partnership to deploy 3M's optical technology across Azure's AI data centers (mmm-msft-ai-datacenter-partnership).",
+      "streak": 3
     }
   ]
 }
