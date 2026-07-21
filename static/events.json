@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-20T08:00:00Z",
+  "generatedAt": "2026-07-21T08:00:00Z",
   "events": [
     {
       "id": "ezj-castlelake-takeover",
@@ -112,7 +112,7 @@
       "counterparty": "Segro",
       "type": "acquisition",
       "currentStatus": "rumored",
-      "whyItMatters": "Prologis's unsolicited ~£12.6bn ($16.9bn) all-share approach for Segro — Europe's largest listed logistics REIT — would consolidate global warehouse ownership under one landlord; Segro's board has rejected it as inadequate and Prologis must table a binding Rule 2.7 offer or walk away by July 22.",
+      "whyItMatters": "Prologis has now sweetened and been rejected three times — the latest a ~£13.5bn ($18.2bn) all-share plus part-cash approach for Segro, Europe's largest listed logistics REIT, unanimously rebuffed again on July 17. Under UK Takeover Code Rule 2.6(a), Prologis must announce a firm Rule 2.7 offer or walk away by 5pm London time on July 22 — tomorrow — making this the nearest-term binary catalyst among the live UK takeover situations.",
       "phases": [
         {
           "status": "rumored",
@@ -125,6 +125,12 @@
           "date": "2026-07-09",
           "headline": "Segro board unanimously rejects Prologis's unsolicited ~886p/share takeover proposal as inadequate",
           "source": "Segro plc (RNS)"
+        },
+        {
+          "status": "rumored",
+          "date": "2026-07-17",
+          "headline": "UK's Segro rejects Prologis' $18.2 billion sweetened takeover proposal",
+          "source": "Investing.com"
         }
       ]
     },
@@ -359,6 +365,12 @@
           "date": "2026-07-14",
           "headline": "Writers Guild of America sues to block Paramount Skydance-Warner Bros. Discovery merger, alleging the deal will suppress writers' wages and cut job opportunities",
           "source": "Bloomberg"
+        },
+        {
+          "status": "confirmed",
+          "date": "2026-07-20",
+          "headline": "Paramount Skydance's $110B merger with Warner Bros. Discovery paused by judge",
+          "source": "The Washington Post"
         }
       ]
     },
@@ -563,6 +575,12 @@
           "date": "2026-07-17",
           "headline": "PayPal board privately views Stripe-Advent's $53 billion offer as inadequate, sources say",
           "source": "Reuters"
+        },
+        {
+          "status": "rumored",
+          "date": "2026-07-20",
+          "headline": "PayPal Board Rejects $53 Billion Stripe and Advent International Takeover Bid",
+          "source": "Technobezz"
         }
       ]
     },
@@ -611,6 +629,22 @@
           "date": "2026-07-17",
           "headline": "Honeywell Completes Acquisition of Johnson Matthey's Catalyst Technologies Business",
           "source": "Business Wire"
+        }
+      ]
+    },
+    {
+      "id": "gme-ebay-stake-buildup",
+      "ticker": "GME",
+      "counterparty": "EBAY",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "GameStop discloses a 9.8% stake in eBay just two months after eBay's board rejected its unsolicited $55.5bn buyout bid as 'neither credible nor attractive.' CEO Ryan Cohen's escalation ('we're coming for eBay one way or another') keeps a takeover overhang on eBay alive and signals GameStop may pursue board influence or a renewed bid rather than walk away.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-07-20",
+          "headline": "GameStop builds 9.8% eBay stake after takeover offer rejected",
+          "source": "Investing.com"
         }
       ]
     }
