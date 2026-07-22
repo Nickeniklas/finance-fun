@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T08:00:00Z",
+  "generatedAt": "2026-07-22T08:00:00Z",
   "events": [
     {
       "id": "ezj-castlelake-takeover",
@@ -520,6 +520,12 @@
           "date": "2026-07-09",
           "headline": "Hugo Boss board rejects Frasers Group bid, urges shareholders not to accept",
           "source": "Bloomberg"
+        },
+        {
+          "status": "confirmed",
+          "date": "2026-07-21",
+          "headline": "Frasers Group crosses 30% stake threshold in Hugo Boss, triggering mandatory-offer rules under German takeover law; confirms EUR38/share is its final price",
+          "source": "FashionUnited"
         }
       ]
     },
@@ -645,6 +651,38 @@
           "date": "2026-07-20",
           "headline": "GameStop builds 9.8% eBay stake after takeover offer rejected",
           "source": "Investing.com"
+        }
+      ]
+    },
+    {
+      "id": "msft-amd-helios-partnership",
+      "ticker": "MSFT",
+      "counterparty": "AMD",
+      "type": "partnership",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Microsoft committing to deploy AMD's Instinct MI455X 'Helios' rack-scale AI systems at scale across Azure gives AMD its first named production deployment inside a top-3 hyperscaler as a credible Nvidia alternative, while letting Microsoft diversify its AI-compute supply chain beyond a single GPU vendor.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-07-20",
+          "headline": "Microsoft and AMD Announce Expanded Strategic Partnership to Deploy AMD Instinct MI455X 'Helios' Rack-Scale AI Systems on Azure",
+          "source": "Microsoft"
+        }
+      ]
+    },
+    {
+      "id": "mgy-wildfire-energy-acquisition",
+      "ticker": "MGY",
+      "counterparty": "WildFire Energy",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Magnolia's ~$4.06bn cash-and-stock purchase of WildFire Energy is its largest deal to date, lifting its pro forma Giddings-field position past 1.25m net acres while funding part of the price with new share issuance and assumption of WildFire's existing 2029 notes — consolidation of its core shale position rather than a new-basin bet.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-07-20",
+          "headline": "Magnolia Oil & Gas to Acquire WildFire Energy for Approximately $4.06 Billion",
+          "source": "Bloomberg"
         }
       ]
     }
