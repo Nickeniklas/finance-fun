@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T08:00:00Z",
+  "generatedAt": "2026-07-23T08:00:00Z",
   "events": [
     {
       "id": "ezj-castlelake-takeover",
@@ -112,7 +112,7 @@
       "counterparty": "Segro",
       "type": "acquisition",
       "currentStatus": "rumored",
-      "whyItMatters": "Prologis has now sweetened and been rejected three times — the latest a ~£13.5bn ($18.2bn) all-share plus part-cash approach for Segro, Europe's largest listed logistics REIT, unanimously rebuffed again on July 17. Under UK Takeover Code Rule 2.6(a), Prologis must announce a firm Rule 2.7 offer or walk away by 5pm London time on July 22 — tomorrow — making this the nearest-term binary catalyst among the live UK takeover situations.",
+      "whyItMatters": "Prologis's fourth approach — a 'best and final' ~£14bn ($18.8bn) all-share-plus-cash proposal — is the first Segro's board has said it would be minded to recommend, a reversal after three straight rejections. The UK Takeover Code deadline for a firm Rule 2.7 offer has been extended to August 12, so the outcome, not just the price, remains the open question.",
       "phases": [
         {
           "status": "rumored",
@@ -131,6 +131,12 @@
           "date": "2026-07-17",
           "headline": "UK's Segro rejects Prologis' $18.2 billion sweetened takeover proposal",
           "source": "Investing.com"
+        },
+        {
+          "status": "rumored",
+          "date": "2026-07-22",
+          "headline": "Prologis tables 'best and final' £14bn ($18.8bn) takeover proposal for Segro; Segro board signals it is minded to recommend as both sides secure PUSU deadline extension to August 12",
+          "source": "Reuters"
         }
       ]
     },
@@ -279,22 +285,6 @@
           "headline": "Vista Equity, Quinti Capital offer to buy French adtech firm Criteo, sources say",
           "source": "Bloomberg",
           "priceReaction": "+21% (US-listed shares)"
-        }
-      ]
-    },
-    {
-      "id": "eni-mercuria-trading-jv",
-      "ticker": "ENI",
-      "counterparty": "Mercuria",
-      "type": "partnership",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Eni re-enters global commodities trading through a 50/50 JV with Mercuria spanning oil, gas, LNG and biofuels — a strategic pivot to capture the trading profits European peers have booked since the 2022 volatility, pending regulatory approval before launch.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-07-01",
-          "headline": "Eni and Mercuria to Establish a Global Trading Joint Venture",
-          "source": "PR Newswire"
         }
       ]
     },
@@ -683,6 +673,54 @@
           "date": "2026-07-20",
           "headline": "Magnolia Oil & Gas to Acquire WildFire Energy for Approximately $4.06 Billion",
           "source": "Bloomberg"
+        }
+      ]
+    },
+    {
+      "id": "amd-anthropic-chip-partnership",
+      "ticker": "AMD",
+      "counterparty": "Anthropic",
+      "type": "partnership",
+      "currentStatus": "confirmed",
+      "whyItMatters": "AMD locks in a marquee AI-chip customer and financial backer in one deal — Anthropic commits to buy tens of billions of dollars of AMD Instinct MI450 chips (up to 2GW of deployment) while AMD invests up to $5bn in Anthropic's equity, cementing AMD as a credible second sourcing option to Nvidia inside one of the largest frontier AI labs.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-07-22",
+          "headline": "AMD to invest up to $5 billion in Anthropic as part of computing power deal",
+          "source": "CNBC"
+        }
+      ]
+    },
+    {
+      "id": "rgen-biolife-acquisition",
+      "ticker": "RGEN",
+      "counterparty": "BioLife Solutions",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Repligen's ~$1.5bn purchase of BioLife Solutions adds market-leading CryoStor biopreservation media to its bioprocessing tools, deepening its exposure to the fast-growing cell and gene therapy manufacturing chain — a bolt-on funded mostly in stock (64%) rather than cash.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-07-22",
+          "headline": "Repligen to Acquire BioLife Solutions, Expanding Its Cell Therapy Capabilities with Market Leading Biopreservation Media",
+          "source": "GlobeNewswire"
+        }
+      ]
+    },
+    {
+      "id": "samsungbio-polypeptide-acquisition",
+      "ticker": "207940.KS",
+      "counterparty": "PolyPeptide Group",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Samsung Biologics' $1.8bn all-cash purchase of Switzerland's PolyPeptide — the largest biopharma acquisition in South Korean history — buys it into peptide-therapeutics manufacturing just as GLP-1/obesity-drug demand strains contract manufacturing capacity, adding PolyPeptide's Sweden/Belgium/France/US plants to its global footprint.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-07-20",
+          "headline": "Samsung Biologics makes $1.8 billion all-cash offer for Switzerland's PolyPeptide Group",
+          "source": "CNBC"
         }
       ]
     }
