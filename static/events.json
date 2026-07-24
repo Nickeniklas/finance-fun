@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T08:00:00Z",
+  "generatedAt": "2026-07-24T08:00:00Z",
   "events": [
     {
       "id": "ezj-castlelake-takeover",
@@ -721,6 +721,87 @@
           "date": "2026-07-20",
           "headline": "Samsung Biologics makes $1.8 billion all-cash offer for Switzerland's PolyPeptide Group",
           "source": "CNBC"
+        }
+      ]
+    },
+    {
+      "id": "ibe-caruna-acquisition",
+      "ticker": "IBE",
+      "counterparty": "Caruna Group",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Iberdrola's ~$2.3bn purchase of an 80% stake in Caruna, Finland's largest electricity distributor, extends its regulated-networks push into a Nordic market seeing surging grid demand from data centers and electrification -- roughly two-thirds of Iberdrola's 2025-2028 capex is earmarked for distribution networks like this one.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-07-21",
+          "headline": "Iberdrola Agrees to Buy 80% Stake in Caruna Group for EUR2 Billion",
+          "source": "Bloomberg"
+        }
+      ]
+    },
+    {
+      "id": "var-bluenord-merger",
+      "ticker": "VAR",
+      "counterparty": "BlueNord",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Combining Norway's two mid-cap North Sea producers creates Europe's largest independent oil and gas company and targets $250-300m of 2027-2032 synergies from shared financing and overhead -- though Eni's ~57% post-deal stake means the combined firm stays majority-controlled by Var Energi's parent rather than becoming fully independent.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-07-21",
+          "headline": "Var Energi to Buy BlueNord for $1.3 Billion, Creating Europe's Biggest Independent Oil and Gas Producer",
+          "source": "Reuters"
+        }
+      ]
+    },
+    {
+      "id": "ocs-mitie-acquisition",
+      "ticker": "MTO",
+      "counterparty": "OCS Group International",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "CD&R-owned OCS's 46.8%-premium all-cash offer removes UK facilities-management leader Mitie from public markets entirely, consolidating two of the sector's largest players (combined ~GBP8.5bn revenue, 84,000+ staff) just as demand for AI-driven data-center facilities services accelerates.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-07-21",
+          "headline": "OCS Group Agrees GBP3.1 Billion ($4.17bn) Takeover of Mitie Group, Delisting It From the London Stock Exchange",
+          "source": "Bloomberg",
+          "priceReaction": "+46.8% premium to prior close"
+        }
+      ]
+    },
+    {
+      "id": "dsy-arisglobal-acquisition",
+      "ticker": "DSY",
+      "counterparty": "ArisGlobal",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Dassault buys a life-sciences regulatory and safety-data platform to fuse with its existing 3DExperience biotech tools, aiming to link molecule, patient and real-world-outcome data on one AI platform -- deepening its push into pharma software beyond its core CAD/PLM base.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-07-23",
+          "headline": "Dassault Systemes to Acquire ArisGlobal, Creating a Unified AI Intelligence Platform for the Life Sciences Industry",
+          "source": "GlobeNewswire"
+        }
+      ]
+    },
+    {
+      "id": "f-geely-spain-jv",
+      "ticker": "F",
+      "counterparty": "Geely Auto",
+      "type": "partnership",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Ford brings in a Chinese EV/hybrid partner to fill an underused European plant and co-develop four new models (including a new Bronco-family member) -- a rare case of a Detroit automaker directly partnering with a Chinese rival on home-market EV production rather than competing purely on cost.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-07-23",
+          "headline": "Ford and Geely Auto Establish Joint Venture in Spain for Localized Production at Ford's Valencia Plant",
+          "source": "PR Newswire"
         }
       ]
     }
