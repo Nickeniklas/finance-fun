@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-24T08:00:00Z",
+  "generatedAt": "2026-07-25T08:00:00Z",
   "events": [
     {
       "id": "ezj-castlelake-takeover",
@@ -361,6 +361,12 @@
           "date": "2026-07-20",
           "headline": "Paramount Skydance's $110B merger with Warner Bros. Discovery paused by judge",
           "source": "The Washington Post"
+        },
+        {
+          "status": "confirmed",
+          "date": "2026-07-24",
+          "headline": "Paramount Skydance agrees to joint stipulation pausing $111bn Warner Bros. Discovery merger until five days after an antitrust trial or June 1, 2027, whichever is earlier; WGA's preliminary-injunction motion withdrawn as moot",
+          "source": "Variety"
         }
       ]
     },
@@ -455,6 +461,12 @@
           "date": "2026-07-16",
           "headline": "EQT Raises Perpetual Takeover Bid to A$22.07 a Share (~A$2.6bn) After Board Rejects A$21.64 Approach",
           "source": "Law360"
+        },
+        {
+          "status": "rumored",
+          "date": "2026-07-17",
+          "headline": "Perpetual Limited Board Rejects EQT AB's A$22.07 Per Share Takeover Proposal",
+          "source": "Kalkine"
         }
       ]
     },
@@ -802,6 +814,105 @@
           "date": "2026-07-23",
           "headline": "Ford and Geely Auto Establish Joint Venture in Spain for Localized Production at Ford's Valencia Plant",
           "source": "PR Newswire"
+        }
+      ]
+    },
+    {
+      "id": "saft-mapfre-acquisition",
+      "ticker": "SAFT",
+      "counterparty": "Mapfre",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Mapfre's $1.54bn ($105/share cash, ~44% premium) all-cash purchase takes Safety Insurance Group private, closing out its run as an independent public insurer and giving Mapfre a bigger vehicle for US expansion, pending Massachusetts regulator and HSR clearance with close expected Q1 2027.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-07-23",
+          "headline": "Mapfre to Acquire Safety Insurance Group for $1.54 Billion in All-Cash Deal",
+          "source": "Business Wire",
+          "priceReaction": "+35% after-hours"
+        }
+      ]
+    },
+    {
+      "id": "amkr-nvidia-packaging-partnership",
+      "ticker": "AMKR",
+      "counterparty": "NVDA",
+      "type": "partnership",
+      "currentStatus": "confirmed",
+      "whyItMatters": "NVIDIA's $1.5bn multiyear prepayment locks in dedicated US 2.5D/3D advanced-packaging and test capacity at Amkor, giving Amkor a marquee anchor customer for its domestic expansion while helping Nvidia diversify AI-chip packaging supply onshore through 2028.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-07-23",
+          "headline": "Amkor Technology Announces Strategic Partnership with NVIDIA to Expand Advanced Packaging and Test for Next-Generation AI Infrastructure",
+          "source": "Business Wire",
+          "priceReaction": "+9% premarket"
+        }
+      ]
+    },
+    {
+      "id": "vz-google-fiber-partnership",
+      "ticker": "VZ",
+      "counterparty": "GOOGL",
+      "type": "partnership",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Verizon's $1bn dark-fiber supply deal with Google gives it a new physical-infrastructure revenue line tied directly to hyperscaler AI data-center buildout, positioning the telco as a connectivity landlord to the AI capex cycle rather than just a wireless/broadband carrier.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-07-24",
+          "headline": "Verizon signs $1 billion dark fiber deal with Google for AI data centers",
+          "source": "Yahoo Finance"
+        }
+      ]
+    },
+    {
+      "id": "googl-capex-raise-2026",
+      "ticker": "GOOGL",
+      "counterparty": null,
+      "type": "capital-allocation",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Alphabet raises its 2026 capex guide from $180-190bn to as much as $195-205bn, telling investors AI infrastructure demand keeps outpacing build-out -- the market read the increase as a margin risk despite a cloud beat, sending shares down after-hours.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-07-22",
+          "headline": "Google Boosts 2026 Spending Estimate to as Much as $205 Billion",
+          "source": "Bloomberg",
+          "priceReaction": "-5% after-hours"
+        }
+      ]
+    },
+    {
+      "id": "bpop-capital-return-increase",
+      "ticker": "BPOP",
+      "counterparty": null,
+      "type": "capital-allocation",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Popular raises its quarterly dividend 20% (to $0.90/share) and authorizes up to $1bn in new buybacks, a meaningful step-up in capital return relative to its size that signals confidence in the Puerto Rico-based bank's capital position.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-07-23",
+          "headline": "Popular Announces Increased Quarterly Dividend and New $1 Billion Share Repurchase Program",
+          "source": "StockTitan"
+        }
+      ]
+    },
+    {
+      "id": "aci-edge-restructuring",
+      "ticker": "ACI",
+      "counterparty": null,
+      "type": "strategy-shift",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Albertsons collapses 11 operating divisions into 4 under its new 'ACI Edge' plan targeting $200m of run-rate savings by FY2027, alongside a CFO departure and a cut full-year EPS guide (to $1.75-1.85 from $2.22-2.32) -- a genuine restructuring of the operating model, not just a soft quarter.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-07-23",
+          "headline": "Albertsons cuts fiscal 2026 sales and profit outlook, unveils 'ACI Edge' restructuring plan",
+          "source": "Yahoo Finance"
         }
       ]
     }
