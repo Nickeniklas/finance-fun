@@ -1,37 +1,40 @@
 {
-  "date": "2026-07-24",
+  "date": "2026-07-25",
   "whatChanged": [
-    "NEW: Iberdrola agrees to buy 80% of Finland's Caruna Group for EUR2bn ($2.3bn), extending its regulated power-networks push into the Nordics (ibe-caruna-acquisition)",
-    "NEW: Var Energi agrees to acquire BlueNord for ~$1.33bn, creating Europe's largest independent oil and gas producer (var-bluenord-merger)",
-    "NEW: OCS Group agrees GBP3.1bn ($4.17bn) all-cash takeover of UK's Mitie Group, delisting it from the LSE (ocs-mitie-acquisition)",
-    "NEW: Dassault Systemes signs definitive agreement to acquire ArisGlobal for ~$2.0bn, expanding into life-sciences AI (dsy-arisglobal-acquisition)",
-    "NEW: Ford and Geely Auto form EV joint venture at Ford's underused Valencia, Spain plant (f-geely-spain-jv)"
+    "NEW: Mapfre agrees to acquire Safety Insurance Group for $1.54bn ($105/share cash, ~44% premium), taking the Massachusetts insurer private (saft-mapfre-acquisition)",
+    "NEW: Amkor Technology signs $1.5bn multiyear partnership with NVIDIA to expand US advanced-packaging capacity for AI chips (amkr-nvidia-packaging-partnership)",
+    "NEW: Verizon signs $1bn dark-fiber supply deal with Google to connect AI data centers (vz-google-fiber-partnership)",
+    "NEW: Alphabet raises its 2026 capex guide to as much as $205bn, citing AI infrastructure demand outpacing investment; shares fell after-hours (googl-capex-raise-2026)",
+    "NEW: Popular Inc. raises its quarterly dividend 20% and authorizes a new $1bn share buyback program (bpop-capital-return-increase)",
+    "NEW: Albertsons unveils 'ACI Edge' restructuring, collapsing 11 divisions into 4 and targeting $200m of run-rate savings by FY2027, alongside a CFO departure and cut full-year guidance (aci-edge-restructuring)",
+    "ADVANCED: Paramount Skydance and 12-state AG coalition agree to a stipulation pausing the $111bn Warner Bros. Discovery merger until five days after an antitrust trial or June 1, 2027; WGA's injunction motion withdrawn as moot (confirmed → confirmed) (psky-wbd-acquisition)",
+    "ADVANCED: Perpetual's board rejects EQT's sweetened A$22.07/share takeover proposal as inadequate (rumored → rumored) (ppt-eqt-takeover-bid)"
   ],
   "themes": [
     {
       "label": "UK-listed franchises broken up or taken private",
-      "note": "EasyJet's take-private is still a two-bidder contest between Castlelake (ezj-castlelake-takeover) and Apollo (ezj-apollo-takeover), ITV sold its broadcast arm to Comcast's Sky (itv-sky-me-sale), Prologis's 'best and final' bid for Segro has the board minded to recommend with the PUSU deadline extended to Aug 12 (pld-sgro-takeover-bid), and now OCS Group's agreed GBP3.1bn takeover of Mitie will remove another UK name from the LSE entirely (ocs-mitie-acquisition).",
-      "streak": 17
+      "note": "EasyJet's take-private is still a two-bidder contest between Castlelake (ezj-castlelake-takeover) and Apollo (ezj-apollo-takeover), ITV sold its broadcast arm to Comcast's Sky (itv-sky-me-sale), Prologis's 'best and final' bid for Segro has the board minded to recommend with the PUSU deadline extended to Aug 12 (pld-sgro-takeover-bid), and OCS Group's agreed GBP3.1bn takeover of Mitie will remove another UK name from the LSE entirely (ocs-mitie-acquisition).",
+      "streak": 18
     },
     {
       "label": "Public-to-private buyout offers on listed companies",
-      "note": "PE- and shareholder-led buyouts keep pulling listed names private: EasyJet's take-private is a live Castlelake vs Apollo bidding war (ezj-castlelake-takeover, ezj-apollo-takeover), Steel Partners is bidding $16.75/share for InMode (inmd-steel-partners-buyout), EQT/Advent/KKR are circling Qiagen (qgen-pe-consortium-takeover-interest), Vista Equity Partners and Quinti Capital have approached Criteo (crto-vista-quinti-takeover-interest), Perfect Corp.'s founder took the company private (perf-projectny-going-private), EQT keeps sweetening its Perpetual bid -- now A$22.07/share (ppt-eqt-takeover-bid), Frasers Group's shareholder-led tender for Hugo Boss runs to July 27 at a final EUR38/share (boss-frasers-takeover-offer), Stripe and Advent's joint $53bn+ offer for PayPal remains live after board rejection (pypl-stripe-advent-takeover-bid), and OCS Group's CD&R-backed takeover of Mitie adds a new PE-driven UK delisting (ocs-mitie-acquisition).",
-      "streak": 16
+      "note": "PE- and shareholder-led buyouts keep pulling listed names private: EasyJet's take-private is a live Castlelake vs Apollo bidding war (ezj-castlelake-takeover, ezj-apollo-takeover), Steel Partners is bidding $16.75/share for InMode (inmd-steel-partners-buyout), EQT/Advent/KKR are circling Qiagen (qgen-pe-consortium-takeover-interest), Vista Equity Partners and Quinti Capital have approached Criteo (crto-vista-quinti-takeover-interest), Perfect Corp.'s founder took the company private (perf-projectny-going-private), Perpetual's board rejected EQT's sweetened A$22.07/share proposal but the situation remains unsettled after three approaches (ppt-eqt-takeover-bid), Frasers Group's shareholder-led tender for Hugo Boss runs to July 27 at a final EUR38/share (boss-frasers-takeover-offer), Stripe and Advent's joint $53bn+ offer for PayPal remains live after board rejection (pypl-stripe-advent-takeover-bid), and OCS Group's CD&R-backed takeover of Mitie adds a new PE-driven UK delisting (ocs-mitie-acquisition).",
+      "streak": 17
     },
     {
       "label": "Defense primes racing for undersea/anti-submarine-warfare tech",
       "note": "Defense primes keep building out undersea-warfare capability: Thales's control deal for mine-clearing drone maker Exail (ho-exail-acquisition), Lockheed's $3.45bn purchase of sonar specialist Ultra Maritime (lmt-ultra-maritime-acquisition), and Fincantieri bundling four acquisitions into an underwater-tech champion (fct-underwater-champion-acquisitions).",
-      "streak": 15
+      "streak": 16
     },
     {
       "label": "AI data-center capacity and power build-out",
-      "note": "Capital and commercial partnerships keep pouring into the physical layer of AI compute: TeraWulf's 20-year, ~$19bn AI data-center lease with Anthropic (wulf-anthropic-lease), Meta's expansion of its Louisiana campus to 5GW and $50bn+ (meta-richland-parish-capex), Williams's $5.34bn Blackstone-led JV to fund five behind-the-meter data-center power projects (wmb-blackstone-power-jv), 3M and Microsoft's partnership to deploy 3M's optical technology across Azure's AI data centers (mmm-msft-ai-datacenter-partnership), Microsoft's commitment to deploy AMD's Helios AI systems at scale on Azure (msft-amd-helios-partnership), and AMD's up-to-$5bn equity bet on Anthropic tied to a 2GW MI450 chip deployment (amd-anthropic-chip-partnership).",
-      "streak": 7
+      "note": "Capital and commercial partnerships keep pouring into the physical layer of AI compute: TeraWulf's 20-year, ~$19bn AI data-center lease with Anthropic (wulf-anthropic-lease), Meta's expansion of its Louisiana campus to 5GW and $50bn+ (meta-richland-parish-capex), Williams's $5.34bn Blackstone-led JV to fund five behind-the-meter data-center power projects (wmb-blackstone-power-jv), 3M and Microsoft's partnership to deploy 3M's optical technology across Azure's AI data centers (mmm-msft-ai-datacenter-partnership), Microsoft's commitment to deploy AMD's Helios AI systems at scale on Azure (msft-amd-helios-partnership), AMD's up-to-$5bn equity bet on Anthropic tied to a 2GW MI450 chip deployment (amd-anthropic-chip-partnership), NVIDIA's $1.5bn prepaid packaging-capacity deal with Amkor (amkr-nvidia-packaging-partnership), Verizon's $1bn dark-fiber supply deal with Google (vz-google-fiber-partnership), and Alphabet's 2026 capex guide raised to as much as $205bn on AI demand (googl-capex-raise-2026).",
+      "streak": 8
     },
     {
       "label": "Signed M&A deals hitting regulatory or legal roadblocks",
-      "note": "Deals investors thought were settled keep drawing legal fire: the already-signed, DOJ-cleared Paramount Skydance-Warner Bros. Discovery merger remains paused by a federal judge's TRO after suits from a 12-state AG coalition and the Writers Guild of America, with a preliminary-injunction hearing set for Aug 3 (psky-wbd-acquisition), while InMode's Special Committee remains procedurally frozen pending the Israeli court's ruling on competing buyout bids (inmd-steel-partners-buyout).",
-      "streak": 11
+      "note": "Deals investors thought were settled keep drawing legal fire: the already-signed, DOJ-cleared Paramount Skydance-Warner Bros. Discovery merger is now formally paused by court stipulation until five days after an antitrust trial or June 1, 2027, whichever is earlier, after suits from a 12-state AG coalition and the Writers Guild of America (the WGA's injunction motion was withdrawn as moot once the stipulation was reached) (psky-wbd-acquisition), while InMode's Special Committee remains procedurally frozen pending the Israeli court's ruling on competing buyout bids (inmd-steel-partners-buyout).",
+      "streak": 12
     }
   ]
 }
