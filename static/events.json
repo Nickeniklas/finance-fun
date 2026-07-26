@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-25T08:00:00Z",
+  "generatedAt": "2026-07-26T08:00:00Z",
   "events": [
     {
       "id": "ezj-castlelake-takeover",
@@ -170,6 +170,12 @@
           "headline": "e& Announces USD 5.95 Billion Sale of Vodafone Investment",
           "source": "PR Newswire",
           "priceReaction": "+13% intraday"
+        },
+        {
+          "status": "confirmed",
+          "date": "2026-07-16",
+          "headline": "Vodafone discloses Vega SAS (Xavier Niel's investment vehicle) holds 19.87% of voting rights via equity-linked instruments, including additional equity swaps beyond the 16.2% stake bought from e&, expected to lift Vega to ~18.8% of share capital pending regulatory approval",
+          "source": "GlobeNewswire"
         }
       ]
     },
@@ -367,6 +373,12 @@
           "date": "2026-07-24",
           "headline": "Paramount Skydance agrees to joint stipulation pausing $111bn Warner Bros. Discovery merger until five days after an antitrust trial or June 1, 2027, whichever is earlier; WGA's preliminary-injunction motion withdrawn as moot",
           "source": "Variety"
+        },
+        {
+          "status": "confirmed",
+          "date": "2026-07-25",
+          "headline": "Paramount agrees to pay Warner Bros. Discovery shareholders roughly $7 million per day if the merger remains unclosed after September 30, 2026, as part of the litigation-pause stipulation -- a potential ~$1.7bn cost if the pause runs to the June 1, 2027 outside date",
+          "source": "Yahoo Finance"
         }
       ]
     },
@@ -913,6 +925,103 @@
           "date": "2026-07-23",
           "headline": "Albertsons cuts fiscal 2026 sales and profit outlook, unveils 'ACI Edge' restructuring plan",
           "source": "Yahoo Finance"
+        }
+      ]
+    },
+    {
+      "id": "samsungelec-avgo-chip-partnership",
+      "ticker": "005930.KS",
+      "counterparty": "AVGO",
+      "type": "partnership",
+      "currentStatus": "confirmed",
+      "whyItMatters": "A 5-year, ~$200bn MOU locks in Samsung's HBM4/HBM4E memory supply and 2nm-and-below foundry capacity for Broadcom's AI accelerators -- a major foundry-customer win against TSMC and a long-run revenue floor for Samsung's contract-manufacturing and memory businesses.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-07-24",
+          "headline": "Samsung and Broadcom sign $200 billion chip deal spanning memory, foundry and packaging",
+          "source": "Bloomberg"
+        }
+      ]
+    },
+    {
+      "id": "skhynix-nvda-ai-partnership",
+      "ticker": "000660.KS",
+      "counterparty": "NVDA",
+      "type": "partnership",
+      "currentStatus": "confirmed",
+      "whyItMatters": "SK Telecom will build a 2GW NVIDIA Vera Rubin DSX AI factory while SK hynix -- roughly 60% of the global HBM market -- enters a long-term supply and co-development pact with NVIDIA, locking in the dominant AI-chipmaker's memory pipeline and giving SK hynix a large multi-year revenue commitment tied to next-gen HBM.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-07-25",
+          "headline": "SK Group and NVIDIA Expand Strategic Partnership Across AI Factories and Next-Generation Memory",
+          "source": "NVIDIA Newsroom"
+        }
+      ]
+    },
+    {
+      "id": "samsungsds-anthropic-partnership",
+      "ticker": "018260.KS",
+      "counterparty": "Anthropic",
+      "type": "partnership",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Samsung SDS commits to a large-scale Claude Enterprise rollout across roughly 70,000 employees and 20 Samsung affiliates, giving Anthropic a marquee enterprise deployment inside one of Asia's biggest conglomerates and signaling Samsung is diversifying its AI stack beyond OpenAI.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-07-24",
+          "headline": "Samsung SDS Forges Alliance with Anthropic, Expanding AI Partnerships Beyond OpenAI",
+          "source": "BigGo Finance"
+        }
+      ]
+    },
+    {
+      "id": "bac-dividend-increase",
+      "ticker": "BAC",
+      "counterparty": null,
+      "type": "capital-allocation",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Bank of America raises its quarterly dividend 14% (to $0.32/share), a double-digit capital-return step-up that signals management confidence in the bank's post-stress-test capital position.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-07-24",
+          "headline": "Bank of America declares quarterly dividend of $0.32 per share, up from $0.28",
+          "source": "Company press release"
+        }
+      ]
+    },
+    {
+      "id": "mchp-hailo-acquisition",
+      "ticker": "MCHP",
+      "counterparty": "Hailo Technologies",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Microchip buys Israeli edge-AI/vision chipmaker Hailo, reportedly at a steep discount to its prior ~$1bn valuation, adding AI-accelerator IP to its portfolio even though management says the deal isn't financially material on its own -- a build-out of its AI roadmap via distressed-asset M&A.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-07-24",
+          "headline": "Microchip Technology Signs Definitive Agreement to Acquire Hailo",
+          "source": "GlobeNewswire",
+          "priceReaction": "-3% intraday"
+        }
+      ]
+    },
+    {
+      "id": "arcad-wsp-takeover-bid",
+      "ticker": "ARCAD",
+      "counterparty": "WSP Global",
+      "type": "acquisition",
+      "currentStatus": "rumored",
+      "whyItMatters": "WSP Global raises its unsolicited bid for Dutch engineering consultancy Arcadis to EUR51.50/share (from a rejected EUR48.50) in roughly half cash, half stock -- the second approach in a live, escalating takeover situation for a ~EUR7.5bn asset, with Arcadis's board yet to respond to the sweetened offer.",
+      "phases": [
+        {
+          "status": "rumored",
+          "date": "2026-07-24",
+          "headline": "Arcadis Confirms Takeover Bid From WSP, Shares Surge on Revised Offer",
+          "source": "Reuters"
         }
       ]
     }
