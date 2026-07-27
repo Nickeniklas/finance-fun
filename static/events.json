@@ -1,56 +1,6 @@
 {
-  "generatedAt": "2026-07-26T08:00:00Z",
+  "generatedAt": "2026-07-27T07:50:09Z",
   "events": [
-    {
-      "id": "ezj-castlelake-takeover",
-      "ticker": "EZJ",
-      "counterparty": "Castlelake",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Castlelake's fifth bid was accepted first, but on 2026-07-10 EasyJet's board said it is 'no longer minded to recommend' this £6.90/share (£5.5bn) proposal after Apollo tabled a higher £7.15/share offer. Castlelake still has until Aug 3 to counter, so this is now the trailing bid in a live auction, not the settled outcome.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-07-06",
-          "headline": "EasyJet board backs £5.5bn ($7.3bn) take-private proposal from Castlelake",
-          "source": "CNBC",
-          "priceReaction": "+10% intraday"
-        }
-      ]
-    },
-    {
-      "id": "itv-sky-me-sale",
-      "ticker": "ITV",
-      "counterparty": "Sky (Comcast)",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "ITV exits broadcasting: selling ITVX and its free-to-air channels to Comcast's Sky for up to £1.6bn leaves ITV a pure-play content producer (ITV Studios) and funds a ~£950m (25p/share) cash return to shareholders. Consolidates UK TV into a Sky-led streaming and advertising champion.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-07-06",
-          "headline": "ITV agrees sale of Media & Entertainment arm to Sky for up to £1.6bn",
-          "source": "ITV News"
-        }
-      ]
-    },
-    {
-      "id": "wulf-anthropic-lease",
-      "ticker": "WULF",
-      "counterparty": "Anthropic",
-      "type": "partnership",
-      "currentStatus": "confirmed",
-      "whyItMatters": "A 20-year lease worth ~$19bn in contracted revenue turns TeraWulf from a bitcoin miner into an AI-infrastructure landlord with two decades of visible revenue — a step-change versus its prior scale. A paired sale of its Abernathy JV stake to Fluidstack (~$450m) funds redeployment into wholly-owned AI capacity.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-07-06",
-          "headline": "TeraWulf signs 20-year, ~$19bn AI data-center lease with Anthropic",
-          "source": "CNBC",
-          "priceReaction": "+13%"
-        }
-      ]
-    },
     {
       "id": "nas-nltg-acquisition",
       "ticker": "NAS",
@@ -64,22 +14,6 @@
           "date": "2026-07-07",
           "headline": "Norwegian agrees to acquire Nordic Leisure Travel Group for ~SEK 7.94bn",
           "source": "Oslo Bors"
-        }
-      ]
-    },
-    {
-      "id": "ho-exail-acquisition",
-      "ticker": "HO",
-      "counterparty": "Exail Technologies",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "At EUR 134/share (EUR 3.9bn enterprise value, a 44% premium) Thales buys into surging demand for naval drones used in underwater mine-clearing and anti-submarine warfare, after beating Safran for the asset. It has a binding deal for the Gorge family's 35.5% stake plus a mandatory tender for the rest, so Thales gains critical mass in unmanned mine countermeasures with full control expected by 2028.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-07-06",
-          "headline": "Thales agrees EUR 3.9bn deal to acquire control of Exail Technologies",
-          "source": "Bloomberg"
         }
       ]
     },
@@ -137,22 +71,6 @@
           "date": "2026-07-22",
           "headline": "Prologis tables 'best and final' £14bn ($18.8bn) takeover proposal for Segro; Segro board signals it is minded to recommend as both sides secure PUSU deadline extension to August 12",
           "source": "Reuters"
-        }
-      ]
-    },
-    {
-      "id": "lmt-ultra-maritime-acquisition",
-      "ticker": "LMT",
-      "counterparty": "Ultra Maritime",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Lockheed's $3.45bn purchase of Ultra Maritime adds sonar, sonobuoy, and torpedo-defense technology to its Rotary and Mission Systems unit, deepening its undersea/anti-submarine-warfare portfolio as allied navies raise maritime-deterrence spending — a bolt-on, not a strategic pivot.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-07-06",
-          "headline": "Lockheed to Buy Ultra Maritime for $3.45 Billion in Sea Push",
-          "source": "Bloomberg"
         }
       ]
     },
@@ -278,55 +196,6 @@
       ]
     },
     {
-      "id": "crto-vista-quinti-takeover-interest",
-      "ticker": "CRTO",
-      "counterparty": "Vista Equity Partners, Quinti Capital",
-      "type": "acquisition",
-      "currentStatus": "rumored",
-      "whyItMatters": "A PE approach values Criteo at roughly $3.7bn, a 50%+ premium, reviving a sale process that stalled in December 2025 — a sign PE still sees value in ad-tech despite the sector's post-cookie malaise. Criteo's board has not yet responded.",
-      "phases": [
-        {
-          "status": "rumored",
-          "date": "2026-07-06",
-          "headline": "Vista Equity, Quinti Capital offer to buy French adtech firm Criteo, sources say",
-          "source": "Bloomberg",
-          "priceReaction": "+21% (US-listed shares)"
-        }
-      ]
-    },
-    {
-      "id": "carlsberg-sapporo-sea-jv",
-      "ticker": "CARL-B",
-      "counterparty": "Sapporo Breweries",
-      "type": "partnership",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Sapporo pays ~$643m for a 25% stake in Carlsberg's new Southeast Asia/Hong Kong venture, handing Carlsberg fresh capital and exclusive regional rights to Sapporo Premium while Sapporo buys distribution scale in a fast-growing beer market it couldn't reach alone.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-07-06",
-          "headline": "Carlsberg and Sapporo to form strategic partnership",
-          "source": "Carlsberg Group"
-        }
-      ]
-    },
-    {
-      "id": "fct-underwater-champion-acquisitions",
-      "ticker": "FCT",
-      "counterparty": "Next Geosolutions, WSense, Graal Tech, Defcomm",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Fincantieri bundles four bolt-ons (marine survey, underwater comms, AUVs/ASVs) into a vertically-integrated underwater unit already on track for over EUR1.1bn pro forma revenue, joining Thales and Lockheed in the same undersea-defense build-out rather than opportunistic one-off dealmaking.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-07-06",
-          "headline": "Fincantieri creates an international underwater champion: acquisition of four companies for an initial expenditure of approximately EUR 600 million",
-          "source": "Fincantieri"
-        }
-      ]
-    },
-    {
       "id": "fhb-tcbk-acquisition",
       "ticker": "FHB",
       "counterparty": "TCBK",
@@ -400,23 +269,6 @@
       ]
     },
     {
-      "id": "sols-esi-acquisition",
-      "ticker": "SOLS",
-      "counterparty": "ESI",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Solstice Advanced Materials' first major deal since its October 2025 Honeywell spin-off — a $10-cash-plus-0.5-SOLS-shares ($14.5bn total) purchase of Element Solutions — instead triggered a sharp arbitrage-driven selloff in Solstice's own stock, cutting the effective deal value to ESI holders and testing investor confidence in the newly independent company's dealmaking.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-07-06",
-          "headline": "Solstice Advanced Materials agrees to acquire Element Solutions for ~$14.5bn in cash and stock",
-          "source": "CNBC",
-          "priceReaction": "SOLS ~-15%, ESI ~-3%"
-        }
-      ]
-    },
-    {
       "id": "akza-nippon-paint-bid",
       "ticker": "AKZA",
       "counterparty": "Nippon Paint Holdings",
@@ -479,6 +331,12 @@
           "date": "2026-07-17",
           "headline": "Perpetual Limited Board Rejects EQT AB's A$22.07 Per Share Takeover Proposal",
           "source": "Kalkine"
+        },
+        {
+          "status": "rumored",
+          "date": "2026-07-26",
+          "headline": "EQT raises takeover offer for Australian wealth manager Perpetual to A$22.50 a share (~A$2.65bn), up from the A$22.07 proposal the board rejected",
+          "source": "Bloomberg"
         }
       ]
     },
@@ -1022,6 +880,22 @@
           "date": "2026-07-24",
           "headline": "Arcadis Confirms Takeover Bid From WSP, Shares Surge on Revised Offer",
           "source": "Reuters"
+        }
+      ]
+    },
+    {
+      "id": "nvda-openai-datacenter-backstop",
+      "ticker": "NVDA",
+      "counterparty": "OpenAI",
+      "type": "partnership",
+      "currentStatus": "rumored",
+      "whyItMatters": "Nvidia would guarantee roughly $250bn of lease and debt financing so OpenAI can take a 10GW, SoftBank-developed Ohio campus, with a separate ~$350bn chip-purchase financing line under discussion on top. It would lock in years of demand for Nvidia silicon, but turns the chipmaker into a balance-sheet backstop for its own largest customer -- concentrating credit risk that did not previously sit on Nvidia's books. Talks are early-stage and could collapse.",
+      "phases": [
+        {
+          "status": "rumored",
+          "date": "2026-07-26",
+          "headline": "Nvidia in talks with OpenAI to guarantee $250 billion financing for data center, WSJ reports",
+          "source": "The Wall Street Journal"
         }
       ]
     }
