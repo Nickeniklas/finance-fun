@@ -1,22 +1,6 @@
 {
-  "generatedAt": "2026-07-27T07:50:09Z",
+  "generatedAt": "2026-07-28T07:50:00Z",
   "events": [
-    {
-      "id": "nas-nltg-acquisition",
-      "ticker": "NAS",
-      "counterparty": "Nordic Leisure Travel Group",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Buying the Nordics' biggest package-holiday group (Ving, Spies, Tjareborg) turns Norwegian from a point-to-point airline into an end-to-end travel group serving ~30m customers a year, lifting group revenue by close to 50%. The ~SEK 7.94bn price is part-funded with 300m new shares, so holders take dilution now in exchange for vertical integration and a promised 2027 earnings accretion.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-07-07",
-          "headline": "Norwegian agrees to acquire Nordic Leisure Travel Group for ~SEK 7.94bn",
-          "source": "Oslo Bors"
-        }
-      ]
-    },
     {
       "id": "inmd-steel-partners-buyout",
       "ticker": "INMD",
@@ -94,22 +78,6 @@
           "date": "2026-07-16",
           "headline": "Vodafone discloses Vega SAS (Xavier Niel's investment vehicle) holds 19.87% of voting rights via equity-linked instruments, including additional equity swaps beyond the 16.2% stake bought from e&, expected to lift Vega to ~18.8% of share capital pending regulatory approval",
           "source": "GlobeNewswire"
-        }
-      ]
-    },
-    {
-      "id": "efx-circulo-de-credito-acquisition",
-      "ticker": "EFX",
-      "counterparty": "Circulo de Credito",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Equifax's $750m purchase of Mexico's fastest-growing credit bureau (31% YoY revenue growth) gives it a foothold in Latin America's second-largest economy — its 17th bolt-on acquisition in six years, extending a steady inorganic-growth strategy rather than redirecting it.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-07-07",
-          "headline": "Equifax Announces Definitive Agreement to Acquire Circulo de Credito in Mexico",
-          "source": "PR Newswire"
         }
       ]
     },
@@ -248,23 +216,6 @@
           "date": "2026-07-25",
           "headline": "Paramount agrees to pay Warner Bros. Discovery shareholders roughly $7 million per day if the merger remains unclosed after September 30, 2026, as part of the litigation-pause stipulation -- a potential ~$1.7bn cost if the pause runs to the June 1, 2027 outside date",
           "source": "Yahoo Finance"
-        }
-      ]
-    },
-    {
-      "id": "gety-sstk-acquisition",
-      "ticker": "GETY",
-      "counterparty": "SSTK",
-      "type": "acquisition",
-      "currentStatus": "abandoned",
-      "whyItMatters": "The stock-photo industry's marquee consolidation collapses after Getty declined to pursue the UK CMA's demand to divest Shutterstock's editorial business (Rex Features, Splash News, Backgrid) as a condition of clearance — both companies remain standalone rivals facing the same AI-image-generation squeeze the deal was meant to help them fight together.",
-      "phases": [
-        {
-          "status": "abandoned",
-          "date": "2026-07-07",
-          "headline": "Getty Images terminates $3.7bn Shutterstock merger after UK CMA divestment demand",
-          "source": "CNBC",
-          "priceReaction": "SSTK ~-30%, GETY ~-5%"
         }
       ]
     },
@@ -896,6 +847,87 @@
           "date": "2026-07-26",
           "headline": "Nvidia in talks with OpenAI to guarantee $250 billion financing for data center, WSJ reports",
           "source": "The Wall Street Journal"
+        }
+      ]
+    },
+    {
+      "id": "argx-forte-biosciences-acquisition",
+      "ticker": "ARGX",
+      "counterparty": "Forte Biosciences",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "argenx pays $2.2bn in cash ($77/share, ~86% premium to Forte's VWAP since its July 9 vitiligo data) entirely from cash on hand and with no financing condition, buying a first-in-class anti-CD122 antibody (FB102) with clinical proof-of-concept in two autoimmune indications -- a move to broaden its pipeline beyond the FcRn franchise that currently carries the company.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-07-27",
+          "headline": "argenx to Acquire Forte Biosciences, Inc., Adding First-in-Class anti-CD122 Antibody, FB102, to its Immunology Pipeline",
+          "source": "Business Wire",
+          "priceReaction": "FBRX surged in premarket"
+        }
+      ]
+    },
+    {
+      "id": "nvda-ssi-partnership",
+      "ticker": "NVDA",
+      "counterparty": "Safe Superintelligence",
+      "type": "partnership",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Nvidia takes a multibillion-dollar equity stake (reported at ~$5bn) in Ilya Sutskever's pre-revenue, pre-product AI lab and supplies next-generation Vera Rubin capacity to raise SSI's compute by an order of magnitude -- another instance of Nvidia funding the customers that buy its chips, which grows the order book while concentrating vendor-financing risk on its own balance sheet.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-07-27",
+          "headline": "Ilya Sutskever's Safe Superintelligence Inc. and NVIDIA Announce Long-Term Strategic Partnership",
+          "source": "NVIDIA Newsroom"
+        }
+      ]
+    },
+    {
+      "id": "ora-morrison-datacenter-jv",
+      "ticker": "ORA",
+      "counterparty": "Morrison",
+      "type": "partnership",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Orange contributes five French data centres to a 50-50 venture with infrastructure investor Morrison backed by a EUR3bn investment programme targeting 400MW -- roughly ten times Orange's current data-centre capacity, turning an underused telco asset base into a sovereign-AI hosting business funded largely with partner equity and debt rather than Orange's own balance sheet.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-07-27",
+          "headline": "Orange and Morrison announce plans to create a data centre joint venture to strengthen Europe's digital sovereignty",
+          "source": "GlobeNewswire"
+        }
+      ]
+    },
+    {
+      "id": "exe-twin-eagle-acquisition",
+      "ticker": "EXE",
+      "counterparty": "Twin Eagle Holdings",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Expand Energy pays $1.25bn from cash and its revolver for gas marketer Twin Eagle, lifting marketed volumes to ~14 Bcf/d and raising its incremental marketing free-cash-flow target 50% to $750m a year -- a shift from pure-play producer toward an integrated gas business whose earnings depend on basis and logistics rather than the wellhead price alone.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-07-27",
+          "headline": "Expand Energy Corporation to Acquire Twin Eagle, Creating North America's Leading Integrated Natural Gas Company",
+          "source": "Bloomberg"
+        }
+      ]
+    },
+    {
+      "id": "bfb-sazerac-takeover-bid",
+      "ticker": "BF.B",
+      "counterparty": "Sazerac",
+      "type": "acquisition",
+      "currentStatus": "rumored",
+      "whyItMatters": "Sazerac's revived $32/share all-cash approach (~$15bn, a 23% premium) is its second run at Brown-Forman this year, and this time it went over the board's head directly to shareholders while offering to improve terms if the board engages -- putting a family-controlled spirits franchise into a public pressure campaign it has so far refused to negotiate under.",
+      "phases": [
+        {
+          "status": "rumored",
+          "date": "2026-07-26",
+          "headline": "Brown-Forman Says It Rejected Sazerac's Unsolicited Takeover Bid",
+          "source": "Bloomberg"
         }
       ]
     }
