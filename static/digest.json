@@ -1,30 +1,33 @@
 {
-  "date": "2026-07-27",
+  "date": "2026-07-28",
   "whatChanged": [
-    "NEW: Nvidia in talks to guarantee roughly $250bn of lease and debt financing for OpenAI's 10GW, SoftBank-developed Ohio data-center campus, with a separate ~$350bn chip-financing line under discussion (nvda-openai-datacenter-backstop)",
-    "ADVANCED: EQT raises its non-binding takeover proposal for Perpetual to A$22.50/share (~A$2.65bn) after the board rejected A$22.07 (rumored → rumored) (ppt-eqt-takeover-bid)",
-    "DROPPED: 9 stale deals (no new phase in 21+ days: ezj-castlelake-takeover, itv-sky-me-sale, wulf-anthropic-lease, ho-exail-acquisition, lmt-ultra-maritime-acquisition, crto-vista-quinti-takeover-interest, carlsberg-sapporo-sea-jv, fct-underwater-champion-acquisitions, sols-esi-acquisition)"
+    "NEW: argenx agrees to acquire Forte Biosciences for $2.2bn in cash ($77/share, ~86% premium), adding first-in-class anti-CD122 antibody FB102 to its immunology pipeline (argx-forte-biosciences-acquisition)",
+    "NEW: Nvidia takes a reported ~$5bn stake in Ilya Sutskever's Safe Superintelligence and supplies Vera Rubin capacity to raise the lab's compute by an order of magnitude (nvda-ssi-partnership)",
+    "NEW: Orange and infrastructure investor Morrison agree to form a 50-50 French data-centre joint venture backed by a EUR3bn programme targeting 400MW (ora-morrison-datacenter-jv)",
+    "NEW: Expand Energy to acquire natural gas marketer Twin Eagle from Five Point Infrastructure for $1.25bn, lifting marketed volumes to ~14 Bcf/d (exe-twin-eagle-acquisition)",
+    "NEW: Brown-Forman's board rejects a revived unsolicited $32/share (~$15bn) all-cash approach from Sazerac, which took its case directly to shareholders (bfb-sazerac-takeover-bid)",
+    "DROPPED: 3 stale deals (no new phase in 21+ days: nas-nltg-acquisition, efx-circulo-de-credito-acquisition, gety-sstk-acquisition)"
   ],
   "themes": [
     {
       "label": "UK-listed franchises broken up or taken private",
-      "note": "UK-listed names remain a magnet for control-changing bids: Apollo's agreed £5.7bn take-private of easyJet is still awaiting a firm offer by its August 7 deadline (ezj-apollo-takeover), Prologis's 'best and final' £14bn proposal for Segro has the board minded to recommend with the PUSU deadline extended to August 12 (pld-sgro-takeover-bid), and CD&R-owned OCS Group's agreed GBP3.1bn takeover of Mitie will remove another name from the LSE entirely (ocs-mitie-acquisition).",
-      "streak": 20
+      "note": "UK-listed names remain a magnet for control-changing bids: Apollo's agreed £5.7bn take-private of easyJet still awaits a firm offer by its August 7 deadline (ezj-apollo-takeover), Prologis's 'best and final' £14bn proposal for Segro has the board minded to recommend with the PUSU deadline extended to August 12 (pld-sgro-takeover-bid), and CD&R-owned OCS Group's agreed GBP3.1bn takeover of Mitie will remove another name from the LSE entirely (ocs-mitie-acquisition).",
+      "streak": 21
     },
     {
       "label": "Public-to-private buyout offers on listed companies",
-      "note": "PE- and shareholder-led buyouts keep pulling listed names private: Apollo's £5.7bn take-private of easyJet (ezj-apollo-takeover), Steel Partners' $16.75/share bid for InMode (inmd-steel-partners-buyout), EQT/Advent/KKR circling Qiagen (qgen-pe-consortium-takeover-interest), Perfect Corp.'s founder-led going-private deal (perf-projectny-going-private), EQT's fourth and now A$22.50/share approach for Perpetual (ppt-eqt-takeover-bid), Frasers Group's shareholder-led EUR38/share tender for Hugo Boss (boss-frasers-takeover-offer), Stripe and Advent's $53bn+ offer for PayPal still live after board rejection (pypl-stripe-advent-takeover-bid), and OCS Group's CD&R-backed takeover of Mitie (ocs-mitie-acquisition).",
-      "streak": 19
+      "note": "PE-, founder- and strategic-led buyouts keep pulling listed names private: Apollo's £5.7bn take-private of easyJet (ezj-apollo-takeover), Steel Partners' $16.75/share bid for InMode (inmd-steel-partners-buyout), EQT/Advent/KKR circling Qiagen (qgen-pe-consortium-takeover-interest), Perfect Corp.'s founder-led going-private deal (perf-projectny-going-private), EQT's fourth and now A$22.50/share approach for Perpetual (ppt-eqt-takeover-bid), Frasers Group's shareholder-led EUR38/share tender for Hugo Boss (boss-frasers-takeover-offer), Stripe and Advent's $53bn+ offer for PayPal still live after board rejection (pypl-stripe-advent-takeover-bid), OCS Group's CD&R-backed takeover of Mitie (ocs-mitie-acquisition), and now privately held Sazerac's revived ~$15bn approach for Brown-Forman (bfb-sazerac-takeover-bid).",
+      "streak": 20
     },
     {
       "label": "AI data-center capacity and power build-out",
-      "note": "Capital and commercial commitments keep pouring into the physical layer of AI compute: Nvidia's talks to backstop ~$250bn of financing for OpenAI's 10GW Ohio campus (nvda-openai-datacenter-backstop), Meta's Louisiana campus expanded to 5GW and $50bn+ (meta-richland-parish-capex), Williams's $5.34bn Blackstone-led JV funding five behind-the-meter data-center power projects (wmb-blackstone-power-jv), 3M and Microsoft's optical-infrastructure partnership for Azure (mmm-msft-ai-datacenter-partnership), Microsoft's at-scale deployment of AMD's Helios systems (msft-amd-helios-partnership), AMD's up-to-$5bn equity bet on Anthropic tied to a 2GW MI450 deployment (amd-anthropic-chip-partnership), NVIDIA's $1.5bn prepaid packaging capacity at Amkor (amkr-nvidia-packaging-partnership), Verizon's $1bn dark-fiber deal with Google (vz-google-fiber-partnership), Alphabet's 2026 capex guide raised to as much as $205bn (googl-capex-raise-2026), Samsung Electronics' ~$200bn memory and foundry MOU with Broadcom (samsungelec-avgo-chip-partnership), and SK hynix's long-term HBM pact with NVIDIA behind a 2GW Vera Rubin AI factory (skhynix-nvda-ai-partnership).",
-      "streak": 10
+      "note": "Capital and commercial commitments keep pouring into the physical layer of AI compute: Nvidia's talks to backstop ~$250bn of financing for OpenAI's 10GW Ohio campus (nvda-openai-datacenter-backstop) and its new equity-plus-Vera-Rubin-capacity pact with Safe Superintelligence (nvda-ssi-partnership), Orange and Morrison's EUR3bn, 400MW French data-centre JV (ora-morrison-datacenter-jv), Meta's Louisiana campus expanded to 5GW and $50bn+ (meta-richland-parish-capex), Williams's $5.34bn Blackstone-led JV funding five behind-the-meter data-center power projects (wmb-blackstone-power-jv), 3M and Microsoft's optical-infrastructure partnership for Azure (mmm-msft-ai-datacenter-partnership), Microsoft's at-scale deployment of AMD's Helios systems (msft-amd-helios-partnership), AMD's up-to-$5bn equity bet on Anthropic tied to a 2GW MI450 deployment (amd-anthropic-chip-partnership), NVIDIA's $1.5bn prepaid packaging capacity at Amkor (amkr-nvidia-packaging-partnership), Verizon's $1bn dark-fiber deal with Google (vz-google-fiber-partnership), Alphabet's 2026 capex guide raised to as much as $205bn (googl-capex-raise-2026), Samsung Electronics' ~$200bn memory and foundry MOU with Broadcom (samsungelec-avgo-chip-partnership), and SK hynix's long-term HBM pact with NVIDIA behind a 2GW Vera Rubin AI factory (skhynix-nvda-ai-partnership).",
+      "streak": 11
     },
     {
       "label": "Signed M&A deals hitting regulatory or legal roadblocks",
       "note": "Deals investors thought were settled keep drawing legal fire: the signed, DOJ-cleared Paramount Skydance-Warner Bros. Discovery merger is formally paused by court stipulation until five days after an antitrust trial or June 1, 2027, with Paramount owing ~$7m/day if the pause runs past September 30, 2026 (psky-wbd-acquisition), while InMode's special committee remains procedurally frozen pending the Haifa court's ruling on the competing buyout bids (inmd-steel-partners-buyout).",
-      "streak": 14
+      "streak": 15
     }
   ]
 }
