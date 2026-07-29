@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T07:50:00Z",
+  "generatedAt": "2026-07-29T08:00:00Z",
   "events": [
     {
       "id": "inmd-steel-partners-buyout",
@@ -95,38 +95,6 @@
           "headline": "EasyJet board agrees in principle to rival £5.7bn takeover bid from Apollo, topping Castlelake offer",
           "source": "Bloomberg",
           "priceReaction": "+13% intraday"
-        }
-      ]
-    },
-    {
-      "id": "aapl-avgo-chipmaking-partnership",
-      "ticker": "AAPL",
-      "counterparty": "AVGO",
-      "type": "partnership",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Apple's $30bn+ multiyear commitment to Broadcom is its largest US manufacturing investment to date, locking in onshore supply of custom RF/wireless chips (15bn+ units) and deepening a strategic silicon dependency between the two companies that outlasts any single tariff or trade-policy cycle.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-07-08",
-          "headline": "Apple commits $30 billion to Broadcom for U.S. chipmaking push",
-          "source": "CNBC"
-        }
-      ]
-    },
-    {
-      "id": "kr-giant-eagle-acquisition",
-      "ticker": "KR",
-      "counterparty": "Giant Eagle",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Kroger's first deal since its $25bn Albertsons merger collapsed in 2024 is a much smaller, lower-risk bolt-on ($1.65bn) that adds ~$9bn of annual sales across five states and signals management is back in dealmaking mode after the antitrust defeat.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-07-08",
-          "headline": "Kroger Announces Agreement to Acquire Giant Eagle",
-          "source": "PR Newswire"
         }
       ]
     },
@@ -288,6 +256,12 @@
           "date": "2026-07-26",
           "headline": "EQT raises takeover offer for Australian wealth manager Perpetual to A$22.50 a share (~A$2.65bn), up from the A$22.07 proposal the board rejected",
           "source": "Bloomberg"
+        },
+        {
+          "status": "rumored",
+          "date": "2026-07-28",
+          "headline": "Perpetual rejects EQT's A$22.50-a-share (~A$2.6bn) proposal as not in shareholders' best interests, but offers limited non-public information and says it will engage on an improved offer",
+          "source": "Bloomberg"
         }
       ]
     },
@@ -328,7 +302,7 @@
       "ticker": "BOSS",
       "counterparty": "Frasers Group",
       "type": "acquisition",
-      "currentStatus": "confirmed",
+      "currentStatus": "approved",
       "whyItMatters": "Frasers Group, already Hugo Boss's largest shareholder at ~26.6%, has launched a formal, regulator-approved EUR38/share tender for the rest of the company; Hugo Boss's own board says the price undervalues the business and is urging shareholders to reject it, so the outcome of a contested control fight at a major European fashion house now hinges on the acceptance period running to July 27.",
       "phases": [
         {
@@ -348,6 +322,12 @@
           "status": "confirmed",
           "date": "2026-07-21",
           "headline": "Frasers Group crosses 30% stake threshold in Hugo Boss, triggering mandatory-offer rules under German takeover law; confirms EUR38/share is its final price",
+          "source": "FashionUnited"
+        },
+        {
+          "status": "approved",
+          "date": "2026-07-28",
+          "headline": "Frasers Group's EUR38-per-share offer for Hugo Boss becomes unconditional after European Commission merger clearance; the initial acceptance period closed July 27 and an additional acceptance period runs to August 13",
           "source": "FashionUnited"
         }
       ]
@@ -928,6 +908,71 @@
           "date": "2026-07-26",
           "headline": "Brown-Forman Says It Rejected Sazerac's Unsolicited Takeover Bid",
           "source": "Bloomberg"
+        }
+      ]
+    },
+    {
+      "id": "naver-nvda-ai-factory-partnership",
+      "ticker": "035420.KS",
+      "counterparty": "NVDA (with Brookfield)",
+      "type": "partnership",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Nvidia takes about 4.5% of Naver through a ~$1bn new-share issue -- making the chipmaker Naver's third-largest shareholder behind the National Pension Service and BlackRock -- while Brookfield funds up to $9bn of a $10bn AI factory that lifts the GAK Sejong data centre from 55MW to 200MW by 2028. Naver gets sovereign-AI scale without carrying the capex alone; Nvidia gets another equity-linked customer locked into Blackwell and Vera Rubin.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-07-27",
+          "headline": "Nvidia to invest $1 bil. in Naver for 4.5% stake, with Brookfield backing a $10 billion AI factory build at the GAK Sejong data centre",
+          "source": "The Korea Times",
+          "priceReaction": "shares soared on the announcement"
+        }
+      ]
+    },
+    {
+      "id": "bx-kuwait-oil-pipeline-partnership",
+      "ticker": "BX",
+      "counterparty": "Kuwait Oil Company (with Brookfield, KKR)",
+      "type": "partnership",
+      "currentStatus": "confirmed",
+      "whyItMatters": "A Blackstone-Brookfield-KKR consortium takes 49% of Kuwait Oil Company's 320km crude pipeline network under a 20.5-year lease-and-leaseback ('Project Peregrine'), handing KOC $7.85bn upfront against a $16bn headline value while it keeps 51% -- one of the largest Middle East infrastructure privatisations yet, and a large, long-duration, contracted asset for three listed alternative managers hunting scale in infrastructure.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-07-25",
+          "headline": "Kuwait Oil Company Signs US$16.0 Billion Infrastructure Partnership Involving Its Crude Oil Pipeline Network With a Consortium Comprising Blackstone, Brookfield and KKR",
+          "source": "CNBC"
+        }
+      ]
+    },
+    {
+      "id": "tdg-prince-izant-acquisition",
+      "ticker": "TDG",
+      "counterparty": "Prince & Izant",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "TransDigm pays ~$1.066bn cash for precision engineered-materials maker Prince & Izant, bought from Industrial Growth Partners -- its largest bolt-on of the year and a continuation of the debt-funded, high-margin proprietary-parts roll-up the whole TransDigm equity story rests on.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-07-27",
+          "headline": "TransDigm Group Announces Agreement to Acquire Prince & Izant for Approximately $1.066 Billion in Cash",
+          "source": "StockTitan"
+        }
+      ]
+    },
+    {
+      "id": "drs-raft-acquisition",
+      "ticker": "DRS",
+      "counterparty": "Raft LLC",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Leonardo DRS pays $450m cash for Raft, a McLean, Virginia open-architecture mission-software firm, buying into multi-domain data fusion and AI rather than building it -- a step up the stack from hardware-centric defence electronics, funded from cash and the revolver, accretive to adjusted EPS in year one and carrying a ~$50m present-value tax benefit.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-07-28",
+          "headline": "Leonardo DRS to Acquire Raft, Expanding Multi-Domain AI, Data Fusion and Mission Software Capabilities",
+          "source": "Leonardo DRS"
         }
       ]
     }
