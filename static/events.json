@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-29T08:00:00Z",
+  "generatedAt": "2026-07-30T08:00:00Z",
   "events": [
     {
       "id": "inmd-steel-partners-buyout",
@@ -95,23 +95,6 @@
           "headline": "EasyJet board agrees in principle to rival £5.7bn takeover bid from Apollo, topping Castlelake offer",
           "source": "Bloomberg",
           "priceReaction": "+13% intraday"
-        }
-      ]
-    },
-    {
-      "id": "qgen-pe-consortium-takeover-interest",
-      "ticker": "QGEN",
-      "counterparty": "EQT, Advent, KKR",
-      "type": "acquisition",
-      "currentStatus": "rumored",
-      "whyItMatters": "Qiagen has drawn early takeover interest from PE firms EQT, Advent, and KKR at prices reportedly above $50/share against a ~$7.85bn market cap, following the company's own retention of Goldman Sachs and Moelis to explore strategic alternatives — still 'early stage' with no assurance of a deal, but it puts a major diagnostics/genomics name in play.",
-      "phases": [
-        {
-          "status": "rumored",
-          "date": "2026-07-09",
-          "headline": "Qiagen Draws Early Takeover Interest From EQT, Advent, KKR",
-          "source": "Bloomberg",
-          "priceReaction": "+11%"
         }
       ]
     },
@@ -811,6 +794,12 @@
           "date": "2026-07-24",
           "headline": "Arcadis Confirms Takeover Bid From WSP, Shares Surge on Revised Offer",
           "source": "Reuters"
+        },
+        {
+          "status": "rumored",
+          "date": "2026-07-30",
+          "headline": "Arcadis unanimously rejects second unsolicited proposal from WSP Global Inc",
+          "source": "GlobeNewswire"
         }
       ]
     },
@@ -973,6 +962,55 @@
           "date": "2026-07-28",
           "headline": "Leonardo DRS to Acquire Raft, Expanding Multi-Domain AI, Data Fusion and Mission Software Capabilities",
           "source": "Leonardo DRS"
+        }
+      ]
+    },
+    {
+      "id": "cbz-grant-thornton-acquisition",
+      "ticker": "CBZ",
+      "counterparty": "Grant Thornton Advisors (New Mountain Capital)",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Grant Thornton's $5bn all-cash purchase of CBIZ at $55/share -- a ~54% premium to the 30-day VWAP, backed by fresh New Mountain Capital equity -- takes the largest publicly traded US accounting and advisory firm private and creates the fifth-largest US professional services provider, the sector's biggest combination in more than 25 years. A go-shop period running to August 27 leaves the door open to a topping bid.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-07-29",
+          "headline": "Grant Thornton Advisors to Acquire CBIZ for $5 Billion in Transaction Supported by New Mountain Capital",
+          "source": "GlobeNewswire",
+          "priceReaction": "+17.7% intraday, biggest single-day gain in over 20 years"
+        }
+      ]
+    },
+    {
+      "id": "cms-northstar-renewables-exit",
+      "ticker": "CMS",
+      "counterparty": null,
+      "type": "strategy-shift",
+      "currentStatus": "confirmed",
+      "whyItMatters": "CMS Energy will exit non-utility renewables development and sell NorthStar Clean Energy's non-Michigan assets, keeping only Michigan facilities such as Dearborn Industrial Generation -- a board-approved shift toward a near pure-play regulated utility that cuts parent-level funding needs by more than $500m through 2030 and redirects that capital into rate-based investment.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-07-28",
+          "headline": "CMS Energy Announces Second Quarter Results, Strategic Decision on NorthStar Clean Energy Services, Introduces Guidance for 2027",
+          "source": "PR Newswire"
+        }
+      ]
+    },
+    {
+      "id": "bsx-global-restructuring",
+      "ticker": "BSX",
+      "counterparty": null,
+      "type": "strategy-shift",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Boston Scientific's board-approved global restructuring commits $700-800m of pre-tax charges through 2029 to strip out roughly $500m of annual costs via supply-chain consolidation, production-line transfers between plants and headcount reductions -- a margin-defence program at a company that has grown mainly by acquisition, and a signal that cost discipline, not just growth, now drives the plan.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-07-27",
+          "headline": "Boston Scientific unveils new restructuring plan, expects job cuts",
+          "source": "Reuters"
         }
       ]
     }
