@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T08:00:00Z",
+  "generatedAt": "2026-07-31T08:00:00Z",
   "events": [
     {
       "id": "inmd-steel-partners-buyout",
@@ -21,6 +21,12 @@
           "date": "2026-07-12",
           "headline": "Haifa court blocks InMode board from deciding between competing buyout bids pending Steel Partners injunction hearing, extends response deadline to July 19",
           "source": "StockTitan"
+        },
+        {
+          "status": "rumored",
+          "date": "2026-07-28",
+          "headline": "Steel Partners Urges InMode Shareholders to Vote AGAINST the Re-Election of Dr. Hadar Ron and AGAINST Extraordinary Special Committee Compensation at the July 30 Annual General Meeting",
+          "source": "Reuters"
         }
       ]
     },
@@ -78,39 +84,6 @@
           "date": "2026-07-16",
           "headline": "Vodafone discloses Vega SAS (Xavier Niel's investment vehicle) holds 19.87% of voting rights via equity-linked instruments, including additional equity swaps beyond the 16.2% stake bought from e&, expected to lift Vega to ~18.8% of share capital pending regulatory approval",
           "source": "GlobeNewswire"
-        }
-      ]
-    },
-    {
-      "id": "ezj-apollo-takeover",
-      "ticker": "EZJ",
-      "counterparty": "Apollo Global Management",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Apollo's £7.15/share (£5.7bn/$7.7bn) offer beats Castlelake's accepted £6.90 bid by roughly £1bn and flipped the EasyJet board's recommendation within days of the Castlelake deal being struck, turning what looked like a settled take-private into a live bidding war with the final price and winner both unresolved.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-07-10",
-          "headline": "EasyJet board agrees in principle to rival £5.7bn takeover bid from Apollo, topping Castlelake offer",
-          "source": "Bloomberg",
-          "priceReaction": "+13% intraday"
-        }
-      ]
-    },
-    {
-      "id": "perf-projectny-going-private",
-      "ticker": "PERF",
-      "counterparty": "ProjectNY (Alice Chang / CyberLink)",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Founder Alice Chang and CyberLink, together holding 81.2% of voting power, sign a binding deal to take Perfect Corp private for $2.00/share cash (a 48% premium), removing the AR/AI beauty-tech name from public markets entirely.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-07-10",
-          "headline": "Perfect Corp. Enters into a Definitive Agreement for a Going-Private Transaction",
-          "source": "Business Wire"
         }
       ]
     },
@@ -1011,6 +984,39 @@
           "date": "2026-07-27",
           "headline": "Boston Scientific unveils new restructuring plan, expects job cuts",
           "source": "Reuters"
+        }
+      ]
+    },
+    {
+      "id": "ice-mktx-acquisition",
+      "ticker": "ICE",
+      "counterparty": "MKTX",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "ICE pays $167/share in cash (~$5.7bn enterprise value, a 33% premium) to buy MarketAxess, folding the largest institutional electronic corporate-bond network into its own retail bond franchise and fixed-income data business -- a bet that the $145trn bond market is the next asset class to electronify, funded with cash and new debt behind a $6.25bn bridge facility and targeting only ~$100m of cost synergies, so the case rests on revenue and network effects rather than cuts.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-07-30",
+          "headline": "ICE to buy MarketAxess in $5.7 billion deal to expand fixed-income offerings",
+          "source": "CNBC",
+          "priceReaction": "+33% premium to prior close"
+        }
+      ]
+    },
+    {
+      "id": "lloy-accelerate-2030-capital-return",
+      "ticker": "LLOY",
+      "counterparty": null,
+      "type": "capital-allocation",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Lloyds raises its interim dividend 30% to 1.58p and adds a GBP1bn buyback -- GBP1.9bn of first-half distributions -- while setting out an 'Accelerate 2030' plan targeting ~20% return on tangible equity, a sub-45% cost-income ratio and 225bps+ of annual capital generation by 2030 -- turning a 17.1% first-half RoTE and a 13.1% pro forma CET1 ratio into a committed multi-year capital-return trajectory rather than a one-off payout.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-07-30",
+          "headline": "Lloyds launches GBP1bn buyback and new 2030 plan after beating profit forecasts",
+          "source": "Proactive Investors"
         }
       ]
     }
