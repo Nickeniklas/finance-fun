@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-31T08:00:00Z",
+  "generatedAt": "2026-08-01T08:00:00Z",
   "events": [
     {
       "id": "inmd-steel-partners-buyout",
@@ -1017,6 +1017,73 @@
           "date": "2026-07-30",
           "headline": "Lloyds launches GBP1bn buyback and new 2030 plan after beating profit forecasts",
           "source": "Proactive Investors"
+        }
+      ]
+    },
+    {
+      "id": "amba-nxpi-acquisition",
+      "ticker": "AMBA",
+      "counterparty": "NXPI",
+      "type": "acquisition",
+      "currentStatus": "rumored",
+      "whyItMatters": "NXP is in talks to buy Ambarella, whose low-power edge-AI vision silicon would slot into an automotive franchise already worth roughly half of NXP's ~$15.1bn 2026 revenue -- buying software-defined-vehicle, radar and camera capability rather than building it. The FT report puts the price above $3bn but stresses talks are ongoing and may not produce a deal, so the premium is not yet fixed and rival bidders could still surface.",
+      "phases": [
+        {
+          "status": "rumored",
+          "date": "2026-07-31",
+          "headline": "NXP in talks to buy chip developer Ambarella, FT reports",
+          "source": "Financial Times",
+          "priceReaction": "AMBA +17%, NXPI -3%"
+        }
+      ]
+    },
+    {
+      "id": "itgr-kkr-takeover",
+      "ticker": "ITGR",
+      "counterparty": "KKR",
+      "type": "acquisition",
+      "currentStatus": "rumored",
+      "whyItMatters": "KKR is reportedly close to a $127-a-share, ~$4.3bn all-cash take-private of medical-device outsourcer Integer Holdings, which would resolve the strategic review the board opened in April 2026. Integer closed ~20% higher at about $121 on the report, leaving only ~5% to the reported price -- so the market is already treating the deal as likely and the open question is whether the price rises or a rival emerges before terms are signed.",
+      "phases": [
+        {
+          "status": "rumored",
+          "date": "2026-07-31",
+          "headline": "KKR nearing deal to acquire Integer Holdings, WSJ reports",
+          "source": "The Wall Street Journal",
+          "priceReaction": "+20% intraday"
+        }
+      ]
+    },
+    {
+      "id": "vod-ckhutchison-vodafonethree-buyout",
+      "ticker": "VOD",
+      "counterparty": "CK Hutchison",
+      "type": "acquisition",
+      "currentStatus": "closed",
+      "whyItMatters": "Vodafone pays GBP4.3bn from existing cash for CK Hutchison's 49% of VodafoneThree, taking sole ownership of the UK's largest mobile operator just over a year after the CMA-cleared merger completed. Full control lets it move faster on the GBP11bn network investment plan and the GBP700m of annual cost and capex savings targeted by FY30 -- at the cost of spending the cash up front and carrying 100% of the integration risk.",
+      "phases": [
+        {
+          "status": "closed",
+          "date": "2026-07-31",
+          "headline": "Vodafone takes full ownership of VodafoneThree",
+          "source": "Vodafone"
+        }
+      ]
+    },
+    {
+      "id": "amzn-capex-raise-2026",
+      "ticker": "AMZN",
+      "counterparty": null,
+      "type": "capital-allocation",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Amazon lifts 2026 cash capex guidance to roughly $220bn from ~$200bn, blaming higher memory costs, with Jassy saying AI capacity stays constrained through 2027 and declining to detail how the extra $20bn is funded. It lands alongside AWS growth accelerating to 37% and a $496bn backlog -- the second hyperscaler in ten days, after Alphabet, to tell investors AI infrastructure demand is outrunning the build-out plan.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-07-30",
+          "headline": "Amazon hikes 2026 capex to $220 billion due to higher memory costs",
+          "source": "CNBC",
+          "priceReaction": "shares surged the following session on Q2 results"
         }
       ]
     }
