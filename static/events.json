@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T08:00:00Z",
+  "generatedAt": "2026-08-02T07:50:00Z",
   "events": [
     {
       "id": "inmd-steel-partners-buyout",
@@ -1084,6 +1084,40 @@
           "headline": "Amazon hikes 2026 capex to $220 billion due to higher memory costs",
           "source": "CNBC",
           "priceReaction": "shares surged the following session on Q2 results"
+        }
+      ]
+    },
+    {
+      "id": "tsla-spacex-china-separation",
+      "ticker": "TSLA",
+      "counterparty": "SpaceX",
+      "type": "strategy-shift",
+      "currentStatus": "rumored",
+      "whyItMatters": "The Wall Street Journal reports Tesla executives were told to prepare for a separation of the China business -- spin-off, sale or closure -- to clear the national-security path for a merger with defence contractor SpaceX. Gigafactory Shanghai is Tesla's largest plant, with over 950,000 units of annual capacity and historically more than half of global deliveries, so a separation would be the biggest structural change in the company's history. Elon Musk called the report 'absurdly fake news' and Tesla China called it false information, so this is a contested single-source report, not an agreed plan.",
+      "phases": [
+        {
+          "status": "rumored",
+          "date": "2026-07-30",
+          "headline": "Tesla weighs sale of China business to pave way for potential SpaceX merger, WSJ reports",
+          "source": "The Wall Street Journal",
+          "priceReaction": "+3.5%, closed at $308.85"
+        }
+      ]
+    },
+    {
+      "id": "ecg-epsilon-acquisition",
+      "ticker": "ECG",
+      "counterparty": "Epsilon Industries",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Everus pays $295m in cash -- funded from cash on hand and its credit facilities -- for a 25-year-old maker of modular mechanical and electrical building infrastructure serving data centers, advanced manufacturing and healthcare. Epsilon expects roughly $250m of 2026 revenue at a low-double-digit EBITDA margin, so this buys off-site prefabrication capacity and a data-center-exposed revenue stream rather than building them, with closing expected in Q3 2026.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-07-31",
+          "headline": "Everus to Acquire Epsilon Industries, Premier Off-Site Modular Construction Solutions Provider",
+          "source": "Business Wire",
+          "priceReaction": "shares rose on the announcement"
         }
       ]
     }
