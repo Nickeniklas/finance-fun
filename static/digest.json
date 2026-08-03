@@ -1,34 +1,36 @@
 {
-  "date": "2026-08-02",
+  "date": "2026-08-03",
   "whatChanged": [
-    "NEW: WSJ reports Tesla executives were told to prepare a spin-off, sale or closure of the China business to clear the path for a SpaceX merger; Musk calls the report 'absurdly fake news' and Tesla China denies it (tsla-spacex-china-separation)",
-    "NEW: Everus to acquire off-site modular mechanical and electrical infrastructure maker Epsilon Industries for $295m in cash, adding ~$250m of data-center-exposed revenue (ecg-epsilon-acquisition)"
+    "NEW: SG Fleet Topco, the Pacific Equity Partners vehicle that took SG Fleet private, makes an unsolicited non-binding A$3.60-a-share (~A$760.3m) scheme proposal for FleetPartners at a 27% premium; the board is evaluating (fpr-sgfleet-takeover-bid)",
+    "NEW: Holcim agrees to exit the Philippines, selling 68% of its local business to China's Huaxin Cement for $527m with the rest to follow for at least $280m, ~$807m in total (holn-huaxin-philippines-exit)",
+    "NEW: UK Takeover Panel extends Castlelake's put-up-or-shut-up deadline for easyJet from August 3 to August 7, aligning it with Apollo's, after the board agreed in principle to Apollo's 715p-a-share (~GBP5.7bn) terms (ezj-apollo-takeover)",
+    "NEW: SK Inc. signs the sale of its 70.6% stake in sole Korean wafer maker SK Siltron to Doosan for KRW2.3trn (~$1.6bn), completing in January 2027 (doosan-sksiltron-acquisition)"
   ],
   "themes": [
     {
       "label": "UK-listed franchises broken up or taken private",
-      "note": "London-listed names remain a magnet for control-changing bids from overseas and private capital: Prologis's 'best and final' GBP14bn proposal for Segro still sits at the Rule 2.4 possible-offer stage with the PUSU deadline running to August 12 (pld-sgro-takeover-bid), while CD&R-owned OCS Group's agreed GBP3.1bn takeover of facilities-management leader Mitie will remove another name from the LSE entirely (ocs-mitie-acquisition).",
-      "streak": 26
+      "note": "London-listed names remain a magnet for control-changing bids from overseas and private capital: both easyJet suitors must now declare a firm offer or walk by August 7, with the board already agreed in principle to Apollo's ~GBP5.7bn terms (ezj-apollo-takeover), Prologis's 'best and final' GBP14bn proposal for Segro still sits at the Rule 2.4 possible-offer stage with the PUSU deadline running to August 12 (pld-sgro-takeover-bid), and CD&R-owned OCS Group's agreed GBP3.1bn takeover of facilities-management leader Mitie will remove another name from the LSE entirely (ocs-mitie-acquisition).",
+      "streak": 27
     },
     {
       "label": "Public-to-private buyout offers on listed companies",
-      "note": "PE-, founder- and strategic-led buyouts keep pulling listed names private: KKR's reported $127/share, ~$4.3bn approach for Integer Holdings (itgr-kkr-takeover), Grant Thornton and New Mountain Capital's $5bn all-cash deal for CBIZ with a go-shop running to August 27 (cbz-grant-thornton-acquisition), Steel Partners' $16.75/share bid for InMode fought through both the Haifa court and the AGM ballot (inmd-steel-partners-buyout), EQT's A$22.50/share approach for Perpetual (ppt-eqt-takeover-bid), Frasers Group's now-unconditional EUR38/share tender for Hugo Boss (boss-frasers-takeover-offer), Stripe and Advent's $53bn offer for PayPal still live after board rejection (pypl-stripe-advent-takeover-bid), OCS Group's CD&R-backed takeover of Mitie (ocs-mitie-acquisition), and privately held Sazerac's revived ~$15bn approach for Brown-Forman (bfb-sazerac-takeover-bid).",
-      "streak": 25
+      "note": "PE-, founder- and strategic-led buyouts keep pulling listed names private: Pacific Equity Partners' SG Fleet vehicle bidding A$3.60/share for FleetPartners (fpr-sgfleet-takeover-bid), Apollo and Castlelake both facing an August 7 deadline on easyJet (ezj-apollo-takeover), KKR's reported $127/share, ~$4.3bn approach for Integer Holdings (itgr-kkr-takeover), Grant Thornton and New Mountain Capital's $5bn all-cash deal for CBIZ with a go-shop running to August 27 (cbz-grant-thornton-acquisition), Steel Partners' $16.75/share bid for InMode fought through both the Haifa court and the AGM ballot (inmd-steel-partners-buyout), EQT's A$22.50/share approach for Perpetual (ppt-eqt-takeover-bid), Frasers Group's now-unconditional EUR38/share tender for Hugo Boss (boss-frasers-takeover-offer), Stripe and Advent's $53bn offer for PayPal still live after board rejection (pypl-stripe-advent-takeover-bid), OCS Group's CD&R-backed takeover of Mitie (ocs-mitie-acquisition), and privately held Sazerac's revived ~$15bn approach for Brown-Forman (bfb-sazerac-takeover-bid).",
+      "streak": 26
     },
     {
       "label": "AI data-center capacity and power build-out",
-      "note": "Capital and commercial commitments keep pouring into the physical layer of AI compute, and the guided numbers keep going up: Amazon's 2026 capex guide raised to ~$220bn with capacity constrained into 2027 (amzn-capex-raise-2026) and Alphabet's raised to as much as $205bn (googl-capex-raise-2026), Nvidia's talks to backstop ~$250bn of financing for OpenAI's 10GW Ohio campus (nvda-openai-datacenter-backstop) and its equity-plus-Vera-Rubin-capacity pact with Safe Superintelligence (nvda-ssi-partnership), the $10bn Naver AI factory scaling to 200MW with Brookfield capital (naver-nvda-ai-factory-partnership), Orange and Morrison's EUR3bn, 400MW French data-centre JV (ora-morrison-datacenter-jv), Meta's Louisiana campus expanded to 5GW and $50bn+ (meta-richland-parish-capex), Williams's $5.34bn Blackstone-led JV funding five behind-the-meter data-center power projects (wmb-blackstone-power-jv), Microsoft's at-scale deployment of AMD's Helios systems (msft-amd-helios-partnership), NVIDIA's $1.5bn prepaid packaging capacity at Amkor (amkr-nvidia-packaging-partnership), Verizon's $1bn dark-fiber deal with Google (vz-google-fiber-partnership), Samsung Electronics' ~$200bn memory and foundry MOU with Broadcom (samsungelec-avgo-chip-partnership), SK hynix's long-term HBM pact with NVIDIA behind a 2GW Vera Rubin AI factory (skhynix-nvda-ai-partnership), and now the contractors buying the prefabrication capacity to build it -- Everus's $295m purchase of modular mechanical and electrical specialist Epsilon Industries (ecg-epsilon-acquisition).",
-      "streak": 16
+      "note": "Capital and commercial commitments keep pouring into the physical layer of AI compute, and the guided numbers keep going up: Amazon's 2026 capex guide raised to ~$220bn with capacity constrained into 2027 (amzn-capex-raise-2026) and Alphabet's raised to as much as $205bn (googl-capex-raise-2026), Nvidia's talks to backstop ~$250bn of financing for OpenAI's 10GW Ohio campus (nvda-openai-datacenter-backstop) and its equity-plus-Vera-Rubin-capacity pact with Safe Superintelligence (nvda-ssi-partnership), the $10bn Naver AI factory scaling to 200MW with Brookfield capital (naver-nvda-ai-factory-partnership), Orange and Morrison's EUR3bn, 400MW French data-centre JV (ora-morrison-datacenter-jv), Meta's Louisiana campus expanded to 5GW and $50bn+ (meta-richland-parish-capex), Williams's $5.34bn Blackstone-led JV funding five behind-the-meter data-center power projects (wmb-blackstone-power-jv), Microsoft's at-scale deployment of AMD's Helios systems (msft-amd-helios-partnership), NVIDIA's $1.5bn prepaid packaging capacity at Amkor (amkr-nvidia-packaging-partnership), Verizon's $1bn dark-fiber deal with Google (vz-google-fiber-partnership), Samsung Electronics' ~$200bn memory and foundry MOU with Broadcom (samsungelec-avgo-chip-partnership), SK hynix's long-term HBM pact with NVIDIA behind a 2GW Vera Rubin AI factory (skhynix-nvda-ai-partnership), Everus's $295m purchase of modular mechanical and electrical specialist Epsilon Industries to build it (ecg-epsilon-acquisition), and now the raw-material layer changing hands as Doosan buys control of Korea's sole wafer maker SK Siltron for KRW2.3trn (doosan-sksiltron-acquisition).",
+      "streak": 17
     },
     {
       "label": "Chipmakers funding the customers that buy their chips",
       "note": "Vendor financing is now the standard shape of frontier-AI deals, and it concentrates credit and equity risk on the supplier's balance sheet: Nvidia is in talks to guarantee ~$250bn of lease and debt financing for OpenAI's Ohio campus (nvda-openai-datacenter-backstop), took a reported ~$5bn equity stake in pre-revenue Safe Superintelligence alongside a compute commitment (nvda-ssi-partnership), and is buying ~4.5% of Naver via a ~$1bn share issue tied to a 200MW AI factory (naver-nvda-ai-factory-partnership), while AMD is investing up to $5bn in Anthropic against a tens-of-billions MI450 purchase commitment (amd-anthropic-chip-partnership).",
-      "streak": 5
+      "streak": 6
     },
     {
       "label": "Signed M&A deals hitting regulatory or legal roadblocks",
       "note": "Deals investors thought were settled keep drawing legal fire: the signed, DOJ-cleared Paramount Skydance-Warner Bros. Discovery merger is formally paused by court stipulation until five days after an antitrust trial or June 1, 2027, with Paramount owing ~$7m/day if the pause runs past September 30, 2026 (psky-wbd-acquisition), while InMode's special committee remains procedurally frozen pending the Haifa court's ruling on the competing buyout bids, with the fight now also running through the AGM ballot (inmd-steel-partners-buyout).",
-      "streak": 20
+      "streak": 21
     }
   ]
 }

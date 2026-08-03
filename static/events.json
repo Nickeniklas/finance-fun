@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T07:50:00Z",
+  "generatedAt": "2026-08-03T08:00:00Z",
   "events": [
     {
       "id": "inmd-steel-partners-buyout",
@@ -1118,6 +1118,71 @@
           "headline": "Everus to Acquire Epsilon Industries, Premier Off-Site Modular Construction Solutions Provider",
           "source": "Business Wire",
           "priceReaction": "shares rose on the announcement"
+        }
+      ]
+    },
+    {
+      "id": "fpr-sgfleet-takeover-bid",
+      "ticker": "FPR",
+      "counterparty": "SG Fleet Topco (Pacific Equity Partners)",
+      "type": "acquisition",
+      "currentStatus": "rumored",
+      "whyItMatters": "SG Fleet Topco -- the Pacific Equity Partners vehicle that took SG Fleet private -- has put an unsolicited, non-binding A$3.60-a-share (~A$760.3m) scheme proposal to FleetPartners, a 27% premium that would put two of Australia's largest fleet-management and novated-leasing books under one private owner. The board has committed to nothing and is evaluating with UBS and Herbert Smith Freehills Kramer, so the open questions are whether it engages at all and whether a combination of this scale clears the ACCC.",
+      "phases": [
+        {
+          "status": "rumored",
+          "date": "2026-08-03",
+          "headline": "Australia's FleetPartners shares on track for best day in 6 years on $534 million takeover bid",
+          "source": "Reuters",
+          "priceReaction": "+17% to A$3.31, a 20-month high"
+        }
+      ]
+    },
+    {
+      "id": "doosan-sksiltron-acquisition",
+      "ticker": "000150.KS",
+      "counterparty": "SK Siltron (SK Inc.)",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Doosan pays KRW2.3trn (~$1.6bn) for 70.6% of SK Siltron, Korea's only dedicated silicon-wafer maker and the world's number three in 12-inch wafers -- its largest deal since Bobcat and a pivot out of heavy industry into semiconductor materials, with a stated ambition to lift SK Siltron revenue to about KRW3trn by 2031. For SK Inc. it is a major balance-sheet disposal of a core affiliate; completion is scheduled for January 2027.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-07-31",
+          "headline": "SK sells control of wafer maker SK Siltron to Doosan for W2.3tr",
+          "source": "The Korea Herald"
+        }
+      ]
+    },
+    {
+      "id": "holn-huaxin-philippines-exit",
+      "ticker": "HOLN",
+      "counterparty": "Huaxin Cement",
+      "type": "strategy-shift",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Holcim is exiting the Philippines outright -- 68% of its local business goes to China's Huaxin Cement for $527m now, the balance over three to five years for at least $280m, roughly $807m in total -- its largest divestment since the $1bn sale of its Nigeria arm to the same buyer. It continues the redeployment of capital out of emerging-market cement and into higher-multiple building solutions, with completion expected in the first half of 2027.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-08-02",
+          "headline": "Holcim to sell Philippines unit to China's Huaxin in $807 million deal",
+          "source": "Reuters"
+        }
+      ]
+    },
+    {
+      "id": "ezj-apollo-takeover",
+      "ticker": "EZJ",
+      "counterparty": "Apollo Global Management",
+      "type": "acquisition",
+      "currentStatus": "rumored",
+      "whyItMatters": "The UK Takeover Panel pushed Castlelake's put-up-or-shut-up deadline out to August 7 to match Apollo's, so both bidders for easyJet must now declare a firm offer or walk away on the same day. easyJet's board has an agreement in principle with Apollo at 715p a share (~GBP5.7bn) and is no longer minded to recommend Castlelake's 690p, which makes Friday binary: either a GBP5.7bn take-private of Europe's second-largest low-cost carrier goes firm, or a two-bidder auction collapses back to a standalone airline.",
+      "phases": [
+        {
+          "status": "rumored",
+          "date": "2026-08-03",
+          "headline": "UK Takeover Panel extends Castlelake's deadline for a firm easyJet offer from August 3 to August 7, aligning it with Apollo's deadline",
+          "source": "easyJet plc (RNS)"
         }
       ]
     }
