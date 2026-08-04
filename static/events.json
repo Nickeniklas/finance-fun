@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T08:00:00Z",
+  "generatedAt": "2026-08-04T08:00:00Z",
   "events": [
     {
       "id": "inmd-steel-partners-buyout",
@@ -88,22 +88,6 @@
       ]
     },
     {
-      "id": "fhb-tcbk-acquisition",
-      "ticker": "FHB",
-      "counterparty": "TCBK",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "First Hawaiian's ~$2bn all-stock purchase of California's TriCo Bancshares (2.095 FHB shares per TCBK share, ~$63.12/share) creates a ~$34bn-asset top-6 western US bank and marks First Hawaiian's first sizable expansion onto the US mainland beyond its Hawaii/Guam/Saipan home market.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-07-13",
-          "headline": "First Hawaiian to acquire TriCo Bancshares in all-stock deal valuing combined bank at ~$34bn in assets",
-          "source": "Honolulu Star-Advertiser"
-        }
-      ]
-    },
-    {
       "id": "psky-wbd-acquisition",
       "ticker": "PSKY",
       "counterparty": "WBD",
@@ -140,38 +124,6 @@
           "date": "2026-07-25",
           "headline": "Paramount agrees to pay Warner Bros. Discovery shareholders roughly $7 million per day if the merger remains unclosed after September 30, 2026, as part of the litigation-pause stipulation -- a potential ~$1.7bn cost if the pause runs to the June 1, 2027 outside date",
           "source": "Yahoo Finance"
-        }
-      ]
-    },
-    {
-      "id": "akza-nippon-paint-bid",
-      "ticker": "AKZA",
-      "counterparty": "Nippon Paint Holdings",
-      "type": "acquisition",
-      "currentStatus": "rumored",
-      "whyItMatters": "Nippon Paint's renewed approach for AkzoNobel's decorative paints business (after an earlier joint bid for the whole company with Sherwin-Williams was withdrawn in May) collides with Akzo Nobel's already-agreed merger of that same business with Axalta — the board's rejection keeps the Axalta deal as the recommended path, but a persistent, well-funded rival bidder for the crown-jewel unit is now a live overhang on that transaction.",
-      "phases": [
-        {
-          "status": "rumored",
-          "date": "2026-07-13",
-          "headline": "Akzo Nobel Rejects $8.6 Billion Nippon Offer for Paint Unit",
-          "source": "Bloomberg"
-        }
-      ]
-    },
-    {
-      "id": "meta-richland-parish-capex",
-      "ticker": "META",
-      "counterparty": null,
-      "type": "capital-allocation",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Meta lifts committed spend on its Richland Parish, Louisiana campus to over $50bn and expands it to 5 gigawatts, one of the largest data centers ever built — a scale signal on how much capital Meta is willing to commit to AI infrastructure, well beyond guidance from just months earlier.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-07-13",
-          "headline": "Meta expands data center campus in Richland Parish, Louisiana, to 5GW & $50bn",
-          "source": "Data Center Dynamics"
         }
       ]
     },
@@ -285,22 +237,6 @@
           "date": "2026-07-28",
           "headline": "Frasers Group's EUR38-per-share offer for Hugo Boss becomes unconditional after European Commission merger clearance; the initial acceptance period closed July 27 and an additional acceptance period runs to August 13",
           "source": "FashionUnited"
-        }
-      ]
-    },
-    {
-      "id": "wmb-blackstone-power-jv",
-      "ticker": "WMB",
-      "counterparty": "Blackstone",
-      "type": "partnership",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Williams pulls in $5.34bn of committed capital from a Blackstone-led group (alongside Apollo and KKR) for a 49% non-controlling stake in five behind-the-meter 'Power Innovation' data-center power projects, while keeping 51% and full operational control plus a years 7-14 buyout right. It funds Williams' 6+ GW AI-power backlog with off-balance-sheet equity, preserving its 3.5x-4.0x leverage target — a template for financing AI data-center power without diluting shareholders or straining the balance sheet.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-07-13",
-          "headline": "Williams Announces $5.34 Billion Investment in Power Innovation Joint Venture from Blackstone",
-          "source": "Business Wire"
         }
       ]
     },
@@ -1183,6 +1119,88 @@
           "date": "2026-08-03",
           "headline": "UK Takeover Panel extends Castlelake's deadline for a firm easyJet offer from August 3 to August 7, aligning it with Apollo's deadline",
           "source": "easyJet plc (RNS)"
+        }
+      ]
+    },
+    {
+      "id": "atkr-prysmian-acquisition",
+      "ticker": "ATKR",
+      "counterparty": "Prysmian",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Prysmian pays $95 a share in cash (~$3.8bn enterprise value, a 30% premium to Atkore's July 31 close) to buy a US maker of electrical conduit, cable management and metal framing -- the step that turns the world's largest cable manufacturer into a broader electrical-solutions supplier into North American data centres and grid build-out. It targets $150m of annual synergies by 2029 and earnings accretion from year one, and it ends the strategic review Atkore opened in September 2025 at a ~57% premium to the pre-review price.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-08-03",
+          "headline": "Prysmian Strikes Deal to Buy US Electrical Maker Atkore for $95.00 per Share in Cash",
+          "source": "Bloomberg",
+          "priceReaction": "+28% to $93.40"
+        }
+      ]
+    },
+    {
+      "id": "supn-indv-merger",
+      "ticker": "SUPN",
+      "counterparty": "INDV",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Supernus and Indivior combine in a tax-free all-stock merger of equals -- 1.5401 Indivior shares per Supernus share, leaving Indivior holders with ~56.5% and Supernus holders ~43.5% of a ~$2.2bn-revenue CNS biopharma listed on Nasdaq as SUPN -- with $125m of expected annual cost synergies and a $1bn pre-closing special cash dividend to Indivior investors part-funded by a $650m Citibank term loan. It is a scale answer to both companies' single-franchise concentration risk, but the debt-funded special dividend means the combined balance sheet starts levered.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-08-03",
+          "headline": "Supernus Pharmaceuticals and Indivior Pharmaceuticals to Merge, Creating a Diversified CNS Biopharmaceutical Leader with Significant Scale",
+          "source": "GlobeNewswire"
+        }
+      ]
+    },
+    {
+      "id": "ea-pif-consortium-take-private",
+      "ticker": "EA",
+      "counterparty": "Public Investment Fund (with Silver Lake, Affinity Partners)",
+      "type": "acquisition",
+      "currentStatus": "closed",
+      "whyItMatters": "The largest leveraged buyout on record closes: EA leaves the Nasdaq after 37 years at $210 a share in cash (a 25% premium to its $168.32 unaffected price), funded with ~$36bn of equity and ~$20bn of JPMorgan-committed debt, leaving Saudi Arabia's PIF with 93.4%, Silver Lake 5.5% and Affinity Partners 1.1%. It removes a $55bn name from public markets, sets a new ceiling for what sponsor-plus-sovereign capital can take private, and puts a major Western games publisher under majority state ownership.",
+      "phases": [
+        {
+          "status": "closed",
+          "date": "2026-08-04",
+          "headline": "Electronic Arts completes $55 billion take-private by PIF, Silver Lake and Affinity Partners, the largest leveraged buyout ever",
+          "source": "Yahoo Finance"
+        }
+      ]
+    },
+    {
+      "id": "ionq-skyt-acquisition",
+      "ticker": "IONQ",
+      "counterparty": "SKYT",
+      "type": "acquisition",
+      "currentStatus": "closed",
+      "whyItMatters": "IonQ closes its ~$1.8bn purchase of semiconductor foundry SkyWater Technology after the FTC cleared it without conditions, over the chairman's push to impose fair-access commitments to rival quantum firms that hold SkyWater contracts. It makes IonQ a vertically integrated quantum company that owns its own fab rather than renting capacity -- and hands it control of a chokepoint several competitors depend on.",
+      "phases": [
+        {
+          "status": "closed",
+          "date": "2026-08-03",
+          "headline": "IonQ closes $1.8bn SkyWater acquisition after US FTC clearance",
+          "source": "Verdict",
+          "priceReaction": "+9%"
+        }
+      ]
+    },
+    {
+      "id": "rezi-adi-spinoff",
+      "ticker": "REZI",
+      "counterparty": null,
+      "type": "capital-allocation",
+      "currentStatus": "closed",
+      "whyItMatters": "Resideo completes the spin-off of ADI Global Distribution, distributing one ADI share for every two Resideo shares to holders of record on July 20 and listing ADI on the NYSE as ADIG from August 4. It splits the company into a products business and a distribution business that investors can now value separately -- removing the conglomerate discount, but also removing ADI's revenue scale from the Resideo that remains.",
+      "phases": [
+        {
+          "status": "closed",
+          "date": "2026-08-03",
+          "headline": "Resideo completes spin-off of ADI Global Distribution; ADI to begin trading on the NYSE as 'ADIG' on August 4",
+          "source": "PR Newswire"
         }
       ]
     }
