@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T08:00:00Z",
+  "generatedAt": "2026-08-05T08:00:00Z",
   "events": [
     {
       "id": "inmd-steel-partners-buyout",
@@ -35,8 +35,8 @@
       "ticker": "PLD",
       "counterparty": "Segro",
       "type": "acquisition",
-      "currentStatus": "rumored",
-      "whyItMatters": "Prologis's fourth approach — a 'best and final' ~£14bn ($18.8bn) all-share-plus-cash proposal — is the first Segro's board has said it would be minded to recommend, a reversal after three straight rejections. The UK Takeover Code deadline for a firm Rule 2.7 offer has been extended to August 12, so the outcome, not just the price, remains the open question.",
+      "currentStatus": "confirmed",
+      "whyItMatters": "After three rejections Prologis has a firm Rule 2.7 recommended offer on the table: 0.0920 new Prologis shares for each Segro share, valuing Segro at roughly GBP14.3bn (~$18.8bn) with a partial cash alternative capped at GBP3.5bn -- up to about 1054p a share, a 42% premium to the June 23 unaffected close. It would take one of the FTSE 100's largest REITs off the LSE and hand Prologis a European logistics platform, but the consideration is mostly paper, so Segro holders end up owning Prologis stock, and completion is not expected until the first half of 2027.",
       "phases": [
         {
           "status": "rumored",
@@ -61,6 +61,13 @@
           "date": "2026-07-22",
           "headline": "Prologis tables 'best and final' £14bn ($18.8bn) takeover proposal for Segro; Segro board signals it is minded to recommend as both sides secure PUSU deadline extension to August 12",
           "source": "Reuters"
+        },
+        {
+          "status": "confirmed",
+          "date": "2026-08-04",
+          "headline": "Prologis Announces Recommended Acquisition of SEGRO plc",
+          "source": "PR Newswire",
+          "priceReaction": "42% premium to the June 23 unaffected close"
         }
       ]
     },
@@ -174,38 +181,6 @@
       ]
     },
     {
-      "id": "bx-anthropic-ode-partnership",
-      "ticker": "BX",
-      "counterparty": "Anthropic",
-      "type": "partnership",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Blackstone, Hellman & Friedman and Anthropic officially launch Ode, a $1.5bn enterprise AI implementation firm anchored by Wall Street capital (Goldman Sachs, Apollo, GIC, Sequoia) — a bet that deploying AI inside portfolio companies, not just building models, is the next scaled AI business, and a new balance-sheet-backed distribution channel for Claude into PE-owned enterprises.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-07-15",
-          "headline": "Anthropic, Blackstone, and Hellman & Friedman Introduce Ode with Anthropic, an Enterprise AI Services Firm",
-          "source": "Blackstone"
-        }
-      ]
-    },
-    {
-      "id": "lly-ataibeckley-acquisition",
-      "ticker": "LLY",
-      "counterparty": "ATAI",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Eli Lilly's $2.8bn-upfront (up to $3.8bn with milestone CVRs) purchase of AtaiBeckley is a direct bet on psychedelic-derived mental-health drugs (BPL-003, VLS-01), putting Big Pharma balance-sheet backing behind a modality that's mostly been the domain of smaller biotechs and setting up head-to-head competition with J&J in depression therapeutics.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-07-15",
-          "headline": "Eli Lilly to buy psychedelic drugmaker AtaiBeckley for up to $3.8 billion in bet on depression therapy",
-          "source": "Fierce Biotech"
-        }
-      ]
-    },
-    {
       "id": "boss-frasers-takeover-offer",
       "ticker": "BOSS",
       "counterparty": "Frasers Group",
@@ -241,22 +216,6 @@
       ]
     },
     {
-      "id": "uber-deliveryhero-acquisition",
-      "ticker": "UBER",
-      "counterparty": "Delivery Hero",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Uber's $14.8bn business combination agreement for Delivery Hero — its largest-ever acquisition — extends the combined mobility-and-delivery platform to 99 markets and $236bn of pro-forma gross bookings, a bet on buying global delivery scale rather than building it market by market.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-07-15",
-          "headline": "Uber Announces Acquisition Offer for Delivery Hero",
-          "source": "Business Wire"
-        }
-      ]
-    },
-    {
       "id": "pypl-stripe-advent-takeover-bid",
       "ticker": "PYPL",
       "counterparty": "Stripe, Advent International",
@@ -282,22 +241,6 @@
           "date": "2026-07-20",
           "headline": "PayPal Board Rejects $53 Billion Stripe and Advent International Takeover Bid",
           "source": "Technobezz"
-        }
-      ]
-    },
-    {
-      "id": "mmm-msft-ai-datacenter-partnership",
-      "ticker": "MMM",
-      "counterparty": "MSFT",
-      "type": "partnership",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Microsoft becomes the first announced hyperscaler to deploy 3M's Expanded Beam Optical technology across Azure's AI data centers, giving 3M a named commercial foothold in the physical AI-infrastructure buildout beyond its legacy industrial businesses, while 3M in turn adopts Microsoft's AI platforms to overhaul its own enterprise operations.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-07-15",
-          "headline": "3M and Microsoft announce strategic partnership to advance AI data center infrastructure and enterprise transformation",
-          "source": "Microsoft"
         }
       ]
     },
@@ -978,8 +921,8 @@
       "ticker": "ITGR",
       "counterparty": "KKR",
       "type": "acquisition",
-      "currentStatus": "rumored",
-      "whyItMatters": "KKR is reportedly close to a $127-a-share, ~$4.3bn all-cash take-private of medical-device outsourcer Integer Holdings, which would resolve the strategic review the board opened in April 2026. Integer closed ~20% higher at about $121 on the report, leaving only ~5% to the reported price -- so the market is already treating the deal as likely and the open question is whether the price rises or a rival emerges before terms are signed.",
+      "currentStatus": "confirmed",
+      "whyItMatters": "KKR's $127-a-share, ~$5.7bn all-cash take-private of medical-device contract manufacturer Integer Holdings is now signed and unanimously recommended by the board, resolving the strategic review opened in April 2026 at a 51.8% premium to the unaffected price and a 28.8% premium to the 30-day VWAP. The question shifts from whether a deal happens to whether shareholder and regulatory approvals land by the targeted year-end close -- or whether a topping bid surfaces first.",
       "phases": [
         {
           "status": "rumored",
@@ -987,6 +930,13 @@
           "headline": "KKR nearing deal to acquire Integer Holdings, WSJ reports",
           "source": "The Wall Street Journal",
           "priceReaction": "+20% intraday"
+        },
+        {
+          "status": "confirmed",
+          "date": "2026-08-03",
+          "headline": "Integer to Be Acquired by KKR in Transaction Valued at Approximately $5.7 Billion",
+          "source": "GlobeNewswire",
+          "priceReaction": "51.8% premium to the April 29 unaffected close"
         }
       ]
     },
@@ -1201,6 +1151,23 @@
           "date": "2026-08-03",
           "headline": "Resideo completes spin-off of ADI Global Distribution; ADI to begin trading on the NYSE as 'ADIG' on August 4",
           "source": "PR Newswire"
+        }
+      ]
+    },
+    {
+      "id": "lnth-curium-acquisition",
+      "ticker": "LNTH",
+      "counterparty": "Curium",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Curium's up-to-$8bn purchase of Lantheus combines two of the largest radiopharmaceutical businesses and takes Lantheus off the Nasdaq, but only $102.50 a share is cash at closing -- the remaining $12.00 sits in non-transferable CVRs tied to prostate-cancer and neurology diagnostic and DEFINITY sales milestones through 2030, so holders reach the headline $114.50 only if the combined franchise delivers. Closing is not expected until the first half of 2027.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-08-03",
+          "headline": "Curium Announces Definitive Agreement to Merge with Lantheus",
+          "source": "GlobeNewswire",
+          "priceReaction": "+2.4% to $102.00"
         }
       ]
     }
