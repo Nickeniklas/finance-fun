@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T08:00:00Z",
+  "generatedAt": "2026-08-06T08:00:00Z",
   "events": [
     {
       "id": "inmd-steel-partners-buyout",
@@ -68,29 +68,6 @@
           "headline": "Prologis Announces Recommended Acquisition of SEGRO plc",
           "source": "PR Newswire",
           "priceReaction": "42% premium to the June 23 unaffected close"
-        }
-      ]
-    },
-    {
-      "id": "vod-niel-stake-acquisition",
-      "ticker": "VOD",
-      "counterparty": "Xavier Niel (Vega)",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "French telecoms investor Xavier Niel becomes Vodafone's largest shareholder, buying e&'s entire 16.2% stake for £4.4bn at a 15% premium — a strong vote of confidence from an experienced sector operator that could pressure management on strategy, though Niel has framed it as a long-term minority holding rather than a takeover approach.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-07-10",
-          "headline": "e& Announces USD 5.95 Billion Sale of Vodafone Investment",
-          "source": "PR Newswire",
-          "priceReaction": "+13% intraday"
-        },
-        {
-          "status": "confirmed",
-          "date": "2026-07-16",
-          "headline": "Vodafone discloses Vega SAS (Xavier Niel's investment vehicle) holds 19.87% of voting rights via equity-linked instruments, including additional equity swaps beyond the 16.2% stake bought from e&, expected to lift Vega to ~18.8% of share capital pending regulatory approval",
-          "source": "GlobeNewswire"
         }
       ]
     },
@@ -1168,6 +1145,89 @@
           "headline": "Curium Announces Definitive Agreement to Merge with Lantheus",
           "source": "GlobeNewswire",
           "priceReaction": "+2.4% to $102.00"
+        }
+      ]
+    },
+    {
+      "id": "pg-thorne-acquisition",
+      "ticker": "PG",
+      "counterparty": "Thorne (L Catterton)",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Procter & Gamble pays $3.8bn in cash for science-backed supplements maker Thorne, its biggest push yet into the vitamins, minerals and supplements market and a bolt-on to a health portfolio that already includes New Chapter, Metamucil and Align. It also hands seller L Catterton a return of more than $3bn on the roughly $680m it paid in 2023 -- a reminder that P&G is buying at the top of a wellness cycle rather than early into one. Closing is expected later in 2026, subject to regulatory clearance.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-08-04",
+          "headline": "Procter & Gamble will acquire supplements brand Thorne for $3.8 billion, CEO tells CNBC",
+          "source": "CNBC"
+        }
+      ]
+    },
+    {
+      "id": "axta-akzonobel-merger",
+      "ticker": "AXTA",
+      "counterparty": "Akzo Nobel N.V.",
+      "type": "acquisition",
+      "currentStatus": "approved",
+      "whyItMatters": "Both shareholder bases have now approved the all-stock merger of equals between Axalta and AkzoNobel -- 0.6539 AkzoNobel shares per Axalta share, leaving AkzoNobel holders with ~55% and Axalta holders ~45% of a coatings group with ~$17bn of revenue, ~$3.3bn of adjusted EBITDA and $600m of targeted pre-tax run-rate synergies (90% inside three years). The vote removes the shareholder-approval risk that had hung over the deal since the governance terms were revised on July 23; what remains is regulatory clearance and a EUR2.5bn pre-completion distribution condition, with closing guided to late 2026 or early 2027.",
+      "phases": [
+        {
+          "status": "approved",
+          "date": "2026-08-05",
+          "headline": "Axalta Shareholders Approve Proposed Merger of Equals with AkzoNobel",
+          "source": "GlobeNewswire"
+        }
+      ]
+    },
+    {
+      "id": "spcx-nvda-starmind-partnership",
+      "ticker": "SPCX",
+      "counterparty": "NVDA",
+      "type": "partnership",
+      "currentStatus": "confirmed",
+      "whyItMatters": "SpaceX and NVIDIA will jointly design the compute payload for the Starmind AI1 satellite -- NVIDIA Rubin GPUs and Vera CPUs running datacenter-class AI workloads in low Earth orbit -- and Musk used SpaceX's first post-IPO earnings call to say SpaceX will build its AI infrastructure exclusively on NVIDIA going forward, against an eventual ambition of up to a million satellites. It gives NVIDIA an exclusive lock on a brand-new compute frontier and a customer with its own launch capacity, and it closes off SpaceX as a market for rival accelerators; AMD fell on the same news.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-08-04",
+          "headline": "SpaceX Commits Exclusively to Nvidia, Unveils Starmind: AMD Falls 9% on Record Quarter",
+          "source": "TechTimes",
+          "priceReaction": "NVDA +3%, SPCX +9%"
+        }
+      ]
+    },
+    {
+      "id": "nlst-samsung-license-alliance",
+      "ticker": "NLST",
+      "counterparty": "Samsung Electronics",
+      "type": "partnership",
+      "currentStatus": "confirmed",
+      "whyItMatters": "A five-year patent cross-license ends every pending Netlist-Samsung dispute and converts a litigation lottery ticket into contracted cash: $239m upfront (net of Korean withholding tax) plus quarterly fees of up to $32.9m across twenty quarters, up to ~$897m gross in total. It also comes with a supply agreement letting Netlist buy up to $300m of Samsung DRAM and NAND a year (up to $1.5bn over the term) and a 10m-share equity purchase by Samsung under a five-year lock-up. For a company whose equity story was previously a binary bet on court outcomes, that is a different business.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-08-05",
+          "headline": "Netlist, Samsung Reach Multi-Million Dollar Memory Tech Deal",
+          "source": "Bloomberg Law",
+          "priceReaction": "+46.5% to $3.75, biggest one-day gain in five years"
+        }
+      ]
+    },
+    {
+      "id": "azn-bmy-merger-talks",
+      "ticker": "AZN",
+      "counterparty": "BMY",
+      "type": "acquisition",
+      "currentStatus": "rumored",
+      "whyItMatters": "AstraZeneca and Bristol Myers Squibb have held early-stage talks about a combination that would carry a roughly $400bn valuation -- among the largest mergers ever attempted in any sector, let alone pharma. The pipelines are more complementary than overlapping (AstraZeneca in solid tumours, Bristol Myers in blood cancers and cell therapy), but the market read the approach as a distraction from AstraZeneca's own growth story rather than a validation of it, and the shares fell 7%. The FT and Bloomberg both stress talks are exploratory and a deal may never materialise.",
+      "phases": [
+        {
+          "status": "rumored",
+          "date": "2026-08-02",
+          "headline": "AstraZeneca in talks with Bristol Myers Squibb on $400 billion megadeal, FT reports",
+          "source": "CNBC",
+          "priceReaction": "AZN -7%"
         }
       ]
     }
