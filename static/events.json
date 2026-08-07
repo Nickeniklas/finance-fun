@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-06T08:00:00Z",
+  "generatedAt": "2026-08-07T08:00:00Z",
   "events": [
     {
       "id": "inmd-steel-partners-buyout",
@@ -108,6 +108,12 @@
           "date": "2026-07-25",
           "headline": "Paramount agrees to pay Warner Bros. Discovery shareholders roughly $7 million per day if the merger remains unclosed after September 30, 2026, as part of the litigation-pause stipulation -- a potential ~$1.7bn cost if the pause runs to the June 1, 2027 outside date",
           "source": "Yahoo Finance"
+        },
+        {
+          "status": "confirmed",
+          "date": "2026-08-04",
+          "headline": "Paramount, Warner Bros. merger challenges set for a 12-day antitrust trial starting March 2, 2027 before US District Judge Araceli Martinez-Olguin in Oakland",
+          "source": "Bloomberg"
         }
       ]
     },
@@ -234,22 +240,6 @@
           "date": "2026-07-18",
           "headline": "Telecom Italia Board Endorses EUR10.8 Billion Poste Bid as Fair",
           "source": "Bloomberg"
-        }
-      ]
-    },
-    {
-      "id": "hon-jmat-catalyst-acquisition",
-      "ticker": "HON",
-      "counterparty": "Johnson Matthey (Catalyst Technologies)",
-      "type": "acquisition",
-      "currentStatus": "closed",
-      "whyItMatters": "Honeywell completes its GBP1.325bn all-cash purchase of Johnson Matthey's Catalyst Technologies business, adding refining, petrochemicals and renewable-fuels catalyst technology to its portfolio and removing execution risk from what was already a signed deal.",
-      "phases": [
-        {
-          "status": "closed",
-          "date": "2026-07-17",
-          "headline": "Honeywell Completes Acquisition of Johnson Matthey's Catalyst Technologies Business",
-          "source": "Business Wire"
         }
       ]
     },
@@ -1038,7 +1028,7 @@
       "ticker": "EZJ",
       "counterparty": "Apollo Global Management",
       "type": "acquisition",
-      "currentStatus": "rumored",
+      "currentStatus": "confirmed",
       "whyItMatters": "The UK Takeover Panel pushed Castlelake's put-up-or-shut-up deadline out to August 7 to match Apollo's, so both bidders for easyJet must now declare a firm offer or walk away on the same day. easyJet's board has an agreement in principle with Apollo at 715p a share (~GBP5.7bn) and is no longer minded to recommend Castlelake's 690p, which makes Friday binary: either a GBP5.7bn take-private of Europe's second-largest low-cost carrier goes firm, or a two-bidder auction collapses back to a standalone airline.",
       "phases": [
         {
@@ -1046,6 +1036,13 @@
           "date": "2026-08-03",
           "headline": "UK Takeover Panel extends Castlelake's deadline for a firm easyJet offer from August 3 to August 7, aligning it with Apollo's deadline",
           "source": "easyJet plc (RNS)"
+        },
+        {
+          "status": "confirmed",
+          "date": "2026-08-06",
+          "headline": "Apollo agrees to buy UK airline EasyJet in $7.7 billion deal as Castlelake withdraws",
+          "source": "CNBC",
+          "priceReaction": "81% premium to the GBP3.94 unaffected close"
         }
       ]
     },
@@ -1228,6 +1225,88 @@
           "headline": "AstraZeneca in talks with Bristol Myers Squibb on $400 billion megadeal, FT reports",
           "source": "CNBC",
           "priceReaction": "AZN -7%"
+        }
+      ]
+    },
+    {
+      "id": "dv-nielsen-acquisition",
+      "ticker": "DV",
+      "counterparty": "Nielsen",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Nielsen pays $13.60 a share in cash -- roughly $2.15bn of enterprise value, a 30% premium to DoubleVerify's 60-day VWAP -- to take the ad-verification firm private and bolt media-quality measurement onto its own audience-measurement franchise, targeting a combined business with more than $4bn of annual revenue. It removes one of the few remaining listed pure-play ad-tech names from the Nasdaq and hands a private-equity-owned Nielsen an end-to-end measurement stack, but it is funded with committed debt from Barclays, BofA and Citi plus incremental equity, so the combined entity starts levered. Closing is not expected until the first quarter of 2027.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-08-06",
+          "headline": "Nielsen to Acquire DoubleVerify, Creating a Leading, Independent Media Intelligence Platform",
+          "source": "Nielsen",
+          "priceReaction": "+14% after-hours"
+        }
+      ]
+    },
+    {
+      "id": "dte-buyback-expansion-2026",
+      "ticker": "DTE.DE",
+      "counterparty": null,
+      "type": "capital-allocation",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Deutsche Telekom more than doubles its 2026 buyback envelope from EUR2bn to as much as EUR5bn and lifts full-year free cash flow guidance to around EUR20bn after a core-earnings beat -- management explicitly framing the increase as a response to the shares' depressed valuation rather than a routine top-up. For a DAX heavyweight that has historically prioritised deleveraging and dividends, committing an extra EUR3bn to repurchases is a genuine shift in how the cash gets returned.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-08-06",
+          "headline": "Deutsche Telekom Raises 2026 Share Buyback By Up to EUR3 Billion",
+          "source": "Bloomberg",
+          "priceReaction": "+7%"
+        }
+      ]
+    },
+    {
+      "id": "wmb-momentum-midstream-acquisition",
+      "ticker": "WMB",
+      "counterparty": "Momentum Midstream",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Williams buys all of Momentum Midstream for up to $5.5bn -- about $3.5bn of cash and debt plus roughly $2bn of Williams equity, at an implied ~8.5x 2027 EBITDA -- adding more than 4,000 miles of Haynesville gathering pipe, over 1m dedicated acres and three take-or-pay pipelines that move gas toward Gulf Coast LNG and power demand. Paired with the $1.5bn Delta Access project and the Shelby Trough Connector, it is a large, part-equity-funded bet that Haynesville-to-Gulf takeaway is where the LNG and data-center load actually shows up.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-08-03",
+          "headline": "Williams Delivers Strong Second-Quarter 2026 Results; Announces Strategic Acquisition of Momentum Midstream Connecting Haynesville to Gulf Coast LNG and Power Demand",
+          "source": "Williams Companies"
+        }
+      ]
+    },
+    {
+      "id": "fang-buyback-doubling-2026",
+      "ticker": "FANG",
+      "counterparty": null,
+      "type": "capital-allocation",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Diamondback's board doubles the share-repurchase authorization to $16bn from $8bn, leaving ~$9.9bn available, alongside raised 2026 guidance of 522+ MBO/d of oil and 1,000+ MBOE/d total after crossing the million-barrel-equivalent mark. Doubling the buyback rather than the dividend or the drilling budget is a statement that management sees its own equity as the best use of Permian free cash flow at current strip prices.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-08-03",
+          "headline": "Diamondback Energy, Inc. Announces Second Quarter 2026 Financial and Operating Results; Board doubles share repurchase authorization to $16.0 billion",
+          "source": "GlobeNewswire"
+        }
+      ]
+    },
+    {
+      "id": "drvn-adw-capital-takeover-bid",
+      "ticker": "DRVN",
+      "counterparty": "ADW Capital Management",
+      "type": "acquisition",
+      "currentStatus": "rumored",
+      "whyItMatters": "Driven Brands' board unanimously rejects an unsolicited $18.00-a-share all-cash proposal from activist holder ADW Capital -- a 41% premium to the $12.74 close and 42% to the 30-day VWAP -- calling it highly conditional and without a credible basis to proceed. ADW's stated thesis is that the 4,200-location car-wash and auto-services group is cheap because of self-inflicted structural, capital-allocation and governance failures, so the rejection converts a valuation argument into a public pressure campaign that now hangs over the shares whether or not financing ever materialises.",
+      "phases": [
+        {
+          "status": "rumored",
+          "date": "2026-08-05",
+          "headline": "Driven Brands Holdings Inc. Rejects Non-Binding, Highly Conditional and Unsolicited Proposal from ADW Capital",
+          "source": "Business Wire"
         }
       ]
     }
