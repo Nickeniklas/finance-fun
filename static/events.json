@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08T08:00:00Z",
+  "generatedAt": "2026-08-09T08:00:00Z",
   "events": [
     {
       "id": "inmd-steel-partners-buyout",
@@ -1357,6 +1357,39 @@
           "date": "2026-08-07",
           "headline": "Thyssenkrupp owners approve materials spinoff in latest restructuring move",
           "source": "Reuters"
+        }
+      ]
+    },
+    {
+      "id": "vrsk-acculynx-acquisition",
+      "ticker": "VRSK",
+      "counterparty": "AccuLynx",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Delaware's Court of Chancery has invalidated Verisk's December termination of its $2.35bn purchase of roofing-software provider AccuLynx, finding that Verisk's own willful conduct caused the closing condition to fail, ordering it to attempt to complete the deal and entitling AccuLynx to recover its direct costs plus interest. It revives an acquisition Verisk wrote off more than seven months ago and puts a specific-performance obligation back on the buyer -- but the court compelled effort, not an outcome: completion still depends on an FTC review that has never finished.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-08-07",
+          "headline": "Delaware judge orders Verisk to proceed with $2.35 billion AccuLynx deal",
+          "source": "Reuters"
+        }
+      ]
+    },
+    {
+      "id": "deo-restructuring-2026",
+      "ticker": "DEO",
+      "counterparty": null,
+      "type": "strategy-shift",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Diageo commits $1.2bn of restructuring spend to take out roughly $1bn of annual cost -- $850m from a new operating framework landing across fiscal 2027 and 2028, plus $150m from supply-chain work -- after organic net sales fell 2% on weakness in North America and Asia Pacific. Fiscal 2026 already absorbed $0.9bn of restructuring charges, so this is a funded rebuild of the operating model by a new CEO rather than a cost-discipline gesture, and investors treated the savings plan, not the results, as the news.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-08-06",
+          "headline": "Diageo unveils $1.2bn restructuring plan as sales decline hits North America and Asia Pacific",
+          "source": "BeverageDaily",
+          "priceReaction": "shares surged as the $1bn cost-saving plan outweighed weaker annual results"
         }
       ]
     }
