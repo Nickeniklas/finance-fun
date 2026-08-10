@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-09T08:00:00Z",
+  "generatedAt": "2026-08-10T08:00:00Z",
   "events": [
     {
       "id": "inmd-steel-partners-buyout",
@@ -59,7 +59,7 @@
         {
           "status": "rumored",
           "date": "2026-07-22",
-          "headline": "Prologis tables 'best and final' \u00a314bn ($18.8bn) takeover proposal for Segro; Segro board signals it is minded to recommend as both sides secure PUSU deadline extension to August 12",
+          "headline": "Prologis tables 'best and final' £14bn ($18.8bn) takeover proposal for Segro; Segro board signals it is minded to recommend as both sides secure PUSU deadline extension to August 12",
           "source": "Reuters"
         },
         {
@@ -77,7 +77,7 @@
       "counterparty": "WBD",
       "type": "acquisition",
       "currentStatus": "confirmed",
-      "whyItMatters": "A 12-state antitrust coalition led by California's AG is suing to block Paramount Skydance's ~$110bn Warner Bros. Discovery merger and seeking a court order to halt closing \u2014 even though the deal is already signed and was DOJ-cleared in June 2026, a state-level legal challenge to theatrical and cable-distribution concentration adds a real risk of delay or an unwound deal.",
+      "whyItMatters": "A 12-state antitrust coalition led by California's AG is suing to block Paramount Skydance's ~$110bn Warner Bros. Discovery merger and seeking a court order to halt closing — even though the deal is already signed and was DOJ-cleared in June 2026, a state-level legal challenge to theatrical and cable-distribution concentration adds a real risk of delay or an unwound deal.",
       "phases": [
         {
           "status": "confirmed",
@@ -123,7 +123,7 @@
       "counterparty": "EQT",
       "type": "acquisition",
       "currentStatus": "rumored",
-      "whyItMatters": "EQT's revised A$2.6bn (A$22.07/share, ~22% premium) approach for Perpetual \u2014 raised twice in a week, and just two weeks after the board rejected an earlier A$2.45bn bid \u2014 keeps the storied Australian wealth/asset manager in a live takeover process; it's the firm's fourth takeover approach since 2022, and the board has still not committed to engage.",
+      "whyItMatters": "EQT's revised A$2.6bn (A$22.07/share, ~22% premium) approach for Perpetual — raised twice in a week, and just two weeks after the board rejected an earlier A$2.45bn bid — keeps the storied Australian wealth/asset manager in a live takeover process; it's the firm's fourth takeover approach since 2022, and the board has still not committed to engage.",
       "phases": [
         {
           "status": "rumored",
@@ -199,89 +199,12 @@
       ]
     },
     {
-      "id": "pypl-stripe-advent-takeover-bid",
-      "ticker": "PYPL",
-      "counterparty": "Stripe, Advent International",
-      "type": "acquisition",
-      "currentStatus": "rumored",
-      "whyItMatters": "A joint unsolicited $53bn+ ($60.50/share, ~28% premium) offer from payments rival Stripe and PE firm Advent, backed by ~$50bn of committed financing, would combine two of the largest payment networks and lands as PayPal has struggled to reignite growth; the board has not yet responded and meets as soon as July 20.",
-      "phases": [
-        {
-          "status": "rumored",
-          "date": "2026-07-15",
-          "headline": "Stripe, Advent make $53 billion takeover offer for PayPal, sending stock soaring",
-          "source": "CNBC",
-          "priceReaction": "+17%"
-        },
-        {
-          "status": "rumored",
-          "date": "2026-07-17",
-          "headline": "PayPal board privately views Stripe-Advent's $53 billion offer as inadequate, sources say",
-          "source": "Reuters"
-        },
-        {
-          "status": "rumored",
-          "date": "2026-07-20",
-          "headline": "PayPal Board Rejects $53 Billion Stripe and Advent International Takeover Bid",
-          "source": "Technobezz"
-        }
-      ]
-    },
-    {
-      "id": "gme-ebay-stake-buildup",
-      "ticker": "GME",
-      "counterparty": "EBAY",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "GameStop discloses a 9.8% stake in eBay just two months after eBay's board rejected its unsolicited $55.5bn buyout bid as 'neither credible nor attractive.' CEO Ryan Cohen's escalation ('we're coming for eBay one way or another') keeps a takeover overhang on eBay alive and signals GameStop may pursue board influence or a renewed bid rather than walk away.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-07-20",
-          "headline": "GameStop builds 9.8% eBay stake after takeover offer rejected",
-          "source": "Investing.com"
-        }
-      ]
-    },
-    {
-      "id": "msft-amd-helios-partnership",
-      "ticker": "MSFT",
-      "counterparty": "AMD",
-      "type": "partnership",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Microsoft committing to deploy AMD's Instinct MI455X 'Helios' rack-scale AI systems at scale across Azure gives AMD its first named production deployment inside a top-3 hyperscaler as a credible Nvidia alternative, while letting Microsoft diversify its AI-compute supply chain beyond a single GPU vendor.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-07-20",
-          "headline": "Microsoft and AMD Announce Expanded Strategic Partnership to Deploy AMD Instinct MI455X 'Helios' Rack-Scale AI Systems on Azure",
-          "source": "Microsoft"
-        }
-      ]
-    },
-    {
-      "id": "mgy-wildfire-energy-acquisition",
-      "ticker": "MGY",
-      "counterparty": "WildFire Energy",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Magnolia's ~$4.06bn cash-and-stock purchase of WildFire Energy is its largest deal to date, lifting its pro forma Giddings-field position past 1.25m net acres while funding part of the price with new share issuance and assumption of WildFire's existing 2029 notes \u2014 consolidation of its core shale position rather than a new-basin bet.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-07-20",
-          "headline": "Magnolia Oil & Gas to Acquire WildFire Energy for Approximately $4.06 Billion",
-          "source": "Bloomberg"
-        }
-      ]
-    },
-    {
       "id": "amd-anthropic-chip-partnership",
       "ticker": "AMD",
       "counterparty": "Anthropic",
       "type": "partnership",
       "currentStatus": "confirmed",
-      "whyItMatters": "AMD locks in a marquee AI-chip customer and financial backer in one deal \u2014 Anthropic commits to buy tens of billions of dollars of AMD Instinct MI450 chips (up to 2GW of deployment) while AMD invests up to $5bn in Anthropic's equity, cementing AMD as a credible second sourcing option to Nvidia inside one of the largest frontier AI labs.",
+      "whyItMatters": "AMD locks in a marquee AI-chip customer and financial backer in one deal — Anthropic commits to buy tens of billions of dollars of AMD Instinct MI450 chips (up to 2GW of deployment) while AMD invests up to $5bn in Anthropic's equity, cementing AMD as a credible second sourcing option to Nvidia inside one of the largest frontier AI labs.",
       "phases": [
         {
           "status": "confirmed",
@@ -297,29 +220,13 @@
       "counterparty": "BioLife Solutions",
       "type": "acquisition",
       "currentStatus": "confirmed",
-      "whyItMatters": "Repligen's ~$1.5bn purchase of BioLife Solutions adds market-leading CryoStor biopreservation media to its bioprocessing tools, deepening its exposure to the fast-growing cell and gene therapy manufacturing chain \u2014 a bolt-on funded mostly in stock (64%) rather than cash.",
+      "whyItMatters": "Repligen's ~$1.5bn purchase of BioLife Solutions adds market-leading CryoStor biopreservation media to its bioprocessing tools, deepening its exposure to the fast-growing cell and gene therapy manufacturing chain — a bolt-on funded mostly in stock (64%) rather than cash.",
       "phases": [
         {
           "status": "confirmed",
           "date": "2026-07-22",
           "headline": "Repligen to Acquire BioLife Solutions, Expanding Its Cell Therapy Capabilities with Market Leading Biopreservation Media",
           "source": "GlobeNewswire"
-        }
-      ]
-    },
-    {
-      "id": "samsungbio-polypeptide-acquisition",
-      "ticker": "207940.KS",
-      "counterparty": "PolyPeptide Group",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Samsung Biologics' $1.8bn all-cash purchase of Switzerland's PolyPeptide \u2014 the largest biopharma acquisition in South Korean history \u2014 buys it into peptide-therapeutics manufacturing just as GLP-1/obesity-drug demand strains contract manufacturing capacity, adding PolyPeptide's Sweden/Belgium/France/US plants to its global footprint.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-07-20",
-          "headline": "Samsung Biologics makes $1.8 billion all-cash offer for Switzerland's PolyPeptide Group",
-          "source": "CNBC"
         }
       ]
     },
@@ -1200,8 +1107,8 @@
       "ticker": "AZN",
       "counterparty": "BMY",
       "type": "acquisition",
-      "currentStatus": "rumored",
-      "whyItMatters": "AstraZeneca and Bristol Myers Squibb have held early-stage talks about a combination that would carry a roughly $400bn valuation -- among the largest mergers ever attempted in any sector, let alone pharma. The pipelines are more complementary than overlapping (AstraZeneca in solid tumours, Bristol Myers in blood cancers and cell therapy), but the market read the approach as a distraction from AstraZeneca's own growth story rather than a validation of it, and the shares fell 7%. The FT and Bloomberg both stress talks are exploratory and a deal may never materialise.",
+      "currentStatus": "abandoned",
+      "whyItMatters": "The largest pharma combination ever floated -- a roughly $400bn AstraZeneca/Bristol Myers Squibb merger reported by the FT and Bloomberg as exploratory -- has been flatly denied by a senior source close to the matter, who told Reuters there never was a deal to be done and no discussions are under way. Neither company has commented on the record either way, so the practical read is that the premium the market briefly priced into BMY and the 7% discount it applied to AZN both rested on a combination that is not being pursued; the antitrust overlap in oncology that made it hard remains the reason it stays unlikely.",
       "phases": [
         {
           "status": "rumored",
@@ -1209,6 +1116,12 @@
           "headline": "AstraZeneca in talks with Bristol Myers Squibb on $400 billion megadeal, FT reports",
           "source": "CNBC",
           "priceReaction": "AZN -7%"
+        },
+        {
+          "status": "abandoned",
+          "date": "2026-08-05",
+          "headline": "No deal between AstraZeneca and BMS, senior source insists: \"There is no deal between AstraZeneca and BMS. There never was a deal to be done, and there are no discussions between the companies\"",
+          "source": "Reuters"
         }
       ]
     },
@@ -1390,6 +1303,72 @@
           "headline": "Diageo unveils $1.2bn restructuring plan as sales decline hits North America and Asia Pacific",
           "source": "BeverageDaily",
           "priceReaction": "shares surged as the $1bn cost-saving plan outweighed weaker annual results"
+        }
+      ]
+    },
+    {
+      "id": "boy-cvc-takeover-bid",
+      "ticker": "BOY",
+      "counterparty": "CVC Advisers",
+      "type": "acquisition",
+      "currentStatus": "rumored",
+      "whyItMatters": "CVC's up-to-915p-a-share cash proposal values Bodycote at about GBP1.56bn and puts the FTSE 250's dominant thermal-processing specialist -- an asset-heavy franchise serving aerospace, autos and energy with no listed pure-play peer -- into a live two-sponsor auction decided by a single penny. The board has said it would recommend either proposal and has opened confirmatory due diligence to both, so the open question for holders is no longer whether Bodycote leaves the LSE but which sponsor firms up by the 2 September Rule 2.6 deadline.",
+      "phases": [
+        {
+          "status": "rumored",
+          "date": "2026-08-05",
+          "headline": "Bodycote confirms a possible cash offer from CVC Advisers of up to 915p a share (907.8p cash plus a 7.2p permitted interim dividend), valuing it at ~GBP1.56bn, and grants confirmatory due diligence ahead of a 2 September Rule 2.6 deadline",
+          "source": "Bodycote plc (RNS)",
+          "priceReaction": "+22% on the twin approaches"
+        }
+      ]
+    },
+    {
+      "id": "boy-veritas-takeover-bid",
+      "ticker": "BOY",
+      "counterparty": "Veritas Capital",
+      "type": "acquisition",
+      "currentStatus": "rumored",
+      "whyItMatters": "Veritas Capital's up-to-914p-a-share proposal sits one penny below CVC's for the same GBP1.56bn asset, which is what makes this a genuine auction rather than a single-bidder approach: Bodycote's board is running both parties through confirmatory due diligence separately and on an expedited basis, and either bid would be recommended. For Veritas the prize is the largest independent heat-treatment and specialist-technology network in the West; for holders, the 1p spread means the outcome turns on which sponsor moves first before 2 September rather than on price alone.",
+      "phases": [
+        {
+          "status": "rumored",
+          "date": "2026-08-05",
+          "headline": "Bodycote confirms a competing possible cash offer from Veritas Capital of up to 914p a share (906.8p cash plus a 7.2p permitted interim dividend), with the board prepared to recommend either proposal",
+          "source": "Bodycote plc (RNS)",
+          "priceReaction": "+22% on the twin approaches"
+        }
+      ]
+    },
+    {
+      "id": "logc-gchem-acquisition",
+      "ticker": "LOGC",
+      "counterparty": "gChem (Gaylord Chemical, EagleTree Capital)",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "ContextLogic is completing its conversion from the wound-down Wish marketplace into a holding company that parks cash-generative industrials behind a large tax-loss shield: gChem is its second operating business after US Salt. The $850m cash price is funded partly by a $650m rights offering at the public-company level, fully backstopped at $9.00 a unit by a consortium led by Abrams Capital and BC Partners, so existing holders either write a cheque or watch the sponsors' ownership concentrate. Management guides the combined businesses to roughly $95-105m of free cash flow in 2027.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-08-05",
+          "headline": "ContextLogic to Acquire gChem for $850 Million, funded in part by a $650m rights offering fully backstopped at $9.00 per unit by a consortium led by Abrams Capital and BC Partners",
+          "source": "GlobeNewswire"
+        }
+      ]
+    },
+    {
+      "id": "eneos-tpc-group-acquisition",
+      "ticker": "5020.T",
+      "counterparty": "TPC Group",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "ENEOS is buying scale in US petrochemicals rather than shrinking alongside Japanese domestic fuel demand: TPC is North America's largest independent C4 hydrocarbon processor and the region's butadiene share leader, and the ~$1.3bn enterprise value brings Houston petrochemical operations plus terminals at Port Neches, Texas and Lake Charles, Louisiana. The deal lifts the ENEOS Group to the world's third-largest butadiene capacity and moves refining cash flow into a feedstock-advantaged Gulf Coast platform, with closing targeted for October 2026.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-08-07",
+          "headline": "TPC Group to Be Acquired by ENEOS Holdings at approximately $1.3bn enterprise value, giving the ENEOS Group the world's third-largest butadiene production capacity",
+          "source": "GlobeNewswire"
         }
       ]
     }
