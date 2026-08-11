@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T08:00:00Z",
+  "generatedAt": "2026-08-11T07:50:00Z",
   "events": [
     {
       "id": "inmd-steel-partners-buyout",
@@ -114,6 +114,12 @@
           "date": "2026-08-04",
           "headline": "Paramount, Warner Bros. merger challenges set for a 12-day antitrust trial starting March 2, 2027 before US District Judge Araceli Martinez-Olguin in Oakland",
           "source": "Bloomberg"
+        },
+        {
+          "status": "confirmed",
+          "date": "2026-08-06",
+          "headline": "UK Competition and Markets Authority approves Paramount Skydance Corporation acquisition of Warner Bros. Discovery at Phase 1, taking the deal's clearances to 66 jurisdictions",
+          "source": "Paramount"
         }
       ]
     },
@@ -1369,6 +1375,125 @@
           "date": "2026-08-07",
           "headline": "TPC Group to Be Acquired by ENEOS Holdings at approximately $1.3bn enterprise value, giving the ENEOS Group the world's third-largest butadiene production capacity",
           "source": "GlobeNewswire"
+        }
+      ]
+    },
+    {
+      "id": "bwmn-bernhard-capital-takeover",
+      "ticker": "BWMN",
+      "counterparty": "Bernhard Capital Partners",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Bernhard Capital pays $43.00 a share in cash -- about $1.0bn of enterprise value and a 58% premium to Bowman's unaffected August 7 close -- to take the engineering and infrastructure consultancy off the Nasdaq, backed by $605m of committed BCP equity and $550m of committed debt across term loan, revolver and delayed-draw facilities. It is the second listed engineering consultancy put in play inside a fortnight after WSP's rejected approaches for Arcadis, and the go-shop running to September 13 leaves the door open to a topping bid before the Q4 2026/Q1 2027 close.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-08-10",
+          "headline": "Bowman Consulting Group Enters into Definitive Agreement to be Acquired by Bernhard Capital Partners for $43.00 Per Share in Cash",
+          "source": "GlobeNewswire",
+          "priceReaction": "58% premium to the August 7 unaffected close"
+        }
+      ]
+    },
+    {
+      "id": "hzo-safe-harbor-acquisition",
+      "ticker": "HZO",
+      "counterparty": "Safe Harbor Marinas (Blackstone Infrastructure)",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Blackstone Infrastructure's Safe Harbor pays $53.00 a share in cash -- roughly $1.5bn of enterprise value and a 96% premium to MarineMax's January 30 unaffected close, 110% to the 90-day VWAP -- ending a six-month process that began with an unsolicited approach. It takes the largest listed US recreational-boating retailer private at a weak point in the marine cycle and hands Safe Harbor 65 marinas and storage sites plus 70 dealerships, its biggest deal since Blackstone bought it for $5.7bn in 2025. The offer is not financing-contingent, so what remains is shareholder and regulatory approval before the targeted end-2026 close.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-08-10",
+          "headline": "MarineMax Enters into Definitive Agreement to be Acquired by Blackstone Infrastructure Portfolio Company, Safe Harbor, in a $1.5 Billion All-Cash Transaction",
+          "source": "Business Wire",
+          "priceReaction": "96% premium to the January 30 unaffected close; shares surged on the report"
+        }
+      ]
+    },
+    {
+      "id": "vrex-teledyne-acquisition",
+      "ticker": "VREX",
+      "counterparty": "Teledyne Technologies (TDY)",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Teledyne pays $18.90 a share in cash -- about $1.1bn including Varex's net debt and equity awards, at roughly an 88% premium -- for the largest independent maker of X-ray tubes and flat-panel detectors. It moves Teledyne from imaging sensors into the medical-imaging component supply chain and removes one of the few listed pure-play suppliers of next-generation CT detectors from the market. Closing is targeted for early 2027.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-08-10",
+          "headline": "Teledyne to Acquire Varex Imaging Corporation",
+          "source": "Business Wire",
+          "priceReaction": "VREX +49.5%"
+        }
+      ]
+    },
+    {
+      "id": "achr-boeing-subsidiaries-acquisition",
+      "ticker": "ACHR",
+      "counterparty": "Boeing (BA)",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Archer buys Boeing's Wisk Aero, Insitu and SkyGrid entirely in stock -- Boeing receives newly issued shares equal to 19.75% of Archer's pre-closing count, about 16.5% after closing, plus a board nominee -- absorbing its main autonomous-eVTOL rival and picking up in Insitu a defence drone business with more than $200m of annual revenue. For a pre-revenue eVTOL developer that converts dilution into an operating defence franchise and Boeing as an anchor holder; for Boeing it is another non-core disposal that costs no cash while keeping access to Wisk's autonomy stack through a separate collaboration. Closing is expected by end-2026, subject to antitrust review.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-08-10",
+          "headline": "Archer to Shape Physical AI Future of Aerospace and Defense with Acquisition of Boeing's Wisk Aero, Insitu and SkyGrid Subsidiaries; Boeing to Invest in Archer and Collaborate",
+          "source": "Boeing",
+          "priceReaction": "ACHR +10%"
+        }
+      ]
+    },
+    {
+      "id": "intc-equity-offering-2026",
+      "ticker": "INTC",
+      "counterparty": null,
+      "type": "capital-allocation",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Intel's $15bn underwritten common-stock offering -- its first public share sale since listing in 1971, with a $2.25bn underwriter option on top -- funds capital expenditure management has already guided up to about $20bn for 2026 and 'meaningfully' higher in 2027. Choosing equity over debt protects the balance sheet and the investment-grade rating, but it places the cost of the AI and foundry build-out on existing holders through dilution rather than on lenders, and the market read it that way.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-08-10",
+          "headline": "Intel Announces Proposed $15 Billion Common Stock Offering",
+          "source": "Intel Newsroom",
+          "priceReaction": "-3% premarket, about -5% on the session"
+        }
+      ]
+    },
+    {
+      "id": "gme-ebay-takeover-bid",
+      "ticker": "GME",
+      "counterparty": "EBAY",
+      "type": "acquisition",
+      "currentStatus": "rumored",
+      "whyItMatters": "Bloomberg reports Ryan Cohen is weighing pulling GameStop's $56bn unsolicited bid for eBay -- rejected in May as 'neither credible nor attractive' -- in favour of a partnership or joint venture that would put eBay's trading-card and collectibles business into GameStop's roughly 1,600 US stores, with GameStop seeking a board seat off the back of the stake it already owns. GameStop is down about 28% and eBay up 7.6% since the proposal surfaced, so the arithmetic that made the bid arguable has gone; no decision has been made and this is sourced reporting, not an announcement.",
+      "phases": [
+        {
+          "status": "rumored",
+          "date": "2026-08-10",
+          "headline": "GameStop's Ryan Cohen Weighs Pulling $56 Billion EBay Offer",
+          "source": "Bloomberg",
+          "priceReaction": "GME +2%"
+        }
+      ]
+    },
+    {
+      "id": "tah-betmakers-acquisition",
+      "ticker": "TAH",
+      "counterparty": "BetMakers Technology Group",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Tabcorp agrees to buy wagering-technology supplier BetMakers at A$0.24 a share (~A$283m) by scheme of arrangement, unanimously recommended by the BetMakers board, six months after informal talks between the two collapsed in February. It brings in-house the platform Tabcorp needs to modernise its own wagering stack plus an international B2B business, and targets A$30m of annual cost savings by the end of year two -- material for a company of Tabcorp's size. Completion is guided to the third quarter of Tabcorp's FY2027, subject to BetMakers shareholder, court, ACCC and gaming-regulator approvals.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-08-10",
+          "headline": "Tabcorp to acquire BetMakers in A$283 million deal, unanimously recommended by the BetMakers board",
+          "source": "iGaming Business",
+          "priceReaction": "BET +39%"
         }
       ]
     }
