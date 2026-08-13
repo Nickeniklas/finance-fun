@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T07:51:15Z",
+  "generatedAt": "2026-08-13T07:51:55Z",
   "events": [
     {
       "id": "inmd-steel-partners-buyout",
@@ -205,104 +205,6 @@
       ]
     },
     {
-      "id": "amd-anthropic-chip-partnership",
-      "ticker": "AMD",
-      "counterparty": "Anthropic",
-      "type": "partnership",
-      "currentStatus": "confirmed",
-      "whyItMatters": "AMD locks in a marquee AI-chip customer and financial backer in one deal — Anthropic commits to buy tens of billions of dollars of AMD Instinct MI450 chips (up to 2GW of deployment) while AMD invests up to $5bn in Anthropic's equity, cementing AMD as a credible second sourcing option to Nvidia inside one of the largest frontier AI labs.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-07-22",
-          "headline": "AMD to invest up to $5 billion in Anthropic as part of computing power deal",
-          "source": "CNBC"
-        }
-      ]
-    },
-    {
-      "id": "rgen-biolife-acquisition",
-      "ticker": "RGEN",
-      "counterparty": "BioLife Solutions",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Repligen's ~$1.5bn purchase of BioLife Solutions adds market-leading CryoStor biopreservation media to its bioprocessing tools, deepening its exposure to the fast-growing cell and gene therapy manufacturing chain — a bolt-on funded mostly in stock (64%) rather than cash.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-07-22",
-          "headline": "Repligen to Acquire BioLife Solutions, Expanding Its Cell Therapy Capabilities with Market Leading Biopreservation Media",
-          "source": "GlobeNewswire"
-        }
-      ]
-    },
-    {
-      "id": "dsy-arisglobal-acquisition",
-      "ticker": "DSY",
-      "counterparty": "ArisGlobal",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Dassault buys a life-sciences regulatory and safety-data platform to fuse with its existing 3DExperience biotech tools, aiming to link molecule, patient and real-world-outcome data on one AI platform -- deepening its push into pharma software beyond its core CAD/PLM base.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-07-23",
-          "headline": "Dassault Systemes to Acquire ArisGlobal, Creating a Unified AI Intelligence Platform for the Life Sciences Industry",
-          "source": "GlobeNewswire"
-        }
-      ]
-    },
-    {
-      "id": "f-geely-spain-jv",
-      "ticker": "F",
-      "counterparty": "Geely Auto",
-      "type": "partnership",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Ford brings in a Chinese EV/hybrid partner to fill an underused European plant and co-develop four new models (including a new Bronco-family member) -- a rare case of a Detroit automaker directly partnering with a Chinese rival on home-market EV production rather than competing purely on cost.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-07-23",
-          "headline": "Ford and Geely Auto Establish Joint Venture in Spain for Localized Production at Ford's Valencia Plant",
-          "source": "PR Newswire"
-        }
-      ]
-    },
-    {
-      "id": "saft-mapfre-acquisition",
-      "ticker": "SAFT",
-      "counterparty": "Mapfre",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Mapfre's $1.54bn ($105/share cash, ~44% premium) all-cash purchase takes Safety Insurance Group private, closing out its run as an independent public insurer and giving Mapfre a bigger vehicle for US expansion, pending Massachusetts regulator and HSR clearance with close expected Q1 2027.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-07-23",
-          "headline": "Mapfre to Acquire Safety Insurance Group for $1.54 Billion in All-Cash Deal",
-          "source": "Business Wire",
-          "priceReaction": "+35% after-hours"
-        }
-      ]
-    },
-    {
-      "id": "amkr-nvidia-packaging-partnership",
-      "ticker": "AMKR",
-      "counterparty": "NVDA",
-      "type": "partnership",
-      "currentStatus": "confirmed",
-      "whyItMatters": "NVIDIA's $1.5bn multiyear prepayment locks in dedicated US 2.5D/3D advanced-packaging and test capacity at Amkor, giving Amkor a marquee anchor customer for its domestic expansion while helping Nvidia diversify AI-chip packaging supply onshore through 2028.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-07-23",
-          "headline": "Amkor Technology Announces Strategic Partnership with NVIDIA to Expand Advanced Packaging and Test for Next-Generation AI Infrastructure",
-          "source": "Business Wire",
-          "priceReaction": "+9% premarket"
-        }
-      ]
-    },
-    {
       "id": "vz-google-fiber-partnership",
       "ticker": "VZ",
       "counterparty": "GOOGL",
@@ -314,55 +216,6 @@
           "status": "confirmed",
           "date": "2026-07-24",
           "headline": "Verizon signs $1 billion dark fiber deal with Google for AI data centers",
-          "source": "Yahoo Finance"
-        }
-      ]
-    },
-    {
-      "id": "googl-capex-raise-2026",
-      "ticker": "GOOGL",
-      "counterparty": null,
-      "type": "capital-allocation",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Alphabet raises its 2026 capex guide from $180-190bn to as much as $195-205bn, telling investors AI infrastructure demand keeps outpacing build-out -- the market read the increase as a margin risk despite a cloud beat, sending shares down after-hours.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-07-22",
-          "headline": "Google Boosts 2026 Spending Estimate to as Much as $205 Billion",
-          "source": "Bloomberg",
-          "priceReaction": "-5% after-hours"
-        }
-      ]
-    },
-    {
-      "id": "bpop-capital-return-increase",
-      "ticker": "BPOP",
-      "counterparty": null,
-      "type": "capital-allocation",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Popular raises its quarterly dividend 20% (to $0.90/share) and authorizes up to $1bn in new buybacks, a meaningful step-up in capital return relative to its size that signals confidence in the Puerto Rico-based bank's capital position.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-07-23",
-          "headline": "Popular Announces Increased Quarterly Dividend and New $1 Billion Share Repurchase Program",
-          "source": "StockTitan"
-        }
-      ]
-    },
-    {
-      "id": "aci-edge-restructuring",
-      "ticker": "ACI",
-      "counterparty": null,
-      "type": "strategy-shift",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Albertsons collapses 11 operating divisions into 4 under its new 'ACI Edge' plan targeting $200m of run-rate savings by FY2027, alongside a CFO departure and a cut full-year EPS guide (to $1.75-1.85 from $2.22-2.32) -- a genuine restructuring of the operating model, not just a soft quarter.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-07-23",
-          "headline": "Albertsons cuts fiscal 2026 sales and profit outlook, unveils 'ACI Edge' restructuring plan",
           "source": "Yahoo Finance"
         }
       ]
@@ -1509,6 +1362,56 @@
           "date": "2026-08-05",
           "headline": "Sandisk board of directors approves a $14 billion share repurchase program, taking total remaining authorization to $15.5 billion",
           "source": "Sandisk (Form 8-K)"
+        }
+      ]
+    },
+    {
+      "id": "wen-trian-takeover-bid",
+      "ticker": "WEN",
+      "counterparty": "Trian Fund Management (with BlueFive Capital, Flynn Group)",
+      "type": "acquisition",
+      "currentStatus": "rumored",
+      "whyItMatters": "Trian, Wendy's largest shareholder at about 16%, is assembling co-investors -- BlueFive Capital and Flynn Group, one of the chain's biggest franchisees -- behind a bid to take the burger chain private, days after a sixth consecutive quarter of same-store sales declines. Nelson Peltz has sat on or around this board since 2008, so an insider-led buyout of a roughly $1.4bn-equity franchise business would move the turnaround out of public view at a low point in the cycle. Nothing has been submitted: the company has only said it would review any proposal consistent with its fiduciary duties, and the report is single-sourced with no price attached.",
+      "phases": [
+        {
+          "status": "rumored",
+          "date": "2026-08-12",
+          "headline": "Wendy's stock jumps on report of potential takeover bid from Nelson Peltz's Trian Fund Management",
+          "source": "CNBC",
+          "priceReaction": "up as much as 16% intraday, biggest gain since June 25"
+        }
+      ]
+    },
+    {
+      "id": "acb-curaleaf-takeover-bid",
+      "ticker": "ACB",
+      "counterparty": "Curaleaf Holdings",
+      "type": "acquisition",
+      "currentStatus": "rumored",
+      "whyItMatters": "Curaleaf goes hostile after private approaches on June 23 and July 7 failed to draw Aurora into substantive talks, offering 0.3463 Curaleaf subordinate voting shares plus $0.75 cash for each Aurora share -- an implied US$4.00, about US$272m in total and a 45% premium to the 30-day VWAP, or 110% once Aurora's balance-sheet cash is stripped out. That second number is the whole argument: Curaleaf is bidding for a cash pile plus an international medical footprint, and says the combination would span 17 countries. Aurora's board is forming a special committee to weigh it against other strategic alternatives, so the open question is whether it engages or mounts a defence.",
+      "phases": [
+        {
+          "status": "rumored",
+          "date": "2026-08-11",
+          "headline": "Curaleaf to take offer directly to shareholders in bid to buy Edmonton-based Aurora Cannabis",
+          "source": "CBC News",
+          "priceReaction": "ACB rallied on the announcement"
+        }
+      ]
+    },
+    {
+      "id": "jiofin-bofa-jio-credit-jv",
+      "ticker": "JIOFIN.NS",
+      "counterparty": "Bank of America (BAC)",
+      "type": "partnership",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Bank of America commits up to INR18,268 crore (~$2.1bn) for 26.5% of Jio Credit at signing, rising to 49.9% if the warrants are exercised -- converting Reliance's two-year-old lending arm, already at INR30,667 crore of assets under management, from a wholly-owned subsidiary into a joint venture with a global bank. For Jio Financial it brings outside capital and underwriting expertise it would otherwise have had to build alone; for BofA it is a first direct balance-sheet position in Indian consumer credit, immaterial against group capital but a real change in where it competes. Regulatory and statutory approvals are still outstanding.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-08-12",
+          "headline": "Bank of America Enters into a Joint Venture Agreement with Jio Financial Services Limited to Acquire up to 49.9% in Jio Credit Limited",
+          "source": "PR Newswire"
         }
       ]
     }
