@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T07:51:55Z",
+  "generatedAt": "2026-08-14T08:15:00Z",
   "events": [
     {
       "id": "inmd-steel-partners-buyout",
@@ -205,38 +205,6 @@
       ]
     },
     {
-      "id": "vz-google-fiber-partnership",
-      "ticker": "VZ",
-      "counterparty": "GOOGL",
-      "type": "partnership",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Verizon's $1bn dark-fiber supply deal with Google gives it a new physical-infrastructure revenue line tied directly to hyperscaler AI data-center buildout, positioning the telco as a connectivity landlord to the AI capex cycle rather than just a wireless/broadband carrier.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-07-24",
-          "headline": "Verizon signs $1 billion dark fiber deal with Google for AI data centers",
-          "source": "Yahoo Finance"
-        }
-      ]
-    },
-    {
-      "id": "samsungelec-avgo-chip-partnership",
-      "ticker": "005930.KS",
-      "counterparty": "AVGO",
-      "type": "partnership",
-      "currentStatus": "confirmed",
-      "whyItMatters": "A 5-year, ~$200bn MOU locks in Samsung's HBM4/HBM4E memory supply and 2nm-and-below foundry capacity for Broadcom's AI accelerators -- a major foundry-customer win against TSMC and a long-run revenue floor for Samsung's contract-manufacturing and memory businesses.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-07-24",
-          "headline": "Samsung and Broadcom sign $200 billion chip deal spanning memory, foundry and packaging",
-          "source": "Bloomberg"
-        }
-      ]
-    },
-    {
       "id": "skhynix-nvda-ai-partnership",
       "ticker": "000660.KS",
       "counterparty": "NVDA",
@@ -249,55 +217,6 @@
           "date": "2026-07-25",
           "headline": "SK Group and NVIDIA Expand Strategic Partnership Across AI Factories and Next-Generation Memory",
           "source": "NVIDIA Newsroom"
-        }
-      ]
-    },
-    {
-      "id": "samsungsds-anthropic-partnership",
-      "ticker": "018260.KS",
-      "counterparty": "Anthropic",
-      "type": "partnership",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Samsung SDS commits to a large-scale Claude Enterprise rollout across roughly 70,000 employees and 20 Samsung affiliates, giving Anthropic a marquee enterprise deployment inside one of Asia's biggest conglomerates and signaling Samsung is diversifying its AI stack beyond OpenAI.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-07-24",
-          "headline": "Samsung SDS Forges Alliance with Anthropic, Expanding AI Partnerships Beyond OpenAI",
-          "source": "BigGo Finance"
-        }
-      ]
-    },
-    {
-      "id": "bac-dividend-increase",
-      "ticker": "BAC",
-      "counterparty": null,
-      "type": "capital-allocation",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Bank of America raises its quarterly dividend 14% (to $0.32/share), a double-digit capital-return step-up that signals management confidence in the bank's post-stress-test capital position.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-07-24",
-          "headline": "Bank of America declares quarterly dividend of $0.32 per share, up from $0.28",
-          "source": "Company press release"
-        }
-      ]
-    },
-    {
-      "id": "mchp-hailo-acquisition",
-      "ticker": "MCHP",
-      "counterparty": "Hailo Technologies",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Microchip buys Israeli edge-AI/vision chipmaker Hailo, reportedly at a steep discount to its prior ~$1bn valuation, adding AI-accelerator IP to its portfolio even though management says the deal isn't financially material on its own -- a build-out of its AI roadmap via distressed-asset M&A.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-07-24",
-          "headline": "Microchip Technology Signs Definitive Agreement to Acquire Hailo",
-          "source": "GlobeNewswire",
-          "priceReaction": "-3% intraday"
         }
       ]
     },
@@ -1412,6 +1331,56 @@
           "date": "2026-08-12",
           "headline": "Bank of America Enters into a Joint Venture Agreement with Jio Financial Services Limited to Acquire up to 49.9% in Jio Credit Limited",
           "source": "PR Newswire"
+        }
+      ]
+    },
+    {
+      "id": "wday-silverlake-takeover-talks",
+      "ticker": "WDAY",
+      "counterparty": "Silver Lake",
+      "type": "acquisition",
+      "currentStatus": "rumored",
+      "whyItMatters": "Reuters reports Silver Lake has held months of talks to take Workday private, which at a ~$43bn market value would rank among the largest software buyouts ever attempted and would need additional co-investors plus a debt package no sponsor has raised for a business of this size in years. For holders the read-across is that the market is now pricing profitable, slow-growing enterprise SaaS at levels where private equity thinks it can clear a return -- but the talks are ongoing, sourced rather than announced, and neither side has confirmed a price.",
+      "phases": [
+        {
+          "status": "rumored",
+          "date": "2026-08-13",
+          "headline": "Exclusive-Silver Lake in talks to buy Workday, sources say",
+          "source": "Reuters",
+          "priceReaction": "up as much as 25% before trading was halted for volatility; best single day in 10 years"
+        }
+      ]
+    },
+    {
+      "id": "arx-thoma-bravo-take-private",
+      "ticker": "ARX",
+      "counterparty": "Thoma Bravo",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Thoma Bravo pays $20.25 a share in cash -- more than $4bn of enterprise value and a 49% premium to the August 12 close -- to take specialty insurance marketplace Accelerant private barely a year after its NYSE listing, with Altamont Capital Partners' ~82% of the voting rights already committed in favour. That block makes shareholder approval a formality and moves the risk entirely to insurance-regulatory clearance, which the parties have priced explicitly: a 6% annual ticking fee accrues to holders if those approvals delay the close beyond the first half of 2027.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-08-13",
+          "headline": "Accelerant Enters into Definitive Agreement to be Acquired by Thoma Bravo",
+          "source": "Business Wire",
+          "priceReaction": "+43% premarket to $19.45; 49% premium to the August 12 close"
+        }
+      ]
+    },
+    {
+      "id": "dt-arize-acquisition",
+      "ticker": "DT",
+      "counterparty": "Arize AI",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Dynatrace pays $915m -- roughly $815m in cash from its balance sheet and credit facility, the rest in replacement equity for Arize staff -- to buy the leading independent AI-observability platform and extend its monitoring franchise from infrastructure into how AI models are evaluated and improved in production. It is a bet that observability spend follows workloads into the AI stack rather than being displaced by it, and at a size Dynatrace can fund without new debt; closing is guided to this quarter or early next, subject to regulatory review.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-08-13",
+          "headline": "Dynatrace to Acquire AI Observability Leader Arize",
+          "source": "Business Wire"
         }
       ]
     }
