@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T08:15:00Z",
+  "generatedAt": "2026-08-15T08:15:00Z",
   "events": [
     {
       "id": "inmd-steel-partners-buyout",
@@ -205,22 +205,6 @@
       ]
     },
     {
-      "id": "skhynix-nvda-ai-partnership",
-      "ticker": "000660.KS",
-      "counterparty": "NVDA",
-      "type": "partnership",
-      "currentStatus": "confirmed",
-      "whyItMatters": "SK Telecom will build a 2GW NVIDIA Vera Rubin DSX AI factory while SK hynix -- roughly 60% of the global HBM market -- enters a long-term supply and co-development pact with NVIDIA, locking in the dominant AI-chipmaker's memory pipeline and giving SK hynix a large multi-year revenue commitment tied to next-gen HBM.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-07-25",
-          "headline": "SK Group and NVIDIA Expand Strategic Partnership Across AI Factories and Next-Generation Memory",
-          "source": "NVIDIA Newsroom"
-        }
-      ]
-    },
-    {
       "id": "arcad-wsp-takeover-bid",
       "ticker": "ARCAD",
       "counterparty": "WSP Global",
@@ -353,22 +337,6 @@
           "headline": "Nvidia to invest $1 bil. in Naver for 4.5% stake, with Brookfield backing a $10 billion AI factory build at the GAK Sejong data centre",
           "source": "The Korea Times",
           "priceReaction": "shares soared on the announcement"
-        }
-      ]
-    },
-    {
-      "id": "bx-kuwait-oil-pipeline-partnership",
-      "ticker": "BX",
-      "counterparty": "Kuwait Oil Company (with Brookfield, KKR)",
-      "type": "partnership",
-      "currentStatus": "confirmed",
-      "whyItMatters": "A Blackstone-Brookfield-KKR consortium takes 49% of Kuwait Oil Company's 320km crude pipeline network under a 20.5-year lease-and-leaseback ('Project Peregrine'), handing KOC $7.85bn upfront against a $16bn headline value while it keeps 51% -- one of the largest Middle East infrastructure privatisations yet, and a large, long-duration, contracted asset for three listed alternative managers hunting scale in infrastructure.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-07-25",
-          "headline": "Kuwait Oil Company Signs US$16.0 Billion Infrastructure Partnership Involving Its Crude Oil Pipeline Network With a Consortium Comprising Blackstone, Brookfield and KKR",
-          "source": "CNBC"
         }
       ]
     },
@@ -1381,6 +1349,55 @@
           "date": "2026-08-13",
           "headline": "Dynatrace to Acquire AI Observability Leader Arize",
           "source": "Business Wire"
+        }
+      ]
+    },
+    {
+      "id": "imxi-westernunion-acquisition",
+      "ticker": "IMXI",
+      "counterparty": "Western Union (WU)",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Western Union's roughly $500m purchase of Intermex has cleared the New York Department of Financial Services, with Western Union giving commitments on remittance services and locations in the state -- but the same disclosure revealed that California's DFPI had, a day earlier, suspended the approval extension it granted on July 31. Intermex shares jumped because the deal has now cleared most of its regulatory path; the open question is no longer whether the acquisition is agreed but whether a single state regulator lets it close.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-08-14",
+          "headline": "Western Union and Intermex Provide Update on Pending Acquisition: New York DFS approval granted, while California's DFPI suspends the approval extension issued on July 31",
+          "source": "GlobeNewswire",
+          "priceReaction": "IMXI +23% premarket"
+        }
+      ]
+    },
+    {
+      "id": "psx-western-gateway-pipeline-jv",
+      "ticker": "PSX",
+      "counterparty": "Kinder Morgan (KMI), HF Sinclair (DINO)",
+      "type": "partnership",
+      "currentStatus": "confirmed",
+      "whyItMatters": "The three partners have finalised the joint venture and taken final investment decision on a 1,300-mile refined-products system worth about $5bn of enterprise value, connecting St. Louis and expanded Gulf Coast supply points to Arizona and California -- Phillips 66 contributing roughly $2.5bn for 49.9%, Kinder Morgan about $250m for 35.1% and HF Sinclair about $750m for 15%. It is underpinned primarily by 10-year take-or-pay contracts, so the revenue is contracted rather than merchant, but completion is targeted for 2029 and the permits are not yet secured, meaning the capital goes out years ahead of the cash coming back.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-08-10",
+          "headline": "Phillips 66, Kinder Morgan and HF Sinclair Announce Final Investment Decision for Western Gateway Pipeline",
+          "source": "Business Wire"
+        }
+      ]
+    },
+    {
+      "id": "gs-neos-acquisition",
+      "ticker": "GS",
+      "counterparty": "NEOS Investments",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Goldman Sachs pays as much as $2.25bn in cash and equity, part of it contingent on performance and service milestones, for a manager of 19 options-based income ETFs with about $30bn of assets at June 30 -- buying a derivative-income product line, including the NEOS Bitcoin High Income, Boosted Bitcoin High Income and Ethereum High Income ETFs, rather than building one. It is a bet that advisor and retail demand for options-overlay income keeps compounding, and it hands Goldman Sachs Asset Management a crypto-income ETF franchise it has no organic equivalent to.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-08-12",
+          "headline": "Goldman Sachs Announces Agreement to Acquire NEOS Investments",
+          "source": "Goldman Sachs"
         }
       ]
     }
