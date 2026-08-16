@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T08:15:00Z",
+  "generatedAt": "2026-08-16T08:15:00Z",
   "events": [
     {
       "id": "inmd-steel-partners-buyout",
@@ -232,13 +232,19 @@
       "counterparty": "OpenAI",
       "type": "partnership",
       "currentStatus": "rumored",
-      "whyItMatters": "Nvidia would guarantee roughly $250bn of lease and debt financing so OpenAI can take a 10GW, SoftBank-developed Ohio campus, with a separate ~$350bn chip-purchase financing line under discussion on top. It would lock in years of demand for Nvidia silicon, but turns the chipmaker into a balance-sheet backstop for its own largest customer -- concentrating credit risk that did not previously sit on Nvidia's books. Talks are early-stage and could collapse.",
+      "whyItMatters": "Nvidia is now expected to guarantee less than $120bn rather than the $250bn first reported, and only for the first phase of the 10GW SoftBank-developed campus on Department of Energy land in Pike County, Ohio, after investors pushed back on the credit exposure a full backstop would load onto its balance sheet. A separate ~$350bn chip-purchase financing line has also been under discussion. Halving the commitment does not remove the circularity of financing your own largest customer, but it caps how much of that risk sits on Nvidia's books at any one time. Reporting says a deal could be signed within days, so the number is not yet final and the talks could still collapse.",
       "phases": [
         {
           "status": "rumored",
           "date": "2026-07-26",
           "headline": "Nvidia in talks with OpenAI to guarantee $250 billion financing for data center, WSJ reports",
           "source": "The Wall Street Journal"
+        },
+        {
+          "status": "rumored",
+          "date": "2026-08-14",
+          "headline": "Nvidia scales back $250 billion OpenAI data center guarantee, WSJ reports",
+          "source": "Reuters"
         }
       ]
     },
@@ -303,22 +309,6 @@
           "status": "confirmed",
           "date": "2026-07-27",
           "headline": "Expand Energy Corporation to Acquire Twin Eagle, Creating North America's Leading Integrated Natural Gas Company",
-          "source": "Bloomberg"
-        }
-      ]
-    },
-    {
-      "id": "bfb-sazerac-takeover-bid",
-      "ticker": "BF.B",
-      "counterparty": "Sazerac",
-      "type": "acquisition",
-      "currentStatus": "rumored",
-      "whyItMatters": "Sazerac's revived $32/share all-cash approach (~$15bn, a 23% premium) is its second run at Brown-Forman this year, and this time it went over the board's head directly to shareholders while offering to improve terms if the board engages -- putting a family-controlled spirits franchise into a public pressure campaign it has so far refused to negotiate under.",
-      "phases": [
-        {
-          "status": "rumored",
-          "date": "2026-07-26",
-          "headline": "Brown-Forman Says It Rejected Sazerac's Unsolicited Takeover Bid",
           "source": "Bloomberg"
         }
       ]
@@ -1398,6 +1388,38 @@
           "date": "2026-08-12",
           "headline": "Goldman Sachs Announces Agreement to Acquire NEOS Investments",
           "source": "Goldman Sachs"
+        }
+      ]
+    },
+    {
+      "id": "spcx-anysphere-acquisition",
+      "ticker": "SPCX",
+      "counterparty": "Anysphere (Cursor)",
+      "type": "acquisition",
+      "currentStatus": "closed",
+      "whyItMatters": "SpaceX has closed the largest acquisition of a private startup on record, issuing 389,289,254 Class A shares -- plus 1,752,426 more for vested RSUs and roughly 29.1m assumed RSUs and 44.4m options -- for Cursor maker Anysphere at a $60bn implied equity value, struck on the seven-day VWAP into closing. It is paid entirely in paper, so existing holders fund an AI coding-tools business out of their own dilution barely six weeks after the Nasdaq listing, and Cursor becomes a wholly owned unit of a new SpaceXAI division. The case now rests on whether an AI software franchise can be run inside a launch and satellite company, because the shares have already been spent.",
+      "phases": [
+        {
+          "status": "closed",
+          "date": "2026-08-14",
+          "headline": "SpaceX completes acquisition of Anysphere in $60 billion all-stock deal",
+          "source": "Space Exploration Technologies Corp. (Form 8-K)"
+        }
+      ]
+    },
+    {
+      "id": "reax-remax-combination",
+      "ticker": "REAX",
+      "counterparty": "RE/MAX Holdings (RMAX)",
+      "type": "acquisition",
+      "currentStatus": "approved",
+      "whyItMatters": "Both shareholder bases have now cleared Real's roughly $880m purchase of RE/MAX -- 99.0% of Real votes cast in favour and holders of 78.8% of RE/MAX voting power -- leaving a final order from the Supreme Court of British Columbia as effectively the last step before the two list as Real REMAX Group. RE/MAX holders elect $13.80 a share in cash or 5.152 Real REMAX shares, with aggregate cash capped between $60m and $80m, so almost the entire consideration is stock: they end up owning about 41% of a technology-led brokerage rather than cashing out of a franchise brand, and the value of what they received depends on an integration that has not started.",
+      "phases": [
+        {
+          "status": "approved",
+          "date": "2026-08-14",
+          "headline": "Real and RE/MAX Holdings Securityholders Approve Proposed Combination",
+          "source": "PR Newswire"
         }
       ]
     }
