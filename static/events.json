@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T08:15:00Z",
+  "generatedAt": "2026-08-17T08:00:00Z",
   "events": [
     {
       "id": "inmd-steel-partners-buyout",
@@ -7,7 +7,7 @@
       "counterparty": "Steel Partners",
       "type": "acquisition",
       "currentStatus": "rumored",
-      "whyItMatters": "InMode is now the target of a contested take-private: activist holder Steel Partners' $16.75/share all-cash offer (a 20% premium to the unaffected price) tops the CEO-led group's $16.20 bid and lets public holders roll up to 40% into the private company. The board's independent directors must respond by July 13, so the near-term catalyst is whether a bidding war develops or the CEO group prevails.",
+      "whyItMatters": "The procedural blockade around InMode's contested take-private has been lifted: the Haifa District Court threw out Steel Partners affiliate SP Strategic Holdings' request for temporary injunctive relief in its entirety and awarded the company and its directors costs, ending the freeze that had stopped the special committee from choosing between Steel Partners' $16.75-a-share all-cash offer and the CEO-led group's $16.20 bid. The independence challenge that justified the injunction failed, so the decision now returns to the board -- and the open question flips from whether the committee may act to whether a bidding war develops or the insider group prevails.",
       "phases": [
         {
           "status": "rumored",
@@ -26,6 +26,12 @@
           "status": "rumored",
           "date": "2026-07-28",
           "headline": "Steel Partners Urges InMode Shareholders to Vote AGAINST the Re-Election of Dr. Hadar Ron and AGAINST Extraordinary Special Committee Compensation at the July 30 Annual General Meeting",
+          "source": "Reuters"
+        },
+        {
+          "status": "rumored",
+          "date": "2026-08-10",
+          "headline": "InMode: Haifa District Court denied SP Strategic Holdings' request for temporary injunctive relief in its entirety",
           "source": "Reuters"
         }
       ]
@@ -76,8 +82,8 @@
       "ticker": "PSKY",
       "counterparty": "WBD",
       "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "A 12-state antitrust coalition led by California's AG is suing to block Paramount Skydance's ~$110bn Warner Bros. Discovery merger and seeking a court order to halt closing — even though the deal is already signed and was DOJ-cleared in June 2026, a state-level legal challenge to theatrical and cable-distribution concentration adds a real risk of delay or an unwound deal.",
+      "currentStatus": "approved",
+      "whyItMatters": "Every regulatory condition in the ~$110bn Warner Bros. Discovery merger agreement is now satisfied -- 68 jurisdictions cleared across an eight-month review, with Mexico last on August 14 -- so the antitrust risk that dominated this deal for a year is gone and Paramount says it could close immediately. What is left is purely a US courtroom problem: a 12-state attorneys-general suit led by California holds closing until five days after a 12-day trial starting March 2, 2027, while Paramount owes WBD holders roughly $7m a day from September 30, 2026. The question for holders is no longer whether the deal is permitted but how much the delay costs.",
       "phases": [
         {
           "status": "confirmed",
@@ -119,6 +125,12 @@
           "status": "confirmed",
           "date": "2026-08-06",
           "headline": "UK Competition and Markets Authority approves Paramount Skydance Corporation acquisition of Warner Bros. Discovery at Phase 1, taking the deal's clearances to 66 jurisdictions",
+          "source": "Paramount"
+        },
+        {
+          "status": "approved",
+          "date": "2026-08-14",
+          "headline": "Paramount Skydance Satisfies All Regulatory Conditions Under the Merger Agreement to Close Warner Bros. Discovery Acquisition, Securing Clearances in Nearly 70 Countries Worldwide",
           "source": "Paramount"
         }
       ]
@@ -249,104 +261,6 @@
       ]
     },
     {
-      "id": "argx-forte-biosciences-acquisition",
-      "ticker": "ARGX",
-      "counterparty": "Forte Biosciences",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "argenx pays $2.2bn in cash ($77/share, ~86% premium to Forte's VWAP since its July 9 vitiligo data) entirely from cash on hand and with no financing condition, buying a first-in-class anti-CD122 antibody (FB102) with clinical proof-of-concept in two autoimmune indications -- a move to broaden its pipeline beyond the FcRn franchise that currently carries the company.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-07-27",
-          "headline": "argenx to Acquire Forte Biosciences, Inc., Adding First-in-Class anti-CD122 Antibody, FB102, to its Immunology Pipeline",
-          "source": "Business Wire",
-          "priceReaction": "FBRX surged in premarket"
-        }
-      ]
-    },
-    {
-      "id": "nvda-ssi-partnership",
-      "ticker": "NVDA",
-      "counterparty": "Safe Superintelligence",
-      "type": "partnership",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Nvidia takes a multibillion-dollar equity stake (reported at ~$5bn) in Ilya Sutskever's pre-revenue, pre-product AI lab and supplies next-generation Vera Rubin capacity to raise SSI's compute by an order of magnitude -- another instance of Nvidia funding the customers that buy its chips, which grows the order book while concentrating vendor-financing risk on its own balance sheet.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-07-27",
-          "headline": "Ilya Sutskever's Safe Superintelligence Inc. and NVIDIA Announce Long-Term Strategic Partnership",
-          "source": "NVIDIA Newsroom"
-        }
-      ]
-    },
-    {
-      "id": "ora-morrison-datacenter-jv",
-      "ticker": "ORA",
-      "counterparty": "Morrison",
-      "type": "partnership",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Orange contributes five French data centres to a 50-50 venture with infrastructure investor Morrison backed by a EUR3bn investment programme targeting 400MW -- roughly ten times Orange's current data-centre capacity, turning an underused telco asset base into a sovereign-AI hosting business funded largely with partner equity and debt rather than Orange's own balance sheet.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-07-27",
-          "headline": "Orange and Morrison announce plans to create a data centre joint venture to strengthen Europe's digital sovereignty",
-          "source": "GlobeNewswire"
-        }
-      ]
-    },
-    {
-      "id": "exe-twin-eagle-acquisition",
-      "ticker": "EXE",
-      "counterparty": "Twin Eagle Holdings",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Expand Energy pays $1.25bn from cash and its revolver for gas marketer Twin Eagle, lifting marketed volumes to ~14 Bcf/d and raising its incremental marketing free-cash-flow target 50% to $750m a year -- a shift from pure-play producer toward an integrated gas business whose earnings depend on basis and logistics rather than the wellhead price alone.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-07-27",
-          "headline": "Expand Energy Corporation to Acquire Twin Eagle, Creating North America's Leading Integrated Natural Gas Company",
-          "source": "Bloomberg"
-        }
-      ]
-    },
-    {
-      "id": "naver-nvda-ai-factory-partnership",
-      "ticker": "035420.KS",
-      "counterparty": "NVDA (with Brookfield)",
-      "type": "partnership",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Nvidia takes about 4.5% of Naver through a ~$1bn new-share issue -- making the chipmaker Naver's third-largest shareholder behind the National Pension Service and BlackRock -- while Brookfield funds up to $9bn of a $10bn AI factory that lifts the GAK Sejong data centre from 55MW to 200MW by 2028. Naver gets sovereign-AI scale without carrying the capex alone; Nvidia gets another equity-linked customer locked into Blackwell and Vera Rubin.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-07-27",
-          "headline": "Nvidia to invest $1 bil. in Naver for 4.5% stake, with Brookfield backing a $10 billion AI factory build at the GAK Sejong data centre",
-          "source": "The Korea Times",
-          "priceReaction": "shares soared on the announcement"
-        }
-      ]
-    },
-    {
-      "id": "tdg-prince-izant-acquisition",
-      "ticker": "TDG",
-      "counterparty": "Prince & Izant",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "TransDigm pays ~$1.066bn cash for precision engineered-materials maker Prince & Izant, bought from Industrial Growth Partners -- its largest bolt-on of the year and a continuation of the debt-funded, high-margin proprietary-parts roll-up the whole TransDigm equity story rests on.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-07-27",
-          "headline": "TransDigm Group Announces Agreement to Acquire Prince & Izant for Approximately $1.066 Billion in Cash",
-          "source": "StockTitan"
-        }
-      ]
-    },
-    {
       "id": "drs-raft-acquisition",
       "ticker": "DRS",
       "counterparty": "Raft LLC",
@@ -392,22 +306,6 @@
           "date": "2026-07-28",
           "headline": "CMS Energy Announces Second Quarter Results, Strategic Decision on NorthStar Clean Energy Services, Introduces Guidance for 2027",
           "source": "PR Newswire"
-        }
-      ]
-    },
-    {
-      "id": "bsx-global-restructuring",
-      "ticker": "BSX",
-      "counterparty": null,
-      "type": "strategy-shift",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Boston Scientific's board-approved global restructuring commits $700-800m of pre-tax charges through 2029 to strip out roughly $500m of annual costs via supply-chain consolidation, production-line transfers between plants and headcount reductions -- a margin-defence program at a company that has grown mainly by acquisition, and a signal that cost discipline, not just growth, now drives the plan.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-07-27",
-          "headline": "Boston Scientific unveils new restructuring plan, expects job cuts",
-          "source": "Reuters"
         }
       ]
     },
@@ -1420,6 +1318,22 @@
           "date": "2026-08-14",
           "headline": "Real and RE/MAX Holdings Securityholders Approve Proposed Combination",
           "source": "PR Newswire"
+        }
+      ]
+    },
+    {
+      "id": "corz-polaris-acquisition",
+      "ticker": "CORZ",
+      "counterparty": "Polaris DS LLC",
+      "type": "acquisition",
+      "currentStatus": "closed",
+      "whyItMatters": "Core Scientific paid roughly $444m in cash -- above the ~$421m it signed for in May -- to buy a rival miner's campus outright, and what it actually bought is ~440MW of in-service, grid-connected capacity under existing Oklahoma Gas & Electric service agreements. That is the scarce input in the AI build-out: energised interconnect, not land. It takes the Muskogee campus toward 1.5GW of gross power and continues the conversion of former bitcoin-mining sites in Texas, Georgia, North Carolina and Oklahoma into high-density AI colocation, moving the revenue base off hash-price beta and onto contracted compute leases.",
+      "phases": [
+        {
+          "status": "closed",
+          "date": "2026-08-14",
+          "headline": "Core Scientific Completes Acquisition of Polaris DS, Advancing Muskogee Expansion to 1.5 Gigawatts of Gross Power",
+          "source": "Core Scientific"
         }
       ]
     }
