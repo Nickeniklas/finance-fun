@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T08:00:00Z",
+  "generatedAt": "2026-08-18T08:00:00Z",
   "events": [
     {
       "id": "inmd-steel-partners-buyout",
@@ -136,87 +136,6 @@
       ]
     },
     {
-      "id": "ppt-eqt-takeover-bid",
-      "ticker": "PPT",
-      "counterparty": "EQT",
-      "type": "acquisition",
-      "currentStatus": "rumored",
-      "whyItMatters": "EQT's revised A$2.6bn (A$22.07/share, ~22% premium) approach for Perpetual — raised twice in a week, and just two weeks after the board rejected an earlier A$2.45bn bid — keeps the storied Australian wealth/asset manager in a live takeover process; it's the firm's fourth takeover approach since 2022, and the board has still not committed to engage.",
-      "phases": [
-        {
-          "status": "rumored",
-          "date": "2026-07-01",
-          "headline": "Australia's Perpetual Snubs $1.69 Billion Takeover Offer From EQT Over Valuation",
-          "source": "Reuters"
-        },
-        {
-          "status": "rumored",
-          "date": "2026-07-15",
-          "headline": "EQT Sweetens Pursuit of Australia's Perpetual With $1.75 Billion Bid",
-          "source": "Bloomberg"
-        },
-        {
-          "status": "rumored",
-          "date": "2026-07-16",
-          "headline": "EQT Raises Perpetual Takeover Bid to A$22.07 a Share (~A$2.6bn) After Board Rejects A$21.64 Approach",
-          "source": "Law360"
-        },
-        {
-          "status": "rumored",
-          "date": "2026-07-17",
-          "headline": "Perpetual Limited Board Rejects EQT AB's A$22.07 Per Share Takeover Proposal",
-          "source": "Kalkine"
-        },
-        {
-          "status": "rumored",
-          "date": "2026-07-26",
-          "headline": "EQT raises takeover offer for Australian wealth manager Perpetual to A$22.50 a share (~A$2.65bn), up from the A$22.07 proposal the board rejected",
-          "source": "Bloomberg"
-        },
-        {
-          "status": "rumored",
-          "date": "2026-07-28",
-          "headline": "Perpetual rejects EQT's A$22.50-a-share (~A$2.6bn) proposal as not in shareholders' best interests, but offers limited non-public information and says it will engage on an improved offer",
-          "source": "Bloomberg"
-        }
-      ]
-    },
-    {
-      "id": "boss-frasers-takeover-offer",
-      "ticker": "BOSS",
-      "counterparty": "Frasers Group",
-      "type": "acquisition",
-      "currentStatus": "approved",
-      "whyItMatters": "Frasers Group, already Hugo Boss's largest shareholder at ~26.6%, has launched a formal, regulator-approved EUR38/share tender for the rest of the company; Hugo Boss's own board says the price undervalues the business and is urging shareholders to reject it, so the outcome of a contested control fight at a major European fashion house now hinges on the acceptance period running to July 27.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-06-10",
-          "headline": "Hugo Boss pops 8% after top shareholder Frasers launches $2 billion takeover offer",
-          "source": "CNBC",
-          "priceReaction": "+8%"
-        },
-        {
-          "status": "confirmed",
-          "date": "2026-07-09",
-          "headline": "Hugo Boss board rejects Frasers Group bid, urges shareholders not to accept",
-          "source": "Bloomberg"
-        },
-        {
-          "status": "confirmed",
-          "date": "2026-07-21",
-          "headline": "Frasers Group crosses 30% stake threshold in Hugo Boss, triggering mandatory-offer rules under German takeover law; confirms EUR38/share is its final price",
-          "source": "FashionUnited"
-        },
-        {
-          "status": "approved",
-          "date": "2026-07-28",
-          "headline": "Frasers Group's EUR38-per-share offer for Hugo Boss becomes unconditional after European Commission merger clearance; the initial acceptance period closed July 27 and an additional acceptance period runs to August 13",
-          "source": "FashionUnited"
-        }
-      ]
-    },
-    {
       "id": "arcad-wsp-takeover-bid",
       "ticker": "ARCAD",
       "counterparty": "WSP Global",
@@ -243,8 +162,8 @@
       "ticker": "NVDA",
       "counterparty": "OpenAI",
       "type": "partnership",
-      "currentStatus": "rumored",
-      "whyItMatters": "Nvidia is now expected to guarantee less than $120bn rather than the $250bn first reported, and only for the first phase of the 10GW SoftBank-developed campus on Department of Energy land in Pike County, Ohio, after investors pushed back on the credit exposure a full backstop would load onto its balance sheet. A separate ~$350bn chip-purchase financing line has also been under discussion. Halving the commitment does not remove the circularity of financing your own largest customer, but it caps how much of that risk sits on Nvidia's books at any one time. Reporting says a deal could be signed within days, so the number is not yet final and the talks could still collapse.",
+      "currentStatus": "confirmed",
+      "whyItMatters": "The backstop is now firm and sized: Nvidia will provide up to $105bn of credit for the first 4.25GW of the SB Energy-built PORTS-Pike campus in Pike County, Ohio, leased to OpenAI for 20 years, with an option covering a further 3.75GW. That is down from the $250bn covering the whole 10GW project first reported in July, so the balance-sheet exposure is capped at one phase and contingent on the second being taken up. It does not remove the circularity of underwriting your own largest customer -- Nvidia is lending against a campus whose entire compute fit-out it will also supply -- but it converts an open-ended rumoured guarantee into a bounded, disclosed commitment investors can actually underwrite.",
       "phases": [
         {
           "status": "rumored",
@@ -257,22 +176,12 @@
           "date": "2026-08-14",
           "headline": "Nvidia scales back $250 billion OpenAI data center guarantee, WSJ reports",
           "source": "Reuters"
-        }
-      ]
-    },
-    {
-      "id": "drs-raft-acquisition",
-      "ticker": "DRS",
-      "counterparty": "Raft LLC",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Leonardo DRS pays $450m cash for Raft, a McLean, Virginia open-architecture mission-software firm, buying into multi-domain data fusion and AI rather than building it -- a step up the stack from hardware-centric defence electronics, funded from cash and the revolver, accretive to adjusted EPS in year one and carrying a ~$50m present-value tax benefit.",
-      "phases": [
+        },
         {
           "status": "confirmed",
-          "date": "2026-07-28",
-          "headline": "Leonardo DRS to Acquire Raft, Expanding Multi-Domain AI, Data Fusion and Mission Software Capabilities",
-          "source": "Leonardo DRS"
+          "date": "2026-08-17",
+          "headline": "Nvidia backing $105 billion in financing for OpenAI data center in Ohio",
+          "source": "CNBC"
         }
       ]
     },
@@ -290,22 +199,6 @@
           "headline": "Grant Thornton Advisors to Acquire CBIZ for $5 Billion in Transaction Supported by New Mountain Capital",
           "source": "GlobeNewswire",
           "priceReaction": "+17.7% intraday, biggest single-day gain in over 20 years"
-        }
-      ]
-    },
-    {
-      "id": "cms-northstar-renewables-exit",
-      "ticker": "CMS",
-      "counterparty": null,
-      "type": "strategy-shift",
-      "currentStatus": "confirmed",
-      "whyItMatters": "CMS Energy will exit non-utility renewables development and sell NorthStar Clean Energy's non-Michigan assets, keeping only Michigan facilities such as Dearborn Industrial Generation -- a board-approved shift toward a near pure-play regulated utility that cuts parent-level funding needs by more than $500m through 2030 and redirects that capital into rate-based investment.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-07-28",
-          "headline": "CMS Energy Announces Second Quarter Results, Strategic Decision on NorthStar Clean Energy Services, Introduces Guidance for 2027",
-          "source": "PR Newswire"
         }
       ]
     },
@@ -1334,6 +1227,55 @@
           "date": "2026-08-14",
           "headline": "Core Scientific Completes Acquisition of Polaris DS, Advancing Muskogee Expansion to 1.5 Gigawatts of Gross Power",
           "source": "Core Scientific"
+        }
+      ]
+    },
+    {
+      "id": "nvda-sbenergy-investment",
+      "ticker": "NVDA",
+      "counterparty": "SB Energy (SoftBank)",
+      "type": "partnership",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Nvidia is putting $1.5bn of equity into the developer building OpenAI's Ohio campus and, in exchange, locks in sole-supplier status for the compute infrastructure on a site that scales from 4.25GW to 8GW -- plus access to that capacity for its own use. Pairing an equity stake in the landlord with up to $105bn of credit to the project moves Nvidia from chip vendor to part-owner of the power and real estate layer, which is where AI supply is actually constrained: SB Energy and SoftBank plan at least 10GW of new generation, a 9.2GW on-site gas plant costing ~$33bn, and $4.2bn into Ohio grid infrastructure. It also deepens the circular-financing exposure critics are already pricing into the name.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-08-17",
+          "headline": "Nvidia to invest $1.5 billion in SB Energy under OpenAI data center deal",
+          "source": "Reuters"
+        }
+      ]
+    },
+    {
+      "id": "ttmi-epiq-acquisition",
+      "ticker": "TTMI",
+      "counterparty": "Epiq Solutions",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "TTM is paying $1.1bn cash -- funded entirely with new senior secured term loans from JPMorgan, Barclays and Bank of America -- to buy a defence electronics business, taking net leverage to ~2.3x at closing on a company that has spent years de-levering. What it buys is a move up the value chain from printed circuit boards into AI-enabled software-defined radios, RF products and radiation-tolerant space compute, lifting exposure to missile defence, signals intelligence, electronic warfare and space. Management guides to immediate adjusted-EBITDA margin accretion but non-GAAP EPS accretion only in 2028, and the market marked the stock down on announcement: the integration and the debt come first, the earnings later.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-08-17",
+          "headline": "TTM Technologies, Inc. Continues Global Growth Strategy with Planned Acquisition of Epiq Solutions, Enhancing Technologically Differentiated Market Offerings",
+          "source": "GlobeNewswire"
+        }
+      ]
+    },
+    {
+      "id": "baba-lingxi-games-divestiture",
+      "ticker": "BABA",
+      "counterparty": "Trustar Capital",
+      "type": "strategy-shift",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Alibaba has agreed to sell its entire stake in game developer Lingxi Games to Trustar Capital for more than $2bn, roughly double the RMB7-9bn the unit was valued at when the sale was first floated in June. The cash matters less than the signal: management is still pruning non-core consumer assets to concentrate capital and attention on AI and cloud, and gaming -- a business with its own content risk and regulatory history in China -- is now outside the perimeter. It also sets a mark for what buyers will pay for Alibaba's remaining non-core units ahead of earnings.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-08-17",
+          "headline": "Alibaba to sell Lingxi Games in more than $2 billion deal, source says",
+          "source": "Reuters",
+          "priceReaction": "+1.5% premarket"
         }
       ]
     }
