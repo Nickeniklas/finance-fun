@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T08:00:00Z",
+  "generatedAt": "2026-08-19T08:00:00Z",
   "events": [
     {
       "id": "inmd-steel-partners-buyout",
@@ -182,23 +182,6 @@
           "date": "2026-08-17",
           "headline": "Nvidia backing $105 billion in financing for OpenAI data center in Ohio",
           "source": "CNBC"
-        }
-      ]
-    },
-    {
-      "id": "cbz-grant-thornton-acquisition",
-      "ticker": "CBZ",
-      "counterparty": "Grant Thornton Advisors (New Mountain Capital)",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Grant Thornton's $5bn all-cash purchase of CBIZ at $55/share -- a ~54% premium to the 30-day VWAP, backed by fresh New Mountain Capital equity -- takes the largest publicly traded US accounting and advisory firm private and creates the fifth-largest US professional services provider, the sector's biggest combination in more than 25 years. A go-shop period running to August 27 leaves the door open to a topping bid.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-07-29",
-          "headline": "Grant Thornton Advisors to Acquire CBIZ for $5 Billion in Transaction Supported by New Mountain Capital",
-          "source": "GlobeNewswire",
-          "priceReaction": "+17.7% intraday, biggest single-day gain in over 20 years"
         }
       ]
     },
@@ -1276,6 +1259,73 @@
           "headline": "Alibaba to sell Lingxi Games in more than $2 billion deal, source says",
           "source": "Reuters",
           "priceReaction": "+1.5% premarket"
+        }
+      ]
+    },
+    {
+      "id": "ugi-kkr-takeover-bid",
+      "ticker": "UGI",
+      "counterparty": "KKR",
+      "type": "acquisition",
+      "currentStatus": "rumored",
+      "whyItMatters": "KKR has put an unsolicited ~$9bn proposal to UGI at $42.50 a share, a 21% premium to the $35.09 close before the report, for a group that bundles regulated Pennsylvania gas and electric utilities with midstream infrastructure, AmeriGas propane and European LPG distribution. It is the clearest sign yet that private capital is willing to pay up for regulated power and gas assets on the strength of data-center load growth. Nothing is agreed: the approach is WSJ-sourced, UGI's board has not said whether it will engage, and a rate-regulated utility take-private of this size faces state utility-commission review before anything closes.",
+      "phases": [
+        {
+          "status": "rumored",
+          "date": "2026-08-18",
+          "headline": "KKR makes $9 billion takeover bid for energy distributor UGI, WSJ reports",
+          "source": "Reuters",
+          "priceReaction": "+13%, briefly halted for volatility"
+        }
+      ]
+    },
+    {
+      "id": "mair-ebmpapst-acquisition",
+      "ticker": "MAIR",
+      "counterparty": "ebm-papst",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Madison Air pays $5.4bn of enterprise value ($5.0bn net of future tax savings) for Germany's ebm-papst, a fan and motor-systems maker with ~$2.8bn of expected 2026 revenue and more than 250m fans installed in about 40 countries -- 14.6x forecast 2026 adjusted EBITDA of ~$343m, or 10x including the $160m of run-rate synergies targeted by year three. It roughly doubles the addressable market and buys direct exposure to data-center cooling, but it is funded with cash plus new debt and equity behind UniCredit and Wells Fargo commitments, so a company that listed recently is levering up for a target larger than its own revenue base -- and the shares fell on the news.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-08-18",
+          "headline": "Madison Air to Acquire ebm-papst, Expanding Return on Air Capabilities and Accelerating Durable Growth in Air Quality Solutions",
+          "source": "Madison Air Solutions",
+          "priceReaction": "shares fell on the announcement"
+        }
+      ]
+    },
+    {
+      "id": "weav-francisco-partners-take-private",
+      "ticker": "WEAV",
+      "counterparty": "Francisco Partners",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Francisco Partners takes patient-engagement software maker Weave private for about $650m at $7.40 a share in cash, a 34% premium to the August 17 unaffected close and unanimously approved by the board. The number that matters is the one it is measured against: Weave listed at roughly a $1.5bn valuation less than five years ago, so holders are being cashed out at well under half the IPO mark. It is another sub-scale listed SaaS name concluding that the public market will not fund the AI build-out its 40,000 healthcare practice locations expect; closing is guided to Q4 2026 subject to shareholder and regulatory approval.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-08-18",
+          "headline": "Weave Announces Acquisition by Francisco Partners",
+          "source": "Weave Communications",
+          "priceReaction": "34% premium to the August 17 unaffected close; among the NYSE's top gainers"
+        }
+      ]
+    },
+    {
+      "id": "dte-fiberhost-inea-acquisition",
+      "ticker": "DTE.DE",
+      "counterparty": "Fiberhost and Inea (Macquarie Asset Management)",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Deutsche Telekom buys 100% of Polish open-access fibre operator Fiberhost together with retail broadband and TV provider Inea from Macquarie Asset Management for about EUR1bn of enterprise value, adding a network passing more than 1.4m homes and over 300,000 customers. It converts T-Mobile Polska from a mobile-only operator into a convergent one in a market where fixed-line share has been the structural gap, and it is a rare case of Deutsche Telekom deploying capital into European fixed infrastructure rather than into buybacks. Closing is expected at the end of 2026, subject to Polish competition approval.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-08-17",
+          "headline": "Deutsche Telekom to acquire Fiberhost and Inea from Macquarie Asset Management for c.1 billion EUR, thereby strengthening T-Mobile Polska's position in fixed broadband",
+          "source": "Deutsche Telekom"
         }
       ]
     }
