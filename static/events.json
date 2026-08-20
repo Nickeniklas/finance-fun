@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T08:00:00Z",
+  "generatedAt": "2026-08-20T07:55:00Z",
   "events": [
     {
       "id": "inmd-steel-partners-buyout",
@@ -65,7 +65,7 @@
         {
           "status": "rumored",
           "date": "2026-07-22",
-          "headline": "Prologis tables 'best and final' £14bn ($18.8bn) takeover proposal for Segro; Segro board signals it is minded to recommend as both sides secure PUSU deadline extension to August 12",
+          "headline": "Prologis tables 'best and final' \u00a314bn ($18.8bn) takeover proposal for Segro; Segro board signals it is minded to recommend as both sides secure PUSU deadline extension to August 12",
           "source": "Reuters"
         },
         {
@@ -136,28 +136,6 @@
       ]
     },
     {
-      "id": "arcad-wsp-takeover-bid",
-      "ticker": "ARCAD",
-      "counterparty": "WSP Global",
-      "type": "acquisition",
-      "currentStatus": "rumored",
-      "whyItMatters": "WSP Global raises its unsolicited bid for Dutch engineering consultancy Arcadis to EUR51.50/share (from a rejected EUR48.50) in roughly half cash, half stock -- the second approach in a live, escalating takeover situation for a ~EUR7.5bn asset, with Arcadis's board yet to respond to the sweetened offer.",
-      "phases": [
-        {
-          "status": "rumored",
-          "date": "2026-07-24",
-          "headline": "Arcadis Confirms Takeover Bid From WSP, Shares Surge on Revised Offer",
-          "source": "Reuters"
-        },
-        {
-          "status": "rumored",
-          "date": "2026-07-30",
-          "headline": "Arcadis unanimously rejects second unsolicited proposal from WSP Global Inc",
-          "source": "GlobeNewswire"
-        }
-      ]
-    },
-    {
       "id": "nvda-openai-datacenter-backstop",
       "ticker": "NVDA",
       "counterparty": "OpenAI",
@@ -182,39 +160,6 @@
           "date": "2026-08-17",
           "headline": "Nvidia backing $105 billion in financing for OpenAI data center in Ohio",
           "source": "CNBC"
-        }
-      ]
-    },
-    {
-      "id": "ice-mktx-acquisition",
-      "ticker": "ICE",
-      "counterparty": "MKTX",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "ICE pays $167/share in cash (~$5.7bn enterprise value, a 33% premium) to buy MarketAxess, folding the largest institutional electronic corporate-bond network into its own retail bond franchise and fixed-income data business -- a bet that the $145trn bond market is the next asset class to electronify, funded with cash and new debt behind a $6.25bn bridge facility and targeting only ~$100m of cost synergies, so the case rests on revenue and network effects rather than cuts.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-07-30",
-          "headline": "ICE to buy MarketAxess in $5.7 billion deal to expand fixed-income offerings",
-          "source": "CNBC",
-          "priceReaction": "+33% premium to prior close"
-        }
-      ]
-    },
-    {
-      "id": "lloy-accelerate-2030-capital-return",
-      "ticker": "LLOY",
-      "counterparty": null,
-      "type": "capital-allocation",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Lloyds raises its interim dividend 30% to 1.58p and adds a GBP1bn buyback -- GBP1.9bn of first-half distributions -- while setting out an 'Accelerate 2030' plan targeting ~20% return on tangible equity, a sub-45% cost-income ratio and 225bps+ of annual capital generation by 2030 -- turning a 17.1% first-half RoTE and a 13.1% pro forma CET1 ratio into a committed multi-year capital-return trajectory rather than a one-off payout.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-07-30",
-          "headline": "Lloyds launches GBP1bn buyback and new 2030 plan after beating profit forecasts",
-          "source": "Proactive Investors"
         }
       ]
     },
@@ -272,40 +217,6 @@
           "date": "2026-07-31",
           "headline": "Vodafone takes full ownership of VodafoneThree",
           "source": "Vodafone"
-        }
-      ]
-    },
-    {
-      "id": "amzn-capex-raise-2026",
-      "ticker": "AMZN",
-      "counterparty": null,
-      "type": "capital-allocation",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Amazon lifts 2026 cash capex guidance to roughly $220bn from ~$200bn, blaming higher memory costs, with Jassy saying AI capacity stays constrained through 2027 and declining to detail how the extra $20bn is funded. It lands alongside AWS growth accelerating to 37% and a $496bn backlog -- the second hyperscaler in ten days, after Alphabet, to tell investors AI infrastructure demand is outrunning the build-out plan.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-07-30",
-          "headline": "Amazon hikes 2026 capex to $220 billion due to higher memory costs",
-          "source": "CNBC",
-          "priceReaction": "shares surged the following session on Q2 results"
-        }
-      ]
-    },
-    {
-      "id": "tsla-spacex-china-separation",
-      "ticker": "TSLA",
-      "counterparty": "SpaceX",
-      "type": "strategy-shift",
-      "currentStatus": "rumored",
-      "whyItMatters": "The Wall Street Journal reports Tesla executives were told to prepare for a separation of the China business -- spin-off, sale or closure -- to clear the national-security path for a merger with defence contractor SpaceX. Gigafactory Shanghai is Tesla's largest plant, with over 950,000 units of annual capacity and historically more than half of global deliveries, so a separation would be the biggest structural change in the company's history. Elon Musk called the report 'absurdly fake news' and Tesla China called it false information, so this is a contested single-source report, not an agreed plan.",
-      "phases": [
-        {
-          "status": "rumored",
-          "date": "2026-07-30",
-          "headline": "Tesla weighs sale of China business to pave way for potential SpaceX merger, WSJ reports",
-          "source": "The Wall Street Journal",
-          "priceReaction": "+3.5%, closed at $308.85"
         }
       ]
     },
@@ -1326,6 +1237,40 @@
           "date": "2026-08-17",
           "headline": "Deutsche Telekom to acquire Fiberhost and Inea from Macquarie Asset Management for c.1 billion EUR, thereby strengthening T-Mobile Polska's position in fixed broadband",
           "source": "Deutsche Telekom"
+        }
+      ]
+    },
+    {
+      "id": "mrvl-google-tpu-partnership",
+      "ticker": "MRVL",
+      "counterparty": "Google (Alphabet)",
+      "type": "partnership",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Marvell hands Google a warrant over 58.97m shares -- up to $12.2bn at a $206.58 strike, exercisable until August 2033 and worth roughly 7% of the company -- to anchor an expanded custom-silicon agreement signed on July 29 covering AI inference accelerators, storage, network and memory-interface controllers and near-memory compute for the TPU ecosystem. Only about 1.4m of the warrants vest in the first year; the rest unlock in tranches for every $500m of chips Google buys, so the dilution is paid for with volume rather than granted up front. It converts Marvell's most important custom-ASIC relationship into a contractual one with the customer on its own cap table -- and it does so at Broadcom's expense, which fell on the news.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-08-19",
+          "headline": "Google Secures $12.2 Billion Share Purchase Right in Marvell AI Chip Deal",
+          "source": "Bloomberg",
+          "priceReaction": "MRVL +11% premarket; AVGO -3%"
+        }
+      ]
+    },
+    {
+      "id": "ole-dcoop-takeover-bid",
+      "ticker": "OLE.MC",
+      "counterparty": "Dcoop",
+      "type": "acquisition",
+      "currentStatus": "rumored",
+      "whyItMatters": "Spanish agri-food cooperative Dcoop has taken the lead in a multi-bidder auction for Madrid-listed Deoleo, offering about EUR470m (~$545m) for a 57% stake in the world's largest olive-oil bottler, owner of Bertolli and Carbonell, in a combination reported to carry more than EUR2.2bn of turnover. The competition file is the catch: to clear US antitrust Dcoop would have to sell the Bertolli and Carapelli brands, so the winner of the whole would have to break it up immediately. Nothing is agreed -- Italy's Coricelli, Bonifiche Ferraresi and Newlat Food, France's Lesieur (Avril) and Australia's Cobram Estate Olives are all still circling -- but the process is reported to be in its final stages, with a deal possible as early as September.",
+      "phases": [
+        {
+          "status": "rumored",
+          "date": "2026-08-19",
+          "headline": "Spain's Deoleo shares surge as olive oil maker draws takeover interest, with Dcoop leading a EUR470m ($545m) offer for a 57% stake",
+          "source": "CNBC",
+          "priceReaction": "+16% to a one-year high, its biggest daily gain since March 2022"
         }
       ]
     }
