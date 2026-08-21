@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T07:55:00Z",
+  "generatedAt": "2026-08-21T08:00:00Z",
   "events": [
     {
       "id": "inmd-steel-partners-buyout",
@@ -164,23 +164,6 @@
       ]
     },
     {
-      "id": "amba-nxpi-acquisition",
-      "ticker": "AMBA",
-      "counterparty": "NXPI",
-      "type": "acquisition",
-      "currentStatus": "rumored",
-      "whyItMatters": "NXP is in talks to buy Ambarella, whose low-power edge-AI vision silicon would slot into an automotive franchise already worth roughly half of NXP's ~$15.1bn 2026 revenue -- buying software-defined-vehicle, radar and camera capability rather than building it. The FT report puts the price above $3bn but stresses talks are ongoing and may not produce a deal, so the premium is not yet fixed and rival bidders could still surface.",
-      "phases": [
-        {
-          "status": "rumored",
-          "date": "2026-07-31",
-          "headline": "NXP in talks to buy chip developer Ambarella, FT reports",
-          "source": "Financial Times",
-          "priceReaction": "AMBA +17%, NXPI -3%"
-        }
-      ]
-    },
-    {
       "id": "itgr-kkr-takeover",
       "ticker": "ITGR",
       "counterparty": "KKR",
@@ -205,39 +188,6 @@
       ]
     },
     {
-      "id": "vod-ckhutchison-vodafonethree-buyout",
-      "ticker": "VOD",
-      "counterparty": "CK Hutchison",
-      "type": "acquisition",
-      "currentStatus": "closed",
-      "whyItMatters": "Vodafone pays GBP4.3bn from existing cash for CK Hutchison's 49% of VodafoneThree, taking sole ownership of the UK's largest mobile operator just over a year after the CMA-cleared merger completed. Full control lets it move faster on the GBP11bn network investment plan and the GBP700m of annual cost and capex savings targeted by FY30 -- at the cost of spending the cash up front and carrying 100% of the integration risk.",
-      "phases": [
-        {
-          "status": "closed",
-          "date": "2026-07-31",
-          "headline": "Vodafone takes full ownership of VodafoneThree",
-          "source": "Vodafone"
-        }
-      ]
-    },
-    {
-      "id": "ecg-epsilon-acquisition",
-      "ticker": "ECG",
-      "counterparty": "Epsilon Industries",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Everus pays $295m in cash -- funded from cash on hand and its credit facilities -- for a 25-year-old maker of modular mechanical and electrical building infrastructure serving data centers, advanced manufacturing and healthcare. Epsilon expects roughly $250m of 2026 revenue at a low-double-digit EBITDA margin, so this buys off-site prefabrication capacity and a data-center-exposed revenue stream rather than building them, with closing expected in Q3 2026.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-07-31",
-          "headline": "Everus to Acquire Epsilon Industries, Premier Off-Site Modular Construction Solutions Provider",
-          "source": "Business Wire",
-          "priceReaction": "shares rose on the announcement"
-        }
-      ]
-    },
-    {
       "id": "fpr-sgfleet-takeover-bid",
       "ticker": "FPR",
       "counterparty": "SG Fleet Topco (Pacific Equity Partners)",
@@ -251,22 +201,6 @@
           "headline": "Australia's FleetPartners shares on track for best day in 6 years on $534 million takeover bid",
           "source": "Reuters",
           "priceReaction": "+17% to A$3.31, a 20-month high"
-        }
-      ]
-    },
-    {
-      "id": "doosan-sksiltron-acquisition",
-      "ticker": "000150.KS",
-      "counterparty": "SK Siltron (SK Inc.)",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Doosan pays KRW2.3trn (~$1.6bn) for 70.6% of SK Siltron, Korea's only dedicated silicon-wafer maker and the world's number three in 12-inch wafers -- its largest deal since Bobcat and a pivot out of heavy industry into semiconductor materials, with a stated ambition to lift SK Siltron revenue to about KRW3trn by 2031. For SK Inc. it is a major balance-sheet disposal of a core affiliate; completion is scheduled for January 2027.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-07-31",
-          "headline": "SK sells control of wafer maker SK Siltron to Doosan for W2.3tr",
-          "source": "The Korea Herald"
         }
       ]
     },
@@ -949,8 +883,8 @@
       "ticker": "ACB",
       "counterparty": "Curaleaf Holdings",
       "type": "acquisition",
-      "currentStatus": "rumored",
-      "whyItMatters": "Curaleaf goes hostile after private approaches on June 23 and July 7 failed to draw Aurora into substantive talks, offering 0.3463 Curaleaf subordinate voting shares plus $0.75 cash for each Aurora share -- an implied US$4.00, about US$272m in total and a 45% premium to the 30-day VWAP, or 110% once Aurora's balance-sheet cash is stripped out. That second number is the whole argument: Curaleaf is bidding for a cash pile plus an international medical footprint, and says the combination would span 17 countries. Aurora's board is forming a special committee to weigh it against other strategic alternatives, so the open question is whether it engages or mounts a defence.",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Curaleaf has stopped asking and formally commenced its hostile offer, mailing the bid circular and inviting Aurora holders to tender 0.3463 Curaleaf subordinate voting shares plus US$0.75 cash per share -- an implied US$4.00, about US$260m in total, a 45% premium to Aurora's 30-day VWAP and subject to a US$5.00 cap price -- with the offer open until 5:00 p.m. Mountain Time on December 1, 2026. That takes the outcome out of the boardroom and puts it in the hands of the shareholder register for three and a half months. Aurora's special committee has told holders to take no action for now and accused Curaleaf of pressuring shareholders, so the question is whether a defence or a rival bid arrives before the register decides for itself; the underlying argument has not changed -- Curaleaf is bidding for a cash pile plus an international medical footprint, a 110% premium once Aurora's balance-sheet cash is stripped out.",
       "phases": [
         {
           "status": "rumored",
@@ -958,6 +892,12 @@
           "headline": "Curaleaf to take offer directly to shareholders in bid to buy Edmonton-based Aurora Cannabis",
           "source": "CBC News",
           "priceReaction": "ACB rallied on the announcement"
+        },
+        {
+          "status": "confirmed",
+          "date": "2026-08-18",
+          "headline": "Curaleaf Launches Take-Over Bid to Acquire Aurora Cannabis, Invites Aurora Shareholders to Tender to the Bid",
+          "source": "Curaleaf Holdings"
         }
       ]
     },
@@ -1271,6 +1211,87 @@
           "headline": "Spain's Deoleo shares surge as olive oil maker draws takeover interest, with Dcoop leading a EUR470m ($545m) offer for a 57% stake",
           "source": "CNBC",
           "priceReaction": "+16% to a one-year high, its biggest daily gain since March 2022"
+        }
+      ]
+    },
+    {
+      "id": "skhynix-buyback-cancellation-2026",
+      "ticker": "000660.KS",
+      "counterparty": null,
+      "type": "capital-allocation",
+      "currentStatus": "confirmed",
+      "whyItMatters": "SK hynix's board has resolved to buy back and cancel 24.07m shares -- about 3.3% of the company, roughly KRW40trn (~$28.6bn) at the pre-vote KRW1,662,000 close -- in the largest treasury-share cancellation in the history of South Korean listed companies, purchasing on-market between August 20 and November 19 and retiring everything it buys. Alongside it management lifted the shareholder-return target from 'within 50%' to 'more than 50%' of cumulative 2025-27 free cash flow, explicitly on the view that the share price understates intrinsic value. Coming weeks after a KRW54trn commitment to two new fabs, it says the HBM upcycle is now generating enough cash to fund the capacity build and a record retirement at the same time -- which only holds if memory pricing does.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-08-19",
+          "headline": "SK hynix Accelerates 40 Trillion won Share Repurchase and Cancellation Program, Pursues Shareholder Return Expansion to 'Over 50% of FCF'",
+          "source": "SK hynix Newsroom"
+        }
+      ]
+    },
+    {
+      "id": "chtr-cox-acquisition",
+      "ticker": "CHTR",
+      "counterparty": "Cox Communications",
+      "type": "acquisition",
+      "currentStatus": "closed",
+      "whyItMatters": "Charter has closed the $34.5bn Cox Communications merger after the California Public Utilities Commission cleared the last regulatory hurdle, and closed the all-stock Liberty Broadband acquisition the same day -- folding Cox's roughly 6m customers into Charter's 31m to create the largest US internet and video provider by subscribers, across 45 states, with the Spectrum lineup rolling into former Cox markets from mid-September. It ends a fifteen-month regulatory process and simplifies Charter's ownership structure in one step, but it also locks in the bet that scale is the answer to broadband subscriber losses: the synergies and the integration risk both now sit on the balance sheet, with no deal-break option left.",
+      "phases": [
+        {
+          "status": "closed",
+          "date": "2026-08-20",
+          "headline": "Charter Communications Closes $34.5 Billion Merger With Cox, Forming New Cable Giant",
+          "source": "Forbes"
+        }
+      ]
+    },
+    {
+      "id": "san-webster-acquisition",
+      "ticker": "SAN",
+      "counterparty": "Webster Financial (WBS)",
+      "type": "acquisition",
+      "currentStatus": "closed",
+      "whyItMatters": "Santander has completed the roughly $12.3bn purchase of Webster Financial announced in February, paying $48.75 in cash plus 2.0548 Santander ADSs per Webster share -- about $75.59, some 16% over Webster's 10-day VWAP and more than 2.0x tangible book. It is the largest US bank deal Santander has done and it changes what Santander US is: a relationship deposit base, a commercial banking franchise and Webster's Healthcare Financial Services platform now sit behind a business that has leaned on auto lending and wholesale funding. Webster leaves the NYSE, so the investment case is now Santander's -- whether a cheaper, stickier funding profile earns back a price paid at twice tangible book.",
+      "phases": [
+        {
+          "status": "closed",
+          "date": "2026-08-20",
+          "headline": "Santander completes acquisition of Webster in the U.S.",
+          "source": "Santander"
+        }
+      ]
+    },
+    {
+      "id": "ole-coricelli-takeover-bid",
+      "ticker": "OLE.MC",
+      "counterparty": "Pietro Coricelli",
+      "type": "acquisition",
+      "currentStatus": "rumored",
+      "whyItMatters": "Italy's Coricelli has countered with about EUR500m for Deoleo, topping the EUR470m Spanish cooperative Dcoop put on the table a day earlier (ole-dcoop-takeover-bid) and turning a lead into a live auction for the world's largest olive-oil bottler. Deoleo has now confirmed to the CNMV that both CVC (50.9%) and Alchemy (40.3%) are studying the sale of their stakes, so the whole register is in play rather than a single block, and Acesur is still circling alongside the two leaders. The strategic logic is consolidation ahead of a US market where Deoleo owns Bertolli and Carapelli -- which is also the catch, since an Italian buyer inherits the same brand-divestment problem any winner faces. Nothing is agreed and the process is reported to conclude as early as September.",
+      "phases": [
+        {
+          "status": "rumored",
+          "date": "2026-08-20",
+          "headline": "Coricelli raises bid for Deoleo to 500 million",
+          "source": "The Corner"
+        }
+      ]
+    },
+    {
+      "id": "mu-research-labs-investment",
+      "ticker": "MU",
+      "counterparty": null,
+      "type": "capital-allocation",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Micron is committing $10bn over the next decade to Micron Research Labs, a Boise-anchored hub for foundational work on memory technologies, memory-compute architectures, packaging and future manufacturing, with construction starting in 2027 and satellite labs plus university partnerships funded alongside it. It is deliberately not product development, and it sits on top of the more than $250bn already committed to US manufacturing and R&D through 2035 -- so this is a memory maker using an AI cash windfall to buy optionality a decade out rather than returning it or adding another fab. The trade-off is explicit: roughly half a quarter's free cash flow a year spent where the payback cannot be modelled.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-08-20",
+          "headline": "Micron Unveils Micron Research Labs, a U.S.-Based Long-Horizon Innovation Hub to Shape the Future of Memory and AI",
+          "source": "Micron Technology",
+          "priceReaction": "shares climbed on the announcement"
         }
       ]
     }
