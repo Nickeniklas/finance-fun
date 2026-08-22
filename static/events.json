@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T08:00:00Z",
+  "generatedAt": "2026-08-22T08:00:00Z",
   "events": [
     {
       "id": "inmd-steel-partners-buyout",
@@ -1292,6 +1292,71 @@
           "headline": "Micron Unveils Micron Research Labs, a U.S.-Based Long-Horizon Innovation Hub to Shape the Future of Memory and AI",
           "source": "Micron Technology",
           "priceReaction": "shares climbed on the announcement"
+        }
+      ]
+    },
+    {
+      "id": "bmps-bpm-exchange-offer",
+      "ticker": "BMPS.MI",
+      "counterparty": "Banco BPM",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Monte dei Paschi's board has approved an all-share public exchange offer for Banco BPM worth EUR25.3bn at 1.567 new MPS shares per BPM share -- the larger of two simultaneous bids designed to make Siena too big to be swallowed by Intesa Sanpaolo's ~EUR30.5bn offer for MPS itself. Once MPS's proposed extraordinary distribution is counted the offer carries no premium to the 19 August prices, so BPM holders are being asked to swap a standalone franchise for roughly 37.2% of a self-built group rather than for cash. The acceptance period only runs from the first half of December 2026 to the first half of February 2027, which leaves a full quarter in which Intesa can respond and BPM's board can refuse -- and it converts a single-target takeover fight into a three-way contest for the shape of Italian banking.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-08-21",
+          "headline": "Paschi Offers to Buy BPM, Banca Generali for EUR34 Billion",
+          "source": "Bloomberg"
+        }
+      ]
+    },
+    {
+      "id": "bmps-banca-generali-exchange-offer",
+      "ticker": "BMPS.MI",
+      "counterparty": "Banca Generali",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "The smaller leg of Monte dei Paschi's counter-offensive values Banca Generali at EUR8.72bn -- 6.958 new MPS shares apiece, an implied EUR74.284 a share and about a 10% premium, the only premium on the table across the two bids. Crucially the two offers are not conditionally linked, so this one can complete even if the Banco BPM leg fails, which makes it the cheaper insurance policy of the pair. For MPS it buys a fee-earning private-banking book to dilute a rate-sensitive lending balance sheet, and for Generali it would mean losing its asset-gathering distribution arm to a bank it does not control.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-08-21",
+          "headline": "Monte dei Paschi board approves dual exchange offers for Banco Bpm and Banca Generali",
+          "source": "Reuters"
+        }
+      ]
+    },
+    {
+      "id": "avgo-anthropic-chip-financing",
+      "ticker": "AVGO",
+      "counterparty": "Anthropic (with Apollo Global Management, Blackstone)",
+      "type": "partnership",
+      "currentStatus": "rumored",
+      "whyItMatters": "Broadcom is in talks with lenders to raise more than $60bn -- reported as potentially $70-80bn across a senior secured tranche and a roughly $30bn junior tranche -- to fund a special-purpose vehicle that buys Broadcom's own custom AI chips and leases them to Anthropic and potentially OpenAI, with Broadcom itself guaranteeing part of the senior debt. It scales the $35bn platform struck with Apollo and Blackstone in June toward the stated goal of over 20GW of compute for frontier labs by 2028. The significance is where the risk sits: Broadcom would be booking chip revenue against paper its own guarantee supports, which makes the customer's ability to service that debt, not the chip margin, the thing shareholders are underwriting. Talks are ongoing and the structure may change.",
+      "phases": [
+        {
+          "status": "rumored",
+          "date": "2026-08-20",
+          "headline": "Broadcom seeks more than $60 billion in latest AI debt deal, Bloomberg News reports",
+          "source": "Reuters"
+        }
+      ]
+    },
+    {
+      "id": "abus-dutch-auction-tender-2026",
+      "ticker": "ABUS",
+      "counterparty": null,
+      "type": "capital-allocation",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Arbutus intends to buy back up to $230m of stock through a modified Dutch auction at $5.00-$5.75 a share, opening on or about 24 August and expiring 29 September, funded from cash on hand -- essentially recycling the ~$178m non-contingent share of its Moderna patent settlement straight back to holders. At that price band the tender covers roughly a fifth of the company, so it is less a routine buyback than a statement that management values its own clinical pipeline below the cash the litigation produced. Holders who do not tender end up with a materially concentrated stake in a much smaller balance sheet.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-08-21",
+          "headline": "Arbutus Announces Intent to Repurchase Up to US$230 Million of its Common Shares Through Modified \"Dutch Auction\" Tender Offer",
+          "source": "GlobeNewswire",
+          "priceReaction": "+11%"
         }
       ]
     }
