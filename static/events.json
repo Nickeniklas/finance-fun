@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T08:00:00Z",
+  "generatedAt": "2026-08-23T07:50:00Z",
   "events": [
     {
       "id": "inmd-steel-partners-buyout",
@@ -65,7 +65,7 @@
         {
           "status": "rumored",
           "date": "2026-07-22",
-          "headline": "Prologis tables 'best and final' \u00a314bn ($18.8bn) takeover proposal for Segro; Segro board signals it is minded to recommend as both sides secure PUSU deadline extension to August 12",
+          "headline": "Prologis tables 'best and final' £14bn ($18.8bn) takeover proposal for Segro; Segro board signals it is minded to recommend as both sides secure PUSU deadline extension to August 12",
           "source": "Reuters"
         },
         {
@@ -201,22 +201,6 @@
           "headline": "Australia's FleetPartners shares on track for best day in 6 years on $534 million takeover bid",
           "source": "Reuters",
           "priceReaction": "+17% to A$3.31, a 20-month high"
-        }
-      ]
-    },
-    {
-      "id": "holn-huaxin-philippines-exit",
-      "ticker": "HOLN",
-      "counterparty": "Huaxin Cement",
-      "type": "strategy-shift",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Holcim is exiting the Philippines outright -- 68% of its local business goes to China's Huaxin Cement for $527m now, the balance over three to five years for at least $280m, roughly $807m in total -- its largest divestment since the $1bn sale of its Nigeria arm to the same buyer. It continues the redeployment of capital out of emerging-market cement and into higher-multiple building solutions, with completion expected in the first half of 2027.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-08-02",
-          "headline": "Holcim to sell Philippines unit to China's Huaxin in $807 million deal",
-          "source": "Reuters"
         }
       ]
     },
@@ -898,6 +882,12 @@
           "date": "2026-08-18",
           "headline": "Curaleaf Launches Take-Over Bid to Acquire Aurora Cannabis, Invites Aurora Shareholders to Tender to the Bid",
           "source": "Curaleaf Holdings"
+        },
+        {
+          "status": "confirmed",
+          "date": "2026-08-19",
+          "headline": "Aurora Cannabis Forms Special Committee in Response to Curaleaf's Unsolicited Bid",
+          "source": "The Globe and Mail"
         }
       ]
     },
@@ -1045,6 +1035,12 @@
           "date": "2026-08-14",
           "headline": "Real and RE/MAX Holdings Securityholders Approve Proposed Combination",
           "source": "PR Newswire"
+        },
+        {
+          "status": "approved",
+          "date": "2026-08-21",
+          "headline": "Real and RE/MAX Holdings Announce Real's Receipt of Court Approval of Proposed Arrangement in Connection with Proposed Combination",
+          "source": "Business Wire"
         }
       ]
     },
@@ -1357,6 +1353,29 @@
           "headline": "Arbutus Announces Intent to Repurchase Up to US$230 Million of its Common Shares Through Modified \"Dutch Auction\" Tender Offer",
           "source": "GlobeNewswire",
           "priceReaction": "+11%"
+        }
+      ]
+    },
+    {
+      "id": "adports-limad-takeover-bid",
+      "ticker": "ADPORTS.AE",
+      "counterparty": "L'IMAD (via ADQ)",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Abu Dhabi's sovereign investor L'IMAD is offering Dh6.25 a share in cash -- a 23% premium to the Dh5.10 close, 25% above the one-month VWAP and 31% above the three-month VWAP, valuing AD Ports Group at roughly AED31.8bn ($8.66bn) -- to buy in the ~24.6% that its wholly owned ADQ does not already hold and take the group private. For minority holders it converts a stranded stake in a state-controlled operator into a full cash exit at a premium; for the market it removes the only listed vehicle through which outside investors can own Abu Dhabi's ports, logistics and maritime franchise. The board's appointment of HSBC as financial adviser is the first sign the offer will get a formal independent assessment rather than an automatic wave-through.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-08-17",
+          "headline": "Announcement of Notification to Submit a Voluntary Conditional Cash Offer to Acquire AD Ports Group Shares at Dh6.25 per share, taking L'IMAD's holding through ADQ from 75.42% to up to 100%",
+          "source": "AD Ports Group",
+          "priceReaction": "shares rose by the daily limit; offer is a 23% premium to the Dh5.10 close"
+        },
+        {
+          "status": "confirmed",
+          "date": "2026-08-21",
+          "headline": "AD Ports Group hires HSBC to advise on L'imad takeover bid",
+          "source": "The National"
         }
       ]
     }
