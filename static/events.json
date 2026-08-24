@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T07:50:00Z",
+  "generatedAt": "2026-08-24T08:00:00Z",
   "events": [
     {
       "id": "inmd-steel-partners-buyout",
@@ -83,7 +83,7 @@
       "counterparty": "WBD",
       "type": "acquisition",
       "currentStatus": "approved",
-      "whyItMatters": "Every regulatory condition in the ~$110bn Warner Bros. Discovery merger agreement is now satisfied -- 68 jurisdictions cleared across an eight-month review, with Mexico last on August 14 -- so the antitrust risk that dominated this deal for a year is gone and Paramount says it could close immediately. What is left is purely a US courtroom problem: a 12-state attorneys-general suit led by California holds closing until five days after a 12-day trial starting March 2, 2027, while Paramount owes WBD holders roughly $7m a day from September 30, 2026. The question for holders is no longer whether the deal is permitted but how much the delay costs.",
+      "whyItMatters": "Every regulatory condition in the ~$110bn Warner Bros. Discovery merger agreement is satisfied -- 68 jurisdictions cleared, with Mexico last on August 14 -- so what remains is purely a US courtroom problem, and both sides are now trying to shorten it rather than wait for the 12-day trial that starts March 2, 2027. Paramount has asked the court to make the 12 state attorneys-general and the WGA post a $1.88bn bond by September 30 or have the hold on the deal dissolved, sizing the claim on the ~$7m-a-day ticking fee it owes WBD holders from that date; California's Rob Bonta called the demand an attempt to make them back down. In parallel Paramount and Bonta's office are reported to be meeting to discuss a settlement, which Bonta has said would require 'robust structural remedies.' The question for holders is no longer whether the deal is permitted but whether the delay is bought off, litigated away by bond, or paid for at $7m a day.",
       "phases": [
         {
           "status": "confirmed",
@@ -132,6 +132,18 @@
           "date": "2026-08-14",
           "headline": "Paramount Skydance Satisfies All Regulatory Conditions Under the Merger Agreement to Close Warner Bros. Discovery Acquisition, Securing Clearances in Nearly 70 Countries Worldwide",
           "source": "Paramount"
+        },
+        {
+          "status": "approved",
+          "date": "2026-08-17",
+          "headline": "Paramount seeks $1.88 billion bond from state AGs to cover costs of WBD merger delay",
+          "source": "CNBC"
+        },
+        {
+          "status": "approved",
+          "date": "2026-08-22",
+          "headline": "Paramount, California AG office reportedly plan to meet Monday to discuss settling WBD lawsuit",
+          "source": "CNBC"
         }
       ]
     },
@@ -1376,6 +1388,38 @@
           "date": "2026-08-21",
           "headline": "AD Ports Group hires HSBC to advise on L'imad takeover bid",
           "source": "The National"
+        }
+      ]
+    },
+    {
+      "id": "two-crosscountry-acquisition",
+      "ticker": "TWO",
+      "counterparty": "CrossCountry Mortgage",
+      "type": "acquisition",
+      "currentStatus": "approved",
+      "whyItMatters": "Two Harbors has cleared the last regulatory condition on its $12.00-a-share all-cash sale to CrossCountry Mortgage and expects to close before the open on August 25, so a listed mortgage REIT disappears into a privately held retail lender. Holders of record today also collect a $0.20326 stub dividend on top of the merger consideration. The number that matters is the drift in price: CrossCountry opened at $10.80 in March and was pushed to $11.30 in April and $12.00 by the July vote, after a competing approach from United Wholesale Mortgage -- so the auction, not the original bid, is what set the exit value.",
+      "phases": [
+        {
+          "status": "approved",
+          "date": "2026-08-21",
+          "headline": "TWO Announces Receipt of Final Regulatory Approval for Merger with CrossCountry Mortgage",
+          "source": "Business Wire"
+        }
+      ]
+    },
+    {
+      "id": "arcad-wsp-takeover-bid",
+      "ticker": "ARCAD.AS",
+      "counterparty": "WSP Global",
+      "type": "acquisition",
+      "currentStatus": "rumored",
+      "whyItMatters": "WSP Global has refused to walk away from Arcadis after two unanimous board rejections, confirming it will keep pursuing a recommended offer at EUR51.50 a share -- roughly EUR5.2bn including debt, raised from an initial EUR48.50 -- and that it will prepare an offer memorandum for the Dutch AFM to review by October 15. Filing a memorandum without a recommendation is the step that turns a rebuffed approach into a live bid, and it would create the largest Western engineering-consultancy combination if it lands. The obstacles are structural rather than financial: Arcadis' boards say the price fundamentally undervalues the company, the Lovinklaan employee foundation that owns about 19% does not intend to support a takeover, and a Dutch foundation-style poison pill limits what a hostile buyer can do without the board.",
+      "phases": [
+        {
+          "status": "rumored",
+          "date": "2026-08-20",
+          "headline": "WSP Global presses ahead with Arcadis takeover plan, seeking board support",
+          "source": "The Globe and Mail"
         }
       ]
     }
