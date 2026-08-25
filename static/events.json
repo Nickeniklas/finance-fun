@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T08:00:00Z",
+  "generatedAt": "2026-08-25T08:00:00Z",
   "events": [
     {
       "id": "inmd-steel-partners-buyout",
@@ -33,47 +33,6 @@
           "date": "2026-08-10",
           "headline": "InMode: Haifa District Court denied SP Strategic Holdings' request for temporary injunctive relief in its entirety",
           "source": "Reuters"
-        }
-      ]
-    },
-    {
-      "id": "pld-sgro-takeover-bid",
-      "ticker": "PLD",
-      "counterparty": "Segro",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "After three rejections Prologis has a firm Rule 2.7 recommended offer on the table: 0.0920 new Prologis shares for each Segro share, valuing Segro at roughly GBP14.3bn (~$18.8bn) with a partial cash alternative capped at GBP3.5bn -- up to about 1054p a share, a 42% premium to the June 23 unaffected close. It would take one of the FTSE 100's largest REITs off the LSE and hand Prologis a European logistics platform, but the consideration is mostly paper, so Segro holders end up owning Prologis stock, and completion is not expected until the first half of 2027.",
-      "phases": [
-        {
-          "status": "rumored",
-          "date": "2026-07-09",
-          "headline": "Prologis pushes for SEGRO engagement on potential combination",
-          "source": "Investing.com"
-        },
-        {
-          "status": "rumored",
-          "date": "2026-07-09",
-          "headline": "Segro board unanimously rejects Prologis's unsolicited ~886p/share takeover proposal as inadequate",
-          "source": "Segro plc (RNS)"
-        },
-        {
-          "status": "rumored",
-          "date": "2026-07-17",
-          "headline": "UK's Segro rejects Prologis' $18.2 billion sweetened takeover proposal",
-          "source": "Investing.com"
-        },
-        {
-          "status": "rumored",
-          "date": "2026-07-22",
-          "headline": "Prologis tables 'best and final' £14bn ($18.8bn) takeover proposal for Segro; Segro board signals it is minded to recommend as both sides secure PUSU deadline extension to August 12",
-          "source": "Reuters"
-        },
-        {
-          "status": "confirmed",
-          "date": "2026-08-04",
-          "headline": "Prologis Announces Recommended Acquisition of SEGRO plc",
-          "source": "PR Newswire",
-          "priceReaction": "42% premium to the June 23 unaffected close"
         }
       ]
     },
@@ -176,47 +135,6 @@
       ]
     },
     {
-      "id": "itgr-kkr-takeover",
-      "ticker": "ITGR",
-      "counterparty": "KKR",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "KKR's $127-a-share, ~$5.7bn all-cash take-private of medical-device contract manufacturer Integer Holdings is now signed and unanimously recommended by the board, resolving the strategic review opened in April 2026 at a 51.8% premium to the unaffected price and a 28.8% premium to the 30-day VWAP. The question shifts from whether a deal happens to whether shareholder and regulatory approvals land by the targeted year-end close -- or whether a topping bid surfaces first.",
-      "phases": [
-        {
-          "status": "rumored",
-          "date": "2026-07-31",
-          "headline": "KKR nearing deal to acquire Integer Holdings, WSJ reports",
-          "source": "The Wall Street Journal",
-          "priceReaction": "+20% intraday"
-        },
-        {
-          "status": "confirmed",
-          "date": "2026-08-03",
-          "headline": "Integer to Be Acquired by KKR in Transaction Valued at Approximately $5.7 Billion",
-          "source": "GlobeNewswire",
-          "priceReaction": "51.8% premium to the April 29 unaffected close"
-        }
-      ]
-    },
-    {
-      "id": "fpr-sgfleet-takeover-bid",
-      "ticker": "FPR",
-      "counterparty": "SG Fleet Topco (Pacific Equity Partners)",
-      "type": "acquisition",
-      "currentStatus": "rumored",
-      "whyItMatters": "SG Fleet Topco -- the Pacific Equity Partners vehicle that took SG Fleet private -- has put an unsolicited, non-binding A$3.60-a-share (~A$760.3m) scheme proposal to FleetPartners, a 27% premium that would put two of Australia's largest fleet-management and novated-leasing books under one private owner. The board has committed to nothing and is evaluating with UBS and Herbert Smith Freehills Kramer, so the open questions are whether it engages at all and whether a combination of this scale clears the ACCC.",
-      "phases": [
-        {
-          "status": "rumored",
-          "date": "2026-08-03",
-          "headline": "Australia's FleetPartners shares on track for best day in 6 years on $534 million takeover bid",
-          "source": "Reuters",
-          "priceReaction": "+17% to A$3.31, a 20-month high"
-        }
-      ]
-    },
-    {
       "id": "ezj-apollo-takeover",
       "ticker": "EZJ",
       "counterparty": "Apollo Global Management",
@@ -240,121 +158,6 @@
       ]
     },
     {
-      "id": "atkr-prysmian-acquisition",
-      "ticker": "ATKR",
-      "counterparty": "Prysmian",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Prysmian pays $95 a share in cash (~$3.8bn enterprise value, a 30% premium to Atkore's July 31 close) to buy a US maker of electrical conduit, cable management and metal framing -- the step that turns the world's largest cable manufacturer into a broader electrical-solutions supplier into North American data centres and grid build-out. It targets $150m of annual synergies by 2029 and earnings accretion from year one, and it ends the strategic review Atkore opened in September 2025 at a ~57% premium to the pre-review price.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-08-03",
-          "headline": "Prysmian Strikes Deal to Buy US Electrical Maker Atkore for $95.00 per Share in Cash",
-          "source": "Bloomberg",
-          "priceReaction": "+28% to $93.40"
-        }
-      ]
-    },
-    {
-      "id": "supn-indv-merger",
-      "ticker": "SUPN",
-      "counterparty": "INDV",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Supernus and Indivior combine in a tax-free all-stock merger of equals -- 1.5401 Indivior shares per Supernus share, leaving Indivior holders with ~56.5% and Supernus holders ~43.5% of a ~$2.2bn-revenue CNS biopharma listed on Nasdaq as SUPN -- with $125m of expected annual cost synergies and a $1bn pre-closing special cash dividend to Indivior investors part-funded by a $650m Citibank term loan. It is a scale answer to both companies' single-franchise concentration risk, but the debt-funded special dividend means the combined balance sheet starts levered.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-08-03",
-          "headline": "Supernus Pharmaceuticals and Indivior Pharmaceuticals to Merge, Creating a Diversified CNS Biopharmaceutical Leader with Significant Scale",
-          "source": "GlobeNewswire"
-        }
-      ]
-    },
-    {
-      "id": "ea-pif-consortium-take-private",
-      "ticker": "EA",
-      "counterparty": "Public Investment Fund (with Silver Lake, Affinity Partners)",
-      "type": "acquisition",
-      "currentStatus": "closed",
-      "whyItMatters": "The largest leveraged buyout on record closes: EA leaves the Nasdaq after 37 years at $210 a share in cash (a 25% premium to its $168.32 unaffected price), funded with ~$36bn of equity and ~$20bn of JPMorgan-committed debt, leaving Saudi Arabia's PIF with 93.4%, Silver Lake 5.5% and Affinity Partners 1.1%. It removes a $55bn name from public markets, sets a new ceiling for what sponsor-plus-sovereign capital can take private, and puts a major Western games publisher under majority state ownership.",
-      "phases": [
-        {
-          "status": "closed",
-          "date": "2026-08-04",
-          "headline": "Electronic Arts completes $55 billion take-private by PIF, Silver Lake and Affinity Partners, the largest leveraged buyout ever",
-          "source": "Yahoo Finance"
-        }
-      ]
-    },
-    {
-      "id": "ionq-skyt-acquisition",
-      "ticker": "IONQ",
-      "counterparty": "SKYT",
-      "type": "acquisition",
-      "currentStatus": "closed",
-      "whyItMatters": "IonQ closes its ~$1.8bn purchase of semiconductor foundry SkyWater Technology after the FTC cleared it without conditions, over the chairman's push to impose fair-access commitments to rival quantum firms that hold SkyWater contracts. It makes IonQ a vertically integrated quantum company that owns its own fab rather than renting capacity -- and hands it control of a chokepoint several competitors depend on.",
-      "phases": [
-        {
-          "status": "closed",
-          "date": "2026-08-03",
-          "headline": "IonQ closes $1.8bn SkyWater acquisition after US FTC clearance",
-          "source": "Verdict",
-          "priceReaction": "+9%"
-        }
-      ]
-    },
-    {
-      "id": "rezi-adi-spinoff",
-      "ticker": "REZI",
-      "counterparty": null,
-      "type": "capital-allocation",
-      "currentStatus": "closed",
-      "whyItMatters": "Resideo completes the spin-off of ADI Global Distribution, distributing one ADI share for every two Resideo shares to holders of record on July 20 and listing ADI on the NYSE as ADIG from August 4. It splits the company into a products business and a distribution business that investors can now value separately -- removing the conglomerate discount, but also removing ADI's revenue scale from the Resideo that remains.",
-      "phases": [
-        {
-          "status": "closed",
-          "date": "2026-08-03",
-          "headline": "Resideo completes spin-off of ADI Global Distribution; ADI to begin trading on the NYSE as 'ADIG' on August 4",
-          "source": "PR Newswire"
-        }
-      ]
-    },
-    {
-      "id": "lnth-curium-acquisition",
-      "ticker": "LNTH",
-      "counterparty": "Curium",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Curium's up-to-$8bn purchase of Lantheus combines two of the largest radiopharmaceutical businesses and takes Lantheus off the Nasdaq, but only $102.50 a share is cash at closing -- the remaining $12.00 sits in non-transferable CVRs tied to prostate-cancer and neurology diagnostic and DEFINITY sales milestones through 2030, so holders reach the headline $114.50 only if the combined franchise delivers. Closing is not expected until the first half of 2027.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-08-03",
-          "headline": "Curium Announces Definitive Agreement to Merge with Lantheus",
-          "source": "GlobeNewswire",
-          "priceReaction": "+2.4% to $102.00"
-        }
-      ]
-    },
-    {
-      "id": "pg-thorne-acquisition",
-      "ticker": "PG",
-      "counterparty": "Thorne (L Catterton)",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Procter & Gamble pays $3.8bn in cash for science-backed supplements maker Thorne, its biggest push yet into the vitamins, minerals and supplements market and a bolt-on to a health portfolio that already includes New Chapter, Metamucil and Align. It also hands seller L Catterton a return of more than $3bn on the roughly $680m it paid in 2023 -- a reminder that P&G is buying at the top of a wellness cycle rather than early into one. Closing is expected later in 2026, subject to regulatory clearance.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-08-04",
-          "headline": "Procter & Gamble will acquire supplements brand Thorne for $3.8 billion, CEO tells CNBC",
-          "source": "CNBC"
-        }
-      ]
-    },
-    {
       "id": "axta-akzonobel-merger",
       "ticker": "AXTA",
       "counterparty": "Akzo Nobel N.V.",
@@ -367,23 +170,6 @@
           "date": "2026-08-05",
           "headline": "Axalta Shareholders Approve Proposed Merger of Equals with AkzoNobel",
           "source": "GlobeNewswire"
-        }
-      ]
-    },
-    {
-      "id": "spcx-nvda-starmind-partnership",
-      "ticker": "SPCX",
-      "counterparty": "NVDA",
-      "type": "partnership",
-      "currentStatus": "confirmed",
-      "whyItMatters": "SpaceX and NVIDIA will jointly design the compute payload for the Starmind AI1 satellite -- NVIDIA Rubin GPUs and Vera CPUs running datacenter-class AI workloads in low Earth orbit -- and Musk used SpaceX's first post-IPO earnings call to say SpaceX will build its AI infrastructure exclusively on NVIDIA going forward, against an eventual ambition of up to a million satellites. It gives NVIDIA an exclusive lock on a brand-new compute frontier and a customer with its own launch capacity, and it closes off SpaceX as a market for rival accelerators; AMD fell on the same news.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-08-04",
-          "headline": "SpaceX Commits Exclusively to Nvidia, Unveils Starmind: AMD Falls 9% on Record Quarter",
-          "source": "TechTimes",
-          "priceReaction": "NVDA +3%, SPCX +9%"
         }
       ]
     },
@@ -458,38 +244,6 @@
           "headline": "Deutsche Telekom Raises 2026 Share Buyback By Up to EUR3 Billion",
           "source": "Bloomberg",
           "priceReaction": "+7%"
-        }
-      ]
-    },
-    {
-      "id": "wmb-momentum-midstream-acquisition",
-      "ticker": "WMB",
-      "counterparty": "Momentum Midstream",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Williams buys all of Momentum Midstream for up to $5.5bn -- about $3.5bn of cash and debt plus roughly $2bn of Williams equity, at an implied ~8.5x 2027 EBITDA -- adding more than 4,000 miles of Haynesville gathering pipe, over 1m dedicated acres and three take-or-pay pipelines that move gas toward Gulf Coast LNG and power demand. Paired with the $1.5bn Delta Access project and the Shelby Trough Connector, it is a large, part-equity-funded bet that Haynesville-to-Gulf takeaway is where the LNG and data-center load actually shows up.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-08-03",
-          "headline": "Williams Delivers Strong Second-Quarter 2026 Results; Announces Strategic Acquisition of Momentum Midstream Connecting Haynesville to Gulf Coast LNG and Power Demand",
-          "source": "Williams Companies"
-        }
-      ]
-    },
-    {
-      "id": "fang-buyback-doubling-2026",
-      "ticker": "FANG",
-      "counterparty": null,
-      "type": "capital-allocation",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Diamondback's board doubles the share-repurchase authorization to $16bn from $8bn, leaving ~$9.9bn available, alongside raised 2026 guidance of 522+ MBO/d of oil and 1,000+ MBOE/d total after crossing the million-barrel-equivalent mark. Doubling the buyback rather than the dividend or the drilling budget is a statement that management sees its own equity as the best use of Permian free cash flow at current strip prices.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-08-03",
-          "headline": "Diamondback Energy, Inc. Announces Second Quarter 2026 Financial and Operating Results; Board doubles share repurchase authorization to $16.0 billion",
-          "source": "GlobeNewswire"
         }
       ]
     },
@@ -822,22 +576,6 @@
           "date": "2026-08-11",
           "headline": "Sony Semiconductor Solutions and TSMC Agreed to Establish Joint Venture for Next-Generation Image Sensors",
           "source": "Sony Semiconductor Solutions"
-        }
-      ]
-    },
-    {
-      "id": "bsp-airtable-acquisition",
-      "ticker": "BSP",
-      "counterparty": "Airtable",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Bending Spoons' first deal since its July 1 Nasdaq listing is an all-cash purchase of Airtable at $1.285bn enterprise value, about $2.25bn of implied equity value once Airtable's net cash is counted -- a steep discount to the roughly $11bn the no-code database platform was privately valued at in 2021, for a business with about $480m of ARR still growing north of 20%. It is the buy-mature-software-and-run-it-harder playbook that built the company, now executed for the first time under public-market scrutiny and at a size where the integration matters; closing is expected before year-end subject to regulatory review.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-08-04",
-          "headline": "Bending Spoons has entered into a definitive agreement to acquire Airtable for $1.285 billion",
-          "source": "Business Wire"
         }
       ]
     },
@@ -1420,6 +1158,39 @@
           "date": "2026-08-20",
           "headline": "WSP Global presses ahead with Arcadis takeover plan, seeking board support",
           "source": "The Globe and Mail"
+        }
+      ]
+    },
+    {
+      "id": "dez-ffg-acquisition",
+      "ticker": "DEZ.DE",
+      "counterparty": "FFG (Flensburger Fahrzeugbau Gesellschaft)",
+      "type": "acquisition",
+      "currentStatus": "approved",
+      "whyItMatters": "Deutz has cleared the last gate on the largest acquisition in its 160-year history: shareholders approved the EUR0.6bn contribution-in-kind capital increase at an extraordinary general meeting with 99.7% in favour, well past the three-quarters majority the resolution needed, and the Bundeskartellamt had already cleared the deal without conditions. That funds the share half of a EUR1.6bn purchase of armoured-vehicle maker FFG, with roughly EUR1.0bn more in secured bank debt. Two things change for holders: a Cologne engine maker becomes a European defence-technology group, and FFG's selling families arrive as a 29.9% anchor shareholder with supervisory-board representation -- a dilution and a control shift accepted in one vote. Closing is expected by end-2026 or in Q1 2027, subject to remaining regulatory approvals.",
+      "phases": [
+        {
+          "status": "approved",
+          "date": "2026-08-24",
+          "headline": "Deutz: Außerordentliche Hauptversammlung stimmt Milliarden-Übernahme von FFG nahezu einstimmig zu",
+          "source": "hartpunkt"
+        }
+      ]
+    },
+    {
+      "id": "ppc-jbs-minority-buyout",
+      "ticker": "PPC",
+      "counterparty": "JBS N.V. (JBS)",
+      "type": "acquisition",
+      "currentStatus": "rumored",
+      "whyItMatters": "JBS wants the ~18% of Pilgrim's Pride it does not already own, offering a fixed 2.086 JBS Class A shares per PPC share -- about $28.50 a share, or roughly $1.2bn, on 18 August closing prices. It is all stock, so the question for minority holders is not a cash exit price but whether they want to swap a US chicken pure-play for the parent's diversified, family-controlled global protein group. The structure is the risk: JBS says it will not proceed without the approval of a special committee of independent directors advised by its own bankers and lawyers, plus a majority of votes cast by unaffiliated PPC holders -- the same two hurdles that killed JBS's last attempt in 2021, when the committee rejected an identical $28.50 and JBS walked. JBS's New York listing last year is what makes the share-for-share version possible this time.",
+      "phases": [
+        {
+          "status": "rumored",
+          "date": "2026-08-18",
+          "headline": "JBS Proposes Acquiring Full Ownership of Pilgrim's Pride",
+          "source": "Food Processing",
+          "priceReaction": "+6.9% premarket"
         }
       ]
     }
