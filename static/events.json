@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T08:00:00Z",
+  "generatedAt": "2026-08-26T08:00:00Z",
   "events": [
     {
       "id": "inmd-steel-partners-buyout",
@@ -42,7 +42,7 @@
       "counterparty": "WBD",
       "type": "acquisition",
       "currentStatus": "approved",
-      "whyItMatters": "Every regulatory condition in the ~$110bn Warner Bros. Discovery merger agreement is satisfied -- 68 jurisdictions cleared, with Mexico last on August 14 -- so what remains is purely a US courtroom problem, and both sides are now trying to shorten it rather than wait for the 12-day trial that starts March 2, 2027. Paramount has asked the court to make the 12 state attorneys-general and the WGA post a $1.88bn bond by September 30 or have the hold on the deal dissolved, sizing the claim on the ~$7m-a-day ticking fee it owes WBD holders from that date; California's Rob Bonta called the demand an attempt to make them back down. In parallel Paramount and Bonta's office are reported to be meeting to discuss a settlement, which Bonta has said would require 'robust structural remedies.' The question for holders is no longer whether the deal is permitted but whether the delay is bought off, litigated away by bond, or paid for at $7m a day.",
+      "whyItMatters": "Every regulatory condition in the ~$110bn Warner Bros. Discovery merger agreement is satisfied -- 68 jurisdictions cleared, with Mexico last on August 14 -- so what remains is purely a US courtroom problem, and the negotiated way out of it has just closed. California AG Rob Bonta, who leads the 12-state coalition suing to block the deal, cancelled the settlement meeting set for August 24, accusing Paramount of leaking and misrepresenting the previous session and saying he will meet again when the company 'stops playing games'; any settlement, he has said, would need robust structural remedies. That leaves the litigation track: a 12-day antitrust trial starting March 2, 2027, Paramount's demand that the state AGs and the WGA post a $1.88bn bond by September 30 or have the hold dissolved, and the ~$7m-a-day ticking fee it owes WBD holders from that date. The question for holders is no longer whether the deal is permitted but how much the delay costs -- and the cheapest exit from it is off the table for now.",
       "phases": [
         {
           "status": "confirmed",
@@ -103,6 +103,12 @@
           "date": "2026-08-22",
           "headline": "Paramount, California AG office reportedly plan to meet Monday to discuss settling WBD lawsuit",
           "source": "CNBC"
+        },
+        {
+          "status": "approved",
+          "date": "2026-08-24",
+          "headline": "California Attorney General Cancels Paramount Settlement Talks Over $111 Billion Warner Bros. Discovery Deal, Says He'll Meet When They 'Stop Playing Games'",
+          "source": "Variety"
         }
       ]
     },
@@ -158,62 +164,6 @@
       ]
     },
     {
-      "id": "axta-akzonobel-merger",
-      "ticker": "AXTA",
-      "counterparty": "Akzo Nobel N.V.",
-      "type": "acquisition",
-      "currentStatus": "approved",
-      "whyItMatters": "Both shareholder bases have now approved the all-stock merger of equals between Axalta and AkzoNobel -- 0.6539 AkzoNobel shares per Axalta share, leaving AkzoNobel holders with ~55% and Axalta holders ~45% of a coatings group with ~$17bn of revenue, ~$3.3bn of adjusted EBITDA and $600m of targeted pre-tax run-rate synergies (90% inside three years). The vote removes the shareholder-approval risk that had hung over the deal since the governance terms were revised on July 23; what remains is regulatory clearance and a EUR2.5bn pre-completion distribution condition, with closing guided to late 2026 or early 2027.",
-      "phases": [
-        {
-          "status": "approved",
-          "date": "2026-08-05",
-          "headline": "Axalta Shareholders Approve Proposed Merger of Equals with AkzoNobel",
-          "source": "GlobeNewswire"
-        }
-      ]
-    },
-    {
-      "id": "nlst-samsung-license-alliance",
-      "ticker": "NLST",
-      "counterparty": "Samsung Electronics",
-      "type": "partnership",
-      "currentStatus": "confirmed",
-      "whyItMatters": "A five-year patent cross-license ends every pending Netlist-Samsung dispute and converts a litigation lottery ticket into contracted cash: $239m upfront (net of Korean withholding tax) plus quarterly fees of up to $32.9m across twenty quarters, up to ~$897m gross in total. It also comes with a supply agreement letting Netlist buy up to $300m of Samsung DRAM and NAND a year (up to $1.5bn over the term) and a 10m-share equity purchase by Samsung under a five-year lock-up. For a company whose equity story was previously a binary bet on court outcomes, that is a different business.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-08-05",
-          "headline": "Netlist, Samsung Reach Multi-Million Dollar Memory Tech Deal",
-          "source": "Bloomberg Law",
-          "priceReaction": "+46.5% to $3.75, biggest one-day gain in five years"
-        }
-      ]
-    },
-    {
-      "id": "azn-bmy-merger-talks",
-      "ticker": "AZN",
-      "counterparty": "BMY",
-      "type": "acquisition",
-      "currentStatus": "abandoned",
-      "whyItMatters": "The largest pharma combination ever floated -- a roughly $400bn AstraZeneca/Bristol Myers Squibb merger reported by the FT and Bloomberg as exploratory -- has been flatly denied by a senior source close to the matter, who told Reuters there never was a deal to be done and no discussions are under way. Neither company has commented on the record either way, so the practical read is that the premium the market briefly priced into BMY and the 7% discount it applied to AZN both rested on a combination that is not being pursued; the antitrust overlap in oncology that made it hard remains the reason it stays unlikely.",
-      "phases": [
-        {
-          "status": "rumored",
-          "date": "2026-08-02",
-          "headline": "AstraZeneca in talks with Bristol Myers Squibb on $400 billion megadeal, FT reports",
-          "source": "CNBC",
-          "priceReaction": "AZN -7%"
-        },
-        {
-          "status": "abandoned",
-          "date": "2026-08-05",
-          "headline": "No deal between AstraZeneca and BMS, senior source insists: \"There is no deal between AstraZeneca and BMS. There never was a deal to be done, and there are no discussions between the companies\"",
-          "source": "Reuters"
-        }
-      ]
-    },
-    {
       "id": "dv-nielsen-acquisition",
       "ticker": "DV",
       "counterparty": "Nielsen",
@@ -248,22 +198,6 @@
       ]
     },
     {
-      "id": "drvn-adw-capital-takeover-bid",
-      "ticker": "DRVN",
-      "counterparty": "ADW Capital Management",
-      "type": "acquisition",
-      "currentStatus": "rumored",
-      "whyItMatters": "Driven Brands' board unanimously rejects an unsolicited $18.00-a-share all-cash proposal from activist holder ADW Capital -- a 41% premium to the $12.74 close and 42% to the 30-day VWAP -- calling it highly conditional and without a credible basis to proceed. ADW's stated thesis is that the 4,200-location car-wash and auto-services group is cheap because of self-inflicted structural, capital-allocation and governance failures, so the rejection converts a valuation argument into a public pressure campaign that now hangs over the shares whether or not financing ever materialises.",
-      "phases": [
-        {
-          "status": "rumored",
-          "date": "2026-08-05",
-          "headline": "Driven Brands Holdings Inc. Rejects Non-Binding, Highly Conditional and Unsolicited Proposal from ADW Capital",
-          "source": "Business Wire"
-        }
-      ]
-    },
-    {
       "id": "dfh-beazer-acquisition",
       "ticker": "DFH",
       "counterparty": "BZH",
@@ -293,23 +227,6 @@
           "headline": "Jamieson Wellness Enters into Definitive Agreement to be Acquired by Kirin in C$2.5 Billion Transaction",
           "source": "CNW Group",
           "priceReaction": "27% premium to the 20-day VWAP to June 24"
-        }
-      ]
-    },
-    {
-      "id": "uwmc-oaktree-ishbia-capital-partnership",
-      "ticker": "UWMC",
-      "counterparty": "Oaktree Capital Management, SFS Group Capital (Ishbia family)",
-      "type": "capital-allocation",
-      "currentStatus": "confirmed",
-      "whyItMatters": "UWM raises $2.05bn of permanent capital from Oaktree and the Ishbia family's new SFS Group Capital vehicle -- 1.5m Series A-1 and 150,000 Series A-2 preferred shares at a $1,000 stated value paying 10% in cash or 13% accreted, plus 330m warrants -- and suspends its common dividend to repay debt and MSR financing facilities, with a $400m rights offering held in reserve. It lands alongside a $451.9m second-quarter loss, equity nearly halved to $985.3m and non-funding leverage more than tripled to 6.13x, so this is a balance-sheet rescue with heavy dilution attached rather than an opportunistic raise. The market read it that way: the shares fell about 35%.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-08-05",
-          "headline": "UWM Holdings Corporation Announces $2.05 Billion Strategic Capital Partnership with the Ishbia Family and Oaktree",
-          "source": "Business Wire",
-          "priceReaction": "-34.8% to $1.20 in the following session"
         }
       ]
     },
@@ -359,56 +276,6 @@
           "headline": "Diageo unveils $1.2bn restructuring plan as sales decline hits North America and Asia Pacific",
           "source": "BeverageDaily",
           "priceReaction": "shares surged as the $1bn cost-saving plan outweighed weaker annual results"
-        }
-      ]
-    },
-    {
-      "id": "boy-cvc-takeover-bid",
-      "ticker": "BOY",
-      "counterparty": "CVC Advisers",
-      "type": "acquisition",
-      "currentStatus": "rumored",
-      "whyItMatters": "CVC's up-to-915p-a-share cash proposal values Bodycote at about GBP1.56bn and puts the FTSE 250's dominant thermal-processing specialist -- an asset-heavy franchise serving aerospace, autos and energy with no listed pure-play peer -- into a live two-sponsor auction decided by a single penny. The board has said it would recommend either proposal and has opened confirmatory due diligence to both, so the open question for holders is no longer whether Bodycote leaves the LSE but which sponsor firms up by the 2 September Rule 2.6 deadline.",
-      "phases": [
-        {
-          "status": "rumored",
-          "date": "2026-08-05",
-          "headline": "Bodycote confirms a possible cash offer from CVC Advisers of up to 915p a share (907.8p cash plus a 7.2p permitted interim dividend), valuing it at ~GBP1.56bn, and grants confirmatory due diligence ahead of a 2 September Rule 2.6 deadline",
-          "source": "Bodycote plc (RNS)",
-          "priceReaction": "+22% on the twin approaches"
-        }
-      ]
-    },
-    {
-      "id": "boy-veritas-takeover-bid",
-      "ticker": "BOY",
-      "counterparty": "Veritas Capital",
-      "type": "acquisition",
-      "currentStatus": "rumored",
-      "whyItMatters": "Veritas Capital's up-to-914p-a-share proposal sits one penny below CVC's for the same GBP1.56bn asset, which is what makes this a genuine auction rather than a single-bidder approach: Bodycote's board is running both parties through confirmatory due diligence separately and on an expedited basis, and either bid would be recommended. For Veritas the prize is the largest independent heat-treatment and specialist-technology network in the West; for holders, the 1p spread means the outcome turns on which sponsor moves first before 2 September rather than on price alone.",
-      "phases": [
-        {
-          "status": "rumored",
-          "date": "2026-08-05",
-          "headline": "Bodycote confirms a competing possible cash offer from Veritas Capital of up to 914p a share (906.8p cash plus a 7.2p permitted interim dividend), with the board prepared to recommend either proposal",
-          "source": "Bodycote plc (RNS)",
-          "priceReaction": "+22% on the twin approaches"
-        }
-      ]
-    },
-    {
-      "id": "logc-gchem-acquisition",
-      "ticker": "LOGC",
-      "counterparty": "gChem (Gaylord Chemical, EagleTree Capital)",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "ContextLogic is completing its conversion from the wound-down Wish marketplace into a holding company that parks cash-generative industrials behind a large tax-loss shield: gChem is its second operating business after US Salt. The $850m cash price is funded partly by a $650m rights offering at the public-company level, fully backstopped at $9.00 a unit by a consortium led by Abrams Capital and BC Partners, so existing holders either write a cheque or watch the sponsors' ownership concentrate. Management guides the combined businesses to roughly $95-105m of free cash flow in 2027.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-08-05",
-          "headline": "ContextLogic to Acquire gChem for $850 Million, funded in part by a $650m rights offering fully backstopped at $9.00 per unit by a consortium led by Abrams Capital and BC Partners",
-          "source": "GlobeNewswire"
         }
       ]
     },
@@ -576,22 +443,6 @@
           "date": "2026-08-11",
           "headline": "Sony Semiconductor Solutions and TSMC Agreed to Establish Joint Venture for Next-Generation Image Sensors",
           "source": "Sony Semiconductor Solutions"
-        }
-      ]
-    },
-    {
-      "id": "sndk-buyback-expansion-2026",
-      "ticker": "SNDK",
-      "counterparty": null,
-      "type": "capital-allocation",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Sandisk's board adds a $14bn repurchase authorization on top of the $6bn approved in April -- of which roughly $4.5bn was already spent in about two months -- taking remaining capacity to ~$15.5bn, or close to 9% of the company, funded from operating cash flow. It follows a fiscal fourth quarter of $8.97bn revenue and a full year of $20.2bn on AI data-center memory demand, and it is a clear statement of where the windfall goes: back to shareholders at current prices rather than into pre-funding the next capacity cycle, which only works if this memory upcycle holds.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-08-05",
-          "headline": "Sandisk board of directors approves a $14 billion share repurchase program, taking total remaining authorization to $15.5 billion",
-          "source": "Sandisk (Form 8-K)"
         }
       ]
     },
@@ -777,8 +628,8 @@
       "ticker": "REAX",
       "counterparty": "RE/MAX Holdings (RMAX)",
       "type": "acquisition",
-      "currentStatus": "approved",
-      "whyItMatters": "Both shareholder bases have now cleared Real's roughly $880m purchase of RE/MAX -- 99.0% of Real votes cast in favour and holders of 78.8% of RE/MAX voting power -- leaving a final order from the Supreme Court of British Columbia as effectively the last step before the two list as Real REMAX Group. RE/MAX holders elect $13.80 a share in cash or 5.152 Real REMAX shares, with aggregate cash capped between $60m and $80m, so almost the entire consideration is stock: they end up owning about 41% of a technology-led brokerage rather than cashing out of a franchise brand, and the value of what they received depends on an integration that has not started.",
+      "currentStatus": "closed",
+      "whyItMatters": "The roughly $880m combination closed on 24 August and Real REMAX Group began trading on Nasdaq as REAX the following morning, putting more than 180,000 agents across 120 countries under one holding company led by Real co-founder Tamir Poleg. RE/MAX holders elected $13.80 a share in cash or 5.152 Real REMAX shares with aggregate cash capped between $60m and $80m, so almost the entire consideration was stock: they now own about 41% of a technology-led brokerage rather than having cashed out of a franchise brand. With the deal-break risk gone, the value of what they received rests entirely on an integration that starts now -- and the board has authorised up to $450m of buybacks to support the shares while it happens.",
       "phases": [
         {
           "status": "approved",
@@ -791,6 +642,13 @@
           "date": "2026-08-21",
           "headline": "Real and RE/MAX Holdings Announce Real's Receipt of Court Approval of Proposed Arrangement in Connection with Proposed Combination",
           "source": "Business Wire"
+        },
+        {
+          "status": "closed",
+          "date": "2026-08-24",
+          "headline": "Real and RE/MAX Complete Merger to Form Global Tech-Enabled Real Estate Platform",
+          "source": "The Globe and Mail",
+          "priceReaction": "REAX opened its first Nasdaq session at $24.11 and traded near $27 by mid-afternoon"
         }
       ]
     },
@@ -1021,6 +879,12 @@
           "date": "2026-08-20",
           "headline": "Coricelli raises bid for Deoleo to 500 million",
           "source": "The Corner"
+        },
+        {
+          "status": "rumored",
+          "date": "2026-08-26",
+          "headline": "Ultimatum de Coricelli a Deoleo: da de plazo hasta el 31 de agosto para aceptar su oferta de 500 millones",
+          "source": "elEconomista"
         }
       ]
     },
@@ -1191,6 +1055,55 @@
           "headline": "JBS Proposes Acquiring Full Ownership of Pilgrim's Pride",
           "source": "Food Processing",
           "priceReaction": "+6.9% premarket"
+        }
+      ]
+    },
+    {
+      "id": "mck-precision-medicine-acquisition",
+      "ticker": "MCK",
+      "counterparty": "Precision Medicine Group",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "McKesson is paying about $2.25bn for a Bethesda-based business that runs a global contract research organisation plus biomarker intelligence, lab services, market access consulting and commercialisation support, and folding it into the Oncology & Multispecialty segment whose revenue rose 33% to $14.2bn in fiscal first-quarter 2026. It is the same trade McKesson has been making for two years -- shedding non-core distribution and buying provider- and pharma-facing services -- but this one takes a wholesaler into the clinical-development chain of the drugmakers it already distributes for, which is a different competitive position rather than a bigger version of the old one. No closing date was given and the deal needs regulatory clearance.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-08-25",
+          "headline": "McKesson Signs Agreement to Acquire Precision Medicine Group, LLC",
+          "source": "McKesson"
+        }
+      ]
+    },
+    {
+      "id": "spcx-starbase-louisiana-capex",
+      "ticker": "SPCX",
+      "counterparty": null,
+      "type": "capital-allocation",
+      "currentStatus": "confirmed",
+      "whyItMatters": "SpaceX is committing as much as $100bn to Starbase Louisiana in Vermilion Parish -- at full build-out five launch complexes with two pads each, a propellant production plant, on-site power generation, vehicle processing and housing for employees and their families -- with construction starting in 2027 and first launch targeted for 2029. Coming eleven days after it issued 389m shares for Anysphere, it is the second enormous commitment in a fortnight and the first that has to be funded in cash rather than paper: a decade of spending against revenue that does not begin until the end of it. Louisiana Economic Development counts 3,000 direct jobs at ~$92,600 average pay and more than 8,100 indirect ones, which is the political case; the investment case is whether Starship cadence ever justifies the largest launch site on Earth.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-08-25",
+          "headline": "SpaceX plans to build the 'biggest launch site on Earth' for $100 billion in Louisiana",
+          "source": "CNN"
+        }
+      ]
+    },
+    {
+      "id": "nyax-ips-group-acquisition",
+      "ticker": "NYAX",
+      "counterparty": "IPS Group (Windjammer Capital)",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Nayax pays $350m in cash, cash-free and debt-free, for San Diego smart-parking provider IPS Group -- its largest acquisition ever, against a target guided to end the year above $90m of revenue with 60% recurring and $21m of adjusted EBITDA. That is 17x EBITDA, which management says falls to about 12x on the more than $8m of annualised synergies it targets by 2029, so the multiple is underwritten by synergies rather than by the asset. What it buys is a shift in revenue quality: meters, enforcement, permitting and payments across more than 250,000 municipal parking spaces in the US, UK, Ireland and Canada is contracted, multi-year public-sector revenue rather than the transaction-volume exposure of vending and fuel. Closing is guided to the fourth quarter, subject to regulatory approval.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-08-25",
+          "headline": "Nayax Enters into Definitive Agreement to Acquire IPS Group, a Leading Smart Parking Technology Provider",
+          "source": "GlobeNewswire",
+          "priceReaction": "among the day's biggest gainers"
         }
       ]
     }
