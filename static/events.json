@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T08:00:00Z",
+  "generatedAt": "2026-08-28T08:00:00Z",
   "events": [
     {
       "id": "inmd-steel-partners-buyout",
@@ -137,71 +137,6 @@
           "date": "2026-08-17",
           "headline": "Nvidia backing $105 billion in financing for OpenAI data center in Ohio",
           "source": "CNBC"
-        }
-      ]
-    },
-    {
-      "id": "jwel-kirin-acquisition",
-      "ticker": "JWEL",
-      "counterparty": "Kirin Holdings",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Kirin pays C$45.75 a share in cash for Jamieson Wellness -- about C$2.0bn of fully diluted equity and C$2.5bn of enterprise value, a 27% premium to the 20-day and 32% to the 60-day VWAP to June 24 -- taking the top-share brand in Canada's vitamins, minerals and supplements market off the TSX and giving the Japanese brewer a full-scale North American health platform rather than a beachhead. It is the second large supplements deal in under a week after P&G's $3.8bn purchase of Thorne, which says more about where consumer-staples capital is going than about either buyer. Closing is guided to Q4 2026, subject to a September shareholder vote plus court and regulatory approvals.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-08-07",
-          "headline": "Jamieson Wellness Enters into Definitive Agreement to be Acquired by Kirin in C$2.5 Billion Transaction",
-          "source": "CNW Group",
-          "priceReaction": "27% premium to the 20-day VWAP to June 24"
-        }
-      ]
-    },
-    {
-      "id": "tka-accelis-spinoff",
-      "ticker": "TKA.DE",
-      "counterparty": null,
-      "type": "capital-allocation",
-      "currentStatus": "approved",
-      "whyItMatters": "Thyssenkrupp shareholders approved, with 99.99% of votes at an extraordinary general meeting, the spin-off of 49% of tk accelis -- the materials trading arm with roughly 15,500 staff and about EUR11.4bn of sales, its largest division by revenue and valued near EUR3.6bn by Jefferies -- clearing the way for a separate Frankfurt listing as soon as end-October with Thyssenkrupp retaining majority control. It is the third carve-out under the ACES 2030 plan after hydrogen and defence, converting the conglomerate into a holding company and giving investors a directly priceable distribution business; the steel division, where a spin-off or IPO is still only being explored, remains the unresolved piece.",
-      "phases": [
-        {
-          "status": "approved",
-          "date": "2026-08-07",
-          "headline": "Thyssenkrupp owners approve materials spinoff in latest restructuring move",
-          "source": "Reuters"
-        }
-      ]
-    },
-    {
-      "id": "vrsk-acculynx-acquisition",
-      "ticker": "VRSK",
-      "counterparty": "AccuLynx",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Delaware's Court of Chancery has invalidated Verisk's December termination of its $2.35bn purchase of roofing-software provider AccuLynx, finding that Verisk's own willful conduct caused the closing condition to fail, ordering it to attempt to complete the deal and entitling AccuLynx to recover its direct costs plus interest. It revives an acquisition Verisk wrote off more than seven months ago and puts a specific-performance obligation back on the buyer -- but the court compelled effort, not an outcome: completion still depends on an FTC review that has never finished.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-08-07",
-          "headline": "Delaware judge orders Verisk to proceed with $2.35 billion AccuLynx deal",
-          "source": "Reuters"
-        }
-      ]
-    },
-    {
-      "id": "eneos-tpc-group-acquisition",
-      "ticker": "5020.T",
-      "counterparty": "TPC Group",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "ENEOS is buying scale in US petrochemicals rather than shrinking alongside Japanese domestic fuel demand: TPC is North America's largest independent C4 hydrocarbon processor and the region's butadiene share leader, and the ~$1.3bn enterprise value brings Houston petrochemical operations plus terminals at Port Neches, Texas and Lake Charles, Louisiana. The deal lifts the ENEOS Group to the world's third-largest butadiene capacity and moves refining cash flow into a feedstock-advantaged Gulf Coast platform, with closing targeted for October 2026.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-08-07",
-          "headline": "TPC Group to Be Acquired by ENEOS Holdings at approximately $1.3bn enterprise value, giving the ENEOS Group the world's third-largest butadiene production capacity",
-          "source": "GlobeNewswire"
         }
       ]
     },
@@ -361,8 +296,8 @@
       "ticker": "WEN",
       "counterparty": "Trian Fund Management (with BlueFive Capital, Flynn Group)",
       "type": "acquisition",
-      "currentStatus": "rumored",
-      "whyItMatters": "Trian, Wendy's largest shareholder at about 16%, is assembling co-investors -- BlueFive Capital and Flynn Group, one of the chain's biggest franchisees -- behind a bid to take the burger chain private, days after a sixth consecutive quarter of same-store sales declines. Nelson Peltz has sat on or around this board since 2008, so an insider-led buyout of a roughly $1.4bn-equity franchise business would move the turnaround out of public view at a low point in the cycle. Nothing has been submitted: the company has only said it would review any proposal consistent with its fiduciary duties, and the report is single-sourced with no price attached.",
+      "currentStatus": "abandoned",
+      "whyItMatters": "Trian has shelved the take-private it spent August assembling co-investors behind, telling Reuters it has no plans to bid for Wendy's at this time on concerns about the company's trading price, valuation multiples and strategic direction -- and the stock gave back the entire takeover premium, falling more than 14% after hours. Nelson Peltz's roughly 16% interest is not going anywhere and Trian has kept its options open rather than ruling a future bid out, so the overhang persists in a weaker form. What has gone is the floor: after a sixth consecutive quarter of same-store sales declines, Wendy's is back to being valued on its own turnaround rather than on what an insider consortium would pay for it.",
       "phases": [
         {
           "status": "rumored",
@@ -370,6 +305,13 @@
           "headline": "Wendy's stock jumps on report of potential takeover bid from Nelson Peltz's Trian Fund Management",
           "source": "CNBC",
           "priceReaction": "up as much as 16% intraday, biggest gain since June 25"
+        },
+        {
+          "status": "abandoned",
+          "date": "2026-08-26",
+          "headline": "Exclusive-Trian has no plans to make bid for Wendy's right now, sources say",
+          "source": "Reuters",
+          "priceReaction": "-14% in after-hours trading"
         }
       ]
     },
@@ -1079,6 +1021,56 @@
           "date": "2026-08-24",
           "headline": "Nvidia Pays Poolside $6B To License Its Model Factory And 109 Workers",
           "source": "Forbes"
+        }
+      ]
+    },
+    {
+      "id": "dher-uber-takeover-offer",
+      "ticker": "DHER.DE",
+      "counterparty": "Uber Technologies (UBER)",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "BaFin has approved Uber's offer document, so the agreed combination becomes a running tender: EUR41.50 a share in cash, about EUR13bn of equity on 314m fully diluted shares, acceptance from 27 August to 5 November 2026 and a minimum threshold of only 50% plus one share including Uber's own holding. The premium depends entirely on where you start: roughly 108% over Delivery Hero's unaffected 8 May close and 127% over the unaffected three-month VWAP, but about 34% over the three-month VWAP into the launch, so most of the value is already in the price. The catch is duration -- settlement is guided only to the second half of 2027, with merger-control and financial-regulatory clearances across a combined 99-country, $236bn-GMV footprint still to come. Holders are being asked to accept a fixed cash price now and wait a year for it.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-08-27",
+          "headline": "Uber Publishes Offer Document for its Takeover Offer for Delivery Hero",
+          "source": "Uber Technologies",
+          "priceReaction": "EUR41.50 offer is c.108% above the unaffected 8 May 2026 close"
+        }
+      ]
+    },
+    {
+      "id": "vel-toorak-platform-acquisition",
+      "ticker": "VEL",
+      "counterparty": "Toorak Capital (KKR)",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Velocity pays just $63m in cash for the operating platform, but the transaction it sits inside is about $3.2bn: Toorak's roughly $3bn business-purpose loan portfolio goes to a third-party investment firm, Velocity manages it on that firm's behalf, and forward sale arrangements cover future Toorak originations. For a lender this size that is a change of business model rather than a bolt-on -- it bolts fee-earning asset management and third-party capital onto a balance sheet Velocity has had to fund itself, and it takes over a KKR-backed platform that has funded more than $20bn across some 43,000 loans since 2016. Toorak becomes a subsidiary of Velocity Commercial Capital with founder John Beacham staying on; closing is guided to Q4 2026 subject to regulatory approvals.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-08-27",
+          "headline": "Velocity Enters into Agreements to Acquire Toorak's Operating Platform and Manage Toorak's $3 Billion Business-Purpose Loan Portfolio",
+          "source": "Business Wire",
+          "priceReaction": "VEL gained on the announcement"
+        }
+      ]
+    },
+    {
+      "id": "dino-buyback-2026",
+      "ticker": "DINO",
+      "counterparty": null,
+      "type": "capital-allocation",
+      "currentStatus": "confirmed",
+      "whyItMatters": "HF Sinclair's board has replaced a repurchase authorisation with roughly $11m left on it -- effectively exhausted -- with a fresh $1.5bn program, a large fraction of the company's market value pointed at the share count rather than at capacity. The detail that matters is the mechanism: the program explicitly permits privately negotiated repurchases from REH, the vehicle that took a large stake in the 2022 Sinclair Oil combination, so it doubles as a route to retire a concentrated overhang rather than only buying in the open market. It lands days after HF Sinclair took final investment decision with Phillips 66 and Kinder Morgan on the ~$5bn Western Gateway pipeline, so mid-cycle refining cash flow is now being asked to fund a multi-year capex commitment and a buyback of this size at the same time.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-08-26",
+          "headline": "HF Sinclair Board of Directors authorizes a new $1.5 billion share repurchase program, replacing all existing authorizations",
+          "source": "HF Sinclair (Form 8-K)"
         }
       ]
     }
