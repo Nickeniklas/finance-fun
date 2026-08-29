@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-28T08:00:00Z",
+  "generatedAt": "2026-08-29T08:00:00Z",
   "events": [
     {
       "id": "inmd-steel-partners-buyout",
@@ -1071,6 +1071,55 @@
           "date": "2026-08-26",
           "headline": "HF Sinclair Board of Directors authorizes a new $1.5 billion share repurchase program, replacing all existing authorizations",
           "source": "HF Sinclair (Form 8-K)"
+        }
+      ]
+    },
+    {
+      "id": "nvda-huggingface-acquisition",
+      "ticker": "NVDA",
+      "counterparty": "Hugging Face",
+      "type": "acquisition",
+      "currentStatus": "rumored",
+      "whyItMatters": "At $12.9bn this would be Nvidia's largest acquisition ever, nearly double the $6.9bn it paid for Mellanox in 2020, for a company The Information puts at roughly $150m of revenue -- so the price is not being paid for the P&L. What Nvidia would own is the default distribution point for open-source models: anyone pulling weights off Hugging Face still has to run them on someone's silicon, and this puts Nvidia in control of the shelf as well as the chip. It continues the pattern of Nvidia paying to own the layers around its own demand rather than just selling into them, and it is a step up in commitment from the $500m stake at a $7bn valuation that Hugging Face turned down last year. Nothing is signed -- the reporting says terms are agreed but not executed, and the deal could still fall apart.",
+      "phases": [
+        {
+          "status": "rumored",
+          "date": "2026-08-27",
+          "headline": "Nvidia Agrees to Buy Open Source AI Platform Hugging Face For $12.9 Billion",
+          "source": "The Information"
+        }
+      ]
+    },
+    {
+      "id": "pypl-stripe-advent-takeover-bid",
+      "ticker": "PYPL",
+      "counterparty": "Stripe and Advent International",
+      "type": "acquisition",
+      "currentStatus": "abandoned",
+      "whyItMatters": "The consortium Advent International and Stripe assembled behind a $60.50-a-share, roughly $53bn approach -- backed by about $50bn of committed bank financing and what would have ranked among the largest leveraged buyouts ever done -- has walked away after PayPal's board called the price insufficient and the two sides could not close the gap. The stock had run more than 40% through the quarter on takeover speculation and second-quarter results, which is exactly the problem: the rally lifted PayPal's market value to about $52.6bn and squeezed the premium the bid implied until the arithmetic stopped working for the buyers. Holders are handed back a standalone payments business that has to earn that re-rating on execution, with no bid underneath it.",
+      "phases": [
+        {
+          "status": "abandoned",
+          "date": "2026-08-28",
+          "headline": "PayPal Deal Talks End as Advent, Stripe Group Abandons Acquisition Effort",
+          "source": "Bloomberg",
+          "priceReaction": "-17% premarket; down about 13% on the session"
+        }
+      ]
+    },
+    {
+      "id": "amzn-nvidia-gpu-expansion",
+      "ticker": "AMZN",
+      "counterparty": "NVIDIA (NVDA)",
+      "type": "partnership",
+      "currentStatus": "confirmed",
+      "whyItMatters": "AWS will deploy 2 million additional Nvidia GPUs across its global footprint in 2027-2028, tripling the 1-million commitment the two announced in March and taking the programme to roughly 3 million units, alongside Nvidia Vera CPU infrastructure on AWS, NVLink Fusion extended with custom high-bandwidth memory, and a 100,000-GPU AI factory built for the US government on secure AWS infrastructure. For Nvidia it is a multi-year demand book from a hyperscaler that also designs its own Trainium silicon -- the in-house alternative is not displacing the merchant one. For Amazon it is a capex commitment stretching two years out, made before the agentic and physical-AI workloads it is sized for have proven they can fill it.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-08-26",
+          "headline": "AWS and NVIDIA to Deliver 2 Million Additional GPUs and Next-Generation Infrastructure for Agentic and Physical AI",
+          "source": "NVIDIA Newsroom"
         }
       ]
     }
