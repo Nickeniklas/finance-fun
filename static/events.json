@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-29T08:00:00Z",
+  "generatedAt": "2026-08-30T08:00:00Z",
   "events": [
     {
       "id": "inmd-steel-partners-buyout",
@@ -1120,6 +1120,22 @@
           "date": "2026-08-26",
           "headline": "AWS and NVIDIA to Deliver 2 Million Additional GPUs and Next-Generation Infrastructure for Agentic and Physical AI",
           "source": "NVIDIA Newsroom"
+        }
+      ]
+    },
+    {
+      "id": "spcx-openai-cursor-termination",
+      "ticker": "SPCX",
+      "counterparty": "OpenAI",
+      "type": "partnership",
+      "currentStatus": "abandoned",
+      "whyItMatters": "OpenAI is winding down Cursor's access to its models with a proposed shutoff on 12 November, invoking a change-of-control provision that the SpaceX takeover triggered and citing a lack of confidence that SpaceX will honour its terms of service. The direct revenue exposure looks small -- Cursor CEO Michael Truell puts OpenAI models at about 5% of user traffic, and Anthropic, already a SpaceX partner, says it will add compute to support Claude inside Cursor -- but the timing is what matters: the first major supplier walked barely two weeks after SpaceX closed a $60bn all-stock purchase, and it walked because of who now owns the asset rather than anything the asset did. Holders who funded Cursor out of their own dilution are now carrying the risk that model supply to an AI coding tool is contingent on its owner's standing with the labs that make the models.",
+      "phases": [
+        {
+          "status": "abandoned",
+          "date": "2026-08-29",
+          "headline": "OpenAI to End Partnership With Cursor After SpaceX Acquisition",
+          "source": "Bloomberg"
         }
       ]
     }
