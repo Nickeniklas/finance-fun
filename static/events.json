@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-31T08:00:00Z",
+  "generatedAt": "2026-09-01T08:00:00Z",
   "events": [
     {
       "id": "psky-wbd-acquisition",
@@ -102,22 +102,6 @@
           "date": "2026-08-17",
           "headline": "Nvidia backing $105 billion in financing for OpenAI data center in Ohio",
           "source": "CNBC"
-        }
-      ]
-    },
-    {
-      "id": "sony-tsmc-image-sensor-jv",
-      "ticker": "SONY",
-      "counterparty": "TSM",
-      "type": "partnership",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Sony and TSMC will put a combined JPY747bn (~$4.7bn) into Advanced Vision Semiconductor Manufacturing Corp in Kumamoto -- Sony JPY465bn (~$2.92bn) in cash and assets including its newly built local fab for 60% and control, TSMC JPY282bn (~$1.77bn) for 40% -- to build next-generation smartphone image sensors alongside TSMC's existing JASM plant. It hands Sony's dominant sensor franchise access to TSMC's advanced logic and shares the capex on a fab Sony would otherwise have carried alone, but the venture consolidates into Sony's accounts and volume production does not start until 2029, so the cost lands years before the revenue.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-08-11",
-          "headline": "Sony Semiconductor Solutions and TSMC Agreed to Establish Joint Venture for Next-Generation Image Sensors",
-          "source": "Sony Semiconductor Solutions"
         }
       ]
     },
@@ -551,6 +535,12 @@
           "date": "2026-08-26",
           "headline": "Ultimatum de Coricelli a Deoleo: da de plazo hasta el 31 de agosto para aceptar su oferta de 500 millones",
           "source": "elEconomista"
+        },
+        {
+          "status": "rumored",
+          "date": "2026-09-01",
+          "headline": "Los pretendientes espanoles de Deoleo no tiran la toalla pese a la exclusividad de los italianos",
+          "source": "The Objective"
         }
       ]
     },
@@ -956,6 +946,56 @@
           "date": "2026-08-29",
           "headline": "OpenAI to End Partnership With Cursor After SpaceX Acquisition",
           "source": "Bloomberg"
+        }
+      ]
+    },
+    {
+      "id": "aon-usi-acquisition",
+      "ticker": "AON",
+      "counterparty": "USI Insurance Services (KKR)",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Aon is paying $17bn including debt -- $16.7bn net of roughly $278m of tax attributes -- for the tenth-largest US insurance broker, a business with about $3bn of annual revenue, more than 10,500 staff and close to 200 US offices, and funding all of it with new debt raised across a range of maturities rather than with equity. That is the investment question in one line: a broker still digesting the NFP purchase is levering up again to build what CEO Greg Case calls the premier US middle-market platform, against $395m of targeted annual run-rate net adjusted EBITDA from revenue and cost synergies. Middle-market commercial insurance is where organic growth and client retention hold up best, which is what the price is paying for; on the other side KKR and Caisse de depot exit a position taken private at $4.3bn in 2014 at about 3.4x their capital across the life of the investment. Closing is guided to the fourth quarter, subject to regulatory approvals.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-08-31",
+          "headline": "Aon to Acquire USI to Establish the Premier U.S. Middle Market Platform",
+          "source": "Aon",
+          "priceReaction": "AON and KKR shares flat in the premarket"
+        }
+      ]
+    },
+    {
+      "id": "slb-kelvion-acquisition",
+      "ticker": "SLB",
+      "counterparty": "Kelvion (Apollo Global Management)",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "SLB is paying $3.4bn in cash and assuming about $700m of debt -- $4.1bn in total -- to buy Apollo's thermal-management and heat-exchange business, with Triton's minority stake going the same way. The number that explains the price is the target set alongside it: $4.5-5bn of revenue and $700-800m of adjusted EBITDA from SLB's data-center business in 2028, against cumulative deliveries expected to pass 2GW globally by the end of this year. Cooling is the least glamorous constraint in the AI build-out and one of the few a company with oilfield process-engineering skills can actually address, so this is the largest oilfield services group buying its way off the drilling cycle rather than diversifying at the edges. The catch is duration and proof: closing is guided to the first half of 2027 subject to regulatory approvals, and the earnings case rests on a data-center revenue line that is still mostly a 2028 forecast.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-08-31",
+          "headline": "Apollo Funds Agree to Sell Kelvion, a Global Leader in Cooling Solutions for Data Centers and Diversified Industrials, to SLB for $4.1 billion",
+          "source": "GlobeNewswire"
+        }
+      ]
+    },
+    {
+      "id": "nvda-mediatek-nvlink-investment",
+      "ticker": "NVDA",
+      "counterparty": "MediaTek (2454.TW)",
+      "type": "partnership",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Nvidia is putting $3.5bn into convertible bonds issued by MediaTek, and in exchange MediaTek adopts NVLink Fusion as the interconnect for the custom AI accelerators it designs for cloud providers, hyperscalers and frontier labs -- the same customers commissioning custom silicon precisely so they can buy fewer Nvidia GPUs. That is the point of the trade: rather than fight custom ASICs, Nvidia takes a toll on them by making its rack-scale interconnect, high-bandwidth memory and packaging the substrate those chips plug into, and it does so with a convertible rather than a takeover, so it buys optionality instead of control. The collaboration also covers local AI computing through DGX Spark and software-defined automotive platforms. It extends the pattern of Nvidia paying to own the layers around its own demand, but unlike the OpenAI backstop or the SB Energy stake this one is aimed at the competitive threat rather than at the customer.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-08-31",
+          "headline": "Nvidia investing $3.5 billion in MediaTek for AI chip partnership",
+          "source": "Yahoo Finance",
+          "priceReaction": "NVDA rose on the announcement"
         }
       ]
     }
