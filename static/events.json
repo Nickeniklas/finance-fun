@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T08:00:00Z",
+  "generatedAt": "2026-09-02T08:00:00Z",
   "events": [
     {
       "id": "psky-wbd-acquisition",
@@ -159,22 +159,6 @@
       ]
     },
     {
-      "id": "jiofin-bofa-jio-credit-jv",
-      "ticker": "JIOFIN.NS",
-      "counterparty": "Bank of America (BAC)",
-      "type": "partnership",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Bank of America commits up to INR18,268 crore (~$2.1bn) for 26.5% of Jio Credit at signing, rising to 49.9% if the warrants are exercised -- converting Reliance's two-year-old lending arm, already at INR30,667 crore of assets under management, from a wholly-owned subsidiary into a joint venture with a global bank. For Jio Financial it brings outside capital and underwriting expertise it would otherwise have had to build alone; for BofA it is a first direct balance-sheet position in Indian consumer credit, immaterial against group capital but a real change in where it competes. Regulatory and statutory approvals are still outstanding.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-08-12",
-          "headline": "Bank of America Enters into a Joint Venture Agreement with Jio Financial Services Limited to Acquire up to 49.9% in Jio Credit Limited",
-          "source": "PR Newswire"
-        }
-      ]
-    },
-    {
       "id": "wday-silverlake-takeover-talks",
       "ticker": "WDAY",
       "counterparty": "Silver Lake",
@@ -238,22 +222,6 @@
           "headline": "Western Union and Intermex Provide Update on Pending Acquisition: New York DFS approval granted, while California's DFPI suspends the approval extension issued on July 31",
           "source": "GlobeNewswire",
           "priceReaction": "IMXI +23% premarket"
-        }
-      ]
-    },
-    {
-      "id": "gs-neos-acquisition",
-      "ticker": "GS",
-      "counterparty": "NEOS Investments",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Goldman Sachs pays as much as $2.25bn in cash and equity, part of it contingent on performance and service milestones, for a manager of 19 options-based income ETFs with about $30bn of assets at June 30 -- buying a derivative-income product line, including the NEOS Bitcoin High Income, Boosted Bitcoin High Income and Ethereum High Income ETFs, rather than building one. It is a bet that advisor and retail demand for options-overlay income keeps compounding, and it hands Goldman Sachs Asset Management a crypto-income ETF franchise it has no organic equivalent to.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-08-12",
-          "headline": "Goldman Sachs Announces Agreement to Acquire NEOS Investments",
-          "source": "Goldman Sachs"
         }
       ]
     },
@@ -897,6 +865,12 @@
           "date": "2026-08-27",
           "headline": "Nvidia Agrees to Buy Open Source AI Platform Hugging Face For $12.9 Billion",
           "source": "The Information"
+        },
+        {
+          "status": "rumored",
+          "date": "2026-09-02",
+          "headline": "Nvidia Nears $14 Billion Hugging Face Deal This Week",
+          "source": "Bloomberg"
         }
       ]
     },
@@ -996,6 +970,90 @@
           "headline": "Nvidia investing $3.5 billion in MediaTek for AI chip partnership",
           "source": "Yahoo Finance",
           "priceReaction": "NVDA rose on the announcement"
+        }
+      ]
+    },
+    {
+      "id": "lly-merida-acquisition",
+      "ticker": "LLY",
+      "counterparty": "Merida Biosciences",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Lilly is paying up to $2.88bn -- an upfront sum plus milestone-contingent payments -- for a private antibody-engineering platform whose lead candidate MER511 is still early-stage, in Graves' disease and thyroid eye disease. The size is immaterial against Lilly's balance sheet; the pattern is not. This is the third pipeline purchase in four months, after roughly $2.8bn upfront for AtaiBeckley in mental health and nearly $4bn across three vaccine developers in late May, and every one of them buys assets outside the incretin franchise that generates the cash. The question for holders is no longer whether Lilly can convert obesity revenue into deals but whether a run of early-stage, milestone-heavy bets in immunology, neuroscience and vaccines is a cheaper way to diversify away from GLP-1 concentration risk than buying something already de-risked. Closing is guided to the fourth quarter.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-08-31",
+          "headline": "Lilly to buy Merida Biosciences for up to $2.88 billion in autoimmune drug push",
+          "source": "CNBC"
+        }
+      ]
+    },
+    {
+      "id": "boy-veritas-take-private",
+      "ticker": "BOY.L",
+      "counterparty": "Veritas Capital",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Veritas Capital is paying 940p a share in cash -- about GBP1.65bn of equity, GBP1.85bn including debt -- for Bodycote, and the price is what a contested auction produced rather than what the first bidder offered: Apollo and CVC both circled, and Veritas raised to trump CVC. That is 25.3% above the 750.2p close on 4 August before the formal offer period and 37.5% above the three-month average before takeover talk emerged in May. What changes hands is roughly 130 heat-treatment and specialist thermal-processing plants across 22 countries serving aerospace, automotive, energy and industrial customers -- an asset-heavy, hard-to-replicate industrial services network that public markets have rated on cyclical volumes and private capital is willing to own through the cycle. It is a recommended scheme of arrangement targeted to become effective in the first quarter of 2027, subject to shareholder, court and regulatory approvals, and CVC has not formally stood down.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-09-01",
+          "headline": "Bodycote agrees GBP1.65 billion Veritas bid as rival CVC mulls options",
+          "source": "Bloomberg",
+          "priceReaction": "+4.5%; 940p is 25.3% above the 4 August close of 750.2p"
+        }
+      ]
+    },
+    {
+      "id": "gama-epiris-take-private",
+      "ticker": "GAMA.L",
+      "counterparty": "Epiris",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Epiris is paying 1,120p a share in cash for Gamma Communications -- about GBP1.015bn fully diluted, GBP1.08bn of enterprise value -- at a 53% premium to the 732p close before the offer period, and the board has unanimously recommended it. The premium is the point: a profitable, cash-generative UK business-communications provider was trading a third below what a buyout firm would pay for it, which is the same discount pulling one mid-cap after another off the London market. Epiris' stated plan is to spend more on products, commercial execution and AI adoption than a listed Gamma could justify to public shareholders -- the standard argument that the investment the business needs is easier to fund in private hands. It is a court-sanctioned scheme subject to shareholder, antitrust and regulatory approval, with completion guided to the first half of 2027.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-09-01",
+          "headline": "Epiris Agrees to Buy UK's Gamma Communications for GBP1 Billion",
+          "source": "Bloomberg",
+          "priceReaction": "1,120p offer is a 53% premium to the GBP7.32 close before the offer period"
+        }
+      ]
+    },
+    {
+      "id": "cne-dno-acquisition",
+      "ticker": "CNE.L",
+      "counterparty": "DNO ASA",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Norway's DNO has outbid Genel Energy for Capricorn Energy, offering $5.214 a share -- $4.224 in cash plus a $0.99 special dividend Capricorn will declare before the scheme takes effect -- for a total of about $396m (GBP292m), some $36m above the Genel offer the board had previously recommended and now withdrawn. For Capricorn holders the auction, not the first bid, set the exit, and the special-dividend structure routes part of the consideration through the company rather than the buyer. For DNO it is entry into Egypt: Capricorn's Western Desert assets produced 20,024 boe/d on a working-interest basis in 2025 on $134m of Egyptian oil and gas revenue, adding a third leg to a portfolio otherwise split between the North Sea and Kurdistan. The board's recommendation has switched, but the shareholder vote is still ahead and Genel has not been formally ruled out.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-09-01",
+          "headline": "Recommended Cash Acquisition of Capricorn Energy plc",
+          "source": "GlobeNewswire",
+          "priceReaction": "DNO's $396m offer is about 10% above Genel's rival bid"
+        }
+      ]
+    },
+    {
+      "id": "crk-socar-haynesville-partnership",
+      "ticker": "CRK",
+      "counterparty": "SOCAR",
+      "type": "partnership",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Under a letter of intent, Azerbaijan's state oil company would pay Comstock $1.65bn in cash for a 20% non-operated working interest in the Legacy Haynesville and 15% in the Western Haynesville, the latter stepping down to 7.5% after five years once SOCAR has earned a 15% return. The balance-sheet effect is the headline: net debt falls from $3.1bn to $1.5bn in one step, which is the constraint that has governed how fast Comstock could drill its Western Haynesville position. It also buys access to SOCAR's international gas marketing, relevant for a basin whose economics increasingly depend on Gulf Coast LNG offtake rather than domestic price. Two cautions: this is an LOI, not a signed definitive agreement, and selling a fifth of the mature Legacy asset means the equity keeps less of the production it has already proved. Alongside it a Jerry Jones family partnership will carry 85% of drilling and completion costs on 18 Western Haynesville wells and 80% on nine Legacy wells over the next twelve months, worth about $450m.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-09-01",
+          "headline": "COMSTOCK ANNOUNCES $1.65 BILLION STRATEGIC PARTNERSHIP WITH SOCAR AND $450 MILLION DRILLING JOINT VENTURE WITH JERRY JONES",
+          "source": "GlobeNewswire",
+          "priceReaction": "CRK soared on the announcement"
         }
       ]
     }
