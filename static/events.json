@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T08:00:00Z",
+  "generatedAt": "2026-09-03T08:00:00Z",
   "events": [
     {
       "id": "psky-wbd-acquisition",
@@ -155,56 +155,6 @@
           "date": "2026-08-19",
           "headline": "Aurora Cannabis Forms Special Committee in Response to Curaleaf's Unsolicited Bid",
           "source": "The Globe and Mail"
-        }
-      ]
-    },
-    {
-      "id": "wday-silverlake-takeover-talks",
-      "ticker": "WDAY",
-      "counterparty": "Silver Lake",
-      "type": "acquisition",
-      "currentStatus": "rumored",
-      "whyItMatters": "Reuters reports Silver Lake has held months of talks to take Workday private, which at a ~$43bn market value would rank among the largest software buyouts ever attempted and would need additional co-investors plus a debt package no sponsor has raised for a business of this size in years. For holders the read-across is that the market is now pricing profitable, slow-growing enterprise SaaS at levels where private equity thinks it can clear a return -- but the talks are ongoing, sourced rather than announced, and neither side has confirmed a price.",
-      "phases": [
-        {
-          "status": "rumored",
-          "date": "2026-08-13",
-          "headline": "Exclusive-Silver Lake in talks to buy Workday, sources say",
-          "source": "Reuters",
-          "priceReaction": "up as much as 25% before trading was halted for volatility; best single day in 10 years"
-        }
-      ]
-    },
-    {
-      "id": "arx-thoma-bravo-take-private",
-      "ticker": "ARX",
-      "counterparty": "Thoma Bravo",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Thoma Bravo pays $20.25 a share in cash -- more than $4bn of enterprise value and a 49% premium to the August 12 close -- to take specialty insurance marketplace Accelerant private barely a year after its NYSE listing, with Altamont Capital Partners' ~82% of the voting rights already committed in favour. That block makes shareholder approval a formality and moves the risk entirely to insurance-regulatory clearance, which the parties have priced explicitly: a 6% annual ticking fee accrues to holders if those approvals delay the close beyond the first half of 2027.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-08-13",
-          "headline": "Accelerant Enters into Definitive Agreement to be Acquired by Thoma Bravo",
-          "source": "Business Wire",
-          "priceReaction": "+43% premarket to $19.45; 49% premium to the August 12 close"
-        }
-      ]
-    },
-    {
-      "id": "dt-arize-acquisition",
-      "ticker": "DT",
-      "counterparty": "Arize AI",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Dynatrace pays $915m -- roughly $815m in cash from its balance sheet and credit facility, the rest in replacement equity for Arize staff -- to buy the leading independent AI-observability platform and extend its monitoring franchise from infrastructure into how AI models are evaluated and improved in production. It is a bet that observability spend follows workloads into the AI stack rather than being displaced by it, and at a size Dynatrace can fund without new debt; closing is guided to this quarter or early next, subject to regulatory review.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-08-13",
-          "headline": "Dynatrace to Acquire AI Observability Leader Arize",
-          "source": "Business Wire"
         }
       ]
     },
@@ -1054,6 +1004,39 @@
           "headline": "COMSTOCK ANNOUNCES $1.65 BILLION STRATEGIC PARTNERSHIP WITH SOCAR AND $450 MILLION DRILLING JOINT VENTURE WITH JERRY JONES",
           "source": "GlobeNewswire",
           "priceReaction": "CRK soared on the announcement"
+        }
+      ]
+    },
+    {
+      "id": "vrt-utilityinnovation-acquisition",
+      "ticker": "VRT",
+      "counterparty": "UtilityInnovation Group",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Vertiv is paying $1.45bn in cash at closing -- about 13x UtilityInnovation Group's expected 2027 EBITDA -- plus up to $1.15bn more across two earnout tranches tied to EBITDA targets, for microgrid controls, on-site generation orchestration, microgrid-specific switchgear and behind-the-meter power architecture. What it is actually buying is time: Vertiv's customers can build a data center faster than a utility can energise it, so the binding constraint has moved past the cooling and power-distribution kit Vertiv already sells to getting power onto the site at all. That makes this an extension of the existing franchise one step upstream rather than a diversification away from it, and management guides it to be accretive to adjusted EPS in the first year after a close targeted for the fourth quarter of 2026, subject to regulatory approval. The market gave it nothing on the day, which is the tell: most of the earnout, and most of the case, sits in 2027 and beyond.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-09-02",
+          "headline": "Vertiv Announces Agreement to Acquire UtilityInnovation Group to Accelerate Time to Power for AI Data Centers",
+          "source": "PR Newswire",
+          "priceReaction": "VRT slipped less than 1% after the announcement"
+        }
+      ]
+    },
+    {
+      "id": "bol-nexa-resources-acquisition",
+      "ticker": "BOL.ST",
+      "counterparty": "Nexa Resources (Votorantim)",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Boliden is issuing 0.25 of its own shares for each Nexa share to take Votorantim's 65% controlling stake -- about $1.3bn, an implied $15.29 a Nexa share -- and has committed to follow it within 30 days of closing with a cash tender for the remaining 35% at the same exchange ratio applied to a 20-day average price. It is paid in paper, so Swedish holders fund a step-change in scale out of their own dilution: five polymetallic mines including Cerro Lindo and Aripuana plus three zinc smelters including Cajamarquilla lift Boliden's 2027 mined zinc, copper and silver output by an estimated 62%, 14% and 64%. The trade is a Nordic operator with a clean jurisdictional profile taking on Peruvian and Brazilian operating and political risk to get silver and zinc volume it cannot build at home, at a moment when precious-metal by-product credits are doing a lot of the work in base-metal economics. Closing is targeted for the first quarter of 2027, subject to Boliden shareholder and regulatory approvals.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-08-27",
+          "headline": "Boliden to acquire controlling stake in Nexa Resources",
+          "source": "Boliden"
         }
       ]
     }
