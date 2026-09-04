@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T08:00:00Z",
+  "generatedAt": "2026-09-04T08:00:00Z",
   "events": [
     {
       "id": "psky-wbd-acquisition",
@@ -155,6 +155,12 @@
           "date": "2026-08-19",
           "headline": "Aurora Cannabis Forms Special Committee in Response to Curaleaf's Unsolicited Bid",
           "source": "The Globe and Mail"
+        },
+        {
+          "status": "confirmed",
+          "date": "2026-09-02",
+          "headline": "Aurora Cannabis Urges Shareholders to REJECT Curaleaf's Hostile Bid, Warning that it is Inadequate, Undervalues Aurora and Puts Shareholder Value and Future Upside at Risk",
+          "source": "PR Newswire"
         }
       ]
     },
@@ -807,8 +813,8 @@
       "ticker": "NVDA",
       "counterparty": "Hugging Face",
       "type": "acquisition",
-      "currentStatus": "rumored",
-      "whyItMatters": "At $12.9bn this would be Nvidia's largest acquisition ever, nearly double the $6.9bn it paid for Mellanox in 2020, for a company The Information puts at roughly $150m of revenue -- so the price is not being paid for the P&L. What Nvidia would own is the default distribution point for open-source models: anyone pulling weights off Hugging Face still has to run them on someone's silicon, and this puts Nvidia in control of the shelf as well as the chip. It continues the pattern of Nvidia paying to own the layers around its own demand rather than just selling into them, and it is a step up in commitment from the $500m stake at a $7bn valuation that Hugging Face turned down last year. Nothing is signed -- the reporting says terms are agreed but not executed, and the deal could still fall apart.",
+      "currentStatus": "confirmed",
+      "whyItMatters": "It is signed: Nvidia entered a definitive agreement on 2 September to buy Hugging Face for about $12.93bn -- roughly $11.9bn payable to stockholders plus an equity retention pool of up to $1.0bn for employees joining Nvidia -- and confirmed it publicly the following day. That makes it Nvidia's second-largest acquisition, for a company reported to generate around $150m of revenue, so the price is not being paid for the P&L. What Nvidia owns is the default distribution point for open-weight models: whoever pulls weights off the hub still has to run them on someone's silicon, and this puts Nvidia in control of the shelf as well as the chip. The commitment Jensen Huang made alongside it is the tell -- Hugging Face stays open, developers keep their choice of models, frameworks, clouds and inference providers, and Nvidia compute will not be required to build on or deploy through the platform. That is the concession that makes the deal defensible to the developer base and, not incidentally, to the regulators who have to clear it before a close guided to the first half of 2027.",
       "phases": [
         {
           "status": "rumored",
@@ -821,6 +827,12 @@
           "date": "2026-09-02",
           "headline": "Nvidia Nears $14 Billion Hugging Face Deal This Week",
           "source": "Bloomberg"
+        },
+        {
+          "status": "confirmed",
+          "date": "2026-09-03",
+          "headline": "Nvidia confirms it will buy Hugging Face for $12.9 billion",
+          "source": "TechCrunch"
         }
       ]
     },
@@ -1037,6 +1049,102 @@
           "date": "2026-08-27",
           "headline": "Boliden to acquire controlling stake in Nexa Resources",
           "source": "Boliden"
+        }
+      ]
+    },
+    {
+      "id": "soun-liveperson-acquisition",
+      "ticker": "SOUN",
+      "counterparty": "LivePerson (LPSN)",
+      "type": "acquisition",
+      "currentStatus": "approved",
+      "whyItMatters": "LivePerson holders approved the SoundHound takeover on 2 September by roughly 6.34m votes to 134k, clearing the last condition on a deal first struck in April and adjourned once in August, with closing set for 4 September. Each LivePerson share converts into 0.4673 SoundHound Class A shares plus $3.31 in cash, on an implied enterprise value of about $250m once LivePerson's debt is counted -- so the price is small and the burden is not. SoundHound is bolting a digital-messaging and customer-engagement franchise onto its voice and agentic AI stack and underwriting 2027 revenue guidance of at least $350-400m against it, of which at least $100m is expected to come from LivePerson's long-tenured customer base. The vote removed the deal risk; what is left is whether a voice-AI company can stop the churn in the business it has just bought.",
+      "phases": [
+        {
+          "status": "approved",
+          "date": "2026-09-02",
+          "headline": "LivePerson Stockholders Approve Acquisition by SoundHound AI",
+          "source": "PR Newswire"
+        }
+      ]
+    },
+    {
+      "id": "dec-birch-permian-acquisition",
+      "ticker": "DEC",
+      "counterparty": "Birch Permian Holdings",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "At $1.8bn this is the largest acquisition in Diversified Energy's 25-year history, and it changes what the company is rather than how big it is: roughly 68,000 boe/d of net production across about 46,000 net Permian mineral acres and 480 wells, 96% operated and 38% oil, lifting group production around 35% and adjusted EBITDA about 55%. A business built on buying mature, declining Appalachian gas is paying up for oil-weighted Permian volumes and financing it mainly with asset-backed securities, so the leverage question arrives with the barrels. Alongside it Carlyle and Diversified widened their partnership framework from $2bn to as much as $10bn of producing-asset acquisitions, which says this is the template and not a one-off. Closing is guided to the fourth quarter subject to regulatory approvals, with a $50m break fee.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-09-02",
+          "headline": "Diversified Announces Accretive Acquisition of Birch",
+          "source": "GlobeNewswire"
+        }
+      ]
+    },
+    {
+      "id": "dh-advent-take-private",
+      "ticker": "DH",
+      "counterparty": "Advent International",
+      "type": "acquisition",
+      "currentStatus": "rumored",
+      "whyItMatters": "Advent has put a non-binding, all-cash $1.02-a-share indication of interest to Definitive Healthcare's board, covering the Class A stock and the AIDH TopCo interests that Advent and founder Jason Krantz do not already own. The structure is what matters more than the price: the bidder is already the controlling owner, so this is an insider-led take-private of a healthcare commercial-intelligence business at roughly a dollar a share, and the only protection minority holders have is the special committee of independent directors the board has stood up with its own legal and financial advisers. Nothing is agreed -- the indication is dated 1 September and non-binding, and the committee has said only that it will review it and determine the best course of action.",
+      "phases": [
+        {
+          "status": "rumored",
+          "date": "2026-09-02",
+          "headline": "Special Committee of Definitive Healthcare Board Confirms Receipt of Going-Private Proposal from Advent International",
+          "source": "GlobeNewswire"
+        }
+      ]
+    },
+    {
+      "id": "samsung-life-principal-financial-stake",
+      "ticker": "032830.KS",
+      "counterparty": "Principal Financial Group (PFG)",
+      "type": "acquisition",
+      "currentStatus": "rumored",
+      "whyItMatters": "Samsung Life is reported to be negotiating a roughly 15% stake in Principal Financial Group for $3.6-4.4bn, enough to pass Vanguard's just-over-12% holding and make a Korean insurer the largest shareholder in an Iowa-based US retirement and asset-management group. Paired with Samsung Fire & Marine's Canopius buyout it would be the largest cross-border acquisition ever done by a Korean financial company, funded out of the dividends Samsung Electronics is throwing off in the memory upcycle. The catch is what 15% actually buys: influence and an earnings share, not control or consolidation, so the return depends on PFG's own execution and on distribution arrangements that have not been described. Nothing is agreed and the reporting is press-sourced rather than company-confirmed.",
+      "phases": [
+        {
+          "status": "rumored",
+          "date": "2026-09-02",
+          "headline": "Samsung's insurance units seek to acquire Canopius, PFG stakes in $6.6 billion deals",
+          "source": "The Korea Economic Daily"
+        }
+      ]
+    },
+    {
+      "id": "samsung-fire-canopius-buyout",
+      "ticker": "000810.KS",
+      "counterparty": "Canopius",
+      "type": "acquisition",
+      "currentStatus": "rumored",
+      "whyItMatters": "Samsung Fire & Marine already owns about 40% of Lloyd's specialty insurer Canopius and is reported to be negotiating the remaining roughly 60%, at a price press estimates put anywhere from about $1.5bn to $2.2bn and a full buyout near $3bn once the stakes already bought are counted. It turns a minority financial holding into an owned underwriting platform at Lloyd's -- the licence, the syndicate and the international specialty book a Korean domestic insurer cannot build organically -- and it is the general-insurance half of a paired Samsung push overseas that together would be the largest cross-border deal a Korean financial group has done. What holders would be funding is a step change in underwriting and integration risk, paid in cash off a domestic balance sheet. Nothing is signed and the price is press-reported.",
+      "phases": [
+        {
+          "status": "rumored",
+          "date": "2026-09-02",
+          "headline": "Samsung insurers weigh W9tr UK, US dealmaking push",
+          "source": "The Korea Herald"
+        }
+      ]
+    },
+    {
+      "id": "vrtx-crinetics-acquisition",
+      "ticker": "VRTX",
+      "counterparty": "Crinetics Pharmaceuticals",
+      "type": "acquisition",
+      "currentStatus": "closed",
+      "whyItMatters": "Vertex has completed the roughly $10bn, $85-a-share all-cash purchase of Crinetics agreed on 6 July, and with it takes ownership of acromegaly drug Palsonify and a pipeline aimed at endocrine disease. It is the largest acquisition Vertex has made and it buys the thing the company has struggled to generate internally: a commercial franchise outside cystic fibrosis, in a rare-disease category with the same specialist-prescriber economics that made the CF business defensible. Paid entirely in cash, so the balance sheet rather than the share count absorbs it, and the executive team was expanded on closing. With deal risk gone the case reduces to launch execution on a drug in an endocrine market that has had little investor attention next to GLP-1s.",
+      "phases": [
+        {
+          "status": "closed",
+          "date": "2026-09-01",
+          "headline": "Vertex Completes Acquisition of Crinetics Pharmaceuticals and Announces Expansion of Executive Leadership Team",
+          "source": "Vertex Pharmaceuticals"
         }
       ]
     }
