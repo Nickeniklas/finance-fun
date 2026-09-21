@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T09:00:00Z",
+  "generatedAt": "2026-09-21T07:50:00Z",
   "events": [
     {
       "id": "acb-curaleaf-takeover-bid",
@@ -402,6 +402,40 @@
           "date": "2026-09-14",
           "headline": "NextEra, Dominion offer more Virginia bill credits and 1,000 new jobs to win approval for $67 billion merger",
           "source": "Bloomberg"
+        }
+      ]
+    },
+    {
+      "id": "bwin-sequence-dfo-take-private",
+      "ticker": "BWIN",
+      "counterparty": "Sequence Holdings / DFO Management (Michael Dell family office)",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Michael Dell's family office and Sequence Holdings are paying $32.50 a share in cash -- about $4.6bn of equity on top of roughly $3.1bn of net debt, a $7.7bn enterprise value and an 88% premium to Baldwin's unaffected 17 June price -- to take one of the fastest-growing US insurance brokerages private. The timing is the point: the stock had already run 58% in three months and 35% year-to-date, so public holders are being cashed out at the top of that re-rating rather than riding the rest of it, and the 7.5% move on the day says the market reads $32.50 as close to the whole prize. Employee equity rolls into the private vehicle, which keeps the people who generate the commissions in the deal while the public register exits.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-09-14",
+          "headline": "The Baldwin Group to Go Private Through Majority Investment by Sequence Holdings and Dell Family Office",
+          "source": "Business Wire",
+          "priceReaction": "+7.5% to $31.89 on the day"
+        }
+      ]
+    },
+    {
+      "id": "mg-hig-take-private",
+      "ticker": "MG",
+      "counterparty": "H.I.G. Capital",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "H.I.G. is taking the asset-inspection and testing group MISTRAS private at $20.35 a share, an $866m enterprise value including debt -- but at only an 8% premium to the 30-day VWAP and 13% to the 90-day. Almost the whole price is carried by the stock's own 61% run since the end of 2025 rather than by the buyer, which is what makes this a test of whether a board can sell a re-rated company cheaply to a sponsor. With voting and support agreements already locking up about 31% of the register, the 40-day go-shop expiring 27 October is the only realistic route to a higher number, and a deal that clears with an 8% premium sets the reference point for every other industrial mid-cap trading near its own highs.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-09-18",
+          "headline": "MISTRAS Group, Inc. Enters into Definitive Agreement to Be Acquired by H.I.G. Capital for $20.35 Per Share in Cash",
+          "source": "GlobeNewswire",
+          "priceReaction": "+4.6% on the day on roughly 474x average volume"
         }
       ]
     }
