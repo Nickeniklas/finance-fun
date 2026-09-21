@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T07:50:00Z",
+  "generatedAt": "2026-09-21T08:29:23Z",
   "events": [
     {
       "id": "acb-curaleaf-takeover-bid",
@@ -436,6 +436,225 @@
           "headline": "MISTRAS Group, Inc. Enters into Definitive Agreement to Be Acquired by H.I.G. Capital for $20.35 Per Share in Cash",
           "source": "GlobeNewswire",
           "priceReaction": "+4.6% on the day on roughly 474x average volume"
+        }
+      ]
+    },
+    {
+      "id": "psky-wbd-acquisition",
+      "ticker": "PSKY",
+      "counterparty": "WBD",
+      "type": "acquisition",
+      "currentStatus": "approved",
+      "whyItMatters": "Every regulatory condition in the ~$110bn Warner Bros. Discovery merger agreement is satisfied -- 68 jurisdictions cleared, with Mexico last on August 14 -- so what remains is purely a US courtroom problem, and the negotiated way out of it has just closed. California AG Rob Bonta, who leads the 12-state coalition suing to block the deal, cancelled the settlement meeting set for August 24, accusing Paramount of leaking and misrepresenting the previous session and saying he will meet again when the company 'stops playing games'; any settlement, he has said, would need robust structural remedies. That leaves the litigation track: a 12-day antitrust trial starting March 2, 2027, Paramount's demand that the state AGs and the WGA post a $1.88bn bond by September 30 or have the hold dissolved, and the ~$7m-a-day ticking fee it owes WBD holders from that date. The question for holders is no longer whether the deal is permitted but how much the delay costs -- and the cheapest exit from it is off the table for now.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-07-13",
+          "headline": "Coalition of 12 states sues to block Paramount Skydance's Warner Bros. Discovery merger",
+          "source": "Washington Post"
+        },
+        {
+          "status": "confirmed",
+          "date": "2026-07-14",
+          "headline": "Writers Guild of America sues to block Paramount Skydance-Warner Bros. Discovery merger, alleging the deal will suppress writers' wages and cut job opportunities",
+          "source": "Bloomberg"
+        },
+        {
+          "status": "confirmed",
+          "date": "2026-07-20",
+          "headline": "Paramount Skydance's $110B merger with Warner Bros. Discovery paused by judge",
+          "source": "The Washington Post"
+        },
+        {
+          "status": "confirmed",
+          "date": "2026-07-24",
+          "headline": "Paramount Skydance agrees to joint stipulation pausing $111bn Warner Bros. Discovery merger until five days after an antitrust trial or June 1, 2027, whichever is earlier; WGA's preliminary-injunction motion withdrawn as moot",
+          "source": "Variety"
+        },
+        {
+          "status": "confirmed",
+          "date": "2026-07-25",
+          "headline": "Paramount agrees to pay Warner Bros. Discovery shareholders roughly $7 million per day if the merger remains unclosed after September 30, 2026, as part of the litigation-pause stipulation -- a potential ~$1.7bn cost if the pause runs to the June 1, 2027 outside date",
+          "source": "Yahoo Finance"
+        },
+        {
+          "status": "confirmed",
+          "date": "2026-08-04",
+          "headline": "Paramount, Warner Bros. merger challenges set for a 12-day antitrust trial starting March 2, 2027 before US District Judge Araceli Martinez-Olguin in Oakland",
+          "source": "Bloomberg"
+        },
+        {
+          "status": "confirmed",
+          "date": "2026-08-06",
+          "headline": "UK Competition and Markets Authority approves Paramount Skydance Corporation acquisition of Warner Bros. Discovery at Phase 1, taking the deal's clearances to 66 jurisdictions",
+          "source": "Paramount"
+        },
+        {
+          "status": "approved",
+          "date": "2026-08-14",
+          "headline": "Paramount Skydance Satisfies All Regulatory Conditions Under the Merger Agreement to Close Warner Bros. Discovery Acquisition, Securing Clearances in Nearly 70 Countries Worldwide",
+          "source": "Paramount"
+        },
+        {
+          "status": "approved",
+          "date": "2026-08-17",
+          "headline": "Paramount seeks $1.88 billion bond from state AGs to cover costs of WBD merger delay",
+          "source": "CNBC"
+        },
+        {
+          "status": "approved",
+          "date": "2026-08-22",
+          "headline": "Paramount, California AG office reportedly plan to meet Monday to discuss settling WBD lawsuit",
+          "source": "CNBC"
+        },
+        {
+          "status": "approved",
+          "date": "2026-08-24",
+          "headline": "California Attorney General Cancels Paramount Settlement Talks Over $111 Billion Warner Bros. Discovery Deal, Says He'll Meet When They 'Stop Playing Games'",
+          "source": "Variety"
+        },
+        {
+          "status": "approved",
+          "date": "2026-09-17",
+          "headline": "FCC Approves 49.5% Foreign Ownership of Paramount-Warner Bros.",
+          "source": "Variety"
+        },
+        {
+          "status": "approved",
+          "date": "2026-09-17",
+          "headline": "Paramount, California attorney general ordered to meet for merger settlement talks",
+          "source": "Los Angeles Times"
+        },
+        {
+          "status": "approved",
+          "date": "2026-09-20",
+          "headline": "Paramount nears merger settlement, but some key state AGs are not on board yet",
+          "source": "CNN"
+        }
+      ]
+    },
+    {
+      "id": "ole-dcoop-takeover-bid",
+      "ticker": "OLE.MC",
+      "counterparty": "Dcoop",
+      "type": "acquisition",
+      "currentStatus": "abandoned",
+      "whyItMatters": "Spanish agri-food cooperative Dcoop has taken the lead in a multi-bidder auction for Madrid-listed Deoleo, offering about EUR470m (~$545m) for a 57% stake in the world's largest olive-oil bottler, owner of Bertolli and Carbonell, in a combination reported to carry more than EUR2.2bn of turnover. The competition file is the catch: to clear US antitrust Dcoop would have to sell the Bertolli and Carapelli brands, so the winner of the whole would have to break it up immediately. Nothing is agreed -- Italy's Coricelli, Bonifiche Ferraresi and Newlat Food, France's Lesieur (Avril) and Australia's Cobram Estate Olives are all still circling -- but the process is reported to be in its final stages, with a deal possible as early as September.",
+      "phases": [
+        {
+          "status": "rumored",
+          "date": "2026-08-19",
+          "headline": "Spain's Deoleo shares surge as olive oil maker draws takeover interest, with Dcoop leading a EUR470m ($545m) offer for a 57% stake",
+          "source": "CNBC",
+          "priceReaction": "+16% to a one-year high, its biggest daily gain since March 2022"
+        },
+        {
+          "status": "abandoned",
+          "date": "2026-09-15",
+          "headline": "Dcoop da por vencido el plazo de la oferta de compra de Deóleo tras no recibir comunicación de los vendedores",
+          "source": "Forbes España"
+        }
+      ]
+    },
+    {
+      "id": "adports-limad-takeover-bid",
+      "ticker": "ADPORTS.AE",
+      "counterparty": "L'IMAD (via ADQ)",
+      "type": "acquisition",
+      "currentStatus": "approved",
+      "whyItMatters": "Abu Dhabi's sovereign investor L'IMAD is offering Dh6.25 a share in cash -- a 23% premium to the Dh5.10 close, 25% above the one-month VWAP and 31% above the three-month VWAP, valuing AD Ports Group at roughly AED31.8bn ($8.66bn) -- to buy in the ~24.6% that its wholly owned ADQ does not already hold and take the group private. For minority holders it converts a stranded stake in a state-controlled operator into a full cash exit at a premium; for the market it removes the only listed vehicle through which outside investors can own Abu Dhabi's ports, logistics and maritime franchise. The board's appointment of HSBC as financial adviser is the first sign the offer will get a formal independent assessment rather than an automatic wave-through.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-08-17",
+          "headline": "Announcement of Notification to Submit a Voluntary Conditional Cash Offer to Acquire AD Ports Group Shares at Dh6.25 per share, taking L'IMAD's holding through ADQ from 75.42% to up to 100%",
+          "source": "AD Ports Group",
+          "priceReaction": "shares rose by the daily limit; offer is a 23% premium to the Dh5.10 close"
+        },
+        {
+          "status": "confirmed",
+          "date": "2026-08-21",
+          "headline": "AD Ports Group hires HSBC to advise on L'imad takeover bid",
+          "source": "The National"
+        },
+        {
+          "status": "approved",
+          "date": "2026-09-08",
+          "headline": "L'imad clears way for full ownership of AD Ports",
+          "source": "The National"
+        },
+        {
+          "status": "approved",
+          "date": "2026-09-16",
+          "headline": "Abu Dhabi's sovereign investor L'imad to boost its AD Ports stake to 98.5%",
+          "source": "The National"
+        }
+      ]
+    },
+    {
+      "id": "aon-usi-acquisition",
+      "ticker": "AON",
+      "counterparty": "USI Insurance Services (KKR)",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Aon is paying $17bn including debt -- $16.7bn net of roughly $278m of tax attributes -- for the tenth-largest US insurance broker, a business with about $3bn of annual revenue, more than 10,500 staff and close to 200 US offices, and funding all of it with new debt raised across a range of maturities rather than with equity. That is the investment question in one line: a broker still digesting the NFP purchase is levering up again to build what CEO Greg Case calls the premier US middle-market platform, against $395m of targeted annual run-rate net adjusted EBITDA from revenue and cost synergies. Middle-market commercial insurance is where organic growth and client retention hold up best, which is what the price is paying for; on the other side KKR and Caisse de depot exit a position taken private at $4.3bn in 2014 at about 3.4x their capital across the life of the investment. Closing is guided to the fourth quarter, subject to regulatory approvals.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-08-31",
+          "headline": "Aon to Acquire USI to Establish the Premier U.S. Middle Market Platform",
+          "source": "Aon",
+          "priceReaction": "AON and KKR shares flat in the premarket"
+        },
+        {
+          "status": "confirmed",
+          "date": "2026-09-14",
+          "headline": "Aon Raises $13.5 Billion From Bond Sale to Fund USI Takeover",
+          "source": "Bloomberg"
+        }
+      ]
+    },
+    {
+      "id": "cprt-acv-acquisition",
+      "ticker": "CPRT",
+      "counterparty": "ACV Auctions (ACVA)",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Copart is paying $10.50 a share in cash -- about $1.9bn, a 45% premium -- through a tender offer for ACV Auctions, buying its way out of pure salvage and into the digital wholesale market for ordinary used dealer cars, with ACV run as an independent subsidiary and closing targeted by year-end.",
+      "phases": [
+        {
+          "status": "rumored",
+          "date": "2026-09-10",
+          "headline": "Copart Nears $2 Billion Deal to Acquire ACV Auctions, Sources Say",
+          "source": "Bloomberg"
+        },
+        {
+          "status": "confirmed",
+          "date": "2026-09-10",
+          "headline": "Copart to Acquire ACV, Expanding Position Across the Vehicle Remarketing Ecosystem",
+          "source": "Copart"
+        },
+        {
+          "status": "confirmed",
+          "date": "2026-09-17",
+          "headline": "Copart launches tender offer for ACV Auctions at $10.50 per share",
+          "source": "Investing.com"
+        }
+      ]
+    },
+    {
+      "id": "tlx-itm-acquisition",
+      "ticker": "TLX",
+      "counterparty": "ITM Isotope Technologies Munich",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Telix is paying $1.65bn upfront -- about $1.25bn of it in new Telix shares, handing ITM holders 23.7% of the combined company -- plus up to $700m in milestones to own the only globally scaled commercial supplier of lutetium-177, turning its radiopharma pipeline's key input from a bought-in isotope into a captive, profitable production business.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-09-20",
+          "headline": "Telix to Buy Isotope Maker ITM in Deal Worth Up to $2.35 Billion",
+          "source": "Bloomberg"
         }
       ]
     }
