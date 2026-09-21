@@ -1,134 +1,6 @@
 {
-  "generatedAt": "2026-09-04T08:00:00Z",
+  "generatedAt": "2026-09-21T09:00:00Z",
   "events": [
-    {
-      "id": "psky-wbd-acquisition",
-      "ticker": "PSKY",
-      "counterparty": "WBD",
-      "type": "acquisition",
-      "currentStatus": "approved",
-      "whyItMatters": "Every regulatory condition in the ~$110bn Warner Bros. Discovery merger agreement is satisfied -- 68 jurisdictions cleared, with Mexico last on August 14 -- so what remains is purely a US courtroom problem, and the negotiated way out of it has just closed. California AG Rob Bonta, who leads the 12-state coalition suing to block the deal, cancelled the settlement meeting set for August 24, accusing Paramount of leaking and misrepresenting the previous session and saying he will meet again when the company 'stops playing games'; any settlement, he has said, would need robust structural remedies. That leaves the litigation track: a 12-day antitrust trial starting March 2, 2027, Paramount's demand that the state AGs and the WGA post a $1.88bn bond by September 30 or have the hold dissolved, and the ~$7m-a-day ticking fee it owes WBD holders from that date. The question for holders is no longer whether the deal is permitted but how much the delay costs -- and the cheapest exit from it is off the table for now.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-07-13",
-          "headline": "Coalition of 12 states sues to block Paramount Skydance's Warner Bros. Discovery merger",
-          "source": "Washington Post"
-        },
-        {
-          "status": "confirmed",
-          "date": "2026-07-14",
-          "headline": "Writers Guild of America sues to block Paramount Skydance-Warner Bros. Discovery merger, alleging the deal will suppress writers' wages and cut job opportunities",
-          "source": "Bloomberg"
-        },
-        {
-          "status": "confirmed",
-          "date": "2026-07-20",
-          "headline": "Paramount Skydance's $110B merger with Warner Bros. Discovery paused by judge",
-          "source": "The Washington Post"
-        },
-        {
-          "status": "confirmed",
-          "date": "2026-07-24",
-          "headline": "Paramount Skydance agrees to joint stipulation pausing $111bn Warner Bros. Discovery merger until five days after an antitrust trial or June 1, 2027, whichever is earlier; WGA's preliminary-injunction motion withdrawn as moot",
-          "source": "Variety"
-        },
-        {
-          "status": "confirmed",
-          "date": "2026-07-25",
-          "headline": "Paramount agrees to pay Warner Bros. Discovery shareholders roughly $7 million per day if the merger remains unclosed after September 30, 2026, as part of the litigation-pause stipulation -- a potential ~$1.7bn cost if the pause runs to the June 1, 2027 outside date",
-          "source": "Yahoo Finance"
-        },
-        {
-          "status": "confirmed",
-          "date": "2026-08-04",
-          "headline": "Paramount, Warner Bros. merger challenges set for a 12-day antitrust trial starting March 2, 2027 before US District Judge Araceli Martinez-Olguin in Oakland",
-          "source": "Bloomberg"
-        },
-        {
-          "status": "confirmed",
-          "date": "2026-08-06",
-          "headline": "UK Competition and Markets Authority approves Paramount Skydance Corporation acquisition of Warner Bros. Discovery at Phase 1, taking the deal's clearances to 66 jurisdictions",
-          "source": "Paramount"
-        },
-        {
-          "status": "approved",
-          "date": "2026-08-14",
-          "headline": "Paramount Skydance Satisfies All Regulatory Conditions Under the Merger Agreement to Close Warner Bros. Discovery Acquisition, Securing Clearances in Nearly 70 Countries Worldwide",
-          "source": "Paramount"
-        },
-        {
-          "status": "approved",
-          "date": "2026-08-17",
-          "headline": "Paramount seeks $1.88 billion bond from state AGs to cover costs of WBD merger delay",
-          "source": "CNBC"
-        },
-        {
-          "status": "approved",
-          "date": "2026-08-22",
-          "headline": "Paramount, California AG office reportedly plan to meet Monday to discuss settling WBD lawsuit",
-          "source": "CNBC"
-        },
-        {
-          "status": "approved",
-          "date": "2026-08-24",
-          "headline": "California Attorney General Cancels Paramount Settlement Talks Over $111 Billion Warner Bros. Discovery Deal, Says He'll Meet When They 'Stop Playing Games'",
-          "source": "Variety"
-        }
-      ]
-    },
-    {
-      "id": "nvda-openai-datacenter-backstop",
-      "ticker": "NVDA",
-      "counterparty": "OpenAI",
-      "type": "partnership",
-      "currentStatus": "confirmed",
-      "whyItMatters": "The backstop is now firm and sized: Nvidia will provide up to $105bn of credit for the first 4.25GW of the SB Energy-built PORTS-Pike campus in Pike County, Ohio, leased to OpenAI for 20 years, with an option covering a further 3.75GW. That is down from the $250bn covering the whole 10GW project first reported in July, so the balance-sheet exposure is capped at one phase and contingent on the second being taken up. It does not remove the circularity of underwriting your own largest customer -- Nvidia is lending against a campus whose entire compute fit-out it will also supply -- but it converts an open-ended rumoured guarantee into a bounded, disclosed commitment investors can actually underwrite.",
-      "phases": [
-        {
-          "status": "rumored",
-          "date": "2026-07-26",
-          "headline": "Nvidia in talks with OpenAI to guarantee $250 billion financing for data center, WSJ reports",
-          "source": "The Wall Street Journal"
-        },
-        {
-          "status": "rumored",
-          "date": "2026-08-14",
-          "headline": "Nvidia scales back $250 billion OpenAI data center guarantee, WSJ reports",
-          "source": "Reuters"
-        },
-        {
-          "status": "confirmed",
-          "date": "2026-08-17",
-          "headline": "Nvidia backing $105 billion in financing for OpenAI data center in Ohio",
-          "source": "CNBC"
-        }
-      ]
-    },
-    {
-      "id": "wen-trian-takeover-bid",
-      "ticker": "WEN",
-      "counterparty": "Trian Fund Management (with BlueFive Capital, Flynn Group)",
-      "type": "acquisition",
-      "currentStatus": "abandoned",
-      "whyItMatters": "Trian has shelved the take-private it spent August assembling co-investors behind, telling Reuters it has no plans to bid for Wendy's at this time on concerns about the company's trading price, valuation multiples and strategic direction -- and the stock gave back the entire takeover premium, falling more than 14% after hours. Nelson Peltz's roughly 16% interest is not going anywhere and Trian has kept its options open rather than ruling a future bid out, so the overhang persists in a weaker form. What has gone is the floor: after a sixth consecutive quarter of same-store sales declines, Wendy's is back to being valued on its own turnaround rather than on what an insider consortium would pay for it.",
-      "phases": [
-        {
-          "status": "rumored",
-          "date": "2026-08-12",
-          "headline": "Wendy's stock jumps on report of potential takeover bid from Nelson Peltz's Trian Fund Management",
-          "source": "CNBC",
-          "priceReaction": "up as much as 16% intraday, biggest gain since June 25"
-        },
-        {
-          "status": "abandoned",
-          "date": "2026-08-26",
-          "headline": "Exclusive-Trian has no plans to make bid for Wendy's right now, sources say",
-          "source": "Reuters",
-          "priceReaction": "-14% in after-hours trading"
-        }
-      ]
-    },
     {
       "id": "acb-curaleaf-takeover-bid",
       "ticker": "ACB",
@@ -161,282 +33,12 @@
           "date": "2026-09-02",
           "headline": "Aurora Cannabis Urges Shareholders to REJECT Curaleaf's Hostile Bid, Warning that it is Inadequate, Undervalues Aurora and Puts Shareholder Value and Future Upside at Risk",
           "source": "PR Newswire"
-        }
-      ]
-    },
-    {
-      "id": "imxi-westernunion-acquisition",
-      "ticker": "IMXI",
-      "counterparty": "Western Union (WU)",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Western Union's roughly $500m purchase of Intermex has cleared the New York Department of Financial Services, with Western Union giving commitments on remittance services and locations in the state -- but the same disclosure revealed that California's DFPI had, a day earlier, suspended the approval extension it granted on July 31. Intermex shares jumped because the deal has now cleared most of its regulatory path; the open question is no longer whether the acquisition is agreed but whether a single state regulator lets it close.",
-      "phases": [
+        },
         {
           "status": "confirmed",
-          "date": "2026-08-14",
-          "headline": "Western Union and Intermex Provide Update on Pending Acquisition: New York DFS approval granted, while California's DFPI suspends the approval extension issued on July 31",
-          "source": "GlobeNewswire",
-          "priceReaction": "IMXI +23% premarket"
-        }
-      ]
-    },
-    {
-      "id": "spcx-anysphere-acquisition",
-      "ticker": "SPCX",
-      "counterparty": "Anysphere (Cursor)",
-      "type": "acquisition",
-      "currentStatus": "closed",
-      "whyItMatters": "SpaceX has closed the largest acquisition of a private startup on record, issuing 389,289,254 Class A shares -- plus 1,752,426 more for vested RSUs and roughly 29.1m assumed RSUs and 44.4m options -- for Cursor maker Anysphere at a $60bn implied equity value, struck on the seven-day VWAP into closing. It is paid entirely in paper, so existing holders fund an AI coding-tools business out of their own dilution barely six weeks after the Nasdaq listing, and Cursor becomes a wholly owned unit of a new SpaceXAI division. The case now rests on whether an AI software franchise can be run inside a launch and satellite company, because the shares have already been spent.",
-      "phases": [
-        {
-          "status": "closed",
-          "date": "2026-08-14",
-          "headline": "SpaceX completes acquisition of Anysphere in $60 billion all-stock deal",
-          "source": "Space Exploration Technologies Corp. (Form 8-K)"
-        }
-      ]
-    },
-    {
-      "id": "reax-remax-combination",
-      "ticker": "REAX",
-      "counterparty": "RE/MAX Holdings (RMAX)",
-      "type": "acquisition",
-      "currentStatus": "closed",
-      "whyItMatters": "The roughly $880m combination closed on 24 August and Real REMAX Group began trading on Nasdaq as REAX the following morning, putting more than 180,000 agents across 120 countries under one holding company led by Real co-founder Tamir Poleg. RE/MAX holders elected $13.80 a share in cash or 5.152 Real REMAX shares with aggregate cash capped between $60m and $80m, so almost the entire consideration was stock: they now own about 41% of a technology-led brokerage rather than having cashed out of a franchise brand. With the deal-break risk gone, the value of what they received rests entirely on an integration that starts now -- and the board has authorised up to $450m of buybacks to support the shares while it happens.",
-      "phases": [
-        {
-          "status": "approved",
-          "date": "2026-08-14",
-          "headline": "Real and RE/MAX Holdings Securityholders Approve Proposed Combination",
+          "date": "2026-09-14",
+          "headline": "Curaleaf Submits Application to Alberta Securities Commission to Halt Aurora's ATM Program During Pending Offer",
           "source": "PR Newswire"
-        },
-        {
-          "status": "approved",
-          "date": "2026-08-21",
-          "headline": "Real and RE/MAX Holdings Announce Real's Receipt of Court Approval of Proposed Arrangement in Connection with Proposed Combination",
-          "source": "Business Wire"
-        },
-        {
-          "status": "closed",
-          "date": "2026-08-24",
-          "headline": "Real and RE/MAX Complete Merger to Form Global Tech-Enabled Real Estate Platform",
-          "source": "The Globe and Mail",
-          "priceReaction": "REAX opened its first Nasdaq session at $24.11 and traded near $27 by mid-afternoon"
-        }
-      ]
-    },
-    {
-      "id": "corz-polaris-acquisition",
-      "ticker": "CORZ",
-      "counterparty": "Polaris DS LLC",
-      "type": "acquisition",
-      "currentStatus": "closed",
-      "whyItMatters": "Core Scientific paid roughly $444m in cash -- above the ~$421m it signed for in May -- to buy a rival miner's campus outright, and what it actually bought is ~440MW of in-service, grid-connected capacity under existing Oklahoma Gas & Electric service agreements. That is the scarce input in the AI build-out: energised interconnect, not land. It takes the Muskogee campus toward 1.5GW of gross power and continues the conversion of former bitcoin-mining sites in Texas, Georgia, North Carolina and Oklahoma into high-density AI colocation, moving the revenue base off hash-price beta and onto contracted compute leases.",
-      "phases": [
-        {
-          "status": "closed",
-          "date": "2026-08-14",
-          "headline": "Core Scientific Completes Acquisition of Polaris DS, Advancing Muskogee Expansion to 1.5 Gigawatts of Gross Power",
-          "source": "Core Scientific"
-        }
-      ]
-    },
-    {
-      "id": "nvda-sbenergy-investment",
-      "ticker": "NVDA",
-      "counterparty": "SB Energy (SoftBank)",
-      "type": "partnership",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Nvidia is putting $1.5bn of equity into the developer building OpenAI's Ohio campus and, in exchange, locks in sole-supplier status for the compute infrastructure on a site that scales from 4.25GW to 8GW -- plus access to that capacity for its own use. Pairing an equity stake in the landlord with up to $105bn of credit to the project moves Nvidia from chip vendor to part-owner of the power and real estate layer, which is where AI supply is actually constrained: SB Energy and SoftBank plan at least 10GW of new generation, a 9.2GW on-site gas plant costing ~$33bn, and $4.2bn into Ohio grid infrastructure. It also deepens the circular-financing exposure critics are already pricing into the name.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-08-17",
-          "headline": "Nvidia to invest $1.5 billion in SB Energy under OpenAI data center deal",
-          "source": "Reuters"
-        }
-      ]
-    },
-    {
-      "id": "ttmi-epiq-acquisition",
-      "ticker": "TTMI",
-      "counterparty": "Epiq Solutions",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "TTM is paying $1.1bn cash -- funded entirely with new senior secured term loans from JPMorgan, Barclays and Bank of America -- to buy a defence electronics business, taking net leverage to ~2.3x at closing on a company that has spent years de-levering. What it buys is a move up the value chain from printed circuit boards into AI-enabled software-defined radios, RF products and radiation-tolerant space compute, lifting exposure to missile defence, signals intelligence, electronic warfare and space. Management guides to immediate adjusted-EBITDA margin accretion but non-GAAP EPS accretion only in 2028, and the market marked the stock down on announcement: the integration and the debt come first, the earnings later.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-08-17",
-          "headline": "TTM Technologies, Inc. Continues Global Growth Strategy with Planned Acquisition of Epiq Solutions, Enhancing Technologically Differentiated Market Offerings",
-          "source": "GlobeNewswire"
-        }
-      ]
-    },
-    {
-      "id": "baba-lingxi-games-divestiture",
-      "ticker": "BABA",
-      "counterparty": "Trustar Capital",
-      "type": "strategy-shift",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Alibaba has agreed to sell its entire stake in game developer Lingxi Games to Trustar Capital for more than $2bn, roughly double the RMB7-9bn the unit was valued at when the sale was first floated in June. The cash matters less than the signal: management is still pruning non-core consumer assets to concentrate capital and attention on AI and cloud, and gaming -- a business with its own content risk and regulatory history in China -- is now outside the perimeter. It also sets a mark for what buyers will pay for Alibaba's remaining non-core units ahead of earnings.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-08-17",
-          "headline": "Alibaba to sell Lingxi Games in more than $2 billion deal, source says",
-          "source": "Reuters",
-          "priceReaction": "+1.5% premarket"
-        }
-      ]
-    },
-    {
-      "id": "ugi-kkr-takeover-bid",
-      "ticker": "UGI",
-      "counterparty": "KKR",
-      "type": "acquisition",
-      "currentStatus": "rumored",
-      "whyItMatters": "KKR has put an unsolicited ~$9bn proposal to UGI at $42.50 a share, a 21% premium to the $35.09 close before the report, for a group that bundles regulated Pennsylvania gas and electric utilities with midstream infrastructure, AmeriGas propane and European LPG distribution. It is the clearest sign yet that private capital is willing to pay up for regulated power and gas assets on the strength of data-center load growth. Nothing is agreed: the approach is WSJ-sourced, UGI's board has not said whether it will engage, and a rate-regulated utility take-private of this size faces state utility-commission review before anything closes.",
-      "phases": [
-        {
-          "status": "rumored",
-          "date": "2026-08-18",
-          "headline": "KKR makes $9 billion takeover bid for energy distributor UGI, WSJ reports",
-          "source": "Reuters",
-          "priceReaction": "+13%, briefly halted for volatility"
-        }
-      ]
-    },
-    {
-      "id": "mair-ebmpapst-acquisition",
-      "ticker": "MAIR",
-      "counterparty": "ebm-papst",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Madison Air pays $5.4bn of enterprise value ($5.0bn net of future tax savings) for Germany's ebm-papst, a fan and motor-systems maker with ~$2.8bn of expected 2026 revenue and more than 250m fans installed in about 40 countries -- 14.6x forecast 2026 adjusted EBITDA of ~$343m, or 10x including the $160m of run-rate synergies targeted by year three. It roughly doubles the addressable market and buys direct exposure to data-center cooling, but it is funded with cash plus new debt and equity behind UniCredit and Wells Fargo commitments, so a company that listed recently is levering up for a target larger than its own revenue base -- and the shares fell on the news.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-08-18",
-          "headline": "Madison Air to Acquire ebm-papst, Expanding Return on Air Capabilities and Accelerating Durable Growth in Air Quality Solutions",
-          "source": "Madison Air Solutions",
-          "priceReaction": "shares fell on the announcement"
-        }
-      ]
-    },
-    {
-      "id": "weav-francisco-partners-take-private",
-      "ticker": "WEAV",
-      "counterparty": "Francisco Partners",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Francisco Partners takes patient-engagement software maker Weave private for about $650m at $7.40 a share in cash, a 34% premium to the August 17 unaffected close and unanimously approved by the board. The number that matters is the one it is measured against: Weave listed at roughly a $1.5bn valuation less than five years ago, so holders are being cashed out at well under half the IPO mark. It is another sub-scale listed SaaS name concluding that the public market will not fund the AI build-out its 40,000 healthcare practice locations expect; closing is guided to Q4 2026 subject to shareholder and regulatory approval.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-08-18",
-          "headline": "Weave Announces Acquisition by Francisco Partners",
-          "source": "Weave Communications",
-          "priceReaction": "34% premium to the August 17 unaffected close; among the NYSE's top gainers"
-        }
-      ]
-    },
-    {
-      "id": "dte-fiberhost-inea-acquisition",
-      "ticker": "DTE.DE",
-      "counterparty": "Fiberhost and Inea (Macquarie Asset Management)",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Deutsche Telekom buys 100% of Polish open-access fibre operator Fiberhost together with retail broadband and TV provider Inea from Macquarie Asset Management for about EUR1bn of enterprise value, adding a network passing more than 1.4m homes and over 300,000 customers. It converts T-Mobile Polska from a mobile-only operator into a convergent one in a market where fixed-line share has been the structural gap, and it is a rare case of Deutsche Telekom deploying capital into European fixed infrastructure rather than into buybacks. Closing is expected at the end of 2026, subject to Polish competition approval.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-08-17",
-          "headline": "Deutsche Telekom to acquire Fiberhost and Inea from Macquarie Asset Management for c.1 billion EUR, thereby strengthening T-Mobile Polska's position in fixed broadband",
-          "source": "Deutsche Telekom"
-        }
-      ]
-    },
-    {
-      "id": "mrvl-google-tpu-partnership",
-      "ticker": "MRVL",
-      "counterparty": "Google (Alphabet)",
-      "type": "partnership",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Marvell hands Google a warrant over 58.97m shares -- up to $12.2bn at a $206.58 strike, exercisable until August 2033 and worth roughly 7% of the company -- to anchor an expanded custom-silicon agreement signed on July 29 covering AI inference accelerators, storage, network and memory-interface controllers and near-memory compute for the TPU ecosystem. Only about 1.4m of the warrants vest in the first year; the rest unlock in tranches for every $500m of chips Google buys, so the dilution is paid for with volume rather than granted up front. It converts Marvell's most important custom-ASIC relationship into a contractual one with the customer on its own cap table -- and it does so at Broadcom's expense, which fell on the news.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-08-19",
-          "headline": "Google Secures $12.2 Billion Share Purchase Right in Marvell AI Chip Deal",
-          "source": "Bloomberg",
-          "priceReaction": "MRVL +11% premarket; AVGO -3%"
-        }
-      ]
-    },
-    {
-      "id": "ole-dcoop-takeover-bid",
-      "ticker": "OLE.MC",
-      "counterparty": "Dcoop",
-      "type": "acquisition",
-      "currentStatus": "rumored",
-      "whyItMatters": "Spanish agri-food cooperative Dcoop has taken the lead in a multi-bidder auction for Madrid-listed Deoleo, offering about EUR470m (~$545m) for a 57% stake in the world's largest olive-oil bottler, owner of Bertolli and Carbonell, in a combination reported to carry more than EUR2.2bn of turnover. The competition file is the catch: to clear US antitrust Dcoop would have to sell the Bertolli and Carapelli brands, so the winner of the whole would have to break it up immediately. Nothing is agreed -- Italy's Coricelli, Bonifiche Ferraresi and Newlat Food, France's Lesieur (Avril) and Australia's Cobram Estate Olives are all still circling -- but the process is reported to be in its final stages, with a deal possible as early as September.",
-      "phases": [
-        {
-          "status": "rumored",
-          "date": "2026-08-19",
-          "headline": "Spain's Deoleo shares surge as olive oil maker draws takeover interest, with Dcoop leading a EUR470m ($545m) offer for a 57% stake",
-          "source": "CNBC",
-          "priceReaction": "+16% to a one-year high, its biggest daily gain since March 2022"
-        }
-      ]
-    },
-    {
-      "id": "skhynix-buyback-cancellation-2026",
-      "ticker": "000660.KS",
-      "counterparty": null,
-      "type": "capital-allocation",
-      "currentStatus": "confirmed",
-      "whyItMatters": "SK hynix's board has resolved to buy back and cancel 24.07m shares -- about 3.3% of the company, roughly KRW40trn (~$28.6bn) at the pre-vote KRW1,662,000 close -- in the largest treasury-share cancellation in the history of South Korean listed companies, purchasing on-market between August 20 and November 19 and retiring everything it buys. Alongside it management lifted the shareholder-return target from 'within 50%' to 'more than 50%' of cumulative 2025-27 free cash flow, explicitly on the view that the share price understates intrinsic value. Coming weeks after a KRW54trn commitment to two new fabs, it says the HBM upcycle is now generating enough cash to fund the capacity build and a record retirement at the same time -- which only holds if memory pricing does.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-08-19",
-          "headline": "SK hynix Accelerates 40 Trillion won Share Repurchase and Cancellation Program, Pursues Shareholder Return Expansion to 'Over 50% of FCF'",
-          "source": "SK hynix Newsroom"
-        }
-      ]
-    },
-    {
-      "id": "chtr-cox-acquisition",
-      "ticker": "CHTR",
-      "counterparty": "Cox Communications",
-      "type": "acquisition",
-      "currentStatus": "closed",
-      "whyItMatters": "Charter has closed the $34.5bn Cox Communications merger after the California Public Utilities Commission cleared the last regulatory hurdle, and closed the all-stock Liberty Broadband acquisition the same day -- folding Cox's roughly 6m customers into Charter's 31m to create the largest US internet and video provider by subscribers, across 45 states, with the Spectrum lineup rolling into former Cox markets from mid-September. It ends a fifteen-month regulatory process and simplifies Charter's ownership structure in one step, but it also locks in the bet that scale is the answer to broadband subscriber losses: the synergies and the integration risk both now sit on the balance sheet, with no deal-break option left.",
-      "phases": [
-        {
-          "status": "closed",
-          "date": "2026-08-20",
-          "headline": "Charter Communications Closes $34.5 Billion Merger With Cox, Forming New Cable Giant",
-          "source": "Forbes"
-        }
-      ]
-    },
-    {
-      "id": "san-webster-acquisition",
-      "ticker": "SAN",
-      "counterparty": "Webster Financial (WBS)",
-      "type": "acquisition",
-      "currentStatus": "closed",
-      "whyItMatters": "Santander has completed the roughly $12.3bn purchase of Webster Financial announced in February, paying $48.75 in cash plus 2.0548 Santander ADSs per Webster share -- about $75.59, some 16% over Webster's 10-day VWAP and more than 2.0x tangible book. It is the largest US bank deal Santander has done and it changes what Santander US is: a relationship deposit base, a commercial banking franchise and Webster's Healthcare Financial Services platform now sit behind a business that has leaned on auto lending and wholesale funding. Webster leaves the NYSE, so the investment case is now Santander's -- whether a cheaper, stickier funding profile earns back a price paid at twice tangible book.",
-      "phases": [
-        {
-          "status": "closed",
-          "date": "2026-08-20",
-          "headline": "Santander completes acquisition of Webster in the U.S.",
-          "source": "Santander"
         }
       ]
     },
@@ -469,296 +71,6 @@
       ]
     },
     {
-      "id": "mu-research-labs-investment",
-      "ticker": "MU",
-      "counterparty": null,
-      "type": "capital-allocation",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Micron is committing $10bn over the next decade to Micron Research Labs, a Boise-anchored hub for foundational work on memory technologies, memory-compute architectures, packaging and future manufacturing, with construction starting in 2027 and satellite labs plus university partnerships funded alongside it. It is deliberately not product development, and it sits on top of the more than $250bn already committed to US manufacturing and R&D through 2035 -- so this is a memory maker using an AI cash windfall to buy optionality a decade out rather than returning it or adding another fab. The trade-off is explicit: roughly half a quarter's free cash flow a year spent where the payback cannot be modelled.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-08-20",
-          "headline": "Micron Unveils Micron Research Labs, a U.S.-Based Long-Horizon Innovation Hub to Shape the Future of Memory and AI",
-          "source": "Micron Technology",
-          "priceReaction": "shares climbed on the announcement"
-        }
-      ]
-    },
-    {
-      "id": "bmps-bpm-exchange-offer",
-      "ticker": "BMPS.MI",
-      "counterparty": "Banco BPM",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Monte dei Paschi's board has approved an all-share public exchange offer for Banco BPM worth EUR25.3bn at 1.567 new MPS shares per BPM share -- the larger of two simultaneous bids designed to make Siena too big to be swallowed by Intesa Sanpaolo's ~EUR30.5bn offer for MPS itself. Once MPS's proposed extraordinary distribution is counted the offer carries no premium to the 19 August prices, so BPM holders are being asked to swap a standalone franchise for roughly 37.2% of a self-built group rather than for cash. The acceptance period only runs from the first half of December 2026 to the first half of February 2027, which leaves a full quarter in which Intesa can respond and BPM's board can refuse -- and it converts a single-target takeover fight into a three-way contest for the shape of Italian banking.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-08-21",
-          "headline": "Paschi Offers to Buy BPM, Banca Generali for EUR34 Billion",
-          "source": "Bloomberg"
-        }
-      ]
-    },
-    {
-      "id": "bmps-banca-generali-exchange-offer",
-      "ticker": "BMPS.MI",
-      "counterparty": "Banca Generali",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "The smaller leg of Monte dei Paschi's counter-offensive values Banca Generali at EUR8.72bn -- 6.958 new MPS shares apiece, an implied EUR74.284 a share and about a 10% premium, the only premium on the table across the two bids. Crucially the two offers are not conditionally linked, so this one can complete even if the Banco BPM leg fails, which makes it the cheaper insurance policy of the pair. For MPS it buys a fee-earning private-banking book to dilute a rate-sensitive lending balance sheet, and for Generali it would mean losing its asset-gathering distribution arm to a bank it does not control.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-08-21",
-          "headline": "Monte dei Paschi board approves dual exchange offers for Banco Bpm and Banca Generali",
-          "source": "Reuters"
-        }
-      ]
-    },
-    {
-      "id": "avgo-anthropic-chip-financing",
-      "ticker": "AVGO",
-      "counterparty": "Anthropic (with Apollo Global Management, Blackstone)",
-      "type": "partnership",
-      "currentStatus": "rumored",
-      "whyItMatters": "Broadcom is in talks with lenders to raise more than $60bn -- reported as potentially $70-80bn across a senior secured tranche and a roughly $30bn junior tranche -- to fund a special-purpose vehicle that buys Broadcom's own custom AI chips and leases them to Anthropic and potentially OpenAI, with Broadcom itself guaranteeing part of the senior debt. It scales the $35bn platform struck with Apollo and Blackstone in June toward the stated goal of over 20GW of compute for frontier labs by 2028. The significance is where the risk sits: Broadcom would be booking chip revenue against paper its own guarantee supports, which makes the customer's ability to service that debt, not the chip margin, the thing shareholders are underwriting. Talks are ongoing and the structure may change.",
-      "phases": [
-        {
-          "status": "rumored",
-          "date": "2026-08-20",
-          "headline": "Broadcom seeks more than $60 billion in latest AI debt deal, Bloomberg News reports",
-          "source": "Reuters"
-        }
-      ]
-    },
-    {
-      "id": "abus-dutch-auction-tender-2026",
-      "ticker": "ABUS",
-      "counterparty": null,
-      "type": "capital-allocation",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Arbutus intends to buy back up to $230m of stock through a modified Dutch auction at $5.00-$5.75 a share, opening on or about 24 August and expiring 29 September, funded from cash on hand -- essentially recycling the ~$178m non-contingent share of its Moderna patent settlement straight back to holders. At that price band the tender covers roughly a fifth of the company, so it is less a routine buyback than a statement that management values its own clinical pipeline below the cash the litigation produced. Holders who do not tender end up with a materially concentrated stake in a much smaller balance sheet.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-08-21",
-          "headline": "Arbutus Announces Intent to Repurchase Up to US$230 Million of its Common Shares Through Modified \"Dutch Auction\" Tender Offer",
-          "source": "GlobeNewswire",
-          "priceReaction": "+11%"
-        }
-      ]
-    },
-    {
-      "id": "adports-limad-takeover-bid",
-      "ticker": "ADPORTS.AE",
-      "counterparty": "L'IMAD (via ADQ)",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Abu Dhabi's sovereign investor L'IMAD is offering Dh6.25 a share in cash -- a 23% premium to the Dh5.10 close, 25% above the one-month VWAP and 31% above the three-month VWAP, valuing AD Ports Group at roughly AED31.8bn ($8.66bn) -- to buy in the ~24.6% that its wholly owned ADQ does not already hold and take the group private. For minority holders it converts a stranded stake in a state-controlled operator into a full cash exit at a premium; for the market it removes the only listed vehicle through which outside investors can own Abu Dhabi's ports, logistics and maritime franchise. The board's appointment of HSBC as financial adviser is the first sign the offer will get a formal independent assessment rather than an automatic wave-through.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-08-17",
-          "headline": "Announcement of Notification to Submit a Voluntary Conditional Cash Offer to Acquire AD Ports Group Shares at Dh6.25 per share, taking L'IMAD's holding through ADQ from 75.42% to up to 100%",
-          "source": "AD Ports Group",
-          "priceReaction": "shares rose by the daily limit; offer is a 23% premium to the Dh5.10 close"
-        },
-        {
-          "status": "confirmed",
-          "date": "2026-08-21",
-          "headline": "AD Ports Group hires HSBC to advise on L'imad takeover bid",
-          "source": "The National"
-        }
-      ]
-    },
-    {
-      "id": "two-crosscountry-acquisition",
-      "ticker": "TWO",
-      "counterparty": "CrossCountry Mortgage",
-      "type": "acquisition",
-      "currentStatus": "closed",
-      "whyItMatters": "The merger completed on August 25 and Two Harbors left the NYSE, so a listed mortgage REIT is now a privately held subsidiary of retail lender CrossCountry Mortgage. Holders received $12.00 a share in cash plus a $0.20326 stub dividend for shares held at the August 24 record date. The number that matters is the drift in price: CrossCountry opened at $10.80 in March and was pushed to $11.30 in April and $12.00 by the July vote, after a competing approach from United Wholesale Mortgage -- so the auction, not the original bid, is what set the exit value. For CrossCountry it brings mortgage servicing in-house at scale; for former holders the outcome is fixed and cashed.",
-      "phases": [
-        {
-          "status": "approved",
-          "date": "2026-08-21",
-          "headline": "TWO Announces Receipt of Final Regulatory Approval for Merger with CrossCountry Mortgage",
-          "source": "Business Wire"
-        },
-        {
-          "status": "closed",
-          "date": "2026-08-25",
-          "headline": "CrossCountry Mortgage Completes Acquisition of Two Harbors Investment Corp.",
-          "source": "CrossCountry Mortgage"
-        }
-      ]
-    },
-    {
-      "id": "arcad-wsp-takeover-bid",
-      "ticker": "ARCAD.AS",
-      "counterparty": "WSP Global",
-      "type": "acquisition",
-      "currentStatus": "rumored",
-      "whyItMatters": "WSP Global has refused to walk away from Arcadis after two unanimous board rejections, confirming it will keep pursuing a recommended offer at EUR51.50 a share -- roughly EUR5.2bn including debt, raised from an initial EUR48.50 -- and that it will prepare an offer memorandum for the Dutch AFM to review by October 15. Filing a memorandum without a recommendation is the step that turns a rebuffed approach into a live bid, and it would create the largest Western engineering-consultancy combination if it lands. The obstacles are structural rather than financial: Arcadis' boards say the price fundamentally undervalues the company, the Lovinklaan employee foundation that owns about 19% does not intend to support a takeover, and a Dutch foundation-style poison pill limits what a hostile buyer can do without the board.",
-      "phases": [
-        {
-          "status": "rumored",
-          "date": "2026-08-20",
-          "headline": "WSP Global presses ahead with Arcadis takeover plan, seeking board support",
-          "source": "The Globe and Mail"
-        }
-      ]
-    },
-    {
-      "id": "dez-ffg-acquisition",
-      "ticker": "DEZ.DE",
-      "counterparty": "FFG (Flensburger Fahrzeugbau Gesellschaft)",
-      "type": "acquisition",
-      "currentStatus": "approved",
-      "whyItMatters": "Deutz has cleared the last gate on the largest acquisition in its 160-year history: shareholders approved the EUR0.6bn contribution-in-kind capital increase at an extraordinary general meeting with 99.7% in favour, well past the three-quarters majority the resolution needed, and the Bundeskartellamt had already cleared the deal without conditions. That funds the share half of a EUR1.6bn purchase of armoured-vehicle maker FFG, with roughly EUR1.0bn more in secured bank debt. Two things change for holders: a Cologne engine maker becomes a European defence-technology group, and FFG's selling families arrive as a 29.9% anchor shareholder with supervisory-board representation -- a dilution and a control shift accepted in one vote. Closing is expected by end-2026 or in Q1 2027, subject to remaining regulatory approvals.",
-      "phases": [
-        {
-          "status": "approved",
-          "date": "2026-08-24",
-          "headline": "Deutz: Außerordentliche Hauptversammlung stimmt Milliarden-Übernahme von FFG nahezu einstimmig zu",
-          "source": "hartpunkt"
-        }
-      ]
-    },
-    {
-      "id": "ppc-jbs-minority-buyout",
-      "ticker": "PPC",
-      "counterparty": "JBS N.V. (JBS)",
-      "type": "acquisition",
-      "currentStatus": "rumored",
-      "whyItMatters": "JBS wants the ~18% of Pilgrim's Pride it does not already own, offering a fixed 2.086 JBS Class A shares per PPC share -- about $28.50 a share, or roughly $1.2bn, on 18 August closing prices. It is all stock, so the question for minority holders is not a cash exit price but whether they want to swap a US chicken pure-play for the parent's diversified, family-controlled global protein group. The structure is the risk: JBS says it will not proceed without the approval of a special committee of independent directors advised by its own bankers and lawyers, plus a majority of votes cast by unaffiliated PPC holders -- the same two hurdles that killed JBS's last attempt in 2021, when the committee rejected an identical $28.50 and JBS walked. JBS's New York listing last year is what makes the share-for-share version possible this time.",
-      "phases": [
-        {
-          "status": "rumored",
-          "date": "2026-08-18",
-          "headline": "JBS Proposes Acquiring Full Ownership of Pilgrim's Pride",
-          "source": "Food Processing",
-          "priceReaction": "+6.9% premarket"
-        }
-      ]
-    },
-    {
-      "id": "mck-precision-medicine-acquisition",
-      "ticker": "MCK",
-      "counterparty": "Precision Medicine Group",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "McKesson is paying about $2.25bn for a Bethesda-based business that runs a global contract research organisation plus biomarker intelligence, lab services, market access consulting and commercialisation support, and folding it into the Oncology & Multispecialty segment whose revenue rose 33% to $14.2bn in fiscal first-quarter 2026. It is the same trade McKesson has been making for two years -- shedding non-core distribution and buying provider- and pharma-facing services -- but this one takes a wholesaler into the clinical-development chain of the drugmakers it already distributes for, which is a different competitive position rather than a bigger version of the old one. No closing date was given and the deal needs regulatory clearance.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-08-25",
-          "headline": "McKesson Signs Agreement to Acquire Precision Medicine Group, LLC",
-          "source": "McKesson"
-        }
-      ]
-    },
-    {
-      "id": "spcx-starbase-louisiana-capex",
-      "ticker": "SPCX",
-      "counterparty": null,
-      "type": "capital-allocation",
-      "currentStatus": "confirmed",
-      "whyItMatters": "SpaceX is committing as much as $100bn to Starbase Louisiana in Vermilion Parish -- at full build-out five launch complexes with two pads each, a propellant production plant, on-site power generation, vehicle processing and housing for employees and their families -- with construction starting in 2027 and first launch targeted for 2029. Coming eleven days after it issued 389m shares for Anysphere, it is the second enormous commitment in a fortnight and the first that has to be funded in cash rather than paper: a decade of spending against revenue that does not begin until the end of it. Louisiana Economic Development counts 3,000 direct jobs at ~$92,600 average pay and more than 8,100 indirect ones, which is the political case; the investment case is whether Starship cadence ever justifies the largest launch site on Earth.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-08-25",
-          "headline": "SpaceX plans to build the 'biggest launch site on Earth' for $100 billion in Louisiana",
-          "source": "CNN"
-        }
-      ]
-    },
-    {
-      "id": "nyax-ips-group-acquisition",
-      "ticker": "NYAX",
-      "counterparty": "IPS Group (Windjammer Capital)",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Nayax pays $350m in cash, cash-free and debt-free, for San Diego smart-parking provider IPS Group -- its largest acquisition ever, against a target guided to end the year above $90m of revenue with 60% recurring and $21m of adjusted EBITDA. That is 17x EBITDA, which management says falls to about 12x on the more than $8m of annualised synergies it targets by 2029, so the multiple is underwritten by synergies rather than by the asset. What it buys is a shift in revenue quality: meters, enforcement, permitting and payments across more than 250,000 municipal parking spaces in the US, UK, Ireland and Canada is contracted, multi-year public-sector revenue rather than the transaction-volume exposure of vending and fuel. Closing is guided to the fourth quarter, subject to regulatory approval.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-08-25",
-          "headline": "Nayax Enters into Definitive Agreement to Acquire IPS Group, a Leading Smart Parking Technology Provider",
-          "source": "GlobeNewswire",
-          "priceReaction": "among the day's biggest gainers"
-        }
-      ]
-    },
-    {
-      "id": "vctr-first-eagle-acquisition",
-      "ticker": "VCTR",
-      "counterparty": "First Eagle Investments",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Victory Capital pays about $7bn -- $4bn in cash, $2bn in newly issued shares and the assumption of $575m of First Eagle senior secured notes due 2032 -- for a manager that lifts combined assets to roughly $571bn and combined revenue to about $3.2bn, with some $280m of net expense synergies targeted. The part that matters beyond scale is First Eagle's $41bn CLO and alternative-credit platform, which becomes the enlarged group's alternatives arm: the capability a traditional active manager cannot build quickly and the one carrying fee rates that index competition has not compressed. It is debt-and-paper-funded consolidation in a business where flows, not costs, decide the outcome, and closing is guided to the end of the first quarter of 2027 subject to regulatory approvals and client consents.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-08-26",
-          "headline": "Victory Capital Agrees to Buy First Eagle in $7 Billion Deal",
-          "source": "Bloomberg"
-        }
-      ]
-    },
-    {
-      "id": "zab-couchetard-tender-offer",
-      "ticker": "ZAB.WA",
-      "counterparty": "Alimentation Couche-Tard (ATD)",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Couche-Tard has formally opened its PLN 32.00-a-share voluntary tender for all of Zabka, running from 26 August to 25 September and valuing Poland's largest convenience retailer at about PLN 32.6bn (~$8.7bn) -- the largest buyout of a Warsaw-listed company on record. Holders of roughly 57% of the shares, including CVC Capital Partners and Partners Group, have signed hard irrevocables, so the outcome of the offer itself is close to pre-committed and the live question is the tail: at 95% of voting rights Couche-Tard intends a compulsory squeeze-out and a delisting from the Warsaw Stock Exchange. For Couche-Tard it is the largest European push it has made, paid in cash and still needing EU or UOKiK merger clearance, Romanian FDI approval and a Foreign Subsidies Regulation review before a close targeted for December 2026.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-08-26",
-          "headline": "Couche-Tard launches tender offer for all shares of Polish retailer Zabka",
-          "source": "The Globe and Mail"
-        }
-      ]
-    },
-    {
-      "id": "sk-innovation-skiet-merger",
-      "ticker": "096770.KS",
-      "counterparty": "SK IE Technology (361610.KS)",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "SK Innovation will absorb its listed battery-separator subsidiary SK IE Technology, issuing 0.117454 of its own shares per SKIET share and folding a company that listed on the Kospi barely five years ago back onto the parent's balance sheet with effect from 1 January 2027. Management's case is financial stability and risk reduction -- roughly KRW60bn (~$43m) of annual cost savings and a return to EBITDA profitability within two years for a separator business squeezed by slowing EV demand, a delayed North American recovery and Chinese price competition. The market priced the dilution rather than the savings: SK Innovation fell as much as 16% on the day. It is the second intra-group consolidation in a year after the SK On and SK Enmove merger, and it moves SKIET's losses from a minority-held subsidiary into the parent's own accounts.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-08-26",
-          "headline": "SK Innovation to absorb battery separator unit SKIET",
-          "source": "The Korea Herald",
-          "priceReaction": "SK Innovation fell as much as 16%"
-        }
-      ]
-    },
-    {
-      "id": "nvda-poolside-model-factory-license",
-      "ticker": "NVDA",
-      "counterparty": "Poolside",
-      "type": "partnership",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Nvidia is paying $6bn for a non-exclusive licence to Poolside's 'Model Factory' -- the training pipelines, data-curation workflows and RLHF tooling behind its Laguna models -- plus $1bn of equity at a $12bn pre-money valuation, and hiring the 109 engineers who built it. Both sides insist it is neither an acquisition nor an acquihire, and the non-exclusivity leaves Poolside free to license the same stack to others, but the effect is that Nvidia buys the ability to train frontier models in-house for its open-weight Nemotron line rather than only selling the hardware other people train on. That is $7bn spent moving up its own customers' stack, and it extends the pattern of underwriting the labs that buy its GPUs into owning the method they use.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-08-24",
-          "headline": "Nvidia Pays Poolside $6B To License Its Model Factory And 109 Workers",
-          "source": "Forbes"
-        }
-      ]
-    },
-    {
       "id": "dher-uber-takeover-offer",
       "ticker": "DHER.DE",
       "counterparty": "Uber Technologies (UBER)",
@@ -772,39 +84,12 @@
           "headline": "Uber Publishes Offer Document for its Takeover Offer for Delivery Hero",
           "source": "Uber Technologies",
           "priceReaction": "EUR41.50 offer is c.108% above the unaffected 8 May 2026 close"
-        }
-      ]
-    },
-    {
-      "id": "vel-toorak-platform-acquisition",
-      "ticker": "VEL",
-      "counterparty": "Toorak Capital (KKR)",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Velocity pays just $63m in cash for the operating platform, but the transaction it sits inside is about $3.2bn: Toorak's roughly $3bn business-purpose loan portfolio goes to a third-party investment firm, Velocity manages it on that firm's behalf, and forward sale arrangements cover future Toorak originations. For a lender this size that is a change of business model rather than a bolt-on -- it bolts fee-earning asset management and third-party capital onto a balance sheet Velocity has had to fund itself, and it takes over a KKR-backed platform that has funded more than $20bn across some 43,000 loans since 2016. Toorak becomes a subsidiary of Velocity Commercial Capital with founder John Beacham staying on; closing is guided to Q4 2026 subject to regulatory approvals.",
-      "phases": [
+        },
         {
           "status": "confirmed",
-          "date": "2026-08-27",
-          "headline": "Velocity Enters into Agreements to Acquire Toorak's Operating Platform and Manage Toorak's $3 Billion Business-Purpose Loan Portfolio",
-          "source": "Business Wire",
-          "priceReaction": "VEL gained on the announcement"
-        }
-      ]
-    },
-    {
-      "id": "dino-buyback-2026",
-      "ticker": "DINO",
-      "counterparty": null,
-      "type": "capital-allocation",
-      "currentStatus": "confirmed",
-      "whyItMatters": "HF Sinclair's board has replaced a repurchase authorisation with roughly $11m left on it -- effectively exhausted -- with a fresh $1.5bn program, a large fraction of the company's market value pointed at the share count rather than at capacity. The detail that matters is the mechanism: the program explicitly permits privately negotiated repurchases from REH, the vehicle that took a large stake in the 2022 Sinclair Oil combination, so it doubles as a route to retire a concentrated overhang rather than only buying in the open market. It lands days after HF Sinclair took final investment decision with Phillips 66 and Kinder Morgan on the ~$5bn Western Gateway pipeline, so mid-cycle refining cash flow is now being asked to fund a multi-year capex commitment and a buyback of this size at the same time.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-08-26",
-          "headline": "HF Sinclair Board of Directors authorizes a new $1.5 billion share repurchase program, replacing all existing authorizations",
-          "source": "HF Sinclair (Form 8-K)"
+          "date": "2026-09-02",
+          "headline": "Delivery Hero Board Recommends Holders Accept Uber Takeover Bid",
+          "source": "Bloomberg"
         }
       ]
     },
@@ -833,121 +118,6 @@
           "date": "2026-09-03",
           "headline": "Nvidia confirms it will buy Hugging Face for $12.9 billion",
           "source": "TechCrunch"
-        }
-      ]
-    },
-    {
-      "id": "pypl-stripe-advent-takeover-bid",
-      "ticker": "PYPL",
-      "counterparty": "Stripe and Advent International",
-      "type": "acquisition",
-      "currentStatus": "abandoned",
-      "whyItMatters": "The consortium Advent International and Stripe assembled behind a $60.50-a-share, roughly $53bn approach -- backed by about $50bn of committed bank financing and what would have ranked among the largest leveraged buyouts ever done -- has walked away after PayPal's board called the price insufficient and the two sides could not close the gap. The stock had run more than 40% through the quarter on takeover speculation and second-quarter results, which is exactly the problem: the rally lifted PayPal's market value to about $52.6bn and squeezed the premium the bid implied until the arithmetic stopped working for the buyers. Holders are handed back a standalone payments business that has to earn that re-rating on execution, with no bid underneath it.",
-      "phases": [
-        {
-          "status": "abandoned",
-          "date": "2026-08-28",
-          "headline": "PayPal Deal Talks End as Advent, Stripe Group Abandons Acquisition Effort",
-          "source": "Bloomberg",
-          "priceReaction": "-17% premarket; down about 13% on the session"
-        }
-      ]
-    },
-    {
-      "id": "amzn-nvidia-gpu-expansion",
-      "ticker": "AMZN",
-      "counterparty": "NVIDIA (NVDA)",
-      "type": "partnership",
-      "currentStatus": "confirmed",
-      "whyItMatters": "AWS will deploy 2 million additional Nvidia GPUs across its global footprint in 2027-2028, tripling the 1-million commitment the two announced in March and taking the programme to roughly 3 million units, alongside Nvidia Vera CPU infrastructure on AWS, NVLink Fusion extended with custom high-bandwidth memory, and a 100,000-GPU AI factory built for the US government on secure AWS infrastructure. For Nvidia it is a multi-year demand book from a hyperscaler that also designs its own Trainium silicon -- the in-house alternative is not displacing the merchant one. For Amazon it is a capex commitment stretching two years out, made before the agentic and physical-AI workloads it is sized for have proven they can fill it.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-08-26",
-          "headline": "AWS and NVIDIA to Deliver 2 Million Additional GPUs and Next-Generation Infrastructure for Agentic and Physical AI",
-          "source": "NVIDIA Newsroom"
-        }
-      ]
-    },
-    {
-      "id": "spcx-openai-cursor-termination",
-      "ticker": "SPCX",
-      "counterparty": "OpenAI",
-      "type": "partnership",
-      "currentStatus": "abandoned",
-      "whyItMatters": "OpenAI is winding down Cursor's access to its models with a proposed shutoff on 12 November, invoking a change-of-control provision that the SpaceX takeover triggered and citing a lack of confidence that SpaceX will honour its terms of service. The direct revenue exposure looks small -- Cursor CEO Michael Truell puts OpenAI models at about 5% of user traffic, and Anthropic, already a SpaceX partner, says it will add compute to support Claude inside Cursor -- but the timing is what matters: the first major supplier walked barely two weeks after SpaceX closed a $60bn all-stock purchase, and it walked because of who now owns the asset rather than anything the asset did. Holders who funded Cursor out of their own dilution are now carrying the risk that model supply to an AI coding tool is contingent on its owner's standing with the labs that make the models.",
-      "phases": [
-        {
-          "status": "abandoned",
-          "date": "2026-08-29",
-          "headline": "OpenAI to End Partnership With Cursor After SpaceX Acquisition",
-          "source": "Bloomberg"
-        }
-      ]
-    },
-    {
-      "id": "aon-usi-acquisition",
-      "ticker": "AON",
-      "counterparty": "USI Insurance Services (KKR)",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Aon is paying $17bn including debt -- $16.7bn net of roughly $278m of tax attributes -- for the tenth-largest US insurance broker, a business with about $3bn of annual revenue, more than 10,500 staff and close to 200 US offices, and funding all of it with new debt raised across a range of maturities rather than with equity. That is the investment question in one line: a broker still digesting the NFP purchase is levering up again to build what CEO Greg Case calls the premier US middle-market platform, against $395m of targeted annual run-rate net adjusted EBITDA from revenue and cost synergies. Middle-market commercial insurance is where organic growth and client retention hold up best, which is what the price is paying for; on the other side KKR and Caisse de depot exit a position taken private at $4.3bn in 2014 at about 3.4x their capital across the life of the investment. Closing is guided to the fourth quarter, subject to regulatory approvals.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-08-31",
-          "headline": "Aon to Acquire USI to Establish the Premier U.S. Middle Market Platform",
-          "source": "Aon",
-          "priceReaction": "AON and KKR shares flat in the premarket"
-        }
-      ]
-    },
-    {
-      "id": "slb-kelvion-acquisition",
-      "ticker": "SLB",
-      "counterparty": "Kelvion (Apollo Global Management)",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "SLB is paying $3.4bn in cash and assuming about $700m of debt -- $4.1bn in total -- to buy Apollo's thermal-management and heat-exchange business, with Triton's minority stake going the same way. The number that explains the price is the target set alongside it: $4.5-5bn of revenue and $700-800m of adjusted EBITDA from SLB's data-center business in 2028, against cumulative deliveries expected to pass 2GW globally by the end of this year. Cooling is the least glamorous constraint in the AI build-out and one of the few a company with oilfield process-engineering skills can actually address, so this is the largest oilfield services group buying its way off the drilling cycle rather than diversifying at the edges. The catch is duration and proof: closing is guided to the first half of 2027 subject to regulatory approvals, and the earnings case rests on a data-center revenue line that is still mostly a 2028 forecast.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-08-31",
-          "headline": "Apollo Funds Agree to Sell Kelvion, a Global Leader in Cooling Solutions for Data Centers and Diversified Industrials, to SLB for $4.1 billion",
-          "source": "GlobeNewswire"
-        }
-      ]
-    },
-    {
-      "id": "nvda-mediatek-nvlink-investment",
-      "ticker": "NVDA",
-      "counterparty": "MediaTek (2454.TW)",
-      "type": "partnership",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Nvidia is putting $3.5bn into convertible bonds issued by MediaTek, and in exchange MediaTek adopts NVLink Fusion as the interconnect for the custom AI accelerators it designs for cloud providers, hyperscalers and frontier labs -- the same customers commissioning custom silicon precisely so they can buy fewer Nvidia GPUs. That is the point of the trade: rather than fight custom ASICs, Nvidia takes a toll on them by making its rack-scale interconnect, high-bandwidth memory and packaging the substrate those chips plug into, and it does so with a convertible rather than a takeover, so it buys optionality instead of control. The collaboration also covers local AI computing through DGX Spark and software-defined automotive platforms. It extends the pattern of Nvidia paying to own the layers around its own demand, but unlike the OpenAI backstop or the SB Energy stake this one is aimed at the competitive threat rather than at the customer.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-08-31",
-          "headline": "Nvidia investing $3.5 billion in MediaTek for AI chip partnership",
-          "source": "Yahoo Finance",
-          "priceReaction": "NVDA rose on the announcement"
-        }
-      ]
-    },
-    {
-      "id": "lly-merida-acquisition",
-      "ticker": "LLY",
-      "counterparty": "Merida Biosciences",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Lilly is paying up to $2.88bn -- an upfront sum plus milestone-contingent payments -- for a private antibody-engineering platform whose lead candidate MER511 is still early-stage, in Graves' disease and thyroid eye disease. The size is immaterial against Lilly's balance sheet; the pattern is not. This is the third pipeline purchase in four months, after roughly $2.8bn upfront for AtaiBeckley in mental health and nearly $4bn across three vaccine developers in late May, and every one of them buys assets outside the incretin franchise that generates the cash. The question for holders is no longer whether Lilly can convert obesity revenue into deals but whether a run of early-stage, milestone-heavy bets in immunology, neuroscience and vaccines is a cheaper way to diversify away from GLP-1 concentration risk than buying something already de-risked. Closing is guided to the fourth quarter.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-08-31",
-          "headline": "Lilly to buy Merida Biosciences for up to $2.88 billion in autoimmune drug push",
-          "source": "CNBC"
         }
       ]
     },
@@ -1037,27 +207,11 @@
       ]
     },
     {
-      "id": "bol-nexa-resources-acquisition",
-      "ticker": "BOL.ST",
-      "counterparty": "Nexa Resources (Votorantim)",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Boliden is issuing 0.25 of its own shares for each Nexa share to take Votorantim's 65% controlling stake -- about $1.3bn, an implied $15.29 a Nexa share -- and has committed to follow it within 30 days of closing with a cash tender for the remaining 35% at the same exchange ratio applied to a 20-day average price. It is paid in paper, so Swedish holders fund a step-change in scale out of their own dilution: five polymetallic mines including Cerro Lindo and Aripuana plus three zinc smelters including Cajamarquilla lift Boliden's 2027 mined zinc, copper and silver output by an estimated 62%, 14% and 64%. The trade is a Nordic operator with a clean jurisdictional profile taking on Peruvian and Brazilian operating and political risk to get silver and zinc volume it cannot build at home, at a moment when precious-metal by-product credits are doing a lot of the work in base-metal economics. Closing is targeted for the first quarter of 2027, subject to Boliden shareholder and regulatory approvals.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-08-27",
-          "headline": "Boliden to acquire controlling stake in Nexa Resources",
-          "source": "Boliden"
-        }
-      ]
-    },
-    {
       "id": "soun-liveperson-acquisition",
       "ticker": "SOUN",
       "counterparty": "LivePerson (LPSN)",
       "type": "acquisition",
-      "currentStatus": "approved",
+      "currentStatus": "closed",
       "whyItMatters": "LivePerson holders approved the SoundHound takeover on 2 September by roughly 6.34m votes to 134k, clearing the last condition on a deal first struck in April and adjourned once in August, with closing set for 4 September. Each LivePerson share converts into 0.4673 SoundHound Class A shares plus $3.31 in cash, on an implied enterprise value of about $250m once LivePerson's debt is counted -- so the price is small and the burden is not. SoundHound is bolting a digital-messaging and customer-engagement franchise onto its voice and agentic AI stack and underwriting 2027 revenue guidance of at least $350-400m against it, of which at least $100m is expected to come from LivePerson's long-tenured customer base. The vote removed the deal risk; what is left is whether a voice-AI company can stop the churn in the business it has just bought.",
       "phases": [
         {
@@ -1065,6 +219,12 @@
           "date": "2026-09-02",
           "headline": "LivePerson Stockholders Approve Acquisition by SoundHound AI",
           "source": "PR Newswire"
+        },
+        {
+          "status": "closed",
+          "date": "2026-09-04",
+          "headline": "SoundHound AI Completes Acquisition of LivePerson, Creating a World-Leading Omnichannel Conversational AI Powerhouse",
+          "source": "SoundHound AI"
         }
       ]
     },
@@ -1145,6 +305,103 @@
           "date": "2026-09-01",
           "headline": "Vertex Completes Acquisition of Crinetics Pharmaceuticals and Announces Expansion of Executive Leadership Team",
           "source": "Vertex Pharmaceuticals"
+        }
+      ]
+    },
+    {
+      "id": "ge-cpp-acquisition",
+      "ticker": "GE",
+      "counterparty": "Consolidated Precision Products (Warburg Pincus, Berkshire Partners)",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "GE Aerospace is paying $11.75bn -- $7bn of it cash, the rest new debt -- to take its own castings supplier in-house, the largest deal it has done since the 2024 breakup of General Electric. The price is roughly 18x projected 2027 EBITDA including net synergies and about 26x without them, so the return depends on synergies GE has not yet earned. The strategic logic is scarcity rather than growth: castings capacity is the binding constraint on commercial engine output, aftermarket shop visits and defence deliveries alike, and GE has concluded it is cheaper to own the bottleneck than to queue for it. With closing guided to the second half of 2027, shareholders carry the leverage and the integration risk for two years before any of it shows up in earnings.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-09-08",
+          "headline": "GE Aerospace to spend nearly $12 billion to bring key castings supplier in-house",
+          "source": "CNBC"
+        }
+      ]
+    },
+    {
+      "id": "irt-centerspace-merger",
+      "ticker": "IRT",
+      "counterparty": "Centerspace (CSR)",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Independence Realty Trust is issuing 3.8 of its own shares for each Centerspace share -- $60.46 a share, a 14.7% premium and about $2.14bn of equity -- to build an $8.1bn-enterprise-value, 163-community apartment REIT across 17 states. Because it is all stock, IRT holders are not being paid out; they are being diluted into a portfolio that is 58% Sunbelt, 27% Midwest and 15% Mountain West, which is a deliberate dilution of the pure Sunbelt exposure the market has been pricing IRT on. The case rests on G&A and scale synergies plus a Midwest book with less new supply than the Sunbelt; the risk is that investors who bought a Sunbelt operator now own something else. Closing is guided to as early as the end of Q4 2026.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-09-09",
+          "headline": "Independence Realty Trust and Centerspace to Merge in $8.1 Billion Combination",
+          "source": "PR Newswire"
+        }
+      ]
+    },
+    {
+      "id": "qcom-aws-ai-chip-deal",
+      "ticker": "QCOM",
+      "counterparty": "Amazon Web Services (AMZN)",
+      "type": "partnership",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Qualcomm has landed its first Western hyperscaler: AWS may buy up to $60bn of custom AI inference silicon and 1.6Tbps optical interconnect over a ten-year term, against a target of $15bn of data-center revenue by fiscal 2029. The structure is the giveaway -- Qualcomm granted Amazon warrants over ~25m shares at $161.26, of which 3.75m vested on signing and 21.25m vest only as Amazon actually executes purchase orders, so the customer is paid in Qualcomm equity for buying Qualcomm chips. That converts a smartphone-dependent franchise into a credible second source for inference, but $60bn is a ceiling tied to orders that do not yet exist, and the dilution is real whether or not the revenue is.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-09-08",
+          "headline": "Qualcomm Wins First Western Hyperscaler: AWS Deal Pays Up to $60B for Inference Silicon",
+          "source": "Tech Times",
+          "priceReaction": "QCOM +7%"
+        }
+      ]
+    },
+    {
+      "id": "tve-headwater-combination",
+      "ticker": "TVE.TO",
+      "counterparty": "Headwater Exploration (HWX.TO)",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Tamarack Valley is issuing about 237.8m shares for Headwater in a roughly $10bn all-stock combination that creates the largest listed pure-play in Alberta's Clearwater oil fairway, with pro forma production above 80,000 boe/d and Tamarack holders retaining 66.5%. Management is putting a 20% quarterly dividend increase to $0.06 alongside more than $50m a year of run-rate synergies, so the deal is being sold as accretive to per-share cash returns rather than as growth for its own sake. The concentration cuts both ways: a single play, a single basin and Edmonton-bound egress mean the combined company lives or dies on Clearwater well performance and Canadian differentials. Closing is guided to Q4 2026, with a CEO handover to Steve Buytels on 1 January 2027.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-09-08",
+          "headline": "Tamarack Valley Energy and Headwater Exploration Announce $10 Billion Strategic Combination to Create a Premier North American Oil Producer and a New Growth-Oriented Exploration Company",
+          "source": "BOE Report"
+        }
+      ]
+    },
+    {
+      "id": "grab-atome-acquisition",
+      "ticker": "GRAB",
+      "counterparty": "Atome Financial",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Grab is paying $1.49bn cash for 60% of Atome Financial, with the remaining 40% to follow roughly two years after the first close -- its largest push yet into lending and the point at which financial services stops being an add-on to mobility and deliveries. Atome brings buy-now-pay-later, consumer cash loans, cards and digital lending across Singapore, Malaysia, the Philippines, Indonesia and Thailand, and 25m cumulative transacted users to cross-sell into Grab's ecosystem. It also puts unsecured consumer credit risk on a platform whose investors have been valuing it on take-rate and GMV, in five markets where BNPL regulation is still moving. Closing is guided to Q3 2027, subject to regulatory approvals.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-09-15",
+          "headline": "Grab to acquire majority stake in Atome Financial, accelerating growth and profitability of Financial Services segment",
+          "source": "Grab Holdings"
+        }
+      ]
+    },
+    {
+      "id": "nee-dominion-acquisition",
+      "ticker": "NEE",
+      "counterparty": "Dominion Energy (D)",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "NextEra's $67bn all-stock purchase of Dominion is the largest regulated utility transaction ever announced, and the whole of it now turns on Virginia, where lawmakers and the public are arguing that AI data-center load growth will be paid for by households. The sweetener filed on 14 September doubles residential bill credits from two years to four, lifts the Virginia credit pool from $1.78bn to $1.87bn, adds $100m of shareholder money to Dominion's Energy Share hardship programme and promises 1,000 new jobs -- and pointedly funds the extension by redirecting credits that would otherwise have gone to data centers. Every concession is margin given away before closing, so the question for NEE holders is how much more the State Corporation Commission extracts, and whether the deal survives at a price that still earns its cost of capital.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-09-14",
+          "headline": "NextEra, Dominion offer more Virginia bill credits and 1,000 new jobs to win approval for $67 billion merger",
+          "source": "Bloomberg"
         }
       ]
     }
