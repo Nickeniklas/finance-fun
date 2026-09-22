@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T08:29:23Z",
+  "generatedAt": "2026-09-22T08:30:00Z",
   "events": [
     {
       "id": "acb-curaleaf-takeover-bid",
@@ -445,7 +445,7 @@
       "counterparty": "WBD",
       "type": "acquisition",
       "currentStatus": "approved",
-      "whyItMatters": "Every regulatory condition in the ~$110bn Warner Bros. Discovery merger agreement is satisfied -- 68 jurisdictions cleared, with Mexico last on August 14 -- so what remains is purely a US courtroom problem, and the negotiated way out of it has just closed. California AG Rob Bonta, who leads the 12-state coalition suing to block the deal, cancelled the settlement meeting set for August 24, accusing Paramount of leaking and misrepresenting the previous session and saying he will meet again when the company 'stops playing games'; any settlement, he has said, would need robust structural remedies. That leaves the litigation track: a 12-day antitrust trial starting March 2, 2027, Paramount's demand that the state AGs and the WGA post a $1.88bn bond by September 30 or have the hold dissolved, and the ~$7m-a-day ticking fee it owes WBD holders from that date. The question for holders is no longer whether the deal is permitted but how much the delay costs -- and the cheapest exit from it is off the table for now.",
+      "whyItMatters": "Every regulatory condition in the ~$111bn Warner Bros. Discovery merger agreement was already satisfied across 68 jurisdictions, and on 21 September the last obstacle -- the 12-state antitrust suit led by California AG Rob Bonta -- was settled, so the deal can finally close: Zaslav has told staff to expect completion no later than early October and Ellison has said roughly two weeks from the settlement. The price of getting there is a five-year court-enforceable behavioural package rather than divestitures: at least $1.5bn of additional domestic film spend, 30 theatrical releases a year for two years then 32 for three, a $30m payment for every film short of that floor, a $47.5m fund for workers displaced by the merger, no sale or closure of the Paramount or Warner Bros. lots in the Los Angeles area for five years, separate cable-carriage negotiations for each company's channels for five years, and an independent board over CBS News and CNN -- all policed by a five-state enforcement committee. Nothing structural was given up, so the combined asset base arrives intact, but the output floor and the spending commitments are now fixed charges against the synergy case, and Bonta was explicit that settling is not an endorsement. The ~$7m-a-day ticking fee to WBD holders runs until the deal actually closes.",
       "phases": [
         {
           "status": "confirmed",
@@ -530,6 +530,13 @@
           "date": "2026-09-20",
           "headline": "Paramount nears merger settlement, but some key state AGs are not on board yet",
           "source": "CNN"
+        },
+        {
+          "status": "approved",
+          "date": "2026-09-21",
+          "headline": "Paramount Settles State Lawsuits, Clearing Path for Warner Bros. Merger",
+          "source": "Bloomberg",
+          "priceReaction": "WBD +7%, PSKY +5%"
         }
       ]
     },
@@ -655,6 +662,40 @@
           "date": "2026-09-20",
           "headline": "Telix to Buy Isotope Maker ITM in Deal Worth Up to $2.35 Billion",
           "source": "Bloomberg"
+        }
+      ]
+    },
+    {
+      "id": "artg-vista-gold-acquisition",
+      "ticker": "ARTG.V",
+      "counterparty": "Vista Gold (VGZ)",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Artemis Gold, a single-asset producer only a year and a half into commercial production at Blackwater in British Columbia, is paying US$427m entirely in its own shares -- 0.0966 Artemis shares per Vista share, an implied US$2.83, a 29% premium to the 20-day VWAPs to 18 September -- for a company whose only real asset is still a feasibility-stage project. What it buys is Mt Todd in Australia's Northern Territory: 9.1m ounces of measured and indicated plus 1.4m inferred, already permitted for a 50,000 tonne-a-day plant, and a stated path to more than a million ounces of annual production. The trade for existing holders is dilution today against ounces that need a large capex decision and years of build before they earn anything, at a point in the gold cycle when paper is cheap to issue. Closing is targeted for January 2027 and needs 66-2/3% of Vista votes cast plus Australian FIRB clearance and Northern Territory ministerial consent.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-09-21",
+          "headline": "Artemis Gold to Acquire Vista Gold in US$427 Million All-Stock Deal",
+          "source": "The Deep Dive",
+          "priceReaction": "VGZ rallied on the announcement"
+        }
+      ]
+    },
+    {
+      "id": "gnrc-amazon-generator-supply",
+      "ticker": "GNRC",
+      "counterparty": "Amazon (AMZN)",
+      "type": "partnership",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Generac has converted a generator franchise built on suburban home standby into an AI-infrastructure supply contract: $2.4bn of committed deliveries across 2027 and 2028 and up to $8bn over the life of a long-term backup-power agreement for Amazon's data centres, against group revenue of roughly $4bn a year. The structure is the point -- Generac granted Amazon warrants over up to 1,693,745 of its own shares at $200.93, about 308,000 exercisable at signing and the rest vesting as Amazon actually pays for generators, so the customer is compensated in Generac equity for the volume it delivers. The stock re-rated more than 40% on the news. It is the same warrant-linked template Oracle used with Bloom Energy in April, and it makes hyperscaler capex rather than the housing and storm cycle the swing factor in Generac's earnings -- with the concentration risk that comes with a single customer of that size.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-09-16",
+          "headline": "Generac Shares Jump on $8 Billion Amazon Data Center Supply Pact",
+          "source": "Bloomberg",
+          "priceReaction": "GNRC +40% in extended trading, up about 19% the following session"
         }
       ]
     }
