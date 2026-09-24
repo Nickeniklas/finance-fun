@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T08:30:00Z",
+  "generatedAt": "2026-09-24T08:00:00Z",
   "events": [
     {
       "id": "acb-curaleaf-takeover-bid",
@@ -72,51 +72,6 @@
       ]
     },
     {
-      "id": "nvda-huggingface-acquisition",
-      "ticker": "NVDA",
-      "counterparty": "Hugging Face",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "It is signed: Nvidia entered a definitive agreement on 2 September to buy Hugging Face for about $12.93bn -- roughly $11.9bn payable to stockholders plus an equity retention pool of up to $1.0bn for employees joining Nvidia -- and confirmed it publicly the following day. That makes it Nvidia's second-largest acquisition, for a company reported to generate around $150m of revenue, so the price is not being paid for the P&L. What Nvidia owns is the default distribution point for open-weight models: whoever pulls weights off the hub still has to run them on someone's silicon, and this puts Nvidia in control of the shelf as well as the chip. The commitment Jensen Huang made alongside it is the tell -- Hugging Face stays open, developers keep their choice of models, frameworks, clouds and inference providers, and Nvidia compute will not be required to build on or deploy through the platform. That is the concession that makes the deal defensible to the developer base and, not incidentally, to the regulators who have to clear it before a close guided to the first half of 2027.",
-      "phases": [
-        {
-          "status": "rumored",
-          "date": "2026-08-27",
-          "headline": "Nvidia Agrees to Buy Open Source AI Platform Hugging Face For $12.9 Billion",
-          "source": "The Information"
-        },
-        {
-          "status": "rumored",
-          "date": "2026-09-02",
-          "headline": "Nvidia Nears $14 Billion Hugging Face Deal This Week",
-          "source": "Bloomberg"
-        },
-        {
-          "status": "confirmed",
-          "date": "2026-09-03",
-          "headline": "Nvidia confirms it will buy Hugging Face for $12.9 billion",
-          "source": "TechCrunch"
-        }
-      ]
-    },
-    {
-      "id": "vrt-utilityinnovation-acquisition",
-      "ticker": "VRT",
-      "counterparty": "UtilityInnovation Group",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Vertiv is paying $1.45bn in cash at closing -- about 13x UtilityInnovation Group's expected 2027 EBITDA -- plus up to $1.15bn more across two earnout tranches tied to EBITDA targets, for microgrid controls, on-site generation orchestration, microgrid-specific switchgear and behind-the-meter power architecture. What it is actually buying is time: Vertiv's customers can build a data center faster than a utility can energise it, so the binding constraint has moved past the cooling and power-distribution kit Vertiv already sells to getting power onto the site at all. That makes this an extension of the existing franchise one step upstream rather than a diversification away from it, and management guides it to be accretive to adjusted EPS in the first year after a close targeted for the fourth quarter of 2026, subject to regulatory approval. The market gave it nothing on the day, which is the tell: most of the earnout, and most of the case, sits in 2027 and beyond.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-09-02",
-          "headline": "Vertiv Announces Agreement to Acquire UtilityInnovation Group to Accelerate Time to Power for AI Data Centers",
-          "source": "PR Newswire",
-          "priceReaction": "VRT slipped less than 1% after the announcement"
-        }
-      ]
-    },
-    {
       "id": "soun-liveperson-acquisition",
       "ticker": "SOUN",
       "counterparty": "LivePerson (LPSN)",
@@ -135,70 +90,6 @@
           "date": "2026-09-04",
           "headline": "SoundHound AI Completes Acquisition of LivePerson, Creating a World-Leading Omnichannel Conversational AI Powerhouse",
           "source": "SoundHound AI"
-        }
-      ]
-    },
-    {
-      "id": "dec-birch-permian-acquisition",
-      "ticker": "DEC",
-      "counterparty": "Birch Permian Holdings",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "At $1.8bn this is the largest acquisition in Diversified Energy's 25-year history, and it changes what the company is rather than how big it is: roughly 68,000 boe/d of net production across about 46,000 net Permian mineral acres and 480 wells, 96% operated and 38% oil, lifting group production around 35% and adjusted EBITDA about 55%. A business built on buying mature, declining Appalachian gas is paying up for oil-weighted Permian volumes and financing it mainly with asset-backed securities, so the leverage question arrives with the barrels. Alongside it Carlyle and Diversified widened their partnership framework from $2bn to as much as $10bn of producing-asset acquisitions, which says this is the template and not a one-off. Closing is guided to the fourth quarter subject to regulatory approvals, with a $50m break fee.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-09-02",
-          "headline": "Diversified Announces Accretive Acquisition of Birch",
-          "source": "GlobeNewswire"
-        }
-      ]
-    },
-    {
-      "id": "dh-advent-take-private",
-      "ticker": "DH",
-      "counterparty": "Advent International",
-      "type": "acquisition",
-      "currentStatus": "rumored",
-      "whyItMatters": "Advent has put a non-binding, all-cash $1.02-a-share indication of interest to Definitive Healthcare's board, covering the Class A stock and the AIDH TopCo interests that Advent and founder Jason Krantz do not already own. The structure is what matters more than the price: the bidder is already the controlling owner, so this is an insider-led take-private of a healthcare commercial-intelligence business at roughly a dollar a share, and the only protection minority holders have is the special committee of independent directors the board has stood up with its own legal and financial advisers. Nothing is agreed -- the indication is dated 1 September and non-binding, and the committee has said only that it will review it and determine the best course of action.",
-      "phases": [
-        {
-          "status": "rumored",
-          "date": "2026-09-02",
-          "headline": "Special Committee of Definitive Healthcare Board Confirms Receipt of Going-Private Proposal from Advent International",
-          "source": "GlobeNewswire"
-        }
-      ]
-    },
-    {
-      "id": "samsung-life-principal-financial-stake",
-      "ticker": "032830.KS",
-      "counterparty": "Principal Financial Group (PFG)",
-      "type": "acquisition",
-      "currentStatus": "rumored",
-      "whyItMatters": "Samsung Life is reported to be negotiating a roughly 15% stake in Principal Financial Group for $3.6-4.4bn, enough to pass Vanguard's just-over-12% holding and make a Korean insurer the largest shareholder in an Iowa-based US retirement and asset-management group. Paired with Samsung Fire & Marine's Canopius buyout it would be the largest cross-border acquisition ever done by a Korean financial company, funded out of the dividends Samsung Electronics is throwing off in the memory upcycle. The catch is what 15% actually buys: influence and an earnings share, not control or consolidation, so the return depends on PFG's own execution and on distribution arrangements that have not been described. Nothing is agreed and the reporting is press-sourced rather than company-confirmed.",
-      "phases": [
-        {
-          "status": "rumored",
-          "date": "2026-09-02",
-          "headline": "Samsung's insurance units seek to acquire Canopius, PFG stakes in $6.6 billion deals",
-          "source": "The Korea Economic Daily"
-        }
-      ]
-    },
-    {
-      "id": "samsung-fire-canopius-buyout",
-      "ticker": "000810.KS",
-      "counterparty": "Canopius",
-      "type": "acquisition",
-      "currentStatus": "rumored",
-      "whyItMatters": "Samsung Fire & Marine already owns about 40% of Lloyd's specialty insurer Canopius and is reported to be negotiating the remaining roughly 60%, at a price press estimates put anywhere from about $1.5bn to $2.2bn and a full buyout near $3bn once the stakes already bought are counted. It turns a minority financial holding into an owned underwriting platform at Lloyd's -- the licence, the syndicate and the international specialty book a Korean domestic insurer cannot build organically -- and it is the general-insurance half of a paired Samsung push overseas that together would be the largest cross-border deal a Korean financial group has done. What holders would be funding is a step change in underwriting and integration risk, paid in cash off a domestic balance sheet. Nothing is signed and the price is press-reported.",
-      "phases": [
-        {
-          "status": "rumored",
-          "date": "2026-09-02",
-          "headline": "Samsung insurers weigh W9tr UK, US dealmaking push",
-          "source": "The Korea Herald"
         }
       ]
     },
@@ -639,6 +530,28 @@
           "date": "2026-09-22",
           "headline": "Kone-TK Elevator deal faces UK antitrust review",
           "source": "MLex"
+        }
+      ]
+    },
+    {
+      "id": "tech-merckkgaa-acquisition",
+      "ticker": "TECH",
+      "counterparty": "Merck KGaA, Darmstadt, Germany",
+      "type": "acquisition",
+      "currentStatus": "approved",
+      "whyItMatters": "Merck KGaA is buying a US life-science tools and reagents franchise outright for $73 a share in cash, an $11.3bn enterprise value at a 36% premium to Bio-Techne's one-month VWAP, and with the US antitrust waiting period expired and ~78% of shares voted in favour the remaining risk is foreign regulatory clearance rather than price or shareholder consent.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-06-25",
+          "headline": "Germany's Merck to buy Bio-Techne for $73 per share",
+          "source": "Reuters"
+        },
+        {
+          "status": "approved",
+          "date": "2026-09-23",
+          "headline": "Bio-Techne Shareholders Approve Acquisition by Merck KGaA, Darmstadt, Germany",
+          "source": "PR Newswire"
         }
       ]
     }
