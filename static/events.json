@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T08:00:00Z",
+  "generatedAt": "2026-09-25T08:00:00Z",
   "events": [
     {
       "id": "acb-curaleaf-takeover-bid",
@@ -39,6 +39,12 @@
           "date": "2026-09-14",
           "headline": "Curaleaf Submits Application to Alberta Securities Commission to Halt Aurora's ATM Program During Pending Offer",
           "source": "PR Newswire"
+        },
+        {
+          "status": "confirmed",
+          "date": "2026-09-23",
+          "headline": "Aurora Cannabis Files Application with Alberta Securities Commission to Protect Company Shareholders Having Identified Several Deficiencies in Curaleaf's Hostile Bid Disclosure",
+          "source": "PR Newswire"
         }
       ]
     },
@@ -68,28 +74,6 @@
           "date": "2026-09-22",
           "headline": "Uber-Delivery Hero deal enters South Korean merger review",
           "source": "MLex"
-        }
-      ]
-    },
-    {
-      "id": "soun-liveperson-acquisition",
-      "ticker": "SOUN",
-      "counterparty": "LivePerson (LPSN)",
-      "type": "acquisition",
-      "currentStatus": "closed",
-      "whyItMatters": "LivePerson holders approved the SoundHound takeover on 2 September by roughly 6.34m votes to 134k, clearing the last condition on a deal first struck in April and adjourned once in August, with closing set for 4 September. Each LivePerson share converts into 0.4673 SoundHound Class A shares plus $3.31 in cash, on an implied enterprise value of about $250m once LivePerson's debt is counted -- so the price is small and the burden is not. SoundHound is bolting a digital-messaging and customer-engagement franchise onto its voice and agentic AI stack and underwriting 2027 revenue guidance of at least $350-400m against it, of which at least $100m is expected to come from LivePerson's long-tenured customer base. The vote removed the deal risk; what is left is whether a voice-AI company can stop the churn in the business it has just bought.",
-      "phases": [
-        {
-          "status": "approved",
-          "date": "2026-09-02",
-          "headline": "LivePerson Stockholders Approve Acquisition by SoundHound AI",
-          "source": "PR Newswire"
-        },
-        {
-          "status": "closed",
-          "date": "2026-09-04",
-          "headline": "SoundHound AI Completes Acquisition of LivePerson, Creating a World-Leading Omnichannel Conversational AI Powerhouse",
-          "source": "SoundHound AI"
         }
       ]
     },
@@ -187,6 +171,12 @@
           "date": "2026-09-14",
           "headline": "NextEra, Dominion offer more Virginia bill credits and 1,000 new jobs to win approval for $67 billion merger",
           "source": "Bloomberg"
+        },
+        {
+          "status": "confirmed",
+          "date": "2026-09-21",
+          "headline": "'A different deal on the table': AG Jay Jones asks SCC to reset the clock on Dominion-NextEra merger",
+          "source": "Virginia Mercury"
         }
       ]
     },
@@ -322,6 +312,12 @@
           "headline": "Paramount Settles State Lawsuits, Clearing Path for Warner Bros. Merger",
           "source": "Bloomberg",
           "priceReaction": "WBD +7%, PSKY +5%"
+        },
+        {
+          "status": "approved",
+          "date": "2026-09-24",
+          "headline": "Judge Holds Off on Paramount-Warner Bros. Merger Settlement Ruling",
+          "source": "TheWrap"
         }
       ]
     },
@@ -552,6 +548,22 @@
           "date": "2026-09-23",
           "headline": "Bio-Techne Shareholders Approve Acquisition by Merck KGaA, Darmstadt, Germany",
           "source": "PR Newswire"
+        }
+      ]
+    },
+    {
+      "id": "irdm-rocketlab-acquisition",
+      "ticker": "IRDM",
+      "counterparty": "Rocket Lab (RKLB)",
+      "type": "acquisition",
+      "currentStatus": "approved",
+      "whyItMatters": "Iridium holders have voted to fold the L-band satellite network into Rocket Lab for $27 in cash plus collared Rocket Lab stock (a notional $54 a share), so the remaining questions are regulatory timing to a mid-2027 close and how much of the consideration's value rides on Rocket Lab's own share price.",
+      "phases": [
+        {
+          "status": "approved",
+          "date": "2026-09-24",
+          "headline": "Iridium Stockholders Approve Acquisition by Rocket Lab",
+          "source": "GlobeNewswire"
         }
       ]
     }
