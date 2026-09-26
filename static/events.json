@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25T08:00:00Z",
+  "generatedAt": "2026-09-26T08:00:00Z",
   "events": [
     {
       "id": "acb-curaleaf-takeover-bid",
@@ -564,6 +564,57 @@
           "date": "2026-09-24",
           "headline": "Iridium Stockholders Approve Acquisition by Rocket Lab",
           "source": "GlobeNewswire"
+        }
+      ]
+    },
+    {
+      "id": "evk-basf-acquisition",
+      "ticker": "EVK.DE",
+      "counterparty": "BASF (BAS.DE)",
+      "type": "acquisition",
+      "currentStatus": "rumored",
+      "whyItMatters": "A BASF takeover of Evonik would be the biggest consolidation in German chemicals in years, and RAG-Stiftung's roughly 43.8% stake -- not Evonik's board, which says there are no talks -- decides whether it happens.",
+      "phases": [
+        {
+          "status": "rumored",
+          "date": "2026-09-25",
+          "headline": "BASF Made Merger Proposal to German Rival Evonik, FT Reports",
+          "source": "Bloomberg",
+          "priceReaction": "Evonik up as much as 11% intraday, closed +7.2%; BASF down as much as 3.4%"
+        }
+      ]
+    },
+    {
+      "id": "hwg-peel-acquisition",
+      "ticker": "HWG.L",
+      "counterparty": "Peel Holdings (Peel Pepper)",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Harworth's board has stopped resisting and Peel's 187p best-and-final cash offer (a 30% premium to the undisturbed price) will give it majority control within days, capping the upside for remaining holders.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-09-25",
+          "headline": "Harworth backs Peel's £632m best and final takeover offer",
+          "source": "Proactive Investors",
+          "priceReaction": "+4.6%"
+        }
+      ]
+    },
+    {
+      "id": "akam-anthropic-cloud-deal",
+      "ticker": "AKAM",
+      "counterparty": "Anthropic",
+      "type": "partnership",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Akamai's largest contract ever -- $11.6bn over seven years with a $9bn option -- recasts it as an AI-infrastructure name, paid for with about $1.7bn of extra 2026 capex and a warrant for roughly 5% of the company.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-09-24",
+          "headline": "Akamai lands $11.6 billion Anthropic deal, shares soar",
+          "source": "Investing.com",
+          "priceReaction": "+20% after hours"
         }
       ]
     }
