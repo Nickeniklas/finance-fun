@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-26T08:00:00Z",
+  "generatedAt": "2026-09-27T08:00:00Z",
   "events": [
     {
       "id": "acb-curaleaf-takeover-bid",
@@ -615,6 +615,56 @@
           "headline": "Akamai lands $11.6 billion Anthropic deal, shares soar",
           "source": "Investing.com",
           "priceReaction": "+20% after hours"
+        }
+      ]
+    },
+    {
+      "id": "ppli-mgm-acquisition",
+      "ticker": "PPLI",
+      "counterparty": "MGM Resorts International (MGM)",
+      "type": "acquisition",
+      "currentStatus": "rumored",
+      "whyItMatters": "A day after Barry Diller's People Inc. dropped its own $48.30-a-share bid for MGM, the Wall Street Journal reports MGM is weighing a reverse takeover of People -- a way for MGM to buy back the roughly 27% of itself that People owns (worth about $2.5bn against People's ~$2.7bn market value) and pick up the media and Turo stakes almost for free, which is why People's holders, not MGM's, have the most to gain if an offer materialises.",
+      "phases": [
+        {
+          "status": "rumored",
+          "date": "2026-09-24",
+          "headline": "MGM Resorts Is Discussing Making a Bid for People: WSJ",
+          "source": "Bloomberg",
+          "priceReaction": "PPLI +11% to $40.05 the next session"
+        }
+      ]
+    },
+    {
+      "id": "mgm-people-take-private",
+      "ticker": "MGM",
+      "counterparty": "People Inc. (PPLI)",
+      "type": "acquisition",
+      "currentStatus": "abandoned",
+      "whyItMatters": "People Inc. has withdrawn its June proposal to buy the ~73% of MGM Resorts it does not own at $48.30 a share in cash (more than $18bn), citing the debt the deal would have required, which removes the take-private floor under MGM's shares while leaving Diller's 27% stake and his stated openness to 'a strategic transaction' hanging over the register.",
+      "phases": [
+        {
+          "status": "abandoned",
+          "date": "2026-09-24",
+          "headline": "MGM Resorts shares sink 11% after Barry Diller's People Inc. rescinds takeover offer",
+          "source": "CNBC",
+          "priceReaction": "MGM -11%"
+        }
+      ]
+    },
+    {
+      "id": "lea-buyback-2026",
+      "ticker": "LEA",
+      "counterparty": null,
+      "type": "capital-allocation",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Lear has lifted its repurchase authorisation from about $600m remaining to $1.5bn and extended it to the end of 2029 -- roughly 26% of its market capitalisation -- signalling that management sees its own shares as the best use of free cash flow for an auto-seating and e-systems supplier that has already retired about 60% of its share count since 2011.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-09-24",
+          "headline": "Lear Increases Share Repurchase Authorization to $1.5 Billion and Extends Authorization",
+          "source": "Lear Corporation"
         }
       ]
     }
