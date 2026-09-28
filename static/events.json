@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T08:00:00Z",
+  "generatedAt": "2026-09-28T08:00:00Z",
   "events": [
     {
       "id": "acb-curaleaf-takeover-bid",
@@ -665,6 +665,23 @@
           "date": "2026-09-24",
           "headline": "Lear Increases Share Repurchase Authorization to $1.5 Billion and Extends Authorization",
           "source": "Lear Corporation"
+        }
+      ]
+    },
+    {
+      "id": "nst-goldfields-takeover-proposal",
+      "ticker": "NST.AX",
+      "counterparty": "Gold Fields (GFI)",
+      "type": "acquisition",
+      "currentStatus": "rumored",
+      "whyItMatters": "Gold Fields has put a price on Australia's largest gold miner -- 0.3125 Gold Fields shares plus A$7.25 cash per share, about A$38.7bn and a 22% premium to the 11 September close -- and Northern Star's board has unanimously rejected it as opportunistic, mostly paper and heavily conditional. The stock still trading below the implied value after a 10% jump says the market doubts a knockout bid, but with Elliott already pushing for a strategy and board review, Northern Star is now in play: the question is whether Gold Fields sweetens the cash component or a rival emerges.",
+      "phases": [
+        {
+          "status": "rumored",
+          "date": "2026-09-27",
+          "headline": "Australia's Northern Star rejects $27 billion takeover approach from Gold Fields",
+          "source": "Reuters",
+          "priceReaction": "+10.6% to A$24.46 in early Monday trading, below the implied offer value"
         }
       ]
     }
