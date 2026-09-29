@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-28T08:00:00Z",
+  "generatedAt": "2026-09-29T08:00:00Z",
   "events": [
     {
       "id": "acb-curaleaf-takeover-bid",
@@ -78,22 +78,6 @@
       ]
     },
     {
-      "id": "ge-cpp-acquisition",
-      "ticker": "GE",
-      "counterparty": "Consolidated Precision Products (Warburg Pincus, Berkshire Partners)",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "GE Aerospace is paying $11.75bn -- $7bn of it cash, the rest new debt -- to take its own castings supplier in-house, the largest deal it has done since the 2024 breakup of General Electric. The price is roughly 18x projected 2027 EBITDA including net synergies and about 26x without them, so the return depends on synergies GE has not yet earned. The strategic logic is scarcity rather than growth: castings capacity is the binding constraint on commercial engine output, aftermarket shop visits and defence deliveries alike, and GE has concluded it is cheaper to own the bottleneck than to queue for it. With closing guided to the second half of 2027, shareholders carry the leverage and the integration risk for two years before any of it shows up in earnings.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-09-08",
-          "headline": "GE Aerospace to spend nearly $12 billion to bring key castings supplier in-house",
-          "source": "CNBC"
-        }
-      ]
-    },
-    {
       "id": "irt-centerspace-merger",
       "ticker": "IRT",
       "counterparty": "Centerspace (CSR)",
@@ -106,39 +90,6 @@
           "date": "2026-09-09",
           "headline": "Independence Realty Trust and Centerspace to Merge in $8.1 Billion Combination",
           "source": "PR Newswire"
-        }
-      ]
-    },
-    {
-      "id": "qcom-aws-ai-chip-deal",
-      "ticker": "QCOM",
-      "counterparty": "Amazon Web Services (AMZN)",
-      "type": "partnership",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Qualcomm has landed its first Western hyperscaler: AWS may buy up to $60bn of custom AI inference silicon and 1.6Tbps optical interconnect over a ten-year term, against a target of $15bn of data-center revenue by fiscal 2029. The structure is the giveaway -- Qualcomm granted Amazon warrants over ~25m shares at $161.26, of which 3.75m vested on signing and 21.25m vest only as Amazon actually executes purchase orders, so the customer is paid in Qualcomm equity for buying Qualcomm chips. That converts a smartphone-dependent franchise into a credible second source for inference, but $60bn is a ceiling tied to orders that do not yet exist, and the dilution is real whether or not the revenue is.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-09-08",
-          "headline": "Qualcomm Wins First Western Hyperscaler: AWS Deal Pays Up to $60B for Inference Silicon",
-          "source": "Tech Times",
-          "priceReaction": "QCOM +7%"
-        }
-      ]
-    },
-    {
-      "id": "tve-headwater-combination",
-      "ticker": "TVE.TO",
-      "counterparty": "Headwater Exploration (HWX.TO)",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Tamarack Valley is issuing about 237.8m shares for Headwater in a roughly $10bn all-stock combination that creates the largest listed pure-play in Alberta's Clearwater oil fairway, with pro forma production above 80,000 boe/d and Tamarack holders retaining 66.5%. Management is putting a 20% quarterly dividend increase to $0.06 alongside more than $50m a year of run-rate synergies, so the deal is being sold as accretive to per-share cash returns rather than as growth for its own sake. The concentration cuts both ways: a single play, a single basin and Edmonton-bound egress mean the combined company lives or dies on Clearwater well performance and Canadian differentials. Closing is guided to Q4 2026, with a CEO handover to Steve Buytels on 1 January 2027.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-09-08",
-          "headline": "Tamarack Valley Energy and Headwater Exploration Announce $10 Billion Strategic Combination to Create a Premier North American Oil Producer and a New Growth-Oriented Exploration Company",
-          "source": "BOE Report"
         }
       ]
     },
@@ -581,6 +532,13 @@
           "headline": "BASF Made Merger Proposal to German Rival Evonik, FT Reports",
           "source": "Bloomberg",
           "priceReaction": "Evonik up as much as 11% intraday, closed +7.2%; BASF down as much as 3.4%"
+        },
+        {
+          "status": "rumored",
+          "date": "2026-09-28",
+          "headline": "Germany's Evonik rejects BASF's $11.7 billion bid, sources say",
+          "source": "Reuters",
+          "priceReaction": "Evonik +2.4% to EUR19.84; BASF little changed after a 3.6% fall on Friday"
         }
       ]
     },
@@ -682,6 +640,55 @@
           "headline": "Australia's Northern Star rejects $27 billion takeover approach from Gold Fields",
           "source": "Reuters",
           "priceReaction": "+10.6% to A$24.46 in early Monday trading, below the implied offer value"
+        }
+      ]
+    },
+    {
+      "id": "nvda-buyback-2026",
+      "ticker": "NVDA",
+      "counterparty": null,
+      "type": "capital-allocation",
+      "currentStatus": "confirmed",
+      "whyItMatters": "A $150bn top-up -- the largest buyback authorization increase ever -- lifts Nvidia's remaining capacity to $235bn through fiscal 2028, turning AI-driven cash generation into a structural per-share tailwind and signalling management sees more cash than it can deploy into capex and investments.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-09-28",
+          "headline": "Nvidia Boosts Share Buyback Authorization by $150 Billion",
+          "source": "Bloomberg"
+        }
+      ]
+    },
+    {
+      "id": "nio-geely-nio-power-stake",
+      "ticker": "NIO",
+      "counterparty": "Geely Holding Group",
+      "type": "partnership",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Selling 30% of NIO Power to rival Geely for its Yiyi Power swap business plus RMB640m cash sets a ~RMB16bn ($2.4bn) valuation on Nio's costliest infrastructure bet and brings a second major automaker's cars onto its battery-swap network, shifting the network from a Nio-only cash drain toward a shared industry utility.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-09-28",
+          "headline": "Geely To Buy 30% Stake in Rival Nio's Battery-Swapping Unit",
+          "source": "Bloomberg",
+          "priceReaction": "+3%"
+        }
+      ]
+    },
+    {
+      "id": "tte-buyback-dividend-2026",
+      "ticker": "TTE",
+      "counterparty": null,
+      "type": "capital-allocation",
+      "currentStatus": "confirmed",
+      "whyItMatters": "TotalEnergies is lifting Q4 buybacks to $2.5bn (from $1.5bn in Q3) and committing to grow the dividend more than 5% a year through 2030, locking a larger share of $100 oil windfall cash into shareholder returns rather than capex.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-09-28",
+          "headline": "TotalEnergies raises buybacks and pledges higher dividends as oil trades around $100",
+          "source": "Euronews"
         }
       ]
     }
