@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T08:00:00Z",
+  "generatedAt": "2026-09-30T08:00:00Z",
   "events": [
     {
       "id": "acb-curaleaf-takeover-bid",
@@ -90,6 +90,12 @@
           "date": "2026-09-09",
           "headline": "Independence Realty Trust and Centerspace to Merge in $8.1 Billion Combination",
           "source": "PR Newswire"
+        },
+        {
+          "status": "confirmed",
+          "date": "2026-09-29",
+          "headline": "Activist Irenic plans to vote against Independence Realty's purchase of Centerspace",
+          "source": "Seeking Alpha"
         }
       ]
     },
@@ -547,7 +553,7 @@
       "ticker": "HWG.L",
       "counterparty": "Peel Holdings (Peel Pepper)",
       "type": "acquisition",
-      "currentStatus": "confirmed",
+      "currentStatus": "approved",
       "whyItMatters": "Harworth's board has stopped resisting and Peel's 187p best-and-final cash offer (a 30% premium to the undisturbed price) will give it majority control within days, capping the upside for remaining holders.",
       "phases": [
         {
@@ -556,6 +562,12 @@
           "headline": "Harworth backs Peel's £632m best and final takeover offer",
           "source": "Proactive Investors",
           "priceReaction": "+4.6%"
+        },
+        {
+          "status": "approved",
+          "date": "2026-09-29",
+          "headline": "Peel Pepper offer for Harworth Group declared unconditional",
+          "source": "Investing.com"
         }
       ]
     },
@@ -640,6 +652,12 @@
           "headline": "Australia's Northern Star rejects $27 billion takeover approach from Gold Fields",
           "source": "Reuters",
           "priceReaction": "+10.6% to A$24.46 in early Monday trading, below the implied offer value"
+        },
+        {
+          "status": "rumored",
+          "date": "2026-09-29",
+          "headline": "Gold Fields Said to Weigh Sweetening Northern Star Bid With Cash",
+          "source": "Bloomberg"
         }
       ]
     },
@@ -689,6 +707,73 @@
           "date": "2026-09-28",
           "headline": "TotalEnergies raises buybacks and pledges higher dividends as oil trades around $100",
           "source": "Euronews"
+        }
+      ]
+    },
+    {
+      "id": "amd-worldlabs-acquisition",
+      "ticker": "AMD",
+      "counterparty": "World Labs",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "AMD is paying $8.2bn in its own stock -- its second-largest deal after Xilinx -- for Fei-Fei Li's spatial-intelligence model lab, buying model-research talent and a foothold in physical AI and robotics so its chip roadmap is shaped by where frontier models are heading rather than by Nvidia's lead; holders take the dilution, and the payoff depends on retaining a research team that is the whole asset.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-09-28",
+          "headline": "AMD to Buy Fei-Fei Li's World Labs Startup for $8.2 Billion",
+          "source": "Bloomberg",
+          "priceReaction": "+1.4% premarket"
+        }
+      ]
+    },
+    {
+      "id": "smmt-astrazeneca-equity-investment",
+      "ticker": "SMMT",
+      "counterparty": "AstraZeneca (AZN)",
+      "type": "partnership",
+      "currentStatus": "confirmed",
+      "whyItMatters": "AstraZeneca is putting $2bn into Summit at $18.36 a share (about 12% of the common) and pairing its ADCs with ivonescimab, which removes Summit's funding overhang without giving up ivonescimab economics and puts a big-pharma validation -- and a natural future acquirer -- on the PD-1/VEGF bet.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-09-28",
+          "headline": "AstraZeneca Makes $2 Billion Strategic Equity Investment in Summit Therapeutics",
+          "source": "Business Wire",
+          "priceReaction": "+18%"
+        }
+      ]
+    },
+    {
+      "id": "un01-rwe-kkr-acquisition",
+      "ticker": "UN01.DE",
+      "counterparty": "RWE (RWE.DE) / KKR",
+      "type": "acquisition",
+      "currentStatus": "rumored",
+      "whyItMatters": "Berlin is selling about 75% of nationalised gas importer Uniper, and a joint non-binding KKR-RWE bid -- a reversal of RWE's August stance, against Equinor and a Brookfield-CPP consortium -- makes a trade sale over an IPO more likely and would hand Germany's largest utility a big gas and power-plant fleet.",
+      "phases": [
+        {
+          "status": "rumored",
+          "date": "2026-09-28",
+          "headline": "KKR, RWE Submit Joint Bid for Germany's State-Owned Uniper, Sources Say",
+          "source": "Bloomberg"
+        }
+      ]
+    },
+    {
+      "id": "vsvs-rhim-takeover-proposal",
+      "ticker": "VSVS.L",
+      "counterparty": "RHI Magnesita (RHIM.L)",
+      "type": "acquisition",
+      "currentStatus": "rumored",
+      "whyItMatters": "RHI Magnesita's 470p cash plus 0.028 shares proposal (about 549p, a 47% premium, ~£1.37bn) would combine the two biggest listed refractory makers, and with Cevian's 23% stake irrevocably committed if the board recommends, the deal now hinges on the Vesuvius board and a 27 October put-up-or-shut-up deadline.",
+      "phases": [
+        {
+          "status": "rumored",
+          "date": "2026-09-29",
+          "headline": "RHI Magnesita confirms talks for 549p offer for Vesuvius",
+          "source": "Investing.com",
+          "priceReaction": "shares rose"
         }
       ]
     }
