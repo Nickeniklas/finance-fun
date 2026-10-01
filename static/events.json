@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T08:00:00Z",
+  "generatedAt": "2026-10-01T08:00:00Z",
   "events": [
     {
       "id": "acb-curaleaf-takeover-bid",
@@ -275,6 +275,12 @@
           "date": "2026-09-24",
           "headline": "Judge Holds Off on Paramount-Warner Bros. Merger Settlement Ruling",
           "source": "TheWrap"
+        },
+        {
+          "status": "approved",
+          "date": "2026-09-30",
+          "headline": "Judge approves Paramount's settlement with states over Warner buyout, allowing merger to soon close",
+          "source": "Associated Press"
         }
       ]
     },
@@ -774,6 +780,89 @@
           "headline": "RHI Magnesita confirms talks for 549p offer for Vesuvius",
           "source": "Investing.com",
           "priceReaction": "shares rose"
+        }
+      ]
+    },
+    {
+      "id": "lyc-meteoric-acquisition",
+      "ticker": "LYC.AX",
+      "counterparty": "Meteoric Resources (MEI.AX)",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "The largest rare-earths producer outside China is paying about A$968m in its own shares -- 0.0207 Lynas shares per Meteoric share, a 68% premium -- for Caldeira in Brazil, one of the world's largest ionic-clay deposits, lifting Lynas' measured-and-indicated resources by 79% and reserves by about 26%; it buys a second jurisdiction and heavy-rare-earth feed outside Malaysia and Australia, but Lynas holders take dilution today for a project that still needs years of capex, which is why Lynas fell about 5% while Meteoric jumped 50%. Meteoric votes in January 2027 with implementation targeted for March.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-10-01",
+          "headline": "Lynas in $968m deal to acquire Meteoric Resources",
+          "source": "Business News Australia",
+          "priceReaction": "MEI +50% early trade; LYC about -5%"
+        }
+      ]
+    },
+    {
+      "id": "tcl-cpp-sydney-roads-stake-acquisition",
+      "ticker": "TCL.AX",
+      "counterparty": "CPP Investments",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Transurban is spending A$4.5bn of debt-funded cash to buy out CPP Investments' 25% of NorthWestern Roads Group (M7, NorthConnex) and 10.5% of WestConnex, taking it to 75% and 60.5% control of Sydney's core motorway network; more of its cash flow now comes from assets it already runs, with no equity raise and FY27 distributions guided unaffected, but leverage rises and the ACCC must clear a deal that deepens an existing Sydney toll-road near-monopoly before completion in 2027.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-10-01",
+          "headline": "Transurban to buy $4.5 billion of Sydney toll-road stakes from CPP Investments",
+          "source": "Reuters",
+          "priceReaction": "TCL down over 1%"
+        }
+      ]
+    },
+    {
+      "id": "hrl-brakebush-acquisition",
+      "ticker": "HRL",
+      "counterparty": "Brakebush Brothers",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Hormel is paying about $1.055bn in cash and new debt for a family-owned value-added chicken processor with ~$1.2bn of sales, lifting chicken from under 5% to about 13% of its protein mix; it is a bet on the fastest-growing protein, but accretion is not expected until fiscal 2028 and both S&P (to BBB+) and Moody's (to A3) downgraded Hormel because leverage temporarily moves above its 1.5-2.0x target.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-09-30",
+          "headline": "Hormel Foods agrees to acquire Brakebush for $1.06 billion",
+          "source": "The National Provisioner",
+          "priceReaction": "HRL up less than 1% midday"
+        }
+      ]
+    },
+    {
+      "id": "val-transocean-acquisition",
+      "ticker": "VAL",
+      "counterparty": "Transocean (RIG)",
+      "type": "acquisition",
+      "currentStatus": "approved",
+      "whyItMatters": "The US DOJ closed its second-request investigation into Transocean's $5.8bn all-stock purchase of Valaris (15.235 RIG shares per VAL share) without remedies, clearing the biggest hurdle to creating an offshore driller worth about $17bn in enterprise value that will own a large share of the high-spec floater and jackup fleet; with only Brazil left, a Q4 2026 close now looks likely, and the combined fleet gives the new company far more pricing power in deepwater contracting.",
+      "phases": [
+        {
+          "status": "approved",
+          "date": "2026-09-30",
+          "headline": "Transocean, Valaris receive US antitrust approval",
+          "source": "MLex"
+        }
+      ]
+    },
+    {
+      "id": "td-buyback-2026",
+      "ticker": "TD",
+      "counterparty": null,
+      "type": "capital-allocation",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Having just finished a C$7bn repurchase on 25 September, TD intends to buy back up to another C$10bn (up to 61m shares, about 3.7% of the count) by July 2027, subject to OSFI approval -- a sign the bank is still sitting on surplus capital from its Schwab stake sale and US balance-sheet restrictions, and is returning it rather than redeploying it while its US growth is capped.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-09-30",
+          "headline": "TD Bank to buy back up to $10 billion of its shares",
+          "source": "BNN Bloomberg"
         }
       ]
     }
