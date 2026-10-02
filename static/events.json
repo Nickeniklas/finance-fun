@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T08:00:00Z",
+  "generatedAt": "2026-10-02T08:00:00Z",
   "events": [
     {
       "id": "acb-curaleaf-takeover-bid",
@@ -389,6 +389,12 @@
           "status": "confirmed",
           "date": "2026-09-17",
           "headline": "Copart launches tender offer for ACV Auctions at $10.50 per share",
+          "source": "Investing.com"
+        },
+        {
+          "status": "confirmed",
+          "date": "2026-10-01",
+          "headline": "Copart extends tender offer for ACV Auctions to October 7",
           "source": "Investing.com"
         }
       ]
@@ -863,6 +869,64 @@
           "date": "2026-09-30",
           "headline": "TD Bank to buy back up to $10 billion of its shares",
           "source": "BNN Bloomberg"
+        }
+      ]
+    },
+    {
+      "id": "ctva-vylor-spin-off",
+      "ticker": "CTVA",
+      "counterparty": "Vylor (VYLR)",
+      "type": "capital-allocation",
+      "currentStatus": "closed",
+      "whyItMatters": "Corteva is now a pure crop-protection and biologicals company after spinning off its Pioneer seed and genetics business as Vylor, so holders own two separately valued stocks and the conglomerate discount question is settled by the market.",
+      "phases": [
+        {
+          "status": "closed",
+          "date": "2026-10-01",
+          "headline": "Corteva's split is official, Vylor stock closes up on first day of trading",
+          "source": "AgNavigator",
+          "priceReaction": "Vylor opened at $66 and closed its first NYSE session at $67.74, up 2.6%"
+        }
+      ]
+    },
+    {
+      "id": "mat-authentic-brands-takeover-approach",
+      "ticker": "MAT",
+      "counterparty": "Authentic Brands Group",
+      "type": "acquisition",
+      "currentStatus": "rumored",
+      "whyItMatters": "A brand-licensing buyer valuing Mattel at $20+ a share (about $6bn, a 58%+ premium) would turn Barbie and Hot Wheels into licensed IP rather than a manufacturing business, and it lands the day a new CEO takes over with no formal sale process.",
+      "phases": [
+        {
+          "status": "rumored",
+          "date": "2026-10-01",
+          "headline": "Mattel attracts takeover interest from Authentic Brands Group, source says",
+          "source": "Reuters",
+          "priceReaction": "+23% on Thursday"
+        }
+      ]
+    },
+    {
+      "id": "nu-monzo-acquisition",
+      "ticker": "NU",
+      "counterparty": "Monzo",
+      "type": "acquisition",
+      "currentStatus": "abandoned",
+      "whyItMatters": "A GBP8-10bn purchase of Monzo would have been Nubank's first big move outside Latin America and a licensed route into the UK and EU; the market hated it, and Nubank's denial removes the dilution overhang.",
+      "phases": [
+        {
+          "status": "rumored",
+          "date": "2026-09-26",
+          "headline": "Nubank Said in Talks to Buy Monzo for Up to £10 Billion",
+          "source": "Bloomberg",
+          "priceReaction": "NU fell about 8% on Monday morning"
+        },
+        {
+          "status": "abandoned",
+          "date": "2026-09-30",
+          "headline": "Brazil's Nubank says it is not pursuing deal with Monzo",
+          "source": "Reuters",
+          "priceReaction": "+6% after hours"
         }
       ]
     }
