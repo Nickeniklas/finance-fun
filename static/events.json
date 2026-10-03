@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T08:00:00Z",
+  "generatedAt": "2026-10-03T08:00:00Z",
   "events": [
     {
       "id": "acb-curaleaf-takeover-bid",
@@ -927,6 +927,56 @@
           "headline": "Brazil's Nubank says it is not pursuing deal with Monzo",
           "source": "Reuters",
           "priceReaction": "+6% after hours"
+        }
+      ]
+    },
+    {
+      "id": "syna-onsemi-acquisition",
+      "ticker": "SYNA",
+      "counterparty": "ON",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "An unnamed rival bid forced onsemi to swap its sunken all-stock offer for $123 a share in cash, about $5.7bn, handing Synaptics holders price certainty and leaving onsemi to fund the deal from its balance sheet rather than its depressed shares.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-10-01",
+          "headline": "onsemi and Synaptics Announce Revised Merger Agreement",
+          "source": "onsemi",
+          "priceReaction": "SYNA +16% after hours; ON +6.9% after hours"
+        }
+      ]
+    },
+    {
+      "id": "baer-buyback-2026",
+      "ticker": "BAER",
+      "counterparty": null,
+      "type": "capital-allocation",
+      "currentStatus": "confirmed",
+      "whyItMatters": "FINMA closing its Signa probe and halving Julius Baer's extra capital requirement frees surplus capital for a CHF600m buyback within a year, turning a two-year regulatory overhang into a return-of-capital story.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-10-02",
+          "headline": "Julius Baer to buy back up to CHF600 mln in shares after regulatory scrutiny",
+          "source": "Reuters",
+          "priceReaction": "+2.9%"
+        }
+      ]
+    },
+    {
+      "id": "bns-buyback-2026",
+      "ticker": "BNS",
+      "counterparty": null,
+      "type": "capital-allocation",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Scotiabank is lifting its buyback cap to 40 million shares from 15 million, about 3.25% of its stock, by April 2027 -- signalling excess capital as it follows TD in returning cash rather than expanding.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-10-02",
+          "headline": "Scotiabank Amends Normal Course Issuer Bid to Repurchase Up to 40 Million of its Common Shares",
+          "source": "Scotiabank"
         }
       ]
     }
