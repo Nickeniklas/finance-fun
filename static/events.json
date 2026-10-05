@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-04T08:00:00Z",
+  "generatedAt": "2026-10-05T08:00:00Z",
   "events": [
     {
       "id": "acb-curaleaf-takeover-bid",
@@ -134,23 +134,6 @@
           "date": "2026-09-21",
           "headline": "'A different deal on the table': AG Jay Jones asks SCC to reset the clock on Dominion-NextEra merger",
           "source": "Virginia Mercury"
-        }
-      ]
-    },
-    {
-      "id": "bwin-sequence-dfo-take-private",
-      "ticker": "BWIN",
-      "counterparty": "Sequence Holdings / DFO Management (Michael Dell family office)",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Michael Dell's family office and Sequence Holdings are paying $32.50 a share in cash -- about $4.6bn of equity on top of roughly $3.1bn of net debt, a $7.7bn enterprise value and an 88% premium to Baldwin's unaffected 17 June price -- to take one of the fastest-growing US insurance brokerages private. The timing is the point: the stock had already run 58% in three months and 35% year-to-date, so public holders are being cashed out at the top of that re-rating rather than riding the rest of it, and the 7.5% move on the day says the market reads $32.50 as close to the whole prize. Employee equity rolls into the private vehicle, which keeps the people who generate the commissions in the deal while the public register exits.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-09-14",
-          "headline": "The Baldwin Group to Go Private Through Majority Investment by Sequence Holdings and Dell Family Office",
-          "source": "Business Wire",
-          "priceReaction": "+7.5% to $31.89 on the day"
         }
       ]
     },
@@ -339,29 +322,6 @@
           "date": "2026-09-16",
           "headline": "Abu Dhabi's sovereign investor L'imad to boost its AD Ports stake to 98.5%",
           "source": "The National"
-        }
-      ]
-    },
-    {
-      "id": "aon-usi-acquisition",
-      "ticker": "AON",
-      "counterparty": "USI Insurance Services (KKR)",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Aon is paying $17bn including debt -- $16.7bn net of roughly $278m of tax attributes -- for the tenth-largest US insurance broker, a business with about $3bn of annual revenue, more than 10,500 staff and close to 200 US offices, and funding all of it with new debt raised across a range of maturities rather than with equity. That is the investment question in one line: a broker still digesting the NFP purchase is levering up again to build what CEO Greg Case calls the premier US middle-market platform, against $395m of targeted annual run-rate net adjusted EBITDA from revenue and cost synergies. Middle-market commercial insurance is where organic growth and client retention hold up best, which is what the price is paying for; on the other side KKR and Caisse de depot exit a position taken private at $4.3bn in 2014 at about 3.4x their capital across the life of the investment. Closing is guided to the fourth quarter, subject to regulatory approvals.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-08-31",
-          "headline": "Aon to Acquire USI to Establish the Premier U.S. Middle Market Platform",
-          "source": "Aon",
-          "priceReaction": "AON and KKR shares flat in the premarket"
-        },
-        {
-          "status": "confirmed",
-          "date": "2026-09-14",
-          "headline": "Aon Raises $13.5 Billion From Bond Sale to Fund USI Takeover",
-          "source": "Bloomberg"
         }
       ]
     },
@@ -977,6 +937,77 @@
           "date": "2026-10-02",
           "headline": "Scotiabank Amends Normal Course Issuer Bid to Repurchase Up to 40 Million of its Common Shares",
           "source": "Scotiabank"
+        }
+      ]
+    },
+    {
+      "id": "su-ptc-acquisition",
+      "ticker": "SU.PA",
+      "counterparty": "PTC",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Schneider Electric is paying $205 a share in cash -- about $22.6bn of equity, a $23.7bn enterprise value and a 42% premium -- for PTC's CAD, PLM and industrial-IoT software, its largest deal ever, funded with EUR5-6bn of new shares and EUR16-17bn of new debt. That turns an electrical-equipment group into a bet that it can join product design and engineering data to the AVEVA operations software it already owns; the cost is a heavily levered balance sheet and shareholder dilution for a deal that does not close until Q3 2027.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-10-05",
+          "headline": "Schneider Electric to Acquire PTC for More Than $20 Billion",
+          "source": "Bloomberg",
+          "priceReaction": "PTC +17% in overnight trading"
+        }
+      ]
+    },
+    {
+      "id": "bt-talktalk-acquisition",
+      "ticker": "BT-A.L",
+      "counterparty": "TalkTalk (consumer business and PlatformX Communications)",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "BT is buying TalkTalk's consumer and PXC wholesale businesses out of administration on a debt-free basis, after the government stepped in under Enterprise Act powers. BT takes on 2.5m broadband customers and 900 staff at an estimated GBP400m hit from fees, working capital, a GBP60m trading loss and GBP100m of uncollected Openreach revenue. BT's retail share of UK broadband goes up, but the CMA reports on competition by 19 October and the Culture Secretary then rules on the public interest, so the businesses stay separate until then; TalkTalk's shareholders are wiped out.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-10-05",
+          "headline": "BT Buys TalkTalk to Save UK Broadband Provider From Collapse",
+          "source": "Bloomberg"
+        }
+      ]
+    },
+    {
+      "id": "akza-nippon-paint-sea-divestiture",
+      "ticker": "AKZA.AS",
+      "counterparty": "Nippon Paint (4612.T)",
+      "type": "divestiture",
+      "currentStatus": "confirmed",
+      "whyItMatters": "AkzoNobel is selling its Southeast Asian and Australian decorative paints business to Nippon Paint for $1.35bn, about $1bn of net cash after tax and minority payouts. That ends its review of the Asian decorative portfolio and shrinks the group ahead of the Axalta merger, so the investment case now rests almost entirely on getting that merger done.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-10-05",
+          "headline": "AkzoNobel to sell Southeast Asia business to Nippon Paint for $1.35 billion",
+          "source": "Business Standard"
+        }
+      ]
+    },
+    {
+      "id": "isp-bmps-takeover-offer",
+      "ticker": "ISP.MI",
+      "counterparty": "Banca Monte dei Paschi di Siena (BMPS.MI)",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Intesa Sanpaolo has raised its cash-and-share offer for Monte dei Paschi to 1.6 new Intesa shares plus EUR1.25 cash per share, about EUR800m more than before, but pays the extra only if MPS holders vote down MPS's own all-share bids for Banco BPM and Banca Generali on 29 October; if either passes, Intesa can walk away. With Delfin committing its 17.6% stake, Intesa is now close to forming the eurozone's second-largest bank by market value, and the 29 October vote decides whether Italian banking consolidates around Intesa or around MPS.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-10-03",
+          "headline": "Italy's Intesa raises MPS takeover offer price and warns it could drop bid",
+          "source": "Reuters"
+        },
+        {
+          "status": "confirmed",
+          "date": "2026-10-04",
+          "headline": "Intesa Says Its Paschi Bid Backed by Top Shareholder Delfin",
+          "source": "Bloomberg"
         }
       ]
     }
