@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T08:00:00Z",
+  "generatedAt": "2026-10-06T08:00:00Z",
   "events": [
     {
       "id": "acb-curaleaf-takeover-bid",
@@ -96,22 +96,6 @@
           "date": "2026-09-29",
           "headline": "Activist Irenic plans to vote against Independence Realty's purchase of Centerspace",
           "source": "Seeking Alpha"
-        }
-      ]
-    },
-    {
-      "id": "grab-atome-acquisition",
-      "ticker": "GRAB",
-      "counterparty": "Atome Financial",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Grab is paying $1.49bn cash for 60% of Atome Financial, with the remaining 40% to follow roughly two years after the first close -- its largest push yet into lending and the point at which financial services stops being an add-on to mobility and deliveries. Atome brings buy-now-pay-later, consumer cash loans, cards and digital lending across Singapore, Malaysia, the Philippines, Indonesia and Thailand, and 25m cumulative transacted users to cross-sell into Grab's ecosystem. It also puts unsecured consumer credit risk on a platform whose investors have been valuing it on take-rate and GMV, in five markets where BNPL regulation is still moving. Closing is guided to Q3 2027, subject to regulatory approvals.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-09-15",
-          "headline": "Grab to acquire majority stake in Atome Financial, accelerating growth and profitability of Financial Services segment",
-          "source": "Grab Holdings"
         }
       ]
     },
@@ -264,29 +248,6 @@
           "date": "2026-09-30",
           "headline": "Judge approves Paramount's settlement with states over Warner buyout, allowing merger to soon close",
           "source": "Associated Press"
-        }
-      ]
-    },
-    {
-      "id": "ole-dcoop-takeover-bid",
-      "ticker": "OLE.MC",
-      "counterparty": "Dcoop",
-      "type": "acquisition",
-      "currentStatus": "abandoned",
-      "whyItMatters": "Spanish agri-food cooperative Dcoop has taken the lead in a multi-bidder auction for Madrid-listed Deoleo, offering about EUR470m (~$545m) for a 57% stake in the world's largest olive-oil bottler, owner of Bertolli and Carbonell, in a combination reported to carry more than EUR2.2bn of turnover. The competition file is the catch: to clear US antitrust Dcoop would have to sell the Bertolli and Carapelli brands, so the winner of the whole would have to break it up immediately. Nothing is agreed -- Italy's Coricelli, Bonifiche Ferraresi and Newlat Food, France's Lesieur (Avril) and Australia's Cobram Estate Olives are all still circling -- but the process is reported to be in its final stages, with a deal possible as early as September.",
-      "phases": [
-        {
-          "status": "rumored",
-          "date": "2026-08-19",
-          "headline": "Spain's Deoleo shares surge as olive oil maker draws takeover interest, with Dcoop leading a EUR470m ($545m) offer for a 57% stake",
-          "source": "CNBC",
-          "priceReaction": "+16% to a one-year high, its biggest daily gain since March 2022"
-        },
-        {
-          "status": "abandoned",
-          "date": "2026-09-15",
-          "headline": "Dcoop da por vencido el plazo de la oferta de compra de Deóleo tras no recibir comunicación de los vendedores",
-          "source": "Forbes España"
         }
       ]
     },
@@ -1008,6 +969,55 @@
           "date": "2026-10-04",
           "headline": "Intesa Says Its Paschi Bid Backed by Top Shareholder Delfin",
           "source": "Bloomberg"
+        }
+      ]
+    },
+    {
+      "id": "chrw-rxo-acquisition",
+      "ticker": "CHRW",
+      "counterparty": "RXO",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "C.H. Robinson is paying $30.25 a share in cash and stock, a 29% premium and $5.8bn in all, for the No. 3 US truck broker, betting that its AI-driven 'Lean AI' operating model can wring $300m of run-rate cost synergies out of RXO within two years; the market sold CHRW 11% on the premium, added leverage and reduced room for buybacks, so the bull case now rests on delivering those synergies in a weak freight market before a first-half 2027 close.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-10-05",
+          "headline": "C.H. Robinson to buy RXO for $5.8 billion in truck broking expansion",
+          "source": "CNBC",
+          "priceReaction": "RXO +23% to $28.65; CHRW -11%"
+        }
+      ]
+    },
+    {
+      "id": "swks-qorvo-acquisition",
+      "ticker": "SWKS",
+      "counterparty": "Qorvo (QRVO)",
+      "type": "acquisition",
+      "currentStatus": "closed",
+      "whyItMatters": "The Skyworks-Qorvo combination is now done: Qorvo holders got $32.50 cash plus 0.960 Skyworks shares and own 37% of a single US RF-chip champion, which removes the Qorvo listing and leaves Skyworks' equity story resting on $500m+ of cost synergies over 24-36 months and on diversifying beyond Apple-heavy mobile into defense, data-center and automotive RF.",
+      "phases": [
+        {
+          "status": "closed",
+          "date": "2026-10-05",
+          "headline": "Skyworks completes merger with Qorvo in $32.5B deal",
+          "source": "Investing.com"
+        }
+      ]
+    },
+    {
+      "id": "inf-clarion-acquisition",
+      "ticker": "INF.L",
+      "counterparty": "Clarion Events (Blackstone)",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Informa is buying Blackstone's Clarion Events, owner of more than 100 B2B trade shows including IFA Berlin, for about GBP2.24bn EV, funded partly by a roughly GBP940m (about 9% of share capital) placing, and in the same breath launched a review to separate its Taylor & Francis academic publishing arm, turning Informa into a near pure-play live-events group with about GBP4.2bn of events revenue and guiding to mid-single-digit EPS accretion in 2027.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-10-06",
+          "headline": "Informa to buy Clarion for £2.24 bln, plans to separate Taylor & Francis business",
+          "source": "Investing.com"
         }
       ]
     }
