@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-06T08:00:00Z",
+  "generatedAt": "2026-10-07T08:00:00Z",
   "events": [
     {
       "id": "acb-curaleaf-takeover-bid",
@@ -143,7 +143,7 @@
       "ticker": "PSKY",
       "counterparty": "WBD",
       "type": "acquisition",
-      "currentStatus": "approved",
+      "currentStatus": "closed",
       "whyItMatters": "Every regulatory condition in the ~$111bn Warner Bros. Discovery merger agreement was already satisfied across 68 jurisdictions, and on 21 September the last obstacle -- the 12-state antitrust suit led by California AG Rob Bonta -- was settled, so the deal can finally close: Zaslav has told staff to expect completion no later than early October and Ellison has said roughly two weeks from the settlement. The price of getting there is a five-year court-enforceable behavioural package rather than divestitures: at least $1.5bn of additional domestic film spend, 30 theatrical releases a year for two years then 32 for three, a $30m payment for every film short of that floor, a $47.5m fund for workers displaced by the merger, no sale or closure of the Paramount or Warner Bros. lots in the Los Angeles area for five years, separate cable-carriage negotiations for each company's channels for five years, and an independent board over CBS News and CNN -- all policed by a five-state enforcement committee. Nothing structural was given up, so the combined asset base arrives intact, but the output floor and the spending commitments are now fixed charges against the synergy case, and Bonta was explicit that settling is not an endorsement. The ~$7m-a-day ticking fee to WBD holders runs until the deal actually closes.",
       "phases": [
         {
@@ -248,41 +248,12 @@
           "date": "2026-09-30",
           "headline": "Judge approves Paramount's settlement with states over Warner buyout, allowing merger to soon close",
           "source": "Associated Press"
-        }
-      ]
-    },
-    {
-      "id": "adports-limad-takeover-bid",
-      "ticker": "ADPORTS.AE",
-      "counterparty": "L'IMAD (via ADQ)",
-      "type": "acquisition",
-      "currentStatus": "approved",
-      "whyItMatters": "Abu Dhabi's sovereign investor L'IMAD is offering Dh6.25 a share in cash -- a 23% premium to the Dh5.10 close, 25% above the one-month VWAP and 31% above the three-month VWAP, valuing AD Ports Group at roughly AED31.8bn ($8.66bn) -- to buy in the ~24.6% that its wholly owned ADQ does not already hold and take the group private. For minority holders it converts a stranded stake in a state-controlled operator into a full cash exit at a premium; for the market it removes the only listed vehicle through which outside investors can own Abu Dhabi's ports, logistics and maritime franchise. The board's appointment of HSBC as financial adviser is the first sign the offer will get a formal independent assessment rather than an automatic wave-through.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-08-17",
-          "headline": "Announcement of Notification to Submit a Voluntary Conditional Cash Offer to Acquire AD Ports Group Shares at Dh6.25 per share, taking L'IMAD's holding through ADQ from 75.42% to up to 100%",
-          "source": "AD Ports Group",
-          "priceReaction": "shares rose by the daily limit; offer is a 23% premium to the Dh5.10 close"
         },
         {
-          "status": "confirmed",
-          "date": "2026-08-21",
-          "headline": "AD Ports Group hires HSBC to advise on L'imad takeover bid",
-          "source": "The National"
-        },
-        {
-          "status": "approved",
-          "date": "2026-09-08",
-          "headline": "L'imad clears way for full ownership of AD Ports",
-          "source": "The National"
-        },
-        {
-          "status": "approved",
-          "date": "2026-09-16",
-          "headline": "Abu Dhabi's sovereign investor L'imad to boost its AD Ports stake to 98.5%",
-          "source": "The National"
+          "status": "closed",
+          "date": "2026-10-06",
+          "headline": "Paramount completes $110B Warner Bros. merger to form Skydance",
+          "source": "NBC News"
         }
       ]
     },
@@ -350,23 +321,6 @@
           "headline": "Artemis Gold to Acquire Vista Gold in US$427 Million All-Stock Deal",
           "source": "The Deep Dive",
           "priceReaction": "VGZ rallied on the announcement"
-        }
-      ]
-    },
-    {
-      "id": "gnrc-amazon-generator-supply",
-      "ticker": "GNRC",
-      "counterparty": "Amazon (AMZN)",
-      "type": "partnership",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Generac has converted a generator franchise built on suburban home standby into an AI-infrastructure supply contract: $2.4bn of committed deliveries across 2027 and 2028 and up to $8bn over the life of a long-term backup-power agreement for Amazon's data centres, against group revenue of roughly $4bn a year. The structure is the point -- Generac granted Amazon warrants over up to 1,693,745 of its own shares at $200.93, about 308,000 exercisable at signing and the rest vesting as Amazon actually pays for generators, so the customer is compensated in Generac equity for the volume it delivers. The stock re-rated more than 40% on the news. It is the same warrant-linked template Oracle used with Bloom Energy in April, and it makes hyperscaler capex rather than the housing and storm cycle the swing factor in Generac's earnings -- with the concentration risk that comes with a single customer of that size.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-09-16",
-          "headline": "Generac Shares Jump on $8 Billion Amazon Data Center Supply Pact",
-          "source": "Bloomberg",
-          "priceReaction": "GNRC +40% in extended trading, up about 19% the following session"
         }
       ]
     },
@@ -1018,6 +972,39 @@
           "date": "2026-10-06",
           "headline": "Informa to buy Clarion for £2.24 bln, plans to separate Taylor & Francis business",
           "source": "Investing.com"
+        }
+      ]
+    },
+    {
+      "id": "opch-cdr-mckesson-take-private",
+      "ticker": "OPCH",
+      "counterparty": "CD&R and McKesson",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Clayton Dubilier & Rice (51%) and McKesson (49%) will pay $32.05 a share in cash, about $5.8bn including debt, for the largest independent US home-infusion provider -- a drug distributor buying into the site of care, not a pure sponsor flip, so the price reflects strategic value to McKesson's specialty-drug channel; holders now trade a standalone growth story for a fixed cash exit that still needs a shareholder vote, HSR and healthcare approvals before a first-half-2027 close.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-10-06",
+          "headline": "OPCH shares jump 34% as CD&R, McKesson agree to $5.8B takeover",
+          "source": "Seeking Alpha",
+          "priceReaction": "+34% in early trading"
+        }
+      ]
+    },
+    {
+      "id": "t-gip-cpp-fiber-jv",
+      "ticker": "T",
+      "counterparty": "Global Infrastructure Partners and CPP Investments",
+      "type": "partnership",
+      "currentStatus": "confirmed",
+      "whyItMatters": "AT&T is folding the mass-market fiber it bought from Lumen (Forged Fiber 37) into its Gigapower open-access venture and taking only 50% of the combined ~5m-location wholesale network, with GIP and CPP Investments holding the other half -- moving fiber expansion capex partly off its own balance sheet while staying anchor tenant, at the cost of sharing the economics of the assets it just paid for; close targeted for the first half of 2027.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-10-06",
+          "headline": "AT&T, GIP and CPP Investments to form new fiber JV",
+          "source": "Light Reading"
         }
       ]
     }
