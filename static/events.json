@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T08:00:00Z",
+  "generatedAt": "2026-10-08T08:00:00Z",
   "events": [
     {
       "id": "acb-curaleaf-takeover-bid",
@@ -1005,6 +1005,38 @@
           "date": "2026-10-06",
           "headline": "AT&T, GIP and CPP Investments to form new fiber JV",
           "source": "Light Reading"
+        }
+      ]
+    },
+    {
+      "id": "uber-ezcater-acquisition",
+      "ticker": "UBER",
+      "counterparty": "ezCater",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Uber is paying $2.3bn cash for a profitable, margin-accretive catering marketplace with more than $2.5bn of trailing gross bookings growing in the high teens and $400-plus average orders, giving Uber Eats and Uber for Business a high-ticket B2B food channel. Coming on top of the pending ~EUR15bn Delivery Hero takeover, it shows Uber spending heavily to widen its food-delivery moat rather than returning that cash to shareholders.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-10-06",
+          "headline": "Uber to acquire ezCater for $2.3B",
+          "source": "Nation's Restaurant News"
+        }
+      ]
+    },
+    {
+      "id": "un01-apollo-acquisition",
+      "ticker": "UN01.DE",
+      "counterparty": "Apollo Global Management (APO)",
+      "type": "acquisition",
+      "currentStatus": "rumored",
+      "whyItMatters": "Apollo has joined EPH, Brookfield/CPP Investments, Equinor and KKR/RWE in bidding for up to 74.12% of state-owned Uniper, a sale that could value the company at about EUR10bn. A crowded field of financial and strategic bidders strengthens Berlin's hand on price, but the government is also running an IPO track favoured by unions, so the exit route for minority holders is still open.",
+      "phases": [
+        {
+          "status": "rumored",
+          "date": "2026-10-07",
+          "headline": "Apollo submits non-binding bid for German energy firm Uniper, sources say",
+          "source": "Reuters"
         }
       ]
     }
