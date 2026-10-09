@@ -1,34 +1,38 @@
 {
-  "date": "2026-10-08",
+  "date": "2026-10-09",
   "whatChanged": [
-    "NEW: Uber to buy catering marketplace ezCater for $2.3bn in cash, folding it into Uber Eats and Uber for Business (uber-ezcater-acquisition)",
-    "NEW: Apollo submits a non-binding bid for up to 74.12% of state-owned Uniper, joining EPH, Brookfield/CPP, Equinor and KKR/RWE in a sale that could value it at about EUR10bn (un01-apollo-acquisition)"
+    "NEW: Viatris to buy non-opioid pain company Pacira BioSciences for $36.50 a share in cash, about $1.65bn, via a tender offer closing by year-end (pcrx-viatris-acquisition)",
+    "NEW: FT reports Starbucks has worked with advisers on a takeover proposal for Chipotle (~$39bn market value); no offer confirmed, CMG up as much as 8%, SBUX down as much as 6% (cmg-starbucks-acquisition)",
+    "NEW: Devon Energy sells its Eagle Ford assets to Crescent Energy for $4.2bn in cash, with proceeds earmarked for buybacks and debt reduction (dvn-crescent-eagle-ford-divestiture)",
+    "ADVANCED: Curaleaf raises its hostile Aurora Cannabis bid 25% to an implied US$5.00 a share and extends the expiry to 4 December (acb-curaleaf-takeover-bid) (confirmed → confirmed)",
+    "ADVANCED: Copart extends its $10.50 ACV Auctions tender to 15 October after 52.8% of shares were tendered, pending HSR expiry on 13 October (cprt-acv-acquisition) (confirmed → confirmed)",
+    "DROPPED: 1 stale deals"
   ],
   "themes": [
     {
       "label": "Public-to-private buyout offers on listed companies",
-      "note": "Sponsors, strategics and insiders keep taking listed businesses off public markets. The newest pairs a sponsor with a strategic: CD&R (51%) and McKesson (49%) will pay $32.05 a share, about $5.8bn including debt, for home-infusion provider Option Care Health, which jumped 34% (opch-cdr-mckesson-take-private). Authentic Brands has privately discussed buying Mattel at more than $20 a share with no formal sale process (mat-authentic-brands-takeover-approach). Insider buyouts show the opening bid is a floor: Priority Technology's CEO was pushed more than 30% above his opening range (prth-priore-searchlight-take-private). Sponsor premiums can be thin: H.I.G. is taking MISTRAS at just 8% over the 30-day VWAP, with a go-shop to 27 October (mg-hig-take-private). Tender mechanics are the risk: Copart's $10.50 offer for ACV Auctions runs to 7 October with the HSR period to 13 October (cprt-acv-acquisition); Uber's EUR41.50 tender for Delivery Hero runs to November (dher-uber-takeover-offer); and Curaleaf's hostile bid for Aurora Cannabis runs to 1 December against a reject recommendation (acb-curaleaf-takeover-bid). Peel has already declared its offer for Harworth unconditional (hwg-peel-acquisition).",
-      "streak": 76
+      "note": "Sponsors, strategics and insiders keep taking listed businesses off public markets. CD&R (51%) and McKesson (49%) will pay $32.05 a share, about $5.8bn including debt, for home-infusion provider Option Care Health (opch-cdr-mckesson-take-private). Viatris is tendering $36.50 a share in cash, about $1.65bn, for Pacira BioSciences, with closing by year-end (pcrx-viatris-acquisition). Authentic Brands has privately discussed buying Mattel at more than $20 a share with no formal sale process (mat-authentic-brands-takeover-approach). Insider buyouts show the opening bid is a floor: Priority Technology's CEO was pushed more than 30% above his opening range (prth-priore-searchlight-take-private). Tender mechanics are the risk: Copart has cleared its majority minimum with 52.8% of ACV tendered but extended again to 15 October while HSR runs to 13 October (cprt-acv-acquisition); Uber's EUR41.50 tender for Delivery Hero runs to November (dher-uber-takeover-offer); and Curaleaf has raised its hostile Aurora Cannabis bid 25% to an implied US$5.00 and pushed the expiry to 4 December (acb-curaleaf-takeover-bid). Peel has already declared its offer for Harworth unconditional (hwg-peel-acquisition).",
+      "streak": 77
     },
     {
       "label": "AI data-center capacity and power build-out",
       "note": "Capital keeps flowing to the physical layer of AI compute, and the bottleneck keeps moving down the stack to power and capacity. NextEra's $67bn all-stock purchase of Dominion is being fought in Virginia over who pays for data-center load growth, with the attorney general arguing the September concession package should restart the 180-day review clock (nee-dominion-acquisition). The pull has also reached CDN and edge-compute providers: Anthropic will pay Akamai $11.6bn over seven years for CPU-heavy cloud capacity, and Akamai is lifting 2026 capex by about $1.7bn to build it (akam-anthropic-cloud-deal).",
-      "streak": 67
+      "streak": 68
     },
     {
       "label": "Signed M&A deals hitting regulatory or legal roadblocks",
-      "note": "Deals investors thought were settled keep being resolved by regulators, politicians and courts rather than by the parties. Paramount's ~$110bn Warner Bros. Discovery takeover finally closed on 6 October, but only after a 12-state antitrust suit was settled with a five-year court-enforceable behavioural package and a judge who called the court 'not a rubber stamp' (psky-wbd-acquisition). Kone's EUR29.4bn purchase of TK Elevator faces a UK CMA case and an in-depth US DOJ review (knebv-tkelevator-acquisition). Uber-Delivery Hero has entered Korean merger review, pushing settlement into the second half of 2027 (dher-uber-takeover-offer). NextEra-Dominion turns on Virginia's State Corporation Commission, with the attorney general seeking to reset the review clock (nee-dominion-acquisition). BT's rescue of TalkTalk waits on a CMA report due 19 October and a public-interest decision by the Culture Secretary (bt-talktalk-acquisition). Even a small tender can slip on process: Copart refiled its HSR notice for ACV Auctions, pushing the waiting period to 13 October (cprt-acv-acquisition). The clean exits show the contrast: Bio-Techne's US waiting period simply expired (tech-merckkgaa-acquisition), and the DOJ closed its Transocean-Valaris review without remedies (val-transocean-acquisition); in Canada both Curaleaf and Aurora have drafted the Alberta Securities Commission into their fight (acb-curaleaf-takeover-bid).",
-      "streak": 71
+      "note": "Deals investors thought were settled keep being resolved by regulators, politicians and courts rather than by the parties. Paramount's ~$110bn Warner Bros. Discovery takeover closed on 6 October only after a 12-state antitrust suit was settled with a five-year court-enforceable behavioural package (psky-wbd-acquisition). Kone's EUR29.4bn purchase of TK Elevator faces a UK CMA case and an in-depth US DOJ review (knebv-tkelevator-acquisition). Uber-Delivery Hero has entered Korean merger review, pushing settlement into the second half of 2027 (dher-uber-takeover-offer). NextEra-Dominion turns on Virginia's State Corporation Commission, with the attorney general seeking to reset the review clock (nee-dominion-acquisition). BT's rescue of TalkTalk waits on a CMA report due 19 October and a public-interest decision by the Culture Secretary (bt-talktalk-acquisition). Even a small tender can slip on process: Copart has extended its ACV offer to 15 October because the refiled HSR waiting period does not end until 13 October (cprt-acv-acquisition). The clean exits show the contrast: Bio-Techne's US waiting period simply expired (tech-merckkgaa-acquisition), and the DOJ closed its Transocean-Valaris review without remedies (val-transocean-acquisition); in Canada both Curaleaf and Aurora have drafted the Alberta Securities Commission into their fight (acb-curaleaf-takeover-bid).",
+      "streak": 72
     },
     {
       "label": "Large-caps scaling up buybacks on surplus cash",
       "note": "Six companies with cash coming in faster than they can reinvest it have expanded share repurchases within a week, each tying the bigger programme to a specific cash or capital tailwind. Nvidia added $150bn to its authorization on AI-accelerator cash flow (nvda-buyback-2026). TotalEnergies lifted Q4 buybacks to $2.5bn and pledged more than 5% annual dividend growth as oil trades around $100 (tte-buyback-dividend-2026). Lear lifted its authorization to $1.5bn, about 26% of its market value (lea-buyback-2026). Canadian banks are moving together: TD intends to buy back up to another C$10bn (td-buyback-2026), and Scotiabank lifted its issuer bid to 40 million shares (bns-buyback-2026). Julius Baer announced a CHF600m buyback days after FINMA closed its Signa probe (baer-buyback-2026).",
-      "streak": 10
+      "streak": 11
     },
     {
       "label": "European incumbents consolidating domestic rivals for scale",
       "note": "Europe's large incumbents are bidding for same-country or same-sector rivals to get the scale to compete with US and Chinese peers, and in each case the target's controlling shareholders decide the outcome. Intesa Sanpaolo has sweetened its offer for Monte dei Paschi and secured Delfin's backing ahead of a 29 October MPS vote (isp-bmps-takeover-offer). Evonik rejected BASF's approach, and RAG-Stiftung's roughly 43% stake decides what happens next (evk-basf-acquisition). KKR and RWE have bid together for state-owned Uniper (un01-rwe-kkr-acquisition), though the sale is now crowded: Apollo has submitted its own non-binding bid alongside EPH, Brookfield/CPP and Equinor (un01-apollo-acquisition). Kone is buying TK Elevator for EUR29.4bn (knebv-tkelevator-acquisition), and RHI Magnesita faces a 27 October put-up-or-shut-up deadline for Vesuvius (vsvs-rhim-takeover-proposal).",
-      "streak": 4
+      "streak": 5
     }
   ]
 }
