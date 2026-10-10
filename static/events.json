@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T08:00:00Z",
+  "generatedAt": "2026-10-10T08:00:00Z",
   "events": [
     {
       "id": "acb-curaleaf-takeover-bid",
@@ -731,7 +731,7 @@
       "ticker": "TD",
       "counterparty": null,
       "type": "capital-allocation",
-      "currentStatus": "confirmed",
+      "currentStatus": "approved",
       "whyItMatters": "Having just finished a C$7bn repurchase on 25 September, TD intends to buy back up to another C$10bn (up to 61m shares, about 3.7% of the count) by July 2027, subject to OSFI approval -- a sign the bank is still sitting on surplus capital from its Schwab stake sale and US balance-sheet restrictions, and is returning it rather than redeploying it while its US growth is capped.",
       "phases": [
         {
@@ -739,6 +739,12 @@
           "date": "2026-09-30",
           "headline": "TD Bank to buy back up to $10 billion of its shares",
           "source": "BNN Bloomberg"
+        },
+        {
+          "status": "approved",
+          "date": "2026-10-08",
+          "headline": "TD Bank gets regulatory approval to buy back up to $10 billion of its shares",
+          "source": "The Canadian Press"
         }
       ]
     },
@@ -1081,6 +1087,39 @@
           "date": "2026-10-08",
           "headline": "Devon Sells Eagle Ford Assets",
           "source": "Energy Intelligence"
+        }
+      ]
+    },
+    {
+      "id": "spcx-grain-800mhz-spectrum-acquisition",
+      "ticker": "SPCX",
+      "counterparty": "Grain Management",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Roughly $8bn in cash for nationwide 800 MHz low-band spectrum gives Starlink the indoor-coverage layer it lacked to run as a standalone US mobile carrier, turning SpaceX into a direct competitor to AT&T, Verizon and T-Mobile pending FCC approval.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-10-09",
+          "headline": "SpaceX takes aim at US wireless carriers with spectrum acquisition",
+          "source": "Reuters",
+          "priceReaction": "Crown Castle +13%; AT&T, Verizon and T-Mobile lower"
+        }
+      ]
+    },
+    {
+      "id": "ffh-boots-wittington-acquisition",
+      "ticker": "FFH.TO",
+      "counterparty": "Boots (Sycamore Partners)",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Fairfax takes 50% of the equity and provides $2.3bn of financing in the Weston family's ~$8.9bn (about £6.5bn) purchase of Boots from Sycamore, a large new consumer-retail exposure for the insurer's investment book; completion expected 1Q27.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-10-08",
+          "headline": "Weston family to buy British retailer Boots for $8.9-billion with Fairfax backing",
+          "source": "The Globe and Mail"
         }
       ]
     }
