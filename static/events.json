@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T08:00:00Z",
+  "generatedAt": "2026-10-11T08:00:00Z",
   "events": [
     {
       "id": "acb-curaleaf-takeover-bid",
@@ -283,22 +283,6 @@
           "date": "2026-10-08",
           "headline": "Copart Extends $10.50-Per-Share Tender Offer for ACV Auctions to October 15",
           "source": "CityBiz"
-        }
-      ]
-    },
-    {
-      "id": "tlx-itm-acquisition",
-      "ticker": "TLX",
-      "counterparty": "ITM Isotope Technologies Munich",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Telix is paying $1.65bn upfront -- about $1.25bn of it in new Telix shares, handing ITM holders 23.7% of the combined company -- plus up to $700m in milestones to own the only globally scaled commercial supplier of lutetium-177, turning its radiopharma pipeline's key input from a bought-in isotope into a captive, profitable production business.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-09-20",
-          "headline": "Telix to Buy Isotope Maker ITM in Deal Worth Up to $2.35 Billion",
-          "source": "Bloomberg"
         }
       ]
     },
@@ -1120,6 +1104,23 @@
           "date": "2026-10-08",
           "headline": "Weston family to buy British retailer Boots for $8.9-billion with Fairfax backing",
           "source": "The Globe and Mail"
+        }
+      ]
+    },
+    {
+      "id": "svc-tko-hotel-portfolio-acquisition",
+      "ticker": "SVC",
+      "counterparty": "TKO Hotels (TKO LLC)",
+      "type": "acquisition",
+      "currentStatus": "rumored",
+      "whyItMatters": "An unsolicited $2bn all-cash bid for SVC's roughly 92-hotel portfolio is worth more than the REIT's whole equity value and would let a heavily indebted SVC exit lodging in one step and pay down its looming maturities, leaving a pure net-lease business; the board has only confirmed receipt, had no prior contact with TKO, and has not engaged.",
+      "phases": [
+        {
+          "status": "rumored",
+          "date": "2026-10-09",
+          "headline": "Service Properties stock jumps after TKO offers to buy hospitality portfolio for $2B",
+          "source": "Seeking Alpha",
+          "priceReaction": "SVC closed up about 15% at $7.15"
         }
       ]
     }
