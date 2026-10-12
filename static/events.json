@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-11T08:00:00Z",
+  "generatedAt": "2026-10-12T08:00:00Z",
   "events": [
     {
       "id": "acb-curaleaf-takeover-bid",
@@ -102,28 +102,6 @@
           "date": "2026-09-29",
           "headline": "Activist Irenic plans to vote against Independence Realty's purchase of Centerspace",
           "source": "Seeking Alpha"
-        }
-      ]
-    },
-    {
-      "id": "nee-dominion-acquisition",
-      "ticker": "NEE",
-      "counterparty": "Dominion Energy (D)",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "NextEra's $67bn all-stock purchase of Dominion is the largest regulated utility transaction ever announced, and the whole of it now turns on Virginia, where lawmakers and the public are arguing that AI data-center load growth will be paid for by households. The sweetener filed on 14 September doubles residential bill credits from two years to four, lifts the Virginia credit pool from $1.78bn to $1.87bn, adds $100m of shareholder money to Dominion's Energy Share hardship programme and promises 1,000 new jobs -- and pointedly funds the extension by redirecting credits that would otherwise have gone to data centers. Every concession is margin given away before closing, so the question for NEE holders is how much more the State Corporation Commission extracts, and whether the deal survives at a price that still earns its cost of capital.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-09-14",
-          "headline": "NextEra, Dominion offer more Virginia bill credits and 1,000 new jobs to win approval for $67 billion merger",
-          "source": "Bloomberg"
-        },
-        {
-          "status": "confirmed",
-          "date": "2026-09-21",
-          "headline": "'A different deal on the table': AG Jay Jones asks SCC to reset the clock on Dominion-NextEra merger",
-          "source": "Virginia Mercury"
         }
       ]
     },
@@ -283,39 +261,6 @@
           "date": "2026-10-08",
           "headline": "Copart Extends $10.50-Per-Share Tender Offer for ACV Auctions to October 15",
           "source": "CityBiz"
-        }
-      ]
-    },
-    {
-      "id": "artg-vista-gold-acquisition",
-      "ticker": "ARTG.V",
-      "counterparty": "Vista Gold (VGZ)",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Artemis Gold, a single-asset producer only a year and a half into commercial production at Blackwater in British Columbia, is paying US$427m entirely in its own shares -- 0.0966 Artemis shares per Vista share, an implied US$2.83, a 29% premium to the 20-day VWAPs to 18 September -- for a company whose only real asset is still a feasibility-stage project. What it buys is Mt Todd in Australia's Northern Territory: 9.1m ounces of measured and indicated plus 1.4m inferred, already permitted for a 50,000 tonne-a-day plant, and a stated path to more than a million ounces of annual production. The trade for existing holders is dilution today against ounces that need a large capex decision and years of build before they earn anything, at a point in the gold cycle when paper is cheap to issue. Closing is targeted for January 2027 and needs 66-2/3% of Vista votes cast plus Australian FIRB clearance and Northern Territory ministerial consent.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-09-21",
-          "headline": "Artemis Gold to Acquire Vista Gold in US$427 Million All-Stock Deal",
-          "source": "The Deep Dive",
-          "priceReaction": "VGZ rallied on the announcement"
-        }
-      ]
-    },
-    {
-      "id": "prth-priore-searchlight-take-private",
-      "ticker": "PRTH",
-      "counterparty": "Thomas Priore investor group (Searchlight Capital Partners)",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Priority's own chairman and CEO is buying the payments-and-banking-technology company he runs, at $8.05 a share in cash for the stock his group does not already own -- about $1.6bn of enterprise value, a 38% premium to the 18 September close and 65% above the price before his first approach was disclosed in November 2025. The special committee's leverage shows in the gap between that and where he started: the final price is more than 30% above his opening $6.00-$6.15 range, and Searchlight Capital Partners' equity commitment removes any financing condition. Minority holders get a clean exit but give up the fintech's recurring embedded-banking revenue at a mid-cap multiple; completion needs a majority of unaffiliated shareholders and regulatory clearance, with delisting from Nasdaq guided to the first half of 2027 -- a long window in which a competing bid, or a vote against, is the only remaining source of upside.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-09-21",
-          "headline": "Priority Technology to go private in $1.6 billion CEO-led deal",
-          "source": "Reuters"
         }
       ]
     },
@@ -1121,6 +1066,22 @@
           "headline": "Service Properties stock jumps after TKO offers to buy hospitality portfolio for $2B",
           "source": "Seeking Alpha",
           "priceReaction": "SVC closed up about 15% at $7.15"
+        }
+      ]
+    },
+    {
+      "id": "akza-axalta-merger",
+      "ticker": "AKZA.AS",
+      "counterparty": "Axalta (AXTA)",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Reuters' sources say the $25bn AkzoNobel-Axalta coatings merger will win conditional EU clearance only if AkzoNobel offers to sell a vehicle-refinish business -- the main remaining overlap after powder-coatings concerns were resolved -- with a formal remedy pushing the Commission's 22 October deadline back by 10 working days. That trades away part of the refinish franchise that underpins the deal's synergy case in exchange for avoiding a months-long Phase 2 probe, and with AkzoNobel already shrinking its Asian decorative arm, its investment case now rests on closing this merger.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-10-08",
+          "headline": "AkzoNobel, Axalta set to win EU antitrust nod for $25 billion deal, sources say",
+          "source": "Reuters"
         }
       ]
     }
