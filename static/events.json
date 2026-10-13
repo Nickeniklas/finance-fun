@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T08:00:00Z",
+  "generatedAt": "2026-10-13T08:00:00Z",
   "events": [
     {
       "id": "acb-curaleaf-takeover-bid",
@@ -51,35 +51,6 @@
           "date": "2026-10-05",
           "headline": "Curaleaf Raises Aurora Cannabis Takeover Offer To $5 Per Share",
           "source": "Pulse 2.0"
-        }
-      ]
-    },
-    {
-      "id": "dher-uber-takeover-offer",
-      "ticker": "DHER.DE",
-      "counterparty": "Uber Technologies (UBER)",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "BaFin has approved Uber's offer document, so the agreed combination becomes a running tender: EUR41.50 a share in cash, about EUR13bn of equity on 314m fully diluted shares, acceptance from 27 August to 5 November 2026 and a minimum threshold of only 50% plus one share including Uber's own holding. The premium depends entirely on where you start: roughly 108% over Delivery Hero's unaffected 8 May close and 127% over the unaffected three-month VWAP, but about 34% over the three-month VWAP into the launch, so most of the value is already in the price. The catch is duration -- settlement is guided only to the second half of 2027, with merger-control and financial-regulatory clearances across a combined 99-country, $236bn-GMV footprint still to come. Holders are being asked to accept a fixed cash price now and wait a year for it.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-08-27",
-          "headline": "Uber Publishes Offer Document for its Takeover Offer for Delivery Hero",
-          "source": "Uber Technologies",
-          "priceReaction": "EUR41.50 offer is c.108% above the unaffected 8 May 2026 close"
-        },
-        {
-          "status": "confirmed",
-          "date": "2026-09-02",
-          "headline": "Delivery Hero Board Recommends Holders Accept Uber Takeover Bid",
-          "source": "Bloomberg"
-        },
-        {
-          "status": "confirmed",
-          "date": "2026-09-22",
-          "headline": "Uber-Delivery Hero deal enters South Korean merger review",
-          "source": "MLex"
         }
       ]
     },
@@ -261,39 +232,6 @@
           "date": "2026-10-08",
           "headline": "Copart Extends $10.50-Per-Share Tender Offer for ACV Auctions to October 15",
           "source": "CityBiz"
-        }
-      ]
-    },
-    {
-      "id": "cgnx-realsense-acquisition",
-      "ticker": "CGNX",
-      "counterparty": "RealSense",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Cognex is paying roughly $500m in cash, entirely from existing cash and investments, for the depth-sensing camera business Intel founded in 2014 and spun out in 2025 -- its move out of factory-floor machine vision and into robotic perception and 'physical AI'. RealSense should do $80-90m of revenue in 2026, more than 50% growth, into a robotic-perception market Cognex sizes at about $600m today and $1.6bn by 2030. The price is roughly 6x forward sales plus a $56.5m three-year cash retention pool and about $50m of restricted stock for RealSense staff, and the market read the combination as expensive rather than strategic: the shares fell about 5% on the day. The investment case now rests on whether depth perception and robot navigation attach to Cognex's installed industrial base faster than they commoditise.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-09-22",
-          "headline": "Cognex to Acquire RealSense, Expanding Machine Vision Leadership into High-Growth Robotic Perception Market",
-          "source": "PR Newswire",
-          "priceReaction": "-5% on the day"
-        }
-      ]
-    },
-    {
-      "id": "knebv-tkelevator-acquisition",
-      "ticker": "KNEBV.HE",
-      "counterparty": "TK Elevator",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Kone's EUR29.4bn cash-and-share purchase of Germany's TK Elevator, agreed in April, would create the world's largest lift maker and roughly double a company currently worth about EUR30bn -- which is precisely why it is now being fought jurisdiction by jurisdiction rather than in the boardroom. The UK Competition and Markets Authority has begun inviting third-party views ahead of a phase 1 case, while the US Department of Justice has already opened an in-depth review that can run a year or more; completion is targeted for the second quarter of 2027. For Kone holders the deal is the whole equity story for the next 18 months: the synergy case is large enough to re-rate the shares, and the remedy risk -- service-portfolio divestitures in overlapping European and North American markets -- is large enough to hollow it out before it arrives.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-09-22",
-          "headline": "Kone-TK Elevator deal faces UK antitrust review",
-          "source": "MLex"
         }
       ]
     },
@@ -1082,6 +1020,54 @@
           "date": "2026-10-08",
           "headline": "AkzoNobel, Axalta set to win EU antitrust nod for $25 billion deal, sources say",
           "source": "Reuters"
+        }
+      ]
+    },
+    {
+      "id": "ste-xodus-acquisition",
+      "ticker": "STE",
+      "counterparty": "Xodus Medical",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "STERIS pays ~$2.1bn, mostly debt-funded, for a ~$245m-revenue, ~55%-EBIT-margin OR safety consumables maker — about 15x EBIT net of tax benefits — tilting its healthcare mix toward recurring consumables while lifting leverage ahead of a promised fiscal-2027 outlook revision.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-10-12",
+          "headline": "Steris buys surgical products maker Xodus Medical for $2.1 billion",
+          "source": "Reuters"
+        }
+      ]
+    },
+    {
+      "id": "ionq-elisity-acquisition",
+      "ticker": "IONQ",
+      "counterparty": "Elisity",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "IonQ is spending up to $1.3bn in its own stock (price-collared at $33.07–$49.61) to buy a zero-trust network security firm, adding dilution but giving it a revenue-bearing enterprise security channel to sell post-quantum cryptography and QKD into today rather than waiting on quantum computing demand.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-10-12",
+          "headline": "IonQ to Acquire Zero Trust Firm Elisity for Up to $1.3 Billion",
+          "source": "SecurityWeek"
+        }
+      ]
+    },
+    {
+      "id": "nokia-aurelius-campus-edge-divestiture",
+      "ticker": "NOKIA.HE",
+      "counterparty": "AURELIUS",
+      "type": "divestiture",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Nokia exits its ~900-customer enterprise campus private-wireless business, a unit already booked as discontinued operations, completing another step of Hotard's restructuring to narrow the group onto core network infrastructure and AI/data-centre networking — no price was disclosed, so the signal is focus rather than cash.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-10-13",
+          "headline": "Nokia to sell Enterprise Campus Edge business to AURELIUS",
+          "source": "Nokia"
         }
       ]
     }
