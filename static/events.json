@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T08:00:00Z",
+  "generatedAt": "2026-10-14T08:00:00Z",
   "events": [
     {
       "id": "acb-curaleaf-takeover-bid",
@@ -232,28 +232,6 @@
           "date": "2026-10-08",
           "headline": "Copart Extends $10.50-Per-Share Tender Offer for ACV Auctions to October 15",
           "source": "CityBiz"
-        }
-      ]
-    },
-    {
-      "id": "tech-merckkgaa-acquisition",
-      "ticker": "TECH",
-      "counterparty": "Merck KGaA, Darmstadt, Germany",
-      "type": "acquisition",
-      "currentStatus": "approved",
-      "whyItMatters": "Merck KGaA is buying a US life-science tools and reagents franchise outright for $73 a share in cash, an $11.3bn enterprise value at a 36% premium to Bio-Techne's one-month VWAP, and with the US antitrust waiting period expired and ~78% of shares voted in favour the remaining risk is foreign regulatory clearance rather than price or shareholder consent.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-06-25",
-          "headline": "Germany's Merck to buy Bio-Techne for $73 per share",
-          "source": "Reuters"
-        },
-        {
-          "status": "approved",
-          "date": "2026-09-23",
-          "headline": "Bio-Techne Shareholders Approve Acquisition by Merck KGaA, Darmstadt, Germany",
-          "source": "PR Newswire"
         }
       ]
     },
@@ -791,6 +769,13 @@
           "date": "2026-10-04",
           "headline": "Intesa Says Its Paschi Bid Backed by Top Shareholder Delfin",
           "source": "Bloomberg"
+        },
+        {
+          "status": "confirmed",
+          "date": "2026-10-12",
+          "headline": "Monte dei Paschi says Intesa's raised offer still too low",
+          "source": "Reuters",
+          "priceReaction": "MPS and Intesa shares up about 1% in early trading the next day"
         }
       ]
     },
@@ -929,7 +914,7 @@
       "ticker": "CMG",
       "counterparty": "Starbucks (SBUX)",
       "type": "acquisition",
-      "currentStatus": "rumored",
+      "currentStatus": "abandoned",
       "whyItMatters": "The FT reports that Starbucks, now run by former Chipotle CEO Brian Niccol, has worked with advisers on a takeover proposal for Chipotle, which is worth about $39bn against Starbucks' roughly $107bn. That would be the largest restaurant deal ever, but no offer is known to have been made, analysts see few synergies, and it would need heavy borrowing or share issuance. Starbucks' early 6% drop shows its own holders would carry the cost, and TD Cowen calls it a low-probability outcome.",
       "phases": [
         {
@@ -938,6 +923,13 @@
           "headline": "Starbucks has explored Chipotle takeover, FT reports",
           "source": "Reuters",
           "priceReaction": "CMG up as much as 8%, SBUX down as much as 6%, both later pared moves"
+        },
+        {
+          "status": "abandoned",
+          "date": "2026-10-12",
+          "headline": "Starbucks says it is not buying Chipotle after takeover speculation",
+          "source": "CNBC",
+          "priceReaction": "CMG down nearly 4% in morning trading; SBUX up about 1%"
         }
       ]
     },
@@ -1068,6 +1060,23 @@
           "date": "2026-10-13",
           "headline": "Nokia to sell Enterprise Campus Edge business to AURELIUS",
           "source": "Nokia"
+        }
+      ]
+    },
+    {
+      "id": "bmbl-ithaca-take-private",
+      "ticker": "BMBL",
+      "counterparty": "Ithaca Holdings",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Ithaca, a newly formed vehicle led by Ravi Gupta and John Hegeman, will pay $6.05 a share in cash, about $1.3bn and a ~138% premium to the 9 October close, with founder Whitney Wolfe Herd expected to roll part of her stake. The size of the premium says more about how far Bumble's public valuation had collapsed (paying users down 11% in 2025, Q2 revenue down 15%) than about a growth story, and it caps the upside for holders while marking a private-market floor for shrinking dating-app peers like Match.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-10-13",
+          "headline": "Bumble agrees to a $1.3B acquisition deal as online dating faces a reset",
+          "source": "TechCrunch",
+          "priceReaction": "BMBL soared more than 50% on 12 October on reports of advanced take-private talks"
         }
       ]
     }
