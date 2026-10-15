@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T08:00:00Z",
+  "generatedAt": "2026-10-15T08:00:00Z",
   "events": [
     {
       "id": "acb-curaleaf-takeover-bid",
@@ -200,7 +200,7 @@
       "ticker": "CPRT",
       "counterparty": "ACV Auctions (ACVA)",
       "type": "acquisition",
-      "currentStatus": "confirmed",
+      "currentStatus": "approved",
       "whyItMatters": "Copart is paying $10.50 a share in cash -- about $1.9bn, a 45% premium -- through a tender offer for ACV Auctions, buying its way out of pure salvage and into the digital wholesale market for ordinary used dealer cars, with ACV run as an independent subsidiary and closing targeted by year-end.",
       "phases": [
         {
@@ -232,22 +232,12 @@
           "date": "2026-10-08",
           "headline": "Copart Extends $10.50-Per-Share Tender Offer for ACV Auctions to October 15",
           "source": "CityBiz"
-        }
-      ]
-    },
-    {
-      "id": "irdm-rocketlab-acquisition",
-      "ticker": "IRDM",
-      "counterparty": "Rocket Lab (RKLB)",
-      "type": "acquisition",
-      "currentStatus": "approved",
-      "whyItMatters": "Iridium holders have voted to fold the L-band satellite network into Rocket Lab for $27 in cash plus collared Rocket Lab stock (a notional $54 a share), so the remaining questions are regulatory timing to a mid-2027 close and how much of the consideration's value rides on Rocket Lab's own share price.",
-      "phases": [
+        },
         {
           "status": "approved",
-          "date": "2026-09-24",
-          "headline": "Iridium Stockholders Approve Acquisition by Rocket Lab",
-          "source": "GlobeNewswire"
+          "date": "2026-10-14",
+          "headline": "Copart Announces Expiration of Hart-Scott-Rodino Act Waiting Period to Acquire ACV",
+          "source": "Business Wire"
         }
       ]
     },
@@ -295,73 +285,6 @@
           "date": "2026-09-29",
           "headline": "Peel Pepper offer for Harworth Group declared unconditional",
           "source": "Investing.com"
-        }
-      ]
-    },
-    {
-      "id": "akam-anthropic-cloud-deal",
-      "ticker": "AKAM",
-      "counterparty": "Anthropic",
-      "type": "partnership",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Akamai's largest contract ever -- $11.6bn over seven years with a $9bn option -- recasts it as an AI-infrastructure name, paid for with about $1.7bn of extra 2026 capex and a warrant for roughly 5% of the company.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-09-24",
-          "headline": "Akamai lands $11.6 billion Anthropic deal, shares soar",
-          "source": "Investing.com",
-          "priceReaction": "+20% after hours"
-        }
-      ]
-    },
-    {
-      "id": "ppli-mgm-acquisition",
-      "ticker": "PPLI",
-      "counterparty": "MGM Resorts International (MGM)",
-      "type": "acquisition",
-      "currentStatus": "rumored",
-      "whyItMatters": "A day after Barry Diller's People Inc. dropped its own $48.30-a-share bid for MGM, the Wall Street Journal reports MGM is weighing a reverse takeover of People -- a way for MGM to buy back the roughly 27% of itself that People owns (worth about $2.5bn against People's ~$2.7bn market value) and pick up the media and Turo stakes almost for free, which is why People's holders, not MGM's, have the most to gain if an offer materialises.",
-      "phases": [
-        {
-          "status": "rumored",
-          "date": "2026-09-24",
-          "headline": "MGM Resorts Is Discussing Making a Bid for People: WSJ",
-          "source": "Bloomberg",
-          "priceReaction": "PPLI +11% to $40.05 the next session"
-        }
-      ]
-    },
-    {
-      "id": "mgm-people-take-private",
-      "ticker": "MGM",
-      "counterparty": "People Inc. (PPLI)",
-      "type": "acquisition",
-      "currentStatus": "abandoned",
-      "whyItMatters": "People Inc. has withdrawn its June proposal to buy the ~73% of MGM Resorts it does not own at $48.30 a share in cash (more than $18bn), citing the debt the deal would have required, which removes the take-private floor under MGM's shares while leaving Diller's 27% stake and his stated openness to 'a strategic transaction' hanging over the register.",
-      "phases": [
-        {
-          "status": "abandoned",
-          "date": "2026-09-24",
-          "headline": "MGM Resorts shares sink 11% after Barry Diller's People Inc. rescinds takeover offer",
-          "source": "CNBC",
-          "priceReaction": "MGM -11%"
-        }
-      ]
-    },
-    {
-      "id": "lea-buyback-2026",
-      "ticker": "LEA",
-      "counterparty": null,
-      "type": "capital-allocation",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Lear has lifted its repurchase authorisation from about $600m remaining to $1.5bn and extended it to the end of 2029 -- roughly 26% of its market capitalisation -- signalling that management sees its own shares as the best use of free cash flow for an auto-seating and e-systems supplier that has already retired about 60% of its share count since 2011.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-09-24",
-          "headline": "Lear Increases Share Repurchase Authorization to $1.5 Billion and Extends Authorization",
-          "source": "Lear Corporation"
         }
       ]
     },
@@ -568,6 +491,12 @@
           "date": "2026-09-30",
           "headline": "Transocean, Valaris receive US antitrust approval",
           "source": "MLex"
+        },
+        {
+          "status": "approved",
+          "date": "2026-10-13",
+          "headline": "Brazil Clears Transocean's Planned $5.8 Billion Valaris Acquisition",
+          "source": "TokenPost"
         }
       ]
     },
@@ -1077,6 +1006,87 @@
           "headline": "Bumble agrees to a $1.3B acquisition deal as online dating faces a reset",
           "source": "TechCrunch",
           "priceReaction": "BMBL soared more than 50% on 12 October on reports of advanced take-private talks"
+        }
+      ]
+    },
+    {
+      "id": "ffh-idbi-bank-acquisition",
+      "ticker": "FFH.TO",
+      "counterparty": "IDBI Bank (IDBI.NS)",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Fairfax commits roughly ₹52,878 crore (~$6bn) for a controlling 60.72% of IDBI Bank at ₹81 a share, its biggest bet on India and the largest-ever FDI into Indian financial services — still subject to RBI fit-and-proper clearance and a mandatory open offer to minorities.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-10-14",
+          "headline": "Centre approves Fairfax Financial’s ₹52,878 crore bid for 60.72% stake in IDBI Bank",
+          "source": "Business Today"
+        }
+      ]
+    },
+    {
+      "id": "lha-tap-stake-acquisition",
+      "ticker": "LHA.DE",
+      "counterparty": "TAP Air Portugal (Portuguese state)",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Portugal picked Lufthansa's all-cash bid of about €1.0bn for 44.9% of TAP (up to €1.2bn for 49.9%) over Air France-KLM, handing Lufthansa a Lisbon hub with strong Brazil and Africa routes — contracts and EU approval still to come.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-10-14",
+          "headline": "Lufthansa wins race for $1.3 billion stake in Portuguese carrier TAP",
+          "source": "CNBC"
+        }
+      ]
+    },
+    {
+      "id": "kmb-kenvue-acquisition",
+      "ticker": "KMB",
+      "counterparty": "Kenvue (KVUE)",
+      "type": "acquisition",
+      "currentStatus": "approved",
+      "whyItMatters": "EU clearance for Kimberly-Clark's ~$49bn Kenvue takeover costs only its EEA feminine-care brands (to Dilek Grup), leaving China's in-depth review as the main hurdle before the consumer-health combination can close.",
+      "phases": [
+        {
+          "status": "approved",
+          "date": "2026-10-13",
+          "headline": "Kimberly-Clark gets conditional EU approval for Kenvue acquisition",
+          "source": "MLex"
+        }
+      ]
+    },
+    {
+      "id": "lseg-octus-acquisition",
+      "ticker": "LSEG.L",
+      "counterparty": "Octus (Permira)",
+      "type": "acquisition",
+      "currentStatus": "rumored",
+      "whyItMatters": "LSEG confirmed talks to pay about $3.5bn for Permira-owned credit-data firm Octus, a bolt-on it says would be immediately accretive to Data & Analytics growth — but investors sold the shares on the price and financing question.",
+      "phases": [
+        {
+          "status": "rumored",
+          "date": "2026-10-13",
+          "headline": "LSEG in Talks to Buy Permira-Owned Credit Firm Octus",
+          "source": "Bloomberg",
+          "priceReaction": "-4.7% intraday"
+        }
+      ]
+    },
+    {
+      "id": "pwp-piper-sandler-acquisition",
+      "ticker": "PWP",
+      "counterparty": "Piper Sandler (PIPR)",
+      "type": "acquisition",
+      "currentStatus": "abandoned",
+      "whyItMatters": "Piper Sandler's talks to buy Perella Weinberg broke down over financial terms and personnel, removing the takeover premium priced into PWP since the late-September WSJ report and leaving it as a standalone mid-sized advisory boutique.",
+      "phases": [
+        {
+          "status": "abandoned",
+          "date": "2026-10-14",
+          "headline": "Perella Weinberg Drops After Report of Deal Talks Abandoned",
+          "source": "Bloomberg"
         }
       ]
     }
