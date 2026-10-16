@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T08:00:00Z",
+  "generatedAt": "2026-10-16T08:00:00Z",
   "events": [
     {
       "id": "acb-curaleaf-takeover-bid",
@@ -1087,6 +1087,54 @@
           "date": "2026-10-14",
           "headline": "Perella Weinberg Drops After Report of Deal Talks Abandoned",
           "source": "Bloomberg"
+        }
+      ]
+    },
+    {
+      "id": "pag-penske-mitsui-take-private",
+      "ticker": "PAG",
+      "counterparty": "Penske Corporation and Mitsui (8031.T)",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Controlling holders Penske Corp (~52%) and Mitsui (~20%) are buying out the public float at $212 a share, only ~9% above market and barely above July's $210 proposal, so minority holders get a thin take-under-style premium on a $16.3bn-EV dealer group with no competing bidder possible.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-10-15",
+          "headline": "Penske Automotive to go private in $16.3 billion deal led by Penske Corp, Mitsui",
+          "source": "Investing.com"
+        }
+      ]
+    },
+    {
+      "id": "cccs-gtcr-elliott-take-private",
+      "ticker": "CCCS",
+      "counterparty": "GTCR and Elliott",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "An activist-forced sale caps CCC's upside at $7.75 cash (~$6.1bn EV, 44% over the unaffected July price), turning the stock into a merger-arb spread pending a shareholder vote.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-10-15",
+          "headline": "CCC Intelligent Solutions Signs Definitive Agreement to Be Acquired by GTCR and Elliott",
+          "source": "GlobeNewswire"
+        }
+      ]
+    },
+    {
+      "id": "cbk-unicredit-takeover",
+      "ticker": "CBK.DE",
+      "counterparty": "UniCredit (UCG.MI)",
+      "type": "acquisition",
+      "currentStatus": "approved",
+      "whyItMatters": "ECB clearance lets UniCredit take delivery of tendered shares beyond its ~48% stake and move to control of Commerzbank over Berlin's objections, making a board overhaul and UniCredit's profit plan the likely path for Commerzbank holders.",
+      "phases": [
+        {
+          "status": "approved",
+          "date": "2026-10-15",
+          "headline": "Italy's UniCredit wins ECB approval to control Germany's Commerzbank",
+          "source": "Reuters"
         }
       ]
     }
