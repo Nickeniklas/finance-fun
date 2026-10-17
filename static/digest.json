@@ -1,35 +1,35 @@
 {
-  "date": "2026-10-16",
+  "date": "2026-10-17",
   "whatChanged": [
-    "NEW: Penske Automotive agrees to be taken private by Penske Corporation and Mitsui at $212 a share in cash, about $16.3bn enterprise value and ~9% over the prior close; closing expected Q1 2027 (pag-penske-mitsui-take-private)",
-    "NEW: CCC Intelligent Solutions agrees to a $7.75-a-share cash sale to a GTCR-led consortium including Elliott, about $6.1bn enterprise value and a 44% premium to the unaffected July price (cccs-gtcr-elliott-take-private)",
-    "NEW: The ECB authorises UniCredit to cross 30% of Commerzbank with no upper cap, letting it take up shares tendered into its offer from a ~48% stake toward control around year-end (cbk-unicredit-takeover)"
+    "NEW: International Seaways agrees to acquire Oslo-listed VLCC owner Bruton for about $370m, ~96% in new INSW shares, via a first-step exchange for ~50.5% and a follow-on merger (insw-bruton-acquisition)",
+    "NEW: National Fuel Gas board approves a tax-free spin-off of its Integrated Upstream and Gathering business, leaving a pure regulated utility and pipeline company; completion targeted for 2H 2027 (nfg-iug-spin-off)",
+    "ADVANCED: Copart completes its $10.50-a-share, ~$1.9bn acquisition of ACV Auctions after 68.4% of shares were tendered (cprt-acv-acquisition) (approved → closed)"
   ],
   "themes": [
     {
       "label": "Public-to-private buyout offers on listed companies",
-      "note": "Sponsors, strategics and insiders keep taking listed businesses off public markets. Two more signed on 15 October: Penske Corporation and Mitsui, which already control the company, will pay $212 a share for the Penske Automotive float at about $16.3bn EV (pag-penske-mitsui-take-private), and a GTCR-led consortium with activist Elliott will pay $7.75 a share, about $6.1bn EV, for CCC Intelligent Solutions (cccs-gtcr-elliott-take-private). Ithaca Holdings is taking Bumble private at $6.05 a share (bmbl-ithaca-take-private), CD&R and McKesson are paying $32.05 a share for Option Care Health (opch-cdr-mckesson-take-private), and Viatris is tendering $36.50 a share for Pacira (pcrx-viatris-acquisition). Tender mechanics remain the risk: Copart's ACV offer has cleared HSR with the minimum tender met (cprt-acv-acquisition), while Curaleaf's hostile Aurora bid runs to 4 December (acb-curaleaf-takeover-bid).",
-      "streak": 84
+      "note": "Sponsors, strategics and insiders keep taking listed businesses off public markets. Two more signed on 15 October: Penske Corporation and Mitsui, which already control the company, will pay $212 a share for the Penske Automotive float at about $16.3bn EV (pag-penske-mitsui-take-private), and a GTCR-led consortium with activist Elliott will pay $7.75 a share, about $6.1bn EV, for CCC Intelligent Solutions (cccs-gtcr-elliott-take-private). Ithaca Holdings is taking Bumble private at $6.05 a share (bmbl-ithaca-take-private), CD&R and McKesson are paying $32.05 a share for Option Care Health (opch-cdr-mckesson-take-private), and Viatris is tendering $36.50 a share for Pacira (pcrx-viatris-acquisition). Tender mechanics decide timing: Copart closed its ACV tender offer on 16 October with 68.4% of shares tendered (cprt-acv-acquisition), while Curaleaf's hostile Aurora bid runs to 4 December (acb-curaleaf-takeover-bid).",
+      "streak": 85
     },
     {
       "label": "Signed M&A deals hitting regulatory or legal roadblocks",
       "note": "Deals keep being decided by regulators, politicians and courts rather than the parties. Paramount's ~$110bn Warner Bros. Discovery takeover closed only after a 12-state antitrust settlement (psky-wbd-acquisition). Kimberly-Clark won EU clearance for Kenvue only by agreeing to sell its EEA feminine-care brands, with China still pending (kmb-kenvue-acquisition). AkzoNobel and Axalta are expected to offer a refinish divestment for EU clearance (akza-axalta-merger). BT's rescue of TalkTalk waits on a CMA report due 19 October and a ministerial public-interest decision (bt-talktalk-acquisition). The ECB has now cleared UniCredit to control Commerzbank, but the German government's opposition remains (cbk-unicredit-takeover). Clean exits show the contrast: Brazil's CADE cleared Transocean-Valaris without conditions (val-transocean-acquisition).",
-      "streak": 79
+      "streak": 80
     },
     {
       "label": "Large-caps scaling up buybacks on surplus cash",
       "note": "Companies with cash coming in faster than they can reinvest it keep expanding share repurchases, each tying the bigger programme to a specific cash or capital tailwind. Nvidia added $150bn to its authorization on AI-accelerator cash flow (nvda-buyback-2026). TotalEnergies lifted Q4 buybacks to $2.5bn and pledged more than 5% annual dividend growth as oil trades around $100 (tte-buyback-dividend-2026). Canadian banks are moving together: TD has OSFI approval and began buying back up to another C$10bn on 9 October (td-buyback-2026), and Scotiabank lifted its issuer bid to 40 million shares (bns-buyback-2026). Julius Baer announced a CHF600m buyback days after FINMA closed its Signa probe (baer-buyback-2026).",
-      "streak": 18
+      "streak": 19
     },
     {
       "label": "European incumbents consolidating domestic rivals for scale",
       "note": "Europe's large banks and industrials are bidding for rivals to get the scale to compete with US and Chinese peers, with controlling shareholders, governments and supervisors deciding outcomes. The ECB has cleared UniCredit to move past 30% of Commerzbank with no cap, putting control within reach around year-end despite Berlin's opposition (cbk-unicredit-takeover). Intesa Sanpaolo has sweetened its Monte dei Paschi offer and won Delfin's backing, but the MPS board still calls it too low (isp-bmps-takeover-offer). Evonik rejected BASF's approach, leaving RAG-Stiftung's ~43% stake decisive (evk-basf-acquisition). KKR and RWE (un01-rwe-kkr-acquisition) and Apollo (un01-apollo-acquisition) are bidding for Uniper, and RHI Magnesita faces a 27 October put-up-or-shut-up deadline for Vesuvius (vsvs-rhim-takeover-proposal).",
-      "streak": 12
+      "streak": 13
     },
     {
       "label": "Governments selling state-held stakes to strategic and financial buyers",
       "note": "Several governments are privatising long-held stakes and choosing buyers on price plus industrial plan. India's cabinet approved selling 60.72% of IDBI Bank (government and LIC) to Fairfax for ₹52,878 crore, keeping 34% between them (ffh-idbi-bank-acquisition). Portugal picked Lufthansa's all-cash offer for 44.9% of TAP Air Portugal over Air France-KLM while keeping a 50.1% majority (lha-tap-stake-acquisition). Germany is selling up to 74.12% of Uniper to meet EU rules, drawing a KKR-RWE joint bid (un01-rwe-kkr-acquisition) and a separate Apollo bid (un01-apollo-acquisition).",
-      "streak": 2
+      "streak": 3
     }
   ]
 }
