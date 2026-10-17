@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T08:00:00Z",
+  "generatedAt": "2026-10-17T08:00:00Z",
   "events": [
     {
       "id": "acb-curaleaf-takeover-bid",
@@ -200,7 +200,7 @@
       "ticker": "CPRT",
       "counterparty": "ACV Auctions (ACVA)",
       "type": "acquisition",
-      "currentStatus": "approved",
+      "currentStatus": "closed",
       "whyItMatters": "Copart is paying $10.50 a share in cash -- about $1.9bn, a 45% premium -- through a tender offer for ACV Auctions, buying its way out of pure salvage and into the digital wholesale market for ordinary used dealer cars, with ACV run as an independent subsidiary and closing targeted by year-end.",
       "phases": [
         {
@@ -237,6 +237,12 @@
           "status": "approved",
           "date": "2026-10-14",
           "headline": "Copart Announces Expiration of Hart-Scott-Rodino Act Waiting Period to Acquire ACV",
+          "source": "Business Wire"
+        },
+        {
+          "status": "closed",
+          "date": "2026-10-16",
+          "headline": "Copart Completes Acquisition of ACV",
           "source": "Business Wire"
         }
       ]
@@ -1135,6 +1141,38 @@
           "date": "2026-10-15",
           "headline": "Italy's UniCredit wins ECB approval to control Germany's Commerzbank",
           "source": "Reuters"
+        }
+      ]
+    },
+    {
+      "id": "insw-bruton-acquisition",
+      "ticker": "INSW",
+      "counterparty": "Bruton Limited (BRUT.OL)",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "International Seaways is buying Oslo-listed Bruton and its four VLCCs (including newbuildings) for about $370m, paid ~96% in roughly 3.12m new INSW shares: a first-step exchange for ~50.5% of Bruton settling around 20 October and a cash-and-stock merger vote around 30 October, adding very-large-crude-carrier exposure to its ~70-vessel crude and product fleet in stock rather than cash.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-10-16",
+          "headline": "International Seaways Announces Agreements to Acquire Bruton Limited",
+          "source": "International Seaways (SEC 8-K)"
+        }
+      ]
+    },
+    {
+      "id": "nfg-iug-spin-off",
+      "ticker": "NFG",
+      "counterparty": "Integrated Upstream and Gathering spin-co (IUG)",
+      "type": "capital-allocation",
+      "currentStatus": "confirmed",
+      "whyItMatters": "National Fuel Gas will split into a 100% rate-regulated utility and pipeline company and a pure-play Appalachian upstream and gathering company via a tax-free spin of at least 80.1% of IUG, targeted for 2H 2027, separating a steady regulated earner from a commodity-exposed producer so each can be valued and funded on its own terms; NFG keeps up to 19.9% to sell later.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-10-14",
+          "headline": "National Fuel Gas Company Announces Plan to Separate Its Integrated Upstream and Gathering Business",
+          "source": "GlobeNewswire"
         }
       ]
     }
