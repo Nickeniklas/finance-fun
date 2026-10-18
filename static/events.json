@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T08:00:00Z",
+  "generatedAt": "2026-10-18T08:00:00Z",
   "events": [
     {
       "id": "acb-curaleaf-takeover-bid",
@@ -1173,6 +1173,22 @@
           "date": "2026-10-14",
           "headline": "National Fuel Gas Company Announces Plan to Separate Its Integrated Upstream and Gathering Business",
           "source": "GlobeNewswire"
+        }
+      ]
+    },
+    {
+      "id": "vrns-proofpoint-acquisition",
+      "ticker": "VRNS",
+      "counterparty": "Proofpoint (Thoma Bravo)",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "$49.75-a-share all-cash, ~$6.3bn deal at a 52% premium to the pre-rumor price caps Varonis's upside at a fixed cash price and takes it private; the year's largest cybersecurity deal, expected to close 1H 2027.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-10-15",
+          "headline": "Proofpoint agrees to buy data security company Varonis for $6.3B in cash",
+          "source": "SiliconANGLE"
         }
       ]
     }
