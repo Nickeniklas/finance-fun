@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T08:00:00Z",
+  "generatedAt": "2026-10-19T08:00:00Z",
   "events": [
     {
       "id": "acb-curaleaf-takeover-bid",
@@ -268,6 +268,12 @@
           "headline": "Germany's Evonik rejects BASF's $11.7 billion bid, sources say",
           "source": "Reuters",
           "priceReaction": "Evonik +2.4% to EUR19.84; BASF little changed after a 3.6% fall on Friday"
+        },
+        {
+          "status": "rumored",
+          "date": "2026-10-09",
+          "headline": "BASF erwägt besseres Angebot für Evonik - Insider",
+          "source": "Reuters"
         }
       ]
     },
@@ -314,72 +320,12 @@
           "date": "2026-09-29",
           "headline": "Gold Fields Said to Weigh Sweetening Northern Star Bid With Cash",
           "source": "Bloomberg"
-        }
-      ]
-    },
-    {
-      "id": "nvda-buyback-2026",
-      "ticker": "NVDA",
-      "counterparty": null,
-      "type": "capital-allocation",
-      "currentStatus": "confirmed",
-      "whyItMatters": "A $150bn top-up -- the largest buyback authorization increase ever -- lifts Nvidia's remaining capacity to $235bn through fiscal 2028, turning AI-driven cash generation into a structural per-share tailwind and signalling management sees more cash than it can deploy into capex and investments.",
-      "phases": [
+        },
         {
-          "status": "confirmed",
-          "date": "2026-09-28",
-          "headline": "Nvidia Boosts Share Buyback Authorization by $150 Billion",
-          "source": "Bloomberg"
-        }
-      ]
-    },
-    {
-      "id": "nio-geely-nio-power-stake",
-      "ticker": "NIO",
-      "counterparty": "Geely Holding Group",
-      "type": "partnership",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Selling 30% of NIO Power to rival Geely for its Yiyi Power swap business plus RMB640m cash sets a ~RMB16bn ($2.4bn) valuation on Nio's costliest infrastructure bet and brings a second major automaker's cars onto its battery-swap network, shifting the network from a Nio-only cash drain toward a shared industry utility.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-09-28",
-          "headline": "Geely To Buy 30% Stake in Rival Nio's Battery-Swapping Unit",
-          "source": "Bloomberg",
-          "priceReaction": "+3%"
-        }
-      ]
-    },
-    {
-      "id": "tte-buyback-dividend-2026",
-      "ticker": "TTE",
-      "counterparty": null,
-      "type": "capital-allocation",
-      "currentStatus": "confirmed",
-      "whyItMatters": "TotalEnergies is lifting Q4 buybacks to $2.5bn (from $1.5bn in Q3) and committing to grow the dividend more than 5% a year through 2030, locking a larger share of $100 oil windfall cash into shareholder returns rather than capex.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-09-28",
-          "headline": "TotalEnergies raises buybacks and pledges higher dividends as oil trades around $100",
-          "source": "Euronews"
-        }
-      ]
-    },
-    {
-      "id": "amd-worldlabs-acquisition",
-      "ticker": "AMD",
-      "counterparty": "World Labs",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "AMD is paying $8.2bn in its own stock -- its second-largest deal after Xilinx -- for Fei-Fei Li's spatial-intelligence model lab, buying model-research talent and a foothold in physical AI and robotics so its chip roadmap is shaped by where frontier models are heading rather than by Nvidia's lead; holders take the dilution, and the payoff depends on retaining a research team that is the whole asset.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-09-28",
-          "headline": "AMD to Buy Fei-Fei Li's World Labs Startup for $8.2 Billion",
-          "source": "Bloomberg",
-          "priceReaction": "+1.4% premarket"
+          "status": "rumored",
+          "date": "2026-10-15",
+          "headline": "Gold Fields CEO plays down talk of raising its offer for Northern Star",
+          "source": "Reuters"
         }
       ]
     },
@@ -388,7 +334,7 @@
       "ticker": "SMMT",
       "counterparty": "AstraZeneca (AZN)",
       "type": "partnership",
-      "currentStatus": "confirmed",
+      "currentStatus": "closed",
       "whyItMatters": "AstraZeneca is putting $2bn into Summit at $18.36 a share (about 12% of the common) and pairing its ADCs with ivonescimab, which removes Summit's funding overhang without giving up ivonescimab economics and puts a big-pharma validation -- and a natural future acquirer -- on the PD-1/VEGF bet.",
       "phases": [
         {
@@ -397,22 +343,12 @@
           "headline": "AstraZeneca Makes $2 Billion Strategic Equity Investment in Summit Therapeutics",
           "source": "Business Wire",
           "priceReaction": "+18%"
-        }
-      ]
-    },
-    {
-      "id": "un01-rwe-kkr-acquisition",
-      "ticker": "UN01.DE",
-      "counterparty": "RWE (RWE.DE) / KKR",
-      "type": "acquisition",
-      "currentStatus": "rumored",
-      "whyItMatters": "Berlin is selling about 75% of nationalised gas importer Uniper, and a joint non-binding KKR-RWE bid -- a reversal of RWE's August stance, against Equinor and a Brookfield-CPP consortium -- makes a trade sale over an IPO more likely and would hand Germany's largest utility a big gas and power-plant fleet.",
-      "phases": [
+        },
         {
-          "status": "rumored",
-          "date": "2026-09-28",
-          "headline": "KKR, RWE Submit Joint Bid for Germany's State-Owned Uniper, Sources Say",
-          "source": "Bloomberg"
+          "status": "closed",
+          "date": "2026-10-05",
+          "headline": "AstraZeneca Completes $2 Billion Equity Investment in Summit Therapeutics",
+          "source": "AstraZeneca"
         }
       ]
     },
@@ -1189,6 +1125,40 @@
           "date": "2026-10-15",
           "headline": "Proofpoint agrees to buy data security company Varonis for $6.3B in cash",
           "source": "SiliconANGLE"
+        }
+      ]
+    },
+    {
+      "id": "cwy-eqt-infrastructure-take-private",
+      "ticker": "CWY.AX",
+      "counterparty": "EQT Infrastructure",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "EQT Infrastructure has signed a binding scheme to buy Australia's largest waste manager for A$3.095 a share in cash (about A$9.3bn EV), slightly below its A$3.13 August proposal, with a franked special dividend of up to 19c possible and a ticking fee if it runs past March 2027; the unanimous board recommendation turns Cleanaway into a fixed-price arb, with FIRB, ACCC, court and a February 2027 vote left to clear.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-10-19",
+          "headline": "EQT agrees to acquire Cleanaway, a leading Australian integrated waste management and resource recovery platform",
+          "source": "EQT",
+          "priceReaction": "CWY up about 19-20%"
+        }
+      ]
+    },
+    {
+      "id": "nhc-malabar-acquisition",
+      "ticker": "NHC.AX",
+      "counterparty": "Malabar Resources",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "New Hope is issuing 0.5 of its own shares per Malabar share (about A$1.8bn equity, A$2.4bn EV) to take full control of the Maxwell underground mine it already owns 26% of, creating a ~A$6.3bn coal group in which Malabar holders get 21%; it doubles down on Hunter Valley coal in paper rather than cash, so New Hope holders take dilution for a mine still ramping toward 5.5Mtpa.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-10-19",
+          "headline": "New Hope shares hit near one-month high as it agrees $1.3 bln Malabar deal",
+          "source": "Investing.com",
+          "priceReaction": "NHC at near one-month high"
         }
       ]
     }
