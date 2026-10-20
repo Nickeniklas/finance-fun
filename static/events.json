@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T08:00:00Z",
+  "generatedAt": "2026-10-20T08:00:00Z",
   "events": [
     {
       "id": "acb-curaleaf-takeover-bid",
@@ -1159,6 +1159,55 @@
           "headline": "New Hope shares hit near one-month high as it agrees $1.3 bln Malabar deal",
           "source": "Investing.com",
           "priceReaction": "NHC at near one-month high"
+        }
+      ]
+    },
+    {
+      "id": "slgn-trivium-acquisition",
+      "ticker": "SLGN",
+      "counterparty": "Trivium Packaging",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Silgan is folding its metal containers and closures businesses into Trivium (bought for about $3.4bn EV, 7.1x EBITDA) to form a ~$7.3bn metal packaging company, keeping 60% while American Industrial Partners takes 40% for about $1bn in cash equity; Silgan pockets roughly $2.3bn of cash and guides to at least 15% EPS and free-cash-flow accretion, setting up a possible later separation of the metal business, with closing not expected until mid-2027.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-10-19",
+          "headline": "Silgan stock surges 5.5% on $3.4B Trivium acquisition deal",
+          "source": "Investing.com",
+          "priceReaction": "+5.5%"
+        }
+      ]
+    },
+    {
+      "id": "fnac-ep-group-takeover-bid",
+      "ticker": "FNAC.PA",
+      "counterparty": "EP Group",
+      "type": "acquisition",
+      "currentStatus": "approved",
+      "whyItMatters": "European Commission merger clearance removes the last regulatory condition on Daniel Kretinsky's EP Group €35-a-share tender offer for Fnac Darty, which the board backs and an independent expert called fair; with the AMF to set the final timetable and closing expected in early November, the stock is now a short-dated arb and France's largest electronics and books retailer is heading under Kretinsky's control.",
+      "phases": [
+        {
+          "status": "approved",
+          "date": "2026-10-20",
+          "headline": "Fnac Darty: Merger control clearance from the European Commission of the takeover bid initiated by EP Group",
+          "source": "GlobeNewswire"
+        }
+      ]
+    },
+    {
+      "id": "php-gic-hospital-jv",
+      "ticker": "PHP.L",
+      "counterparty": "GIC",
+      "type": "partnership",
+      "currentStatus": "confirmed",
+      "whyItMatters": "PHP is putting 27 private hospitals (about £0.7bn, transferred at a 5% discount to book) into a 50:50 venture with Singapore's GIC and keeping the asset-management role, raising about £0.5bn to repay variable-rate debt including the rest of the Assura bridge; it cuts net debt from about £3.4bn toward £2.9bn and gives PHP a sovereign capital partner for future growth, at the cost of half the hospital income.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-10-19",
+          "headline": "UK's PHP forms joint venture with Singapore's GIC to cut debt",
+          "source": "Reuters"
         }
       ]
     }
