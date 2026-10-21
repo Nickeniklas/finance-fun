@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T08:00:00Z",
+  "generatedAt": "2026-10-21T08:00:00Z",
   "events": [
     {
       "id": "acb-curaleaf-takeover-bid",
@@ -51,28 +51,6 @@
           "date": "2026-10-05",
           "headline": "Curaleaf Raises Aurora Cannabis Takeover Offer To $5 Per Share",
           "source": "Pulse 2.0"
-        }
-      ]
-    },
-    {
-      "id": "irt-centerspace-merger",
-      "ticker": "IRT",
-      "counterparty": "Centerspace (CSR)",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Independence Realty Trust is issuing 3.8 of its own shares for each Centerspace share -- $60.46 a share, a 14.7% premium and about $2.14bn of equity -- to build an $8.1bn-enterprise-value, 163-community apartment REIT across 17 states. Because it is all stock, IRT holders are not being paid out; they are being diluted into a portfolio that is 58% Sunbelt, 27% Midwest and 15% Mountain West, which is a deliberate dilution of the pure Sunbelt exposure the market has been pricing IRT on. The case rests on G&A and scale synergies plus a Midwest book with less new supply than the Sunbelt; the risk is that investors who bought a Sunbelt operator now own something else. Closing is guided to as early as the end of Q4 2026.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-09-09",
-          "headline": "Independence Realty Trust and Centerspace to Merge in $8.1 Billion Combination",
-          "source": "PR Newswire"
-        },
-        {
-          "status": "confirmed",
-          "date": "2026-09-29",
-          "headline": "Activist Irenic plans to vote against Independence Realty's purchase of Centerspace",
-          "source": "Seeking Alpha"
         }
       ]
     },
@@ -278,29 +256,6 @@
       ]
     },
     {
-      "id": "hwg-peel-acquisition",
-      "ticker": "HWG.L",
-      "counterparty": "Peel Holdings (Peel Pepper)",
-      "type": "acquisition",
-      "currentStatus": "approved",
-      "whyItMatters": "Harworth's board has stopped resisting and Peel's 187p best-and-final cash offer (a 30% premium to the undisturbed price) will give it majority control within days, capping the upside for remaining holders.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-09-25",
-          "headline": "Harworth backs Peel's £632m best and final takeover offer",
-          "source": "Proactive Investors",
-          "priceReaction": "+4.6%"
-        },
-        {
-          "status": "approved",
-          "date": "2026-09-29",
-          "headline": "Peel Pepper offer for Harworth Group declared unconditional",
-          "source": "Investing.com"
-        }
-      ]
-    },
-    {
       "id": "nst-goldfields-takeover-proposal",
       "ticker": "NST.AX",
       "counterparty": "Gold Fields (GFI)",
@@ -353,23 +308,6 @@
       ]
     },
     {
-      "id": "vsvs-rhim-takeover-proposal",
-      "ticker": "VSVS.L",
-      "counterparty": "RHI Magnesita (RHIM.L)",
-      "type": "acquisition",
-      "currentStatus": "rumored",
-      "whyItMatters": "RHI Magnesita's 470p cash plus 0.028 shares proposal (about 549p, a 47% premium, ~£1.37bn) would combine the two biggest listed refractory makers, and with Cevian's 23% stake irrevocably committed if the board recommends, the deal now hinges on the Vesuvius board and a 27 October put-up-or-shut-up deadline.",
-      "phases": [
-        {
-          "status": "rumored",
-          "date": "2026-09-29",
-          "headline": "RHI Magnesita confirms talks for 549p offer for Vesuvius",
-          "source": "Investing.com",
-          "priceReaction": "shares rose"
-        }
-      ]
-    },
-    {
       "id": "lyc-meteoric-acquisition",
       "ticker": "LYC.AX",
       "counterparty": "Meteoric Resources (MEI.AX)",
@@ -400,23 +338,6 @@
           "headline": "Transurban to buy $4.5 billion of Sydney toll-road stakes from CPP Investments",
           "source": "Reuters",
           "priceReaction": "TCL down over 1%"
-        }
-      ]
-    },
-    {
-      "id": "hrl-brakebush-acquisition",
-      "ticker": "HRL",
-      "counterparty": "Brakebush Brothers",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Hormel is paying about $1.055bn in cash and new debt for a family-owned value-added chicken processor with ~$1.2bn of sales, lifting chicken from under 5% to about 13% of its protein mix; it is a bet on the fastest-growing protein, but accretion is not expected until fiscal 2028 and both S&P (to BBB+) and Moody's (to A3) downgraded Hormel because leverage temporarily moves above its 1.5-2.0x target.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-09-30",
-          "headline": "Hormel Foods agrees to acquire Brakebush for $1.06 billion",
-          "source": "The National Provisioner",
-          "priceReaction": "HRL up less than 1% midday"
         }
       ]
     },
@@ -495,30 +416,6 @@
           "headline": "Mattel attracts takeover interest from Authentic Brands Group, source says",
           "source": "Reuters",
           "priceReaction": "+23% on Thursday"
-        }
-      ]
-    },
-    {
-      "id": "nu-monzo-acquisition",
-      "ticker": "NU",
-      "counterparty": "Monzo",
-      "type": "acquisition",
-      "currentStatus": "abandoned",
-      "whyItMatters": "A GBP8-10bn purchase of Monzo would have been Nubank's first big move outside Latin America and a licensed route into the UK and EU; the market hated it, and Nubank's denial removes the dilution overhang.",
-      "phases": [
-        {
-          "status": "rumored",
-          "date": "2026-09-26",
-          "headline": "Nubank Said in Talks to Buy Monzo for Up to £10 Billion",
-          "source": "Bloomberg",
-          "priceReaction": "NU fell about 8% on Monday morning"
-        },
-        {
-          "status": "abandoned",
-          "date": "2026-09-30",
-          "headline": "Brazil's Nubank says it is not pursuing deal with Monzo",
-          "source": "Reuters",
-          "priceReaction": "+6% after hours"
         }
       ]
     },
@@ -1208,6 +1105,72 @@
           "date": "2026-10-19",
           "headline": "UK's PHP forms joint venture with Singapore's GIC to cut debt",
           "source": "Reuters"
+        }
+      ]
+    },
+    {
+      "id": "crm-braze-acquisition",
+      "ticker": "CRM",
+      "counterparty": "BRZE",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Salesforce's biggest deal since Informatica pays a 58% premium, about $5.66bn EV, to bolt Braze's customer-engagement platform onto its AI marketing stack, a sign that Salesforce is back to buying growth after its margin-first stretch.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-10-20",
+          "headline": "Salesforce to acquire Braze in a $5.66 billion deal",
+          "source": "Reuters",
+          "priceReaction": "Braze +50%"
+        }
+      ]
+    },
+    {
+      "id": "tsla-spacex-merger",
+      "ticker": "TSLA",
+      "counterparty": "SpaceX",
+      "type": "merger",
+      "currentStatus": "rumored",
+      "whyItMatters": "A Tesla–SpaceX combination would merge two Musk companies worth about $3.5tn and dilute both shareholder bases; any deal needs a majority of all outstanding Tesla shares, so governance and the vote are the real risk.",
+      "phases": [
+        {
+          "status": "rumored",
+          "date": "2026-10-20",
+          "headline": "Elon Musk says SpaceX and Tesla have formed special committees to discuss merger idea",
+          "source": "NBC News"
+        }
+      ]
+    },
+    {
+      "id": "lion-legendary-takeover-approach",
+      "ticker": "LION",
+      "counterparty": "Legendary Entertainment",
+      "type": "acquisition",
+      "currentStatus": "rumored",
+      "whyItMatters": "An Apollo-backed Legendary bid of about $3.5bn including debt would pin a takeout value on Lionsgate's film and TV library, while activist Anson Funds is already pushing the company to act.",
+      "phases": [
+        {
+          "status": "rumored",
+          "date": "2026-10-20",
+          "headline": "Lionsgate Stock Jumps On Report Of Takeover Offer By Legendary",
+          "source": "Deadline",
+          "priceReaction": "+15% intraday"
+        }
+      ]
+    },
+    {
+      "id": "gm-buyback-2026",
+      "ticker": "GM",
+      "counterparty": null,
+      "type": "capital-allocation",
+      "currentStatus": "confirmed",
+      "whyItMatters": "A new $20bn buyback authorization, after GM finished its $6bn programme, is a large fraction of its market cap and shows management would rather return cash than chase EV capex.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-10-20",
+          "headline": "GM releases 2026 third-quarter results and updates full-year 2026 guidance; Board approves new $20 billion share repurchase authorization, declares quarterly dividend",
+          "source": "General Motors"
         }
       ]
     }
