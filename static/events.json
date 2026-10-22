@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T08:00:00Z",
+  "generatedAt": "2026-10-22T08:00:00Z",
   "events": [
     {
       "id": "acb-curaleaf-takeover-bid",
@@ -51,6 +51,12 @@
           "date": "2026-10-05",
           "headline": "Curaleaf Raises Aurora Cannabis Takeover Offer To $5 Per Share",
           "source": "Pulse 2.0"
+        },
+        {
+          "status": "confirmed",
+          "date": "2026-10-14",
+          "headline": "Aurora Cannabis welcomes other bids as latest Curaleaf takeover rejected",
+          "source": "MJBizDaily"
         }
       ]
     },
@@ -308,40 +314,6 @@
       ]
     },
     {
-      "id": "lyc-meteoric-acquisition",
-      "ticker": "LYC.AX",
-      "counterparty": "Meteoric Resources (MEI.AX)",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "The largest rare-earths producer outside China is paying about A$968m in its own shares -- 0.0207 Lynas shares per Meteoric share, a 68% premium -- for Caldeira in Brazil, one of the world's largest ionic-clay deposits, lifting Lynas' measured-and-indicated resources by 79% and reserves by about 26%; it buys a second jurisdiction and heavy-rare-earth feed outside Malaysia and Australia, but Lynas holders take dilution today for a project that still needs years of capex, which is why Lynas fell about 5% while Meteoric jumped 50%. Meteoric votes in January 2027 with implementation targeted for March.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-10-01",
-          "headline": "Lynas in $968m deal to acquire Meteoric Resources",
-          "source": "Business News Australia",
-          "priceReaction": "MEI +50% early trade; LYC about -5%"
-        }
-      ]
-    },
-    {
-      "id": "tcl-cpp-sydney-roads-stake-acquisition",
-      "ticker": "TCL.AX",
-      "counterparty": "CPP Investments",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Transurban is spending A$4.5bn of debt-funded cash to buy out CPP Investments' 25% of NorthWestern Roads Group (M7, NorthConnex) and 10.5% of WestConnex, taking it to 75% and 60.5% control of Sydney's core motorway network; more of its cash flow now comes from assets it already runs, with no equity raise and FY27 distributions guided unaffected, but leverage rises and the ACCC must clear a deal that deepens an existing Sydney toll-road near-monopoly before completion in 2027.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-10-01",
-          "headline": "Transurban to buy $4.5 billion of Sydney toll-road stakes from CPP Investments",
-          "source": "Reuters",
-          "priceReaction": "TCL down over 1%"
-        }
-      ]
-    },
-    {
       "id": "val-transocean-acquisition",
       "ticker": "VAL",
       "counterparty": "Transocean (RIG)",
@@ -382,57 +354,6 @@
           "date": "2026-10-08",
           "headline": "TD Bank gets regulatory approval to buy back up to $10 billion of its shares",
           "source": "The Canadian Press"
-        }
-      ]
-    },
-    {
-      "id": "ctva-vylor-spin-off",
-      "ticker": "CTVA",
-      "counterparty": "Vylor (VYLR)",
-      "type": "capital-allocation",
-      "currentStatus": "closed",
-      "whyItMatters": "Corteva is now a pure crop-protection and biologicals company after spinning off its Pioneer seed and genetics business as Vylor, so holders own two separately valued stocks and the conglomerate discount question is settled by the market.",
-      "phases": [
-        {
-          "status": "closed",
-          "date": "2026-10-01",
-          "headline": "Corteva's split is official, Vylor stock closes up on first day of trading",
-          "source": "AgNavigator",
-          "priceReaction": "Vylor opened at $66 and closed its first NYSE session at $67.74, up 2.6%"
-        }
-      ]
-    },
-    {
-      "id": "mat-authentic-brands-takeover-approach",
-      "ticker": "MAT",
-      "counterparty": "Authentic Brands Group",
-      "type": "acquisition",
-      "currentStatus": "rumored",
-      "whyItMatters": "A brand-licensing buyer valuing Mattel at $20+ a share (about $6bn, a 58%+ premium) would turn Barbie and Hot Wheels into licensed IP rather than a manufacturing business, and it lands the day a new CEO takes over with no formal sale process.",
-      "phases": [
-        {
-          "status": "rumored",
-          "date": "2026-10-01",
-          "headline": "Mattel attracts takeover interest from Authentic Brands Group, source says",
-          "source": "Reuters",
-          "priceReaction": "+23% on Thursday"
-        }
-      ]
-    },
-    {
-      "id": "syna-onsemi-acquisition",
-      "ticker": "SYNA",
-      "counterparty": "ON",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "An unnamed rival bid forced onsemi to swap its sunken all-stock offer for $123 a share in cash, about $5.7bn, handing Synaptics holders price certainty and leaving onsemi to fund the deal from its balance sheet rather than its depressed shares.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-10-01",
-          "headline": "onsemi and Synaptics Announce Revised Merger Agreement",
-          "source": "onsemi",
-          "priceReaction": "SYNA +16% after hours; ON +6.9% after hours"
         }
       ]
     },
@@ -893,6 +814,12 @@
           "date": "2026-10-13",
           "headline": "Kimberly-Clark gets conditional EU approval for Kenvue acquisition",
           "source": "MLex"
+        },
+        {
+          "status": "approved",
+          "date": "2026-10-20",
+          "headline": "Kimberly-Clark's $40B purchase of Kenvue wins China antitrust approval",
+          "source": "Seeking Alpha"
         }
       ]
     },
@@ -1171,6 +1098,44 @@
           "date": "2026-10-20",
           "headline": "GM releases 2026 third-quarter results and updates full-year 2026 guidance; Board approves new $20 billion share repurchase authorization, declares quarterly dividend",
           "source": "General Motors"
+        }
+      ]
+    },
+    {
+      "id": "qgen-eqt-take-private",
+      "ticker": "QGEN",
+      "counterparty": "EQT (EQT.ST)",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "EQT's €46.50-a-share all-cash offer (about €10.8bn EV, with ADIA and CPP Investments co-investing) is board-recommended and has no financing condition, putting a 40% premium to the undisturbed price on Qiagen; the 50%-plus-one acceptance threshold and regulatory clearances into mid-2027 are what stand between holders and the cash, and KKR's reported rival interest set the floor.",
+      "phases": [
+        {
+          "status": "rumored",
+          "date": "2026-10-20",
+          "headline": "EQT in Advanced Talks to Acquire Qiagen in $10 Billion Healthcare Deal",
+          "source": "Bloomberg"
+        },
+        {
+          "status": "confirmed",
+          "date": "2026-10-21",
+          "headline": "QIAGEN and EQT Private Equity announce agreement on a recommended voluntary all-cash public takeover offer",
+          "source": "Business Wire"
+        }
+      ]
+    },
+    {
+      "id": "tw-trumid-acquisition",
+      "ticker": "TW",
+      "counterparty": "Trumid",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Tradeweb is paying about $1.97bn, mostly cash from its own reserves, for Trumid's corporate-bond trading protocols to cover the full credit lifecycle on one platform; it says the deal adds to adjusted EPS in the first full year, and closing in the first half of 2027 depends on regulatory approvals.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-10-19",
+          "headline": "Tradeweb to Acquire Trumid, Expanding Tradeweb's Credit Capabilities Across the Bond Lifecycle",
+          "source": "Business Wire"
         }
       ]
     }
