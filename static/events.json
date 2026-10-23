@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T08:00:00Z",
+  "generatedAt": "2026-10-23T08:00:00Z",
   "events": [
     {
       "id": "acb-curaleaf-takeover-bid",
@@ -354,39 +354,6 @@
           "date": "2026-10-08",
           "headline": "TD Bank gets regulatory approval to buy back up to $10 billion of its shares",
           "source": "The Canadian Press"
-        }
-      ]
-    },
-    {
-      "id": "baer-buyback-2026",
-      "ticker": "BAER",
-      "counterparty": null,
-      "type": "capital-allocation",
-      "currentStatus": "confirmed",
-      "whyItMatters": "FINMA closing its Signa probe and halving Julius Baer's extra capital requirement frees surplus capital for a CHF600m buyback within a year, turning a two-year regulatory overhang into a return-of-capital story.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-10-02",
-          "headline": "Julius Baer to buy back up to CHF600 mln in shares after regulatory scrutiny",
-          "source": "Reuters",
-          "priceReaction": "+2.9%"
-        }
-      ]
-    },
-    {
-      "id": "bns-buyback-2026",
-      "ticker": "BNS",
-      "counterparty": null,
-      "type": "capital-allocation",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Scotiabank is lifting its buyback cap to 40 million shares from 15 million, about 3.25% of its stock, by April 2027 -- signalling excess capital as it follows TD in returning cash rather than expanding.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-10-02",
-          "headline": "Scotiabank Amends Normal Course Issuer Bid to Repurchase Up to 40 Million of its Common Shares",
-          "source": "Scotiabank"
         }
       ]
     },
@@ -1136,6 +1103,54 @@
           "date": "2026-10-19",
           "headline": "Tradeweb to Acquire Trumid, Expanding Tradeweb's Credit Capabilities Across the Bond Lifecycle",
           "source": "Business Wire"
+        }
+      ]
+    },
+    {
+      "id": "pru-cnp-latam-divestiture",
+      "ticker": "PRU",
+      "counterparty": "CNP Assurances",
+      "type": "divestiture",
+      "currentStatus": "confirmed",
+      "whyItMatters": "A $4bn cash exit from Brazil and Mexico is the biggest step yet in Prudential halving its country footprint, freeing capital for asset management, group insurance and European retirement at the cost of its main emerging-market growth engine.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-10-20",
+          "headline": "Prudential sheds Brazil, Mexico units to CNP for $4 billion as it narrows its focus",
+          "source": "Reuters"
+        }
+      ]
+    },
+    {
+      "id": "dfh-beazer-acquisition",
+      "ticker": "DFH",
+      "counterparty": "Beazer Homes (BZH)",
+      "type": "acquisition",
+      "currentStatus": "closed",
+      "whyItMatters": "Closing the $2.2bn all-cash Beazer deal makes Dream Finders the sixth-largest US homebuilder; the case now rests on delivering $100m+ of synergies and bringing leverage back down within 18-24 months.",
+      "phases": [
+        {
+          "status": "closed",
+          "date": "2026-10-20",
+          "headline": "Dream Finders closes $2.2 billion all-cash acquisition of Beazer Homes",
+          "source": "HousingWire"
+        }
+      ]
+    },
+    {
+      "id": "cor-aon-acquisition",
+      "ticker": "COR",
+      "counterparty": "American Oncology Network (AONC)",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Cencora's second big community-oncology buy in under a year (after OneOncology) deepens its bet on owning physician practices, not just distributing drugs to them, adding 350+ providers and 12 states to its MSO platform.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-10-21",
+          "headline": "Cencora to acquire majority stake in $2.4B American Oncology Network",
+          "source": "Fierce Healthcare"
         }
       ]
     }
