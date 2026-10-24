@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T08:00:00Z",
+  "generatedAt": "2026-10-24T08:00:00Z",
   "events": [
     {
       "id": "acb-curaleaf-takeover-bid",
@@ -258,6 +258,13 @@
           "date": "2026-10-09",
           "headline": "BASF erwägt besseres Angebot für Evonik - Insider",
           "source": "Reuters"
+        },
+        {
+          "status": "rumored",
+          "date": "2026-10-23",
+          "headline": "BASF raises Evonik offer to €24 a share, sources say",
+          "source": "Reuters",
+          "priceReaction": "Evonik +2.7% at close (up as much as 5.2% intraday)"
         }
       ]
     },
@@ -668,6 +675,12 @@
           "date": "2026-10-08",
           "headline": "AkzoNobel, Axalta set to win EU antitrust nod for $25 billion deal, sources say",
           "source": "Reuters"
+        },
+        {
+          "status": "confirmed",
+          "date": "2026-10-16",
+          "headline": "AkzoNobel, Axalta offer remedies in bid for EU approval for $25 billion deal",
+          "source": "Reuters"
         }
       ]
     },
@@ -795,7 +808,7 @@
       "ticker": "LSEG.L",
       "counterparty": "Octus (Permira)",
       "type": "acquisition",
-      "currentStatus": "rumored",
+      "currentStatus": "confirmed",
       "whyItMatters": "LSEG confirmed talks to pay about $3.5bn for Permira-owned credit-data firm Octus, a bolt-on it says would be immediately accretive to Data & Analytics growth — but investors sold the shares on the price and financing question.",
       "phases": [
         {
@@ -804,6 +817,12 @@
           "headline": "LSEG in Talks to Buy Permira-Owned Credit Firm Octus",
           "source": "Bloomberg",
           "priceReaction": "-4.7% intraday"
+        },
+        {
+          "status": "confirmed",
+          "date": "2026-10-22",
+          "headline": "LSEG Seals $3.5 Billion Octus Deal as Group Fights Back AI Fears",
+          "source": "Bloomberg"
         }
       ]
     },
@@ -1151,6 +1170,38 @@
           "date": "2026-10-21",
           "headline": "Cencora to acquire majority stake in $2.4B American Oncology Network",
           "source": "Fierce Healthcare"
+        }
+      ]
+    },
+    {
+      "id": "crh-arcosa-acquisition",
+      "ticker": "CRH",
+      "counterparty": "Arcosa (ACA)",
+      "type": "acquisition",
+      "currentStatus": "closed",
+      "whyItMatters": "CRH's biggest-ever deal closes months ahead of the Q1 2027 target, adding a 109-site US aggregates platform plus grid-transmission structures and $175m of targeted synergies; updated 2026 guidance lands with Q3 results on 29 October.",
+      "phases": [
+        {
+          "status": "closed",
+          "date": "2026-10-23",
+          "headline": "CRH Completes Acquisition of Arcosa",
+          "source": "CRH (SEC 8-K)"
+        }
+      ]
+    },
+    {
+      "id": "udr-apollo-multifamily-jv",
+      "ticker": "UDR",
+      "counterparty": "Apollo Global Management (APO)",
+      "type": "partnership",
+      "currentStatus": "confirmed",
+      "whyItMatters": "UDR sells a two-thirds stake in 19 older communities to Apollo funds for $1.34bn of equity at a ~6% cap rate, recycling capital into its wholly-owned portfolio and balance sheet while keeping control and a buy-back option from year five.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-10-21",
+          "headline": "Apollo, UDR Partner on $2B Multifamily Joint Venture",
+          "source": "Commercial Observer"
         }
       ]
     }
