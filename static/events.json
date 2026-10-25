@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T08:00:00Z",
+  "generatedAt": "2026-10-25T08:00:00Z",
   "events": [
     {
       "id": "acb-curaleaf-takeover-bid",
@@ -1202,6 +1202,23 @@
           "date": "2026-10-21",
           "headline": "Apollo, UDR Partner on $2B Multifamily Joint Venture",
           "source": "Commercial Observer"
+        }
+      ]
+    },
+    {
+      "id": "cart-doordash-uber-acquisition",
+      "ticker": "CART",
+      "counterparty": "DoorDash (DASH) and Uber (UBER)",
+      "type": "acquisition",
+      "currentStatus": "rumored",
+      "whyItMatters": "Instacart putting itself up for sale at roughly a $12bn valuation, a fraction of DoorDash's 2021 talks, would hand a delivery rival the US grocery-delivery leader. Any bid from DoorDash or Uber would face heavy antitrust scrutiny.",
+      "phases": [
+        {
+          "status": "rumored",
+          "date": "2026-10-23",
+          "headline": "Instacart in talks with DoorDash and Uber for sale, The Information reports",
+          "source": "Reuters",
+          "priceReaction": "+9%"
         }
       ]
     }
