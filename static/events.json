@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T08:00:00Z",
+  "generatedAt": "2026-10-26T08:00:00Z",
   "events": [
     {
       "id": "acb-curaleaf-takeover-bid",
@@ -298,29 +298,6 @@
       ]
     },
     {
-      "id": "smmt-astrazeneca-equity-investment",
-      "ticker": "SMMT",
-      "counterparty": "AstraZeneca (AZN)",
-      "type": "partnership",
-      "currentStatus": "closed",
-      "whyItMatters": "AstraZeneca is putting $2bn into Summit at $18.36 a share (about 12% of the common) and pairing its ADCs with ivonescimab, which removes Summit's funding overhang without giving up ivonescimab economics and puts a big-pharma validation -- and a natural future acquirer -- on the PD-1/VEGF bet.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-09-28",
-          "headline": "AstraZeneca Makes $2 Billion Strategic Equity Investment in Summit Therapeutics",
-          "source": "Business Wire",
-          "priceReaction": "+18%"
-        },
-        {
-          "status": "closed",
-          "date": "2026-10-05",
-          "headline": "AstraZeneca Completes $2 Billion Equity Investment in Summit Therapeutics",
-          "source": "AstraZeneca"
-        }
-      ]
-    },
-    {
       "id": "val-transocean-acquisition",
       "ticker": "VAL",
       "counterparty": "Transocean (RIG)",
@@ -365,55 +342,6 @@
       ]
     },
     {
-      "id": "su-ptc-acquisition",
-      "ticker": "SU.PA",
-      "counterparty": "PTC",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Schneider Electric is paying $205 a share in cash -- about $22.6bn of equity, a $23.7bn enterprise value and a 42% premium -- for PTC's CAD, PLM and industrial-IoT software, its largest deal ever, funded with EUR5-6bn of new shares and EUR16-17bn of new debt. That turns an electrical-equipment group into a bet that it can join product design and engineering data to the AVEVA operations software it already owns; the cost is a heavily levered balance sheet and shareholder dilution for a deal that does not close until Q3 2027.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-10-05",
-          "headline": "Schneider Electric to Acquire PTC for More Than $20 Billion",
-          "source": "Bloomberg",
-          "priceReaction": "PTC +17% in overnight trading"
-        }
-      ]
-    },
-    {
-      "id": "bt-talktalk-acquisition",
-      "ticker": "BT-A.L",
-      "counterparty": "TalkTalk (consumer business and PlatformX Communications)",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "BT is buying TalkTalk's consumer and PXC wholesale businesses out of administration on a debt-free basis, after the government stepped in under Enterprise Act powers. BT takes on 2.5m broadband customers and 900 staff at an estimated GBP400m hit from fees, working capital, a GBP60m trading loss and GBP100m of uncollected Openreach revenue. BT's retail share of UK broadband goes up, but the CMA reports on competition by 19 October and the Culture Secretary then rules on the public interest, so the businesses stay separate until then; TalkTalk's shareholders are wiped out.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-10-05",
-          "headline": "BT Buys TalkTalk to Save UK Broadband Provider From Collapse",
-          "source": "Bloomberg"
-        }
-      ]
-    },
-    {
-      "id": "akza-nippon-paint-sea-divestiture",
-      "ticker": "AKZA.AS",
-      "counterparty": "Nippon Paint (4612.T)",
-      "type": "divestiture",
-      "currentStatus": "confirmed",
-      "whyItMatters": "AkzoNobel is selling its Southeast Asian and Australian decorative paints business to Nippon Paint for $1.35bn, about $1bn of net cash after tax and minority payouts. That ends its review of the Asian decorative portfolio and shrinks the group ahead of the Axalta merger, so the investment case now rests almost entirely on getting that merger done.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-10-05",
-          "headline": "AkzoNobel to sell Southeast Asia business to Nippon Paint for $1.35 billion",
-          "source": "Business Standard"
-        }
-      ]
-    },
-    {
       "id": "isp-bmps-takeover-offer",
       "ticker": "ISP.MI",
       "counterparty": "Banca Monte dei Paschi di Siena (BMPS.MI)",
@@ -439,39 +367,6 @@
           "headline": "Monte dei Paschi says Intesa's raised offer still too low",
           "source": "Reuters",
           "priceReaction": "MPS and Intesa shares up about 1% in early trading the next day"
-        }
-      ]
-    },
-    {
-      "id": "chrw-rxo-acquisition",
-      "ticker": "CHRW",
-      "counterparty": "RXO",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "C.H. Robinson is paying $30.25 a share in cash and stock, a 29% premium and $5.8bn in all, for the No. 3 US truck broker, betting that its AI-driven 'Lean AI' operating model can wring $300m of run-rate cost synergies out of RXO within two years; the market sold CHRW 11% on the premium, added leverage and reduced room for buybacks, so the bull case now rests on delivering those synergies in a weak freight market before a first-half 2027 close.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-10-05",
-          "headline": "C.H. Robinson to buy RXO for $5.8 billion in truck broking expansion",
-          "source": "CNBC",
-          "priceReaction": "RXO +23% to $28.65; CHRW -11%"
-        }
-      ]
-    },
-    {
-      "id": "swks-qorvo-acquisition",
-      "ticker": "SWKS",
-      "counterparty": "Qorvo (QRVO)",
-      "type": "acquisition",
-      "currentStatus": "closed",
-      "whyItMatters": "The Skyworks-Qorvo combination is now done: Qorvo holders got $32.50 cash plus 0.960 Skyworks shares and own 37% of a single US RF-chip champion, which removes the Qorvo listing and leaves Skyworks' equity story resting on $500m+ of cost synergies over 24-36 months and on diversifying beyond Apple-heavy mobile into defense, data-center and automotive RF.",
-      "phases": [
-        {
-          "status": "closed",
-          "date": "2026-10-05",
-          "headline": "Skyworks completes merger with Qorvo in $32.5B deal",
-          "source": "Investing.com"
         }
       ]
     },
@@ -1219,6 +1114,22 @@
           "headline": "Instacart in talks with DoorDash and Uber for sale, The Information reports",
           "source": "Reuters",
           "priceReaction": "+9%"
+        }
+      ]
+    },
+    {
+      "id": "atd-cumberland-farms-acquisition",
+      "ticker": "ATD.TO",
+      "counterparty": "Cumberland Farms (formerly EG Group)",
+      "type": "acquisition",
+      "currentStatus": "rumored",
+      "whyItMatters": "A $7.5-8bn bid for the US forecourt operator would be Couche-Tard's second big deal since July's Żabka stake, adding US scale but more leverage; it comes in below Cumberland Farms' $9bn IPO target, so TDR Capital and the Issa brothers may hold out for the float.",
+      "phases": [
+        {
+          "status": "rumored",
+          "date": "2026-10-24",
+          "headline": "Couche-Tard proposes up to $8 billion offer for Cumberland Farms, The Times reports",
+          "source": "Reuters"
         }
       ]
     }
