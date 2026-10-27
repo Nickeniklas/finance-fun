@@ -1,34 +1,39 @@
 {
-  "date": "2026-10-26",
+  "date": "2026-10-27",
   "whatChanged": [
-    "NEW: Couche-Tard has proposed $7.5-8bn for US convenience-store operator Cumberland Farms (formerly EG Group), The Times reports via Reuters; the bid sits below the $9bn IPO valuation the owners targeted, and neither side has commented (atd-cumberland-farms-acquisition)",
-    "DROPPED: 6 stale deals"
+    "NEW: EQT has agreed to buy Range Resources in an all-stock deal at 0.987 EQT shares per Range share, creating a US gas producer worth more than $50bn in pro forma EV; Range jumped ~16% (eqt-range-resources-acquisition)",
+    "NEW: Ovintiv will buy Montney oil producer Logan Energy for C$1.40 a share in cash, about C$1.26bn including net debt (ovv-logan-energy-acquisition)",
+    "NEW: Challenger's board has rejected top shareholder TAL Daiichi Life's non-binding A$11.80-a-share (~A$7.9bn) proposal but will keep engaging on a revised offer (cgf-tal-daiichi-takeover-proposal)",
+    "NEW: AVID Property Group has topped Warburg Pincus with a non-binding A$5.35-a-security (~A$2.2bn) proposal for Ingenia and won six weeks of soft exclusivity; the stock rose 8.3% (ina-avid-takeover-proposal)",
+    "NEW: Tata Motors' €14.40-a-share offer for Iveco has cleared its 80% threshold with 87.81% provisional acceptances; final results are due 29 October (ivg-tata-motors-takeover-offer)",
+    "NEW: Simpson Manufacturing has authorized a $1.0bn buyback, replacing its $200m programme (ssd-buyback-2026)",
+    "DROPPED: 5 stale deals"
   ],
   "themes": [
     {
       "label": "Public-to-private buyout offers on listed companies",
-      "note": "Sponsors, strategics and insiders keep taking listed businesses off public markets. EQT signed a board-recommended €46.50-a-share cash offer for Qiagen on 21 October, about €10.8bn EV (qgen-eqt-take-private), and EQT Infrastructure signed a A$3.095-a-share cash scheme for Cleanaway on 19 October (cwy-eqt-infrastructure-take-private). Penske Corporation and Mitsui will pay $212 a share for the Penske Automotive float (pag-penske-mitsui-take-private), a GTCR-led consortium with Elliott will pay $7.75 a share for CCC Intelligent Solutions (cccs-gtcr-elliott-take-private), and Thoma Bravo's Proofpoint will pay $49.75 a share for Varonis (vrns-proofpoint-acquisition). Ithaca Holdings is taking Bumble private (bmbl-ithaca-take-private), CD&R and McKesson are buying Option Care Health (opch-cdr-mckesson-take-private), and Viatris is tendering for Pacira (pcrx-viatris-acquisition). EP Group's Fnac Darty tender has its EU clearance (fnac-ep-group-takeover-bid), while Aurora's board has again rejected Curaleaf's hostile bid, which runs to 4 December (acb-curaleaf-takeover-bid). Cencora is buying out the listed American Oncology Network at a $2.4bn EV (cor-aon-acquisition).",
-      "streak": 94
+      "note": "Sponsors, strategics and insiders keep taking listed businesses off public markets. EQT signed a board-recommended €46.50-a-share cash offer for Qiagen (qgen-eqt-take-private), and EQT Infrastructure signed a A$3.095-a-share scheme for Cleanaway (cwy-eqt-infrastructure-take-private). Penske Corporation and Mitsui are buying out the Penske Automotive float (pag-penske-mitsui-take-private), a GTCR-led consortium with Elliott is buying CCC Intelligent Solutions (cccs-gtcr-elliott-take-private), and Thoma Bravo's Proofpoint is buying Varonis (vrns-proofpoint-acquisition). Ithaca Holdings is taking Bumble private (bmbl-ithaca-take-private), Viatris is tendering for Pacira (pcrx-viatris-acquisition), and Cencora is buying out American Oncology Network (cor-aon-acquisition). Tata's Iveco offer has cleared its 80% threshold (ivg-tata-motors-takeover-offer). New approaches keep coming: AVID has topped Warburg Pincus for Ingenia (ina-avid-takeover-proposal), and Challenger rejected a A$11.80 bid from its largest shareholder, TAL Daiichi Life (cgf-tal-daiichi-takeover-proposal). EP Group's Fnac Darty tender has EU clearance (fnac-ep-group-takeover-bid), while Aurora's board continues to resist Curaleaf's hostile bid (acb-curaleaf-takeover-bid).",
+      "streak": 95
     },
     {
       "label": "Signed M&A deals hitting regulatory or legal roadblocks",
-      "note": "Deals keep being decided by regulators, politicians and courts rather than the parties. Paramount's ~$110bn Warner Bros. Discovery takeover closed only after a 12-state antitrust settlement (psky-wbd-acquisition). Kimberly-Clark has cleared China's in-depth SAMR review for Kenvue, after paying for EU and Australian clearance with feminine-care divestments (kmb-kenvue-acquisition). AkzoNobel and Axalta have formally offered EU remedies, with AkzoNobel selling its European refinish business and the Commission's deadline pushed into November (akza-axalta-merger). The ECB has cleared UniCredit to control Commerzbank, but Berlin's opposition remains (cbk-unicredit-takeover). Brazil's CADE cleared Transocean-Valaris without conditions (val-transocean-acquisition), and EP Group's Fnac Darty bid needed EU merger clearance (fnac-ep-group-takeover-bid).",
-      "streak": 89
+      "note": "Regulators, politicians and courts, not the parties, keep deciding deals. Kimberly-Clark has cleared China's in-depth SAMR review for Kenvue after paying for EU and Australian clearance with feminine-care divestments (kmb-kenvue-acquisition). AkzoNobel and Axalta have formally offered EU remedies, including selling AkzoNobel's European refinish business, and the Commission's deadline has moved into November (akza-axalta-merger). The ECB has cleared UniCredit to control Commerzbank, but Berlin still opposes it (cbk-unicredit-takeover). Brazil's CADE cleared Transocean-Valaris without conditions (val-transocean-acquisition), and EP Group's Fnac Darty bid needed EU merger clearance (fnac-ep-group-takeover-bid).",
+      "streak": 90
     },
     {
       "label": "Large-caps scaling up buybacks on surplus cash",
-      "note": "Large-caps with surplus capital keep expanding share repurchases, each tying the bigger programme to a specific capital tailwind. GM authorized a new $20bn buyback with its Q3 results after finishing its $6bn programme (gm-buyback-2026), and TD has OSFI approval to buy back up to another C$10bn (td-buyback-2026).",
-      "streak": 28
+      "note": "Companies with surplus capital keep expanding buybacks, each tying the larger programme to a specific capital tailwind. GM authorized a new $20bn buyback with its Q3 results (gm-buyback-2026), TD has OSFI approval to buy back up to another C$10bn (td-buyback-2026), and Simpson Manufacturing replaced a $200m authorization with $1.0bn (ssd-buyback-2026).",
+      "streak": 29
     },
     {
       "label": "European incumbents consolidating domestic rivals for scale",
-      "note": "Europe's large banks and industrials are bidding for rivals to get the scale to compete with US and Chinese peers, with controlling shareholders, governments and supervisors deciding outcomes. BASF has reportedly lifted its Evonik offer to €24 a share (about €11.2bn) and pledged to honour Evonik's job and site agreements through 2032, with RAG-Stiftung's ~43% stake decisive (evk-basf-acquisition). The ECB has cleared UniCredit to move past 30% of Commerzbank despite Berlin's opposition (cbk-unicredit-takeover). Intesa Sanpaolo has sweetened its Monte dei Paschi offer and won Delfin's backing, but the MPS board still calls it too low ahead of the 29 October vote (isp-bmps-takeover-offer). Apollo is among the bidders for Uniper (un01-apollo-acquisition).",
-      "streak": 22
+      "note": "Europe's large banks and industrials are bidding for rivals to reach the scale of US and Chinese peers, while controlling shareholders, governments and supervisors decide the outcomes. BASF has reportedly raised its Evonik offer to €24 a share, about €11.2bn, with RAG-Stiftung's ~43% stake decisive (evk-basf-acquisition). The ECB has cleared UniCredit to go past 30% of Commerzbank despite Berlin's opposition (cbk-unicredit-takeover). Intesa Sanpaolo's sweetened offer for Monte dei Paschi, backed by Delfin, depends on the 29 October MPS vote (isp-bmps-takeover-offer). Apollo is among the bidders for Uniper (un01-apollo-acquisition).",
+      "streak": 23
     },
     {
       "label": "Governments selling state-held stakes to strategic and financial buyers",
-      "note": "Several governments are privatising long-held stakes and choosing buyers on price plus industrial plan. India's cabinet approved selling 60.72% of IDBI Bank to Fairfax (ffh-idbi-bank-acquisition). Portugal picked Lufthansa's all-cash offer for 44.9% of TAP Air Portugal while keeping a 50.1% majority (lha-tap-stake-acquisition). Germany is selling up to 74.12% of Uniper to meet EU rules, drawing a non-binding Apollo bid among several (un01-apollo-acquisition).",
-      "streak": 12
+      "note": "Several governments are privatising long-held stakes and picking buyers on both price and industrial plan. India's cabinet approved selling 60.72% of IDBI Bank to Fairfax (ffh-idbi-bank-acquisition). Portugal chose Lufthansa's all-cash offer for 44.9% of TAP Air Portugal and keeps a 50.1% majority (lha-tap-stake-acquisition). Germany is selling up to 74.12% of Uniper to meet EU rules, and Apollo's non-binding bid is one of several (un01-apollo-acquisition).",
+      "streak": 13
     }
   ]
 }
