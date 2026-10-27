@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T08:00:00Z",
+  "generatedAt": "2026-10-27T08:00:00Z",
   "events": [
     {
       "id": "acb-curaleaf-takeover-bid",
@@ -57,125 +57,6 @@
           "date": "2026-10-14",
           "headline": "Aurora Cannabis welcomes other bids as latest Curaleaf takeover rejected",
           "source": "MJBizDaily"
-        }
-      ]
-    },
-    {
-      "id": "psky-wbd-acquisition",
-      "ticker": "PSKY",
-      "counterparty": "WBD",
-      "type": "acquisition",
-      "currentStatus": "closed",
-      "whyItMatters": "Every regulatory condition in the ~$111bn Warner Bros. Discovery merger agreement was already satisfied across 68 jurisdictions, and on 21 September the last obstacle -- the 12-state antitrust suit led by California AG Rob Bonta -- was settled, so the deal can finally close: Zaslav has told staff to expect completion no later than early October and Ellison has said roughly two weeks from the settlement. The price of getting there is a five-year court-enforceable behavioural package rather than divestitures: at least $1.5bn of additional domestic film spend, 30 theatrical releases a year for two years then 32 for three, a $30m payment for every film short of that floor, a $47.5m fund for workers displaced by the merger, no sale or closure of the Paramount or Warner Bros. lots in the Los Angeles area for five years, separate cable-carriage negotiations for each company's channels for five years, and an independent board over CBS News and CNN -- all policed by a five-state enforcement committee. Nothing structural was given up, so the combined asset base arrives intact, but the output floor and the spending commitments are now fixed charges against the synergy case, and Bonta was explicit that settling is not an endorsement. The ~$7m-a-day ticking fee to WBD holders runs until the deal actually closes.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-07-13",
-          "headline": "Coalition of 12 states sues to block Paramount Skydance's Warner Bros. Discovery merger",
-          "source": "Washington Post"
-        },
-        {
-          "status": "confirmed",
-          "date": "2026-07-14",
-          "headline": "Writers Guild of America sues to block Paramount Skydance-Warner Bros. Discovery merger, alleging the deal will suppress writers' wages and cut job opportunities",
-          "source": "Bloomberg"
-        },
-        {
-          "status": "confirmed",
-          "date": "2026-07-20",
-          "headline": "Paramount Skydance's $110B merger with Warner Bros. Discovery paused by judge",
-          "source": "The Washington Post"
-        },
-        {
-          "status": "confirmed",
-          "date": "2026-07-24",
-          "headline": "Paramount Skydance agrees to joint stipulation pausing $111bn Warner Bros. Discovery merger until five days after an antitrust trial or June 1, 2027, whichever is earlier; WGA's preliminary-injunction motion withdrawn as moot",
-          "source": "Variety"
-        },
-        {
-          "status": "confirmed",
-          "date": "2026-07-25",
-          "headline": "Paramount agrees to pay Warner Bros. Discovery shareholders roughly $7 million per day if the merger remains unclosed after September 30, 2026, as part of the litigation-pause stipulation -- a potential ~$1.7bn cost if the pause runs to the June 1, 2027 outside date",
-          "source": "Yahoo Finance"
-        },
-        {
-          "status": "confirmed",
-          "date": "2026-08-04",
-          "headline": "Paramount, Warner Bros. merger challenges set for a 12-day antitrust trial starting March 2, 2027 before US District Judge Araceli Martinez-Olguin in Oakland",
-          "source": "Bloomberg"
-        },
-        {
-          "status": "confirmed",
-          "date": "2026-08-06",
-          "headline": "UK Competition and Markets Authority approves Paramount Skydance Corporation acquisition of Warner Bros. Discovery at Phase 1, taking the deal's clearances to 66 jurisdictions",
-          "source": "Paramount"
-        },
-        {
-          "status": "approved",
-          "date": "2026-08-14",
-          "headline": "Paramount Skydance Satisfies All Regulatory Conditions Under the Merger Agreement to Close Warner Bros. Discovery Acquisition, Securing Clearances in Nearly 70 Countries Worldwide",
-          "source": "Paramount"
-        },
-        {
-          "status": "approved",
-          "date": "2026-08-17",
-          "headline": "Paramount seeks $1.88 billion bond from state AGs to cover costs of WBD merger delay",
-          "source": "CNBC"
-        },
-        {
-          "status": "approved",
-          "date": "2026-08-22",
-          "headline": "Paramount, California AG office reportedly plan to meet Monday to discuss settling WBD lawsuit",
-          "source": "CNBC"
-        },
-        {
-          "status": "approved",
-          "date": "2026-08-24",
-          "headline": "California Attorney General Cancels Paramount Settlement Talks Over $111 Billion Warner Bros. Discovery Deal, Says He'll Meet When They 'Stop Playing Games'",
-          "source": "Variety"
-        },
-        {
-          "status": "approved",
-          "date": "2026-09-17",
-          "headline": "FCC Approves 49.5% Foreign Ownership of Paramount-Warner Bros.",
-          "source": "Variety"
-        },
-        {
-          "status": "approved",
-          "date": "2026-09-17",
-          "headline": "Paramount, California attorney general ordered to meet for merger settlement talks",
-          "source": "Los Angeles Times"
-        },
-        {
-          "status": "approved",
-          "date": "2026-09-20",
-          "headline": "Paramount nears merger settlement, but some key state AGs are not on board yet",
-          "source": "CNN"
-        },
-        {
-          "status": "approved",
-          "date": "2026-09-21",
-          "headline": "Paramount Settles State Lawsuits, Clearing Path for Warner Bros. Merger",
-          "source": "Bloomberg",
-          "priceReaction": "WBD +7%, PSKY +5%"
-        },
-        {
-          "status": "approved",
-          "date": "2026-09-24",
-          "headline": "Judge Holds Off on Paramount-Warner Bros. Merger Settlement Ruling",
-          "source": "TheWrap"
-        },
-        {
-          "status": "approved",
-          "date": "2026-09-30",
-          "headline": "Judge approves Paramount's settlement with states over Warner buyout, allowing merger to soon close",
-          "source": "Associated Press"
-        },
-        {
-          "status": "closed",
-          "date": "2026-10-06",
-          "headline": "Paramount completes $110B Warner Bros. merger to form Skydance",
-          "source": "NBC News"
         }
       ]
     },
@@ -367,71 +248,6 @@
           "headline": "Monte dei Paschi says Intesa's raised offer still too low",
           "source": "Reuters",
           "priceReaction": "MPS and Intesa shares up about 1% in early trading the next day"
-        }
-      ]
-    },
-    {
-      "id": "inf-clarion-acquisition",
-      "ticker": "INF.L",
-      "counterparty": "Clarion Events (Blackstone)",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Informa is buying Blackstone's Clarion Events, owner of more than 100 B2B trade shows including IFA Berlin, for about GBP2.24bn EV, funded partly by a roughly GBP940m (about 9% of share capital) placing, and in the same breath launched a review to separate its Taylor & Francis academic publishing arm, turning Informa into a near pure-play live-events group with about GBP4.2bn of events revenue and guiding to mid-single-digit EPS accretion in 2027.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-10-06",
-          "headline": "Informa to buy Clarion for £2.24 bln, plans to separate Taylor & Francis business",
-          "source": "Investing.com"
-        }
-      ]
-    },
-    {
-      "id": "opch-cdr-mckesson-take-private",
-      "ticker": "OPCH",
-      "counterparty": "CD&R and McKesson",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Clayton Dubilier & Rice (51%) and McKesson (49%) will pay $32.05 a share in cash, about $5.8bn including debt, for the largest independent US home-infusion provider -- a drug distributor buying into the site of care, not a pure sponsor flip, so the price reflects strategic value to McKesson's specialty-drug channel; holders now trade a standalone growth story for a fixed cash exit that still needs a shareholder vote, HSR and healthcare approvals before a first-half-2027 close.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-10-06",
-          "headline": "OPCH shares jump 34% as CD&R, McKesson agree to $5.8B takeover",
-          "source": "Seeking Alpha",
-          "priceReaction": "+34% in early trading"
-        }
-      ]
-    },
-    {
-      "id": "t-gip-cpp-fiber-jv",
-      "ticker": "T",
-      "counterparty": "Global Infrastructure Partners and CPP Investments",
-      "type": "partnership",
-      "currentStatus": "confirmed",
-      "whyItMatters": "AT&T is folding the mass-market fiber it bought from Lumen (Forged Fiber 37) into its Gigapower open-access venture and taking only 50% of the combined ~5m-location wholesale network, with GIP and CPP Investments holding the other half -- moving fiber expansion capex partly off its own balance sheet while staying anchor tenant, at the cost of sharing the economics of the assets it just paid for; close targeted for the first half of 2027.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-10-06",
-          "headline": "AT&T, GIP and CPP Investments to form new fiber JV",
-          "source": "Light Reading"
-        }
-      ]
-    },
-    {
-      "id": "uber-ezcater-acquisition",
-      "ticker": "UBER",
-      "counterparty": "ezCater",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Uber is paying $2.3bn cash for a profitable, margin-accretive catering marketplace with more than $2.5bn of trailing gross bookings growing in the high teens and $400-plus average orders, giving Uber Eats and Uber for Business a high-ticket B2B food channel. Coming on top of the pending ~EUR15bn Delivery Hero takeover, it shows Uber spending heavily to widen its food-delivery moat rather than returning that cash to shareholders.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-10-06",
-          "headline": "Uber to acquire ezCater for $2.3B",
-          "source": "Nation's Restaurant News"
         }
       ]
     },
@@ -1130,6 +946,112 @@
           "date": "2026-10-24",
           "headline": "Couche-Tard proposes up to $8 billion offer for Cumberland Farms, The Times reports",
           "source": "Reuters"
+        }
+      ]
+    },
+    {
+      "id": "eqt-range-resources-acquisition",
+      "ticker": "EQT",
+      "counterparty": "Range Resources (RRC)",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "An all-stock merger at 0.987 EQT shares per Range share creates the largest vertically integrated US natural gas producer (>$50bn pro forma EV), with Range holders taking ~27%, a big bet on Appalachian gas demand from LNG and data centres.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-10-26",
+          "headline": "EQT to acquire Range Resources in all-stock deal valued at more than $50 billion",
+          "source": "TheStreet",
+          "priceReaction": "RRC +15.95%"
+        }
+      ]
+    },
+    {
+      "id": "ovv-logan-energy-acquisition",
+      "ticker": "OVV",
+      "counterparty": "Logan Energy",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Ovintiv adds ~266,000 net Montney oil-window acres and ~20 MBOE/d for about US$890m (C$1.26bn incl. debt) in cash, its second Montney deal of 2026 after NuVista, while saying its ≥60%-of-FCF shareholder-return target is unchanged.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-10-26",
+          "headline": "Logan Energy Corp. Announces Agreement To Be Acquired By Ovintiv Inc., For $1.40 Per Share In Cash And The Spin-out Of Logan Oil Corp.",
+          "source": "Ovintiv / SEC 8-K"
+        }
+      ]
+    },
+    {
+      "id": "cgf-tal-daiichi-takeover-proposal",
+      "ticker": "CGF.AX",
+      "counterparty": "TAL Daiichi Life Australia (Dai-ichi Life, 8750.T)",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Challenger's ~20% top shareholder wants the rest at A$11.80 (~A$7.9bn); the board rejected that price but will keep engaging, so the stock now trades on whether Dai-ichi lifts its bid toward the A$12.50-13 analysts suggest.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-10-19",
+          "headline": "Australia's Challenger gets takeover bid from unit of Japan's Dai-ichi Life",
+          "source": "Reuters",
+          "priceReaction": "rose to A$11.41, an eight-year high"
+        },
+        {
+          "status": "confirmed",
+          "date": "2026-10-26",
+          "headline": "Challenger board rejects TAL Daiichi Life's takeover bid",
+          "source": "Capital Brief",
+          "priceReaction": "shares tracking lower on the ASX"
+        }
+      ]
+    },
+    {
+      "id": "ina-avid-takeover-proposal",
+      "ticker": "INA.AX",
+      "counterparty": "AVID Property Group",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "AVID's non-binding A$5.35-a-security cash proposal (~A$2.2bn) tops Warburg Pincus's A$5.25 and won six weeks of soft exclusivity, but it requires Ingenia to scrap its Peet acquisition, so the bid decides Ingenia's strategy as well as its price.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-10-26",
+          "headline": "Ingenia Soars on Fresh $1.6 Billion Takeover Bid From AVID",
+          "source": "Bloomberg",
+          "priceReaction": "+8.3% intraday"
+        }
+      ]
+    },
+    {
+      "id": "ivg-tata-motors-takeover-offer",
+      "ticker": "IVG.MI",
+      "counterparty": "Tata Motors (TML CV Holdings)",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Tata's €14.40-a-share (~€3.9bn) cash offer cleared its 80% threshold with 87.81% provisional acceptances, so Iveco is set to leave the market and give Tata a European truck business. Final results are due 29 October and settlement on 30 October.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-10-27",
+          "headline": "Tata Motors' Iveco bid crosses 80% threshold as acceptances hit 87.81%",
+          "source": "Business Standard"
+        }
+      ]
+    },
+    {
+      "id": "ssd-buyback-2026",
+      "ticker": "SSD",
+      "counterparty": null,
+      "type": "capital-allocation",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Simpson replaced a $200m buyback with an open-ended $1.0bn authorization, roughly five times larger and a big slice of its market cap, a signal that management sees surplus cash and an undervalued share price.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-10-26",
+          "headline": "Simpson Manufacturing approves $1 billion buyback program",
+          "source": "Investing.com"
         }
       ]
     }
