@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T08:00:00Z",
+  "generatedAt": "2026-10-28T08:00:00Z",
   "events": [
     {
       "id": "acb-curaleaf-takeover-bid",
@@ -227,7 +227,7 @@
       "ticker": "ISP.MI",
       "counterparty": "Banca Monte dei Paschi di Siena (BMPS.MI)",
       "type": "acquisition",
-      "currentStatus": "confirmed",
+      "currentStatus": "approved",
       "whyItMatters": "Intesa Sanpaolo has raised its cash-and-share offer for Monte dei Paschi to 1.6 new Intesa shares plus EUR1.25 cash per share, about EUR800m more than before, but pays the extra only if MPS holders vote down MPS's own all-share bids for Banco BPM and Banca Generali on 29 October; if either passes, Intesa can walk away. With Delfin committing its 17.6% stake, Intesa is now close to forming the eurozone's second-largest bank by market value, and the 29 October vote decides whether Italian banking consolidates around Intesa or around MPS.",
       "phases": [
         {
@@ -248,21 +248,11 @@
           "headline": "Monte dei Paschi says Intesa's raised offer still too low",
           "source": "Reuters",
           "priceReaction": "MPS and Intesa shares up about 1% in early trading the next day"
-        }
-      ]
-    },
-    {
-      "id": "un01-apollo-acquisition",
-      "ticker": "UN01.DE",
-      "counterparty": "Apollo Global Management (APO)",
-      "type": "acquisition",
-      "currentStatus": "rumored",
-      "whyItMatters": "Apollo has joined EPH, Brookfield/CPP Investments, Equinor and KKR/RWE in bidding for up to 74.12% of state-owned Uniper, a sale that could value the company at about EUR10bn. A crowded field of financial and strategic bidders strengthens Berlin's hand on price, but the government is also running an IPO track favoured by unions, so the exit route for minority holders is still open.",
-      "phases": [
+        },
         {
-          "status": "rumored",
-          "date": "2026-10-07",
-          "headline": "Apollo submits non-binding bid for German energy firm Uniper, sources say",
+          "status": "approved",
+          "date": "2026-10-27",
+          "headline": "Italy's Intesa gets ECB authorisation to take over Monte dei Paschi",
           "source": "Reuters"
         }
       ]
@@ -1052,6 +1042,38 @@
           "date": "2026-10-26",
           "headline": "Simpson Manufacturing approves $1 billion buyback program",
           "source": "Investing.com"
+        }
+      ]
+    },
+    {
+      "id": "sgry-bon-secours-take-private",
+      "ticker": "SGRY",
+      "counterparty": "Bon Secours Mercy Health (HealthSpan Partners)",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "A not-for-profit hospital system is paying $23.50 cash, a 49% premium, to take the 200-plus-site surgery-centre operator private while Bain keeps its ~38.5% stake, putting a firm floor under SGRY pending shareholder and antitrust approval.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-10-26",
+          "headline": "Surgery Partners to Be Acquired by Bon Secours for $5.7 Billion",
+          "source": "Bloomberg"
+        }
+      ]
+    },
+    {
+      "id": "arcc-mfic-acquisition",
+      "ticker": "ARCC",
+      "counterparty": "MidCap Financial Investment (MFIC)",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "The largest US BDC is absorbing Apollo's listed BDC for about $10.88 a share in stock and cash (a 30% premium), adding ~$2.6bn of assets and signalling consolidation among sub-scale private-credit vehicles trading below book.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-10-27",
+          "headline": "Ares Capital Corporation (ARCC) Reports Strong Q3 Results and Announces MidCap Acquisition",
+          "source": "GuruFocus"
         }
       ]
     }
