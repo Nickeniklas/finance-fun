@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T08:00:00Z",
+  "generatedAt": "2026-10-29T08:00:00Z",
   "events": [
     {
       "id": "acb-curaleaf-takeover-bid",
@@ -201,28 +201,6 @@
       ]
     },
     {
-      "id": "td-buyback-2026",
-      "ticker": "TD",
-      "counterparty": null,
-      "type": "capital-allocation",
-      "currentStatus": "approved",
-      "whyItMatters": "Having just finished a C$7bn repurchase on 25 September, TD intends to buy back up to another C$10bn (up to 61m shares, about 3.7% of the count) by July 2027, subject to OSFI approval -- a sign the bank is still sitting on surplus capital from its Schwab stake sale and US balance-sheet restrictions, and is returning it rather than redeploying it while its US growth is capped.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-09-30",
-          "headline": "TD Bank to buy back up to $10 billion of its shares",
-          "source": "BNN Bloomberg"
-        },
-        {
-          "status": "approved",
-          "date": "2026-10-08",
-          "headline": "TD Bank gets regulatory approval to buy back up to $10 billion of its shares",
-          "source": "The Canadian Press"
-        }
-      ]
-    },
-    {
       "id": "isp-bmps-takeover-offer",
       "ticker": "ISP.MI",
       "counterparty": "Banca Monte dei Paschi di Siena (BMPS.MI)",
@@ -258,22 +236,6 @@
       ]
     },
     {
-      "id": "pcrx-viatris-acquisition",
-      "ticker": "PCRX",
-      "counterparty": "Viatris (VTRS)",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Viatris is paying $36.50 a share in cash, about $1.65bn of equity, through a tender offer for Pacira and its two non-opioid pain products, EXPAREL and ZILRETTA, which brought in about $746m of revenue and $177m of adjusted EBITDA in the twelve months to June. For Pacira holders it is a fixed cash exit by year-end. For Viatris it buys branded growth to offset its generics business, and it says the deal is immediately accretive, but the investment case rests on EXPAREL keeping its pricing and patent protection.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-10-08",
-          "headline": "Viatris Agrees to Acquire Pacira BioSciences, Advancing Its Innovative Medicines Strategy and Becoming a Leader in Non-Opioid Pain Therapies",
-          "source": "Viatris"
-        }
-      ]
-    },
-    {
       "id": "cmg-starbucks-acquisition",
       "ticker": "CMG",
       "counterparty": "Starbucks (SBUX)",
@@ -298,22 +260,6 @@
       ]
     },
     {
-      "id": "dvn-crescent-eagle-ford-divestiture",
-      "ticker": "DVN",
-      "counterparty": "Crescent Energy (CRGY)",
-      "type": "divestiture",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Devon is selling its Eagle Ford position (about 90,000 net acres and roughly 4% of its production) to Crescent Energy for $4.2bn in cash. It says the proceeds will speed up buybacks and pay down debt, which turns its portfolio review into a return of cash rather than new drilling. For Crescent it is a large, leveraged bet on a mature basin, subject to HSR clearance before a close in Q4 2026 or early 2027.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-10-08",
-          "headline": "Devon Sells Eagle Ford Assets",
-          "source": "Energy Intelligence"
-        }
-      ]
-    },
-    {
       "id": "spcx-grain-800mhz-spectrum-acquisition",
       "ticker": "SPCX",
       "counterparty": "Grain Management",
@@ -327,22 +273,6 @@
           "headline": "SpaceX takes aim at US wireless carriers with spectrum acquisition",
           "source": "Reuters",
           "priceReaction": "Crown Castle +13%; AT&T, Verizon and T-Mobile lower"
-        }
-      ]
-    },
-    {
-      "id": "ffh-boots-wittington-acquisition",
-      "ticker": "FFH.TO",
-      "counterparty": "Boots (Sycamore Partners)",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Fairfax takes 50% of the equity and provides $2.3bn of financing in the Weston family's ~$8.9bn (about £6.5bn) purchase of Boots from Sycamore, a large new consumer-retail exposure for the insurer's investment book; completion expected 1Q27.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-10-08",
-          "headline": "Weston family to buy British retailer Boots for $8.9-billion with Fairfax backing",
-          "source": "The Globe and Mail"
         }
       ]
     },
@@ -920,6 +850,13 @@
           "headline": "Instacart in talks with DoorDash and Uber for sale, The Information reports",
           "source": "Reuters",
           "priceReaction": "+9%"
+        },
+        {
+          "status": "rumored",
+          "date": "2026-10-26",
+          "headline": "DoorDash in talks to buy Instacart in roughly $17 billion deal, source says",
+          "source": "Reuters",
+          "priceReaction": "Instacart +8%, DoorDash -6%"
         }
       ]
     },
@@ -1074,6 +1011,55 @@
           "date": "2026-10-27",
           "headline": "Ares Capital Corporation (ARCC) Reports Strong Q3 Results and Announces MidCap Acquisition",
           "source": "GuruFocus"
+        }
+      ]
+    },
+    {
+      "id": "gev-trench-acquisition",
+      "ticker": "GEV",
+      "counterparty": "Trench Group (Triton)",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "A $9bn cash-and-debt buy of a high-voltage grid equipment maker deepens GE Vernova's Electrification bet on AI-driven grid demand, but trades buyback firepower for a deal that only closes in late 2027.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-10-28",
+          "headline": "GE Vernova Agrees to Pay $9 Billion to Acquire Trench Group",
+          "source": "Bloomberg"
+        }
+      ]
+    },
+    {
+      "id": "wen-trian-take-private",
+      "ticker": "WEN",
+      "counterparty": "Trian Fund Management (with Flynn Group, BlueFive Capital, Sixth Street)",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Its largest holder (~16%) offering $7.35 cash, a ~20% premium but still below where the stock started the year, puts a floor under Wendy's and forces an independent committee to weigh a take-private against the turnaround plan.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-10-28",
+          "headline": "Wendy's Receives $1.4 Billion Buyout Offer From Peltz's Trian",
+          "source": "Bloomberg",
+          "priceReaction": "+15% premarket"
+        }
+      ]
+    },
+    {
+      "id": "intc-classiq-acquisition",
+      "ticker": "INTC",
+      "counterparty": "Classiq",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "The largest quantum-computing acquisition to date (~$2.3bn cash and stock) adds algorithm-synthesis software to Intel's spin-qubit hardware, a full-stack quantum bet made while its core foundry turnaround still needs capital.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-10-26",
+          "headline": "Intel to acquire Israeli quantum startup Classiq for $2.3 billion in record deal",
+          "source": "Ynet"
         }
       ]
     }
