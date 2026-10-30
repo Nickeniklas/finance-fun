@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T08:00:00Z",
+  "generatedAt": "2026-10-30T08:00:00Z",
   "events": [
     {
       "id": "acb-curaleaf-takeover-bid",
@@ -206,7 +206,7 @@
       "counterparty": "Banca Monte dei Paschi di Siena (BMPS.MI)",
       "type": "acquisition",
       "currentStatus": "approved",
-      "whyItMatters": "Intesa Sanpaolo has raised its cash-and-share offer for Monte dei Paschi to 1.6 new Intesa shares plus EUR1.25 cash per share, about EUR800m more than before, but pays the extra only if MPS holders vote down MPS's own all-share bids for Banco BPM and Banca Generali on 29 October; if either passes, Intesa can walk away. With Delfin committing its 17.6% stake, Intesa is now close to forming the eurozone's second-largest bank by market value, and the 29 October vote decides whether Italian banking consolidates around Intesa or around MPS.",
+      "whyItMatters": "MPS shareholders, led by Delfin and Caltagirone, voted down CEO Lovaglio's all-share bids for Banco BPM and Banca Generali and the Mediobanca merger, triggering Intesa's sweetened 1.6-shares-plus-EUR1.25 offer. With ECB approval already in hand, Intesa is close to forming the eurozone's second-largest bank by market value; Consob and Italy's antitrust authority, which may demand branch sales, are the remaining hurdles.",
       "phases": [
         {
           "status": "confirmed",
@@ -232,6 +232,12 @@
           "date": "2026-10-27",
           "headline": "Italy's Intesa gets ECB authorisation to take over Monte dei Paschi",
           "source": "Reuters"
+        },
+        {
+          "status": "approved",
+          "date": "2026-10-29",
+          "headline": "Monte Paschi Investors Reject Banco BPM Bid in Win For Intesa",
+          "source": "Bloomberg"
         }
       ]
     },
@@ -256,40 +262,6 @@
           "headline": "Starbucks says it is not buying Chipotle after takeover speculation",
           "source": "CNBC",
           "priceReaction": "CMG down nearly 4% in morning trading; SBUX up about 1%"
-        }
-      ]
-    },
-    {
-      "id": "spcx-grain-800mhz-spectrum-acquisition",
-      "ticker": "SPCX",
-      "counterparty": "Grain Management",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Roughly $8bn in cash for nationwide 800 MHz low-band spectrum gives Starlink the indoor-coverage layer it lacked to run as a standalone US mobile carrier, turning SpaceX into a direct competitor to AT&T, Verizon and T-Mobile pending FCC approval.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-10-09",
-          "headline": "SpaceX takes aim at US wireless carriers with spectrum acquisition",
-          "source": "Reuters",
-          "priceReaction": "Crown Castle +13%; AT&T, Verizon and T-Mobile lower"
-        }
-      ]
-    },
-    {
-      "id": "svc-tko-hotel-portfolio-acquisition",
-      "ticker": "SVC",
-      "counterparty": "TKO Hotels (TKO LLC)",
-      "type": "acquisition",
-      "currentStatus": "rumored",
-      "whyItMatters": "An unsolicited $2bn all-cash bid for SVC's roughly 92-hotel portfolio is worth more than the REIT's whole equity value and would let a heavily indebted SVC exit lodging in one step and pay down its looming maturities, leaving a pure net-lease business; the board has only confirmed receipt, had no prior contact with TKO, and has not engaged.",
-      "phases": [
-        {
-          "status": "rumored",
-          "date": "2026-10-09",
-          "headline": "Service Properties stock jumps after TKO offers to buy hospitality portfolio for $2B",
-          "source": "Seeking Alpha",
-          "priceReaction": "SVC closed up about 15% at $7.15"
         }
       ]
     },
@@ -841,8 +813,8 @@
       "ticker": "CART",
       "counterparty": "DoorDash (DASH) and Uber (UBER)",
       "type": "acquisition",
-      "currentStatus": "rumored",
-      "whyItMatters": "Instacart putting itself up for sale at roughly a $12bn valuation, a fraction of DoorDash's 2021 talks, would hand a delivery rival the US grocery-delivery leader. Any bid from DoorDash or Uber would face heavy antitrust scrutiny.",
+      "currentStatus": "confirmed",
+      "whyItMatters": "DoorDash's agreed $65-a-share, mostly cash purchase of Instacart (about $17bn, 26% above the pre-leak price) combines the top US restaurant and grocery delivery apps to take on Walmart and Amazon, but closing is not expected before late 2027 and the deal faces heavy antitrust scrutiny, backed by a $1.25bn break fee DoorDash owes if it fails.",
       "phases": [
         {
           "status": "rumored",
@@ -857,6 +829,13 @@
           "headline": "DoorDash in talks to buy Instacart in roughly $17 billion deal, source says",
           "source": "Reuters",
           "priceReaction": "Instacart +8%, DoorDash -6%"
+        },
+        {
+          "status": "confirmed",
+          "date": "2026-10-29",
+          "headline": "DoorDash to acquire Instacart in deal valued around $17B, companies announce",
+          "source": "ABC News",
+          "priceReaction": "DoorDash +5.6%, Maplebear -2.2%"
         }
       ]
     },
@@ -1060,6 +1039,40 @@
           "date": "2026-10-26",
           "headline": "Intel to acquire Israeli quantum startup Classiq for $2.3 billion in record deal",
           "source": "Ynet"
+        }
+      ]
+    },
+    {
+      "id": "adt-thrive-take-private",
+      "ticker": "ADT",
+      "counterparty": "Thrive Holdings",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "A $10-a-share all-cash buyout, a 46% premium valuing ADT at $15.3bn including debt and financed by Apollo-managed funds, sets a floor for the stock, while a go-shop to 28 November leaves room for a higher bid.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-10-29",
+          "headline": "Thrive Holdings to acquire ADT for $7.6 billion in cash deal",
+          "source": "Investing.com",
+          "priceReaction": "+34%"
+        }
+      ]
+    },
+    {
+      "id": "mrvl-lumentum-acquisition",
+      "ticker": "MRVL",
+      "counterparty": "Lumentum (LITE)",
+      "type": "acquisition",
+      "currentStatus": "rumored",
+      "whyItMatters": "An all-stock purchase of Lumentum, valued at roughly $83bn, would give Marvell its own supply of the lasers behind AI optical interconnects, but at about 28x sales it would heavily dilute Marvell holders, who sold the stock off on the report.",
+      "phases": [
+        {
+          "status": "rumored",
+          "date": "2026-10-28",
+          "headline": "Marvell Is Said to Near Deal for Lumentum In AI-Related Megadeal",
+          "source": "Bloomberg",
+          "priceReaction": "Marvell -12%"
         }
       ]
     }
