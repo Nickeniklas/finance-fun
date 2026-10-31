@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T08:00:00Z",
+  "generatedAt": "2026-10-31T08:00:00Z",
   "events": [
     {
       "id": "acb-curaleaf-takeover-bid",
@@ -117,7 +117,7 @@
       "ticker": "EVK.DE",
       "counterparty": "BASF (BAS.DE)",
       "type": "acquisition",
-      "currentStatus": "rumored",
+      "currentStatus": "confirmed",
       "whyItMatters": "A BASF takeover of Evonik would be the biggest consolidation in German chemicals in years, and RAG-Stiftung's roughly 43.8% stake -- not Evonik's board, which says there are no talks -- decides whether it happens.",
       "phases": [
         {
@@ -146,6 +146,12 @@
           "headline": "BASF raises Evonik offer to €24 a share, sources say",
           "source": "Reuters",
           "priceReaction": "Evonik +2.7% at close (up as much as 5.2% intraday)"
+        },
+        {
+          "status": "confirmed",
+          "date": "2026-10-30",
+          "headline": "Evonik Leaves Opening After Turning Down BASF Takeover Talks",
+          "source": "Bloomberg"
         }
       ]
     },
@@ -1073,6 +1079,60 @@
           "headline": "Marvell Is Said to Near Deal for Lumentum In AI-Related Megadeal",
           "source": "Bloomberg",
           "priceReaction": "Marvell -12%"
+        }
+      ]
+    },
+    {
+      "id": "ad-tesco-cz-sk-acquisition",
+      "ticker": "AD.AS",
+      "counterparty": "Tesco (TSCO.L)",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Ahold Delhaize's roughly €1.7bn purchase of Tesco's 360-plus Czech and Slovak stores would make its Albert chain Czechia's grocery market leader and open Slovakia as a new market, while Tesco retreats further toward its UK and Irish core.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-10-30",
+          "headline": "Ahold Delhaize announces the acquisition of Tesco Czechia and Slovakia, strengthening its position in Europe",
+          "source": "Ahold Delhaize"
+        }
+      ]
+    },
+    {
+      "id": "gwre-hyperexponential-acquisition",
+      "ticker": "GWRE",
+      "counterparty": "hyperexponential",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Guidewire is paying $1.7bn in cash, plus up to $400m in earnouts, for hyperexponential's AI pricing and underwriting platform, its biggest move to extend its P&C core-systems franchise into underwriting before AI-native rivals take that ground.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-10-27",
+          "headline": "Guidewire Signs Definitive Agreement to Acquire hyperexponential",
+          "source": "Guidewire"
+        }
+      ]
+    },
+    {
+      "id": "pcrx-viatris-acquisition",
+      "ticker": "PCRX",
+      "counterparty": "Viatris (VTRS)",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Viatris's $36.50-a-share cash offer (about $1.65bn, a roughly 45% premium) gives Pacira holders a clean exit and moves Viatris beyond generics into branded non-opioid pain care, funded mostly from cash on hand.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-10-08",
+          "headline": "Viatris to buy pain therapy maker Pacira BioSciences for $1.65 billion",
+          "source": "Reuters"
+        },
+        {
+          "status": "confirmed",
+          "date": "2026-10-30",
+          "headline": "Viatris Announces Commencement of Tender Offer to Acquire Pacira BioSciences, Inc.",
+          "source": "Viatris"
         }
       ]
     }
