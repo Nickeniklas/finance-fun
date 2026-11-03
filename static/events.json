@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T08:00:00Z",
+  "generatedAt": "2026-11-03T08:00:00Z",
   "events": [
     {
       "id": "acb-curaleaf-takeover-bid",
@@ -185,28 +185,6 @@
       ]
     },
     {
-      "id": "val-transocean-acquisition",
-      "ticker": "VAL",
-      "counterparty": "Transocean (RIG)",
-      "type": "acquisition",
-      "currentStatus": "approved",
-      "whyItMatters": "The US DOJ closed its second-request investigation into Transocean's $5.8bn all-stock purchase of Valaris (15.235 RIG shares per VAL share) without remedies, clearing the biggest hurdle to creating an offshore driller worth about $17bn in enterprise value that will own a large share of the high-spec floater and jackup fleet; with only Brazil left, a Q4 2026 close now looks likely, and the combined fleet gives the new company far more pricing power in deepwater contracting.",
-      "phases": [
-        {
-          "status": "approved",
-          "date": "2026-09-30",
-          "headline": "Transocean, Valaris receive US antitrust approval",
-          "source": "MLex"
-        },
-        {
-          "status": "approved",
-          "date": "2026-10-13",
-          "headline": "Brazil Clears Transocean's Planned $5.8 Billion Valaris Acquisition",
-          "source": "TokenPost"
-        }
-      ]
-    },
-    {
       "id": "isp-bmps-takeover-offer",
       "ticker": "ISP.MI",
       "counterparty": "Banca Monte dei Paschi di Siena (BMPS.MI)",
@@ -270,39 +248,6 @@
       ]
     },
     {
-      "id": "nokia-aurelius-campus-edge-divestiture",
-      "ticker": "NOKIA.HE",
-      "counterparty": "AURELIUS",
-      "type": "divestiture",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Nokia exits its ~900-customer enterprise campus private-wireless business, a unit already booked as discontinued operations, completing another step of Hotard's restructuring to narrow the group onto core network infrastructure and AI/data-centre networking — no price was disclosed, so the signal is focus rather than cash.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-10-13",
-          "headline": "Nokia to sell Enterprise Campus Edge business to AURELIUS",
-          "source": "Nokia"
-        }
-      ]
-    },
-    {
-      "id": "bmbl-ithaca-take-private",
-      "ticker": "BMBL",
-      "counterparty": "Ithaca Holdings",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Ithaca, a newly formed vehicle led by Ravi Gupta and John Hegeman, will pay $6.05 a share in cash, about $1.3bn and a ~138% premium to the 9 October close, with founder Whitney Wolfe Herd expected to roll part of her stake. The size of the premium says more about how far Bumble's public valuation had collapsed (paying users down 11% in 2025, Q2 revenue down 15%) than about a growth story, and it caps the upside for holders while marking a private-market floor for shrinking dating-app peers like Match.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-10-13",
-          "headline": "Bumble agrees to a $1.3B acquisition deal as online dating faces a reset",
-          "source": "TechCrunch",
-          "priceReaction": "BMBL soared more than 50% on 12 October on reports of advanced take-private talks"
-        }
-      ]
-    },
-    {
       "id": "ffh-idbi-bank-acquisition",
       "ticker": "FFH.TO",
       "counterparty": "IDBI Bank (IDBI.NS)",
@@ -339,7 +284,7 @@
       "ticker": "KMB",
       "counterparty": "Kenvue (KVUE)",
       "type": "acquisition",
-      "currentStatus": "approved",
+      "currentStatus": "closed",
       "whyItMatters": "EU clearance for Kimberly-Clark's ~$49bn Kenvue takeover costs only its EEA feminine-care brands (to Dilek Grup), leaving China's in-depth review as the main hurdle before the consumer-health combination can close.",
       "phases": [
         {
@@ -353,6 +298,12 @@
           "date": "2026-10-20",
           "headline": "Kimberly-Clark's $40B purchase of Kenvue wins China antitrust approval",
           "source": "Seeking Alpha"
+        },
+        {
+          "status": "closed",
+          "date": "2026-11-02",
+          "headline": "Kimberly-Clark (KMB) Completes Kenvue Acquisition, Unveils $3.1 Billion Integration Program",
+          "source": "GuruFocus"
         }
       ]
     },
@@ -1014,8 +965,8 @@
       "ticker": "MRVL",
       "counterparty": "Lumentum (LITE)",
       "type": "acquisition",
-      "currentStatus": "rumored",
-      "whyItMatters": "An all-stock purchase of Lumentum, valued at roughly $83bn, would give Marvell its own supply of the lasers behind AI optical interconnects, but at about 28x sales it would heavily dilute Marvell holders, who sold the stock off on the report.",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Marvell has signed to buy Lumentum for 4.5 of its shares each, a $115bn enterprise value and a ~24% premium, bringing the lasers behind AI optical interconnects in-house; Lumentum holders end up with ~33% of the combined company, and with closing not expected until the first half of 2028, Marvell owners carry heavy dilution and a long regulatory wait against a promised $1bn+ of cost synergies.",
       "phases": [
         {
           "status": "rumored",
@@ -1023,6 +974,13 @@
           "headline": "Marvell Is Said to Near Deal for Lumentum In AI-Related Megadeal",
           "source": "Bloomberg",
           "priceReaction": "Marvell -12%"
+        },
+        {
+          "status": "confirmed",
+          "date": "2026-11-02",
+          "headline": "Marvell to buy Lumentum in $115 billion deal in AI data-center bet",
+          "source": "Reuters",
+          "priceReaction": "Marvell +2.8% premarket; Lumentum halted"
         }
       ]
     },
@@ -1093,6 +1051,28 @@
           "date": "2026-11-01",
           "headline": "Perion Enters into Definitive Merger Agreement with Affle",
           "source": "Yahoo Finance"
+        }
+      ]
+    },
+    {
+      "id": "lcii-monomoy-takeover-proposal",
+      "ticker": "LCII",
+      "counterparty": "Monomoy Capital Partners",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Monomoy's unsolicited $101-a-share cash proposal puts a private-equity price on LCI while its all-stock merger with Patrick Industries awaits an 18 November vote; the board says the bid is not superior and points to a standalone DCF above $150, so holders now weigh certain cash against synergy-dependent paper in the combined company.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-10-28",
+          "headline": "Monomoy Capital Makes Unsolicited Bid for LCI Industries Amid Patrick Merger",
+          "source": "The Shop Mag"
+        },
+        {
+          "status": "confirmed",
+          "date": "2026-10-30",
+          "headline": "LCI rejects unsolicited acquisition bid, affirms support for Patrick merger",
+          "source": "MLex"
         }
       ]
     }
