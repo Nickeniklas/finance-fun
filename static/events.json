@@ -1,65 +1,6 @@
 {
-  "generatedAt": "2026-11-03T08:00:00Z",
+  "generatedAt": "2026-11-04T08:00:00Z",
   "events": [
-    {
-      "id": "acb-curaleaf-takeover-bid",
-      "ticker": "ACB",
-      "counterparty": "Curaleaf Holdings",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Curaleaf has raised its hostile bid by 25% without Aurora's cooperation: 0.4013 Curaleaf subordinate voting shares plus US$1.00 cash per share, an implied US$5.00 and an 86% premium to Aurora's unaffected 30-day VWAP, with the cap lifted to US$6.00 and the expiry pushed to 4 December 2026. Raising the bid while both sides' Alberta Securities Commission applications are still pending shows Curaleaf would rather pay more than wait, and it tests whether Aurora's board can keep holders on 'take no action' without a rival bid or a defence of its own. The underlying argument is unchanged: Curaleaf is bidding mostly in its own paper for a cash pile and an international medical footprint.",
-      "phases": [
-        {
-          "status": "rumored",
-          "date": "2026-08-11",
-          "headline": "Curaleaf to take offer directly to shareholders in bid to buy Edmonton-based Aurora Cannabis",
-          "source": "CBC News",
-          "priceReaction": "ACB rallied on the announcement"
-        },
-        {
-          "status": "confirmed",
-          "date": "2026-08-18",
-          "headline": "Curaleaf Launches Take-Over Bid to Acquire Aurora Cannabis, Invites Aurora Shareholders to Tender to the Bid",
-          "source": "Curaleaf Holdings"
-        },
-        {
-          "status": "confirmed",
-          "date": "2026-08-19",
-          "headline": "Aurora Cannabis Forms Special Committee in Response to Curaleaf's Unsolicited Bid",
-          "source": "The Globe and Mail"
-        },
-        {
-          "status": "confirmed",
-          "date": "2026-09-02",
-          "headline": "Aurora Cannabis Urges Shareholders to REJECT Curaleaf's Hostile Bid, Warning that it is Inadequate, Undervalues Aurora and Puts Shareholder Value and Future Upside at Risk",
-          "source": "PR Newswire"
-        },
-        {
-          "status": "confirmed",
-          "date": "2026-09-14",
-          "headline": "Curaleaf Submits Application to Alberta Securities Commission to Halt Aurora's ATM Program During Pending Offer",
-          "source": "PR Newswire"
-        },
-        {
-          "status": "confirmed",
-          "date": "2026-09-23",
-          "headline": "Aurora Cannabis Files Application with Alberta Securities Commission to Protect Company Shareholders Having Identified Several Deficiencies in Curaleaf's Hostile Bid Disclosure",
-          "source": "PR Newswire"
-        },
-        {
-          "status": "confirmed",
-          "date": "2026-10-05",
-          "headline": "Curaleaf Raises Aurora Cannabis Takeover Offer To $5 Per Share",
-          "source": "Pulse 2.0"
-        },
-        {
-          "status": "confirmed",
-          "date": "2026-10-14",
-          "headline": "Aurora Cannabis welcomes other bids as latest Curaleaf takeover rejected",
-          "source": "MJBizDaily"
-        }
-      ]
-    },
     {
       "id": "cprt-acv-acquisition",
       "ticker": "CPRT",
@@ -248,38 +189,6 @@
       ]
     },
     {
-      "id": "ffh-idbi-bank-acquisition",
-      "ticker": "FFH.TO",
-      "counterparty": "IDBI Bank (IDBI.NS)",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Fairfax commits roughly ₹52,878 crore (~$6bn) for a controlling 60.72% of IDBI Bank at ₹81 a share, its biggest bet on India and the largest-ever FDI into Indian financial services — still subject to RBI fit-and-proper clearance and a mandatory open offer to minorities.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-10-14",
-          "headline": "Centre approves Fairfax Financial’s ₹52,878 crore bid for 60.72% stake in IDBI Bank",
-          "source": "Business Today"
-        }
-      ]
-    },
-    {
-      "id": "lha-tap-stake-acquisition",
-      "ticker": "LHA.DE",
-      "counterparty": "TAP Air Portugal (Portuguese state)",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Portugal picked Lufthansa's all-cash bid of about €1.0bn for 44.9% of TAP (up to €1.2bn for 49.9%) over Air France-KLM, handing Lufthansa a Lisbon hub with strong Brazil and Africa routes — contracts and EU approval still to come.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-10-14",
-          "headline": "Lufthansa wins race for $1.3 billion stake in Portuguese carrier TAP",
-          "source": "CNBC"
-        }
-      ]
-    },
-    {
       "id": "kmb-kenvue-acquisition",
       "ticker": "KMB",
       "counterparty": "Kenvue (KVUE)",
@@ -326,22 +235,6 @@
           "status": "confirmed",
           "date": "2026-10-22",
           "headline": "LSEG Seals $3.5 Billion Octus Deal as Group Fights Back AI Fears",
-          "source": "Bloomberg"
-        }
-      ]
-    },
-    {
-      "id": "pwp-piper-sandler-acquisition",
-      "ticker": "PWP",
-      "counterparty": "Piper Sandler (PIPR)",
-      "type": "acquisition",
-      "currentStatus": "abandoned",
-      "whyItMatters": "Piper Sandler's talks to buy Perella Weinberg broke down over financial terms and personnel, removing the takeover premium priced into PWP since the late-September WSJ report and leaving it as a standalone mid-sized advisory boutique.",
-      "phases": [
-        {
-          "status": "abandoned",
-          "date": "2026-10-14",
-          "headline": "Perella Weinberg Drops After Report of Deal Talks Abandoned",
           "source": "Bloomberg"
         }
       ]
@@ -407,22 +300,6 @@
           "date": "2026-10-16",
           "headline": "International Seaways Announces Agreements to Acquire Bruton Limited",
           "source": "International Seaways (SEC 8-K)"
-        }
-      ]
-    },
-    {
-      "id": "nfg-iug-spin-off",
-      "ticker": "NFG",
-      "counterparty": "Integrated Upstream and Gathering spin-co (IUG)",
-      "type": "capital-allocation",
-      "currentStatus": "confirmed",
-      "whyItMatters": "National Fuel Gas will split into a 100% rate-regulated utility and pipeline company and a pure-play Appalachian upstream and gathering company via a tax-free spin of at least 80.1% of IUG, targeted for 2H 2027, separating a steady regulated earner from a commodity-exposed producer so each can be valued and funded on its own terms; NFG keeps up to 19.9% to sell later.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-10-14",
-          "headline": "National Fuel Gas Company Announces Plan to Separate Its Integrated Upstream and Gathering Business",
-          "source": "GlobeNewswire"
         }
       ]
     },
@@ -1073,6 +950,38 @@
           "date": "2026-10-30",
           "headline": "LCI rejects unsolicited acquisition bid, affirms support for Patrick merger",
           "source": "MLex"
+        }
+      ]
+    },
+    {
+      "id": "cvi-mpc-refineries-acquisition",
+      "ticker": "CVI",
+      "counterparty": "Marathon Petroleum (MPC)",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "A ~$4.2bn purchase of Marathon's St. Paul Park and Mandan refineries plus marketing business nearly doubles CVR's refining capacity and, on CVR's figures, more than doubles its EBITDA base, funded with new equity (incl. Trafigura) and $2.5bn of secured debt.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-11-03",
+          "headline": "CVR Energy Announces Transformative Transaction to Acquire 2 Refineries and Marketing Platform From Marathon Petroleum",
+          "source": "Business Wire"
+        }
+      ]
+    },
+    {
+      "id": "4183-jsr-acquisition",
+      "ticker": "4183.T",
+      "counterparty": "JSR (Japan Investment Corp.)",
+      "type": "acquisition",
+      "currentStatus": "rumored",
+      "whyItMatters": "A reported ¥1.3tn+ (~$8.2bn) purchase of chip-materials maker JSR from state fund JIC would be transformational for Mitsui Chemicals, pivoting it toward semiconductor photoresists at the cost of a much larger balance sheet.",
+      "phases": [
+        {
+          "status": "rumored",
+          "date": "2026-11-04",
+          "headline": "Mitsui Chemicals to buy Japan chip material maker JSR for over $8.2bn",
+          "source": "Nikkei Asia"
         }
       ]
     }
