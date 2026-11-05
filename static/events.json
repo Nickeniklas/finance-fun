@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04T08:00:00Z",
+  "generatedAt": "2026-11-05T08:00:00Z",
   "events": [
     {
       "id": "cprt-acv-acquisition",
@@ -93,35 +93,6 @@
           "date": "2026-10-30",
           "headline": "Evonik Leaves Opening After Turning Down BASF Takeover Talks",
           "source": "Bloomberg"
-        }
-      ]
-    },
-    {
-      "id": "nst-goldfields-takeover-proposal",
-      "ticker": "NST.AX",
-      "counterparty": "Gold Fields (GFI)",
-      "type": "acquisition",
-      "currentStatus": "rumored",
-      "whyItMatters": "Gold Fields has put a price on Australia's largest gold miner -- 0.3125 Gold Fields shares plus A$7.25 cash per share, about A$38.7bn and a 22% premium to the 11 September close -- and Northern Star's board has unanimously rejected it as opportunistic, mostly paper and heavily conditional. The stock still trading below the implied value after a 10% jump says the market doubts a knockout bid, but with Elliott already pushing for a strategy and board review, Northern Star is now in play: the question is whether Gold Fields sweetens the cash component or a rival emerges.",
-      "phases": [
-        {
-          "status": "rumored",
-          "date": "2026-09-27",
-          "headline": "Australia's Northern Star rejects $27 billion takeover approach from Gold Fields",
-          "source": "Reuters",
-          "priceReaction": "+10.6% to A$24.46 in early Monday trading, below the implied offer value"
-        },
-        {
-          "status": "rumored",
-          "date": "2026-09-29",
-          "headline": "Gold Fields Said to Weigh Sweetening Northern Star Bid With Cash",
-          "source": "Bloomberg"
-        },
-        {
-          "status": "rumored",
-          "date": "2026-10-15",
-          "headline": "Gold Fields CEO plays down talk of raising its offer for Northern Star",
-          "source": "Reuters"
         }
       ]
     },
@@ -240,54 +211,6 @@
       ]
     },
     {
-      "id": "pag-penske-mitsui-take-private",
-      "ticker": "PAG",
-      "counterparty": "Penske Corporation and Mitsui (8031.T)",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Controlling holders Penske Corp (~52%) and Mitsui (~20%) are buying out the public float at $212 a share, only ~9% above market and barely above July's $210 proposal, so minority holders get a thin take-under-style premium on a $16.3bn-EV dealer group with no competing bidder possible.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-10-15",
-          "headline": "Penske Automotive to go private in $16.3 billion deal led by Penske Corp, Mitsui",
-          "source": "Investing.com"
-        }
-      ]
-    },
-    {
-      "id": "cccs-gtcr-elliott-take-private",
-      "ticker": "CCCS",
-      "counterparty": "GTCR and Elliott",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "An activist-forced sale caps CCC's upside at $7.75 cash (~$6.1bn EV, 44% over the unaffected July price), turning the stock into a merger-arb spread pending a shareholder vote.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-10-15",
-          "headline": "CCC Intelligent Solutions Signs Definitive Agreement to Be Acquired by GTCR and Elliott",
-          "source": "GlobeNewswire"
-        }
-      ]
-    },
-    {
-      "id": "cbk-unicredit-takeover",
-      "ticker": "CBK.DE",
-      "counterparty": "UniCredit (UCG.MI)",
-      "type": "acquisition",
-      "currentStatus": "approved",
-      "whyItMatters": "ECB clearance lets UniCredit take delivery of tendered shares beyond its ~48% stake and move to control of Commerzbank over Berlin's objections, making a board overhaul and UniCredit's profit plan the likely path for Commerzbank holders.",
-      "phases": [
-        {
-          "status": "approved",
-          "date": "2026-10-15",
-          "headline": "Italy's UniCredit wins ECB approval to control Germany's Commerzbank",
-          "source": "Reuters"
-        }
-      ]
-    },
-    {
       "id": "insw-bruton-acquisition",
       "ticker": "INSW",
       "counterparty": "Bruton Limited (BRUT.OL)",
@@ -300,22 +223,6 @@
           "date": "2026-10-16",
           "headline": "International Seaways Announces Agreements to Acquire Bruton Limited",
           "source": "International Seaways (SEC 8-K)"
-        }
-      ]
-    },
-    {
-      "id": "vrns-proofpoint-acquisition",
-      "ticker": "VRNS",
-      "counterparty": "Proofpoint (Thoma Bravo)",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "$49.75-a-share all-cash, ~$6.3bn deal at a 52% premium to the pre-rumor price caps Varonis's upside at a fixed cash price and takes it private; the year's largest cybersecurity deal, expected to close 1H 2027.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-10-15",
-          "headline": "Proofpoint agrees to buy data security company Varonis for $6.3B in cash",
-          "source": "SiliconANGLE"
         }
       ]
     },
@@ -982,6 +889,55 @@
           "date": "2026-11-04",
           "headline": "Mitsui Chemicals to buy Japan chip material maker JSR for over $8.2bn",
           "source": "Nikkei Asia"
+        }
+      ]
+    },
+    {
+      "id": "arry-shoals-acquisition",
+      "ticker": "ARRY",
+      "counterparty": "Shoals Technologies (SHLS)",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Combines a solar tracker maker with an electrical balance-of-system supplier in an all-stock deal that hands Shoals holders ~65% of the merged company, betting scale and cross-selling can offset tariff and pricing pressure in US utility-scale solar.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-11-04",
+          "headline": "ARRAY to buy Shoals in $1.32 billion all-stock deal",
+          "source": "Reuters"
+        }
+      ]
+    },
+    {
+      "id": "ande-harvestone-acquisition",
+      "ticker": "ANDE",
+      "counterparty": "Harvestone Low Carbon Partners (Energy Capital Partners)",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Adds three carbon-capture-equipped ethanol plants and lifts renewables capacity 40%+ to ~730m gallons, with roughly half the $915m price resting on 45Z/45Q tax-credit cash flows, so the return now hinges on US clean-fuel credit policy.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-11-04",
+          "headline": "Andersons to acquire ethanol producer HLCP for $915 million",
+          "source": "Investing.com"
+        }
+      ]
+    },
+    {
+      "id": "hele-empower-takeover-proposal",
+      "ticker": "HELE",
+      "counterparty": "Empower Brands (Spectrum Brands SPB and Oaktree)",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "A public $37-a-share cash bid (~$1.6bn EV) after private approaches were rebuffed puts a floor under the tariff-hit stock and pressures a board that has unanimously rejected it as opportunistic.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-11-04",
+          "headline": "Helen of Troy jumps after Spectrum Brands makes takeover offer",
+          "source": "Seeking Alpha",
+          "priceReaction": "+13% premarket"
         }
       ]
     }
