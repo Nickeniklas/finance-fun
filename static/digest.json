@@ -1,36 +1,39 @@
 {
-  "date": "2026-11-05",
+  "date": "2026-11-06",
   "whatChanged": [
-    "NEW: ARRAY Technologies agrees to combine with Shoals Technologies in a $1.32bn all-stock deal (1.6931 ARRAY shares per Shoals share), with Shoals holders owning ~65% of the merged solar-hardware group (arry-shoals-acquisition)",
-    "NEW: The Andersons agrees to buy Harvestone Low Carbon Partners from Energy Capital Partners for $915m, adding three CCS-equipped ethanol plants and ~215m gallons of capacity (ande-harvestone-acquisition)",
-    "NEW: Spectrum Brands/Oaktree-owned Empower Brands goes public with a $37-a-share (~$1.6bn EV) cash proposal for Helen of Troy, which the board unanimously rejects (hele-empower-takeover-proposal)",
-    "DROPPED: 5 stale deals"
+    "NEW: Adani Ports agrees to buy Netherlands-based Evos, Europe's second-largest liquid-storage operator, from Igneo for €2.56bn EV in a debt-funded deal (adaniports-evos-acquisition)",
+    "NEW: Lam Research authorizes a new open-ended $25bn share repurchase alongside its $0.33 quarterly dividend (lrcx-buyback-2026)",
+    "ADVANCED: Wendy's independent committee rejects Trian's $7.35-a-share buyout bid and adopts a one-year poison pill (wen-trian-take-private) (confirmed → confirmed)",
+    "ADVANCED: AVID uses its matching right to lift its Ingenia proposal to A$5.45 a security, level with Warburg Pincus (ina-avid-takeover-proposal) (confirmed → confirmed)",
+    "ADVANCED: International Seaways completes its ~$370m mostly-stock acquisition of Bruton (insw-bruton-acquisition) (confirmed → closed)",
+    "ADVANCED: Tata Motors settles its Iveco offer, taking ~89% control and installing a new board (ivg-tata-motors-takeover-offer) (confirmed → closed)",
+    "DROPPED: 2 stale deals"
   ],
   "themes": [
     {
       "label": "Public-to-private buyout offers on listed companies",
-      "note": "Sponsors, strategics and insiders keep taking listed businesses off public markets. Thrive Holdings agreed to buy ADT for $10 a share in cash, about $15.3bn including debt, with a go-shop to 28 November (adt-thrive-take-private). A Trian-led group, Wendy's largest shareholder, offered $7.35 a share to take the chain private (wen-trian-take-private). Bon Secours Mercy Health agreed to buy Surgery Partners at $23.50 a share (sgry-bon-secours-take-private). EQT signed a board-recommended €46.50-a-share cash offer for Qiagen (qgen-eqt-take-private), and EQT Infrastructure signed a A$3.095-a-share scheme for Cleanaway (cwy-eqt-infrastructure-take-private). Affle agreed to buy Perion for $11.70 a share in cash and delist it (peri-affle-acquisition), and Cencora is buying out American Oncology Network (cor-aon-acquisition). Tata's Iveco offer has cleared its 80% threshold (ivg-tata-motors-takeover-offer). New approaches keep coming: Spectrum Brands and Oaktree's Empower Brands went public with a $37-a-share cash bid for Helen of Troy, which the board rejected (hele-empower-takeover-proposal); LCI's board rejected Monomoy's $101-a-share cash proposal in favour of its signed Patrick merger (lcii-monomoy-takeover-proposal), AVID and Warburg Pincus are bidding for Ingenia (ina-avid-takeover-proposal), and Challenger rejected a A$11.80 bid from its largest shareholder, TAL Daiichi Life (cgf-tal-daiichi-takeover-proposal). EP Group's Fnac Darty tender closes on 9 November with EU clearance in hand (fnac-ep-group-takeover-bid).",
-      "streak": 104
+      "note": "Sponsors, strategics and insiders keep taking listed businesses off public markets, and targets are increasingly pushing back on price. Wendy's independent committee rejected Trian's $7.35-a-share bid and adopted a poison pill (wen-trian-take-private), and Helen of Troy's board rejected Empower Brands' $37-a-share cash proposal (hele-empower-takeover-proposal). LCI rejected Monomoy's $101-a-share approach in favour of its Patrick merger (lcii-monomoy-takeover-proposal), and Challenger rejected a A$11.80 bid from TAL Daiichi Life (cgf-tal-daiichi-takeover-proposal). In Australia, AVID matched Warburg Pincus at A$5.45 a security for Ingenia (ina-avid-takeover-proposal). Signed deals keep moving: Tata settled its Iveco offer with ~89% (ivg-tata-motors-takeover-offer), Thrive Holdings is buying ADT with a go-shop to 28 November (adt-thrive-take-private), Bon Secours is taking Surgery Partners private (sgry-bon-secours-take-private), EQT has recommended offers for Qiagen (qgen-eqt-take-private) and Cleanaway (cwy-eqt-infrastructure-take-private), Affle is delisting Perion (peri-affle-acquisition), and EP Group's Fnac Darty tender closes on 9 November (fnac-ep-group-takeover-bid).",
+      "streak": 105
     },
     {
       "label": "Signed M&A deals hitting regulatory or legal roadblocks",
-      "note": "Regulators, politicians and courts, not the parties, keep deciding deals. Kimberly-Clark closed its Kenvue purchase on 2 November, but only after paying for EU and Australian clearance with feminine-care divestments and sitting through China's in-depth SAMR review (kmb-kenvue-acquisition). AkzoNobel and Axalta have offered EU remedies, including selling AkzoNobel's European refinish business; MLex reported on 4 November that Brussels is set to approve ahead of its 6 November deadline (akza-axalta-merger). The ECB has authorised Intesa to control Monte dei Paschi, leaving Consob and Italy's antitrust authority as the remaining gatekeepers (isp-bmps-takeover-offer). DoorDash's $17bn Instacart deal is already drawing antitrust warnings, with closing not expected before late 2027 (cart-doordash-uber-acquisition), and Marvell's $115bn Lumentum deal is not expected to close until the first half of 2028 (mrvl-lumentum-acquisition). EP Group's Fnac Darty bid needed EU merger clearance (fnac-ep-group-takeover-bid).",
-      "streak": 99
+      "note": "Regulators and supervisors, not the parties, keep setting deal timelines. The ECB has authorised Intesa to control Monte dei Paschi, leaving Consob, which is expected to rule on the offer document around 9-10 November, and Italy's antitrust authority as the remaining gatekeepers (isp-bmps-takeover-offer). DoorDash's $17bn Instacart deal is expected to draw an in-depth US antitrust probe, with closing not before late 2027 (cart-doordash-uber-acquisition), and Marvell's $115bn Lumentum deal is not expected to close until 2028 (mrvl-lumentum-acquisition). EP Group's Fnac Darty bid needed EU merger clearance before its tender could close (fnac-ep-group-takeover-bid).",
+      "streak": 100
     },
     {
       "label": "Large-caps scaling up buybacks on surplus cash",
-      "note": "Companies with surplus capital keep expanding buybacks, each tying the larger programme to a specific capital tailwind. GM authorized a new $20bn buyback with its Q3 results (gm-buyback-2026), and Simpson Manufacturing replaced a $200m authorization with $1.0bn (ssd-buyback-2026).",
-      "streak": 38
+      "note": "Companies with surplus capital keep expanding buybacks. Lam Research authorized a new open-ended $25bn programme, far above the ~$3.9bn it repurchased in fiscal 2026 (lrcx-buyback-2026); GM authorized a new $20bn buyback with its Q3 results (gm-buyback-2026); and Simpson Manufacturing replaced a $200m authorization with $1.0bn (ssd-buyback-2026).",
+      "streak": 39
     },
     {
       "label": "European incumbents consolidating domestic rivals for scale",
-      "note": "Europe's large chemicals groups, banks and grocers are buying rivals to reach the scale of US and Chinese peers, while controlling shareholders, governments and supervisors decide the outcomes. Evonik's board formally refused on 30 October to negotiate over BASF's €24-a-share approach, about €11.2bn, so RAG-Stiftung's ~43% stake is now the decisive lever (evk-basf-acquisition). Intesa Sanpaolo has ECB authorisation for its Delfin-backed offer for Monte dei Paschi, and MPS holders voted down the CEO's rival bids for Banco BPM and Banca Generali (isp-bmps-takeover-offer). Ahold Delhaize is buying Tesco's Czech and Slovak arm to make its Albert chain Czechia's market leader (ad-tesco-cz-sk-acquisition).",
-      "streak": 32
+      "note": "Europe's large chemicals groups, banks and grocers are buying rivals to reach the scale of US and Chinese peers, while controlling shareholders, governments and supervisors decide the outcomes. Evonik's board has refused to negotiate over BASF's €24-a-share approach, so RAG-Stiftung's ~43% stake is the decisive lever (evk-basf-acquisition). Intesa Sanpaolo has ECB authorisation for its Delfin-backed offer for Monte dei Paschi (isp-bmps-takeover-offer). Ahold Delhaize is buying Tesco's Czech and Slovak arm to make its Albert chain Czechia's market leader (ad-tesco-cz-sk-acquisition).",
+      "streak": 33
     },
     {
       "label": "North American energy companies buying scale in core assets",
-      "note": "Oil, gas, refining and fuels companies are paying up to deepen positions in assets they already know. EQT agreed an all-stock deal for Range Resources to consolidate Appalachian gas (eqt-range-resources-acquisition), Ovintiv is buying Logan Energy to add Montney acreage (ovv-logan-energy-acquisition), CVR Energy is buying Marathon Petroleum's two Upper Midwest refineries for ~$4.2bn, nearly doubling its capacity (cvi-mpc-refineries-acquisition), and The Andersons is paying $915m for Harvestone's three ethanol plants, lifting its renewables capacity by more than 40% (ande-harvestone-acquisition).",
-      "streak": 2
+      "note": "Oil, gas, refining and fuels companies are paying up to deepen positions in assets they already know. EQT agreed an all-stock deal for Range Resources to consolidate Appalachian gas (eqt-range-resources-acquisition), Ovintiv is buying Logan Energy to add Montney acreage (ovv-logan-energy-acquisition), CVR Energy is buying Marathon Petroleum's two Upper Midwest refineries for ~$4.2bn (cvi-mpc-refineries-acquisition), and The Andersons is paying $915m for Harvestone's three ethanol plants (ande-harvestone-acquisition).",
+      "streak": 3
     }
   ]
 }
