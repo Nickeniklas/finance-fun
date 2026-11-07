@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T08:00:00Z",
+  "generatedAt": "2026-11-07T08:00:00Z",
   "events": [
     {
       "id": "evk-basf-acquisition",
@@ -920,6 +920,22 @@
           "date": "2026-11-05",
           "headline": "Lam Research approves $25B buyback, $0.33 quarterly dividend",
           "source": "Investing.com"
+        }
+      ]
+    },
+    {
+      "id": "evgo-ls-power-take-private",
+      "ticker": "EVGO",
+      "counterparty": "LS Power",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "EVgo's ~56% controlling holder wants to buy out public shareholders at $2.00 cash (59% premium), so the special committee's response now sets the floor for minority value and a likely Nasdaq delisting.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-11-02",
+          "headline": "EVgo Confirms Receipt of Unsolicited and Non-Binding Take-Private Proposal",
+          "source": "EVgo (SEC 8-K)"
         }
       ]
     }
