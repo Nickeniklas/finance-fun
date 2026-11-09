@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T08:00:00Z",
+  "generatedAt": "2026-11-09T08:00:00Z",
   "events": [
     {
       "id": "evk-basf-acquisition",
@@ -159,57 +159,6 @@
       ]
     },
     {
-      "id": "cwy-eqt-infrastructure-take-private",
-      "ticker": "CWY.AX",
-      "counterparty": "EQT Infrastructure",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "EQT Infrastructure has signed a binding scheme to buy Australia's largest waste manager for A$3.095 a share in cash (about A$9.3bn EV), slightly below its A$3.13 August proposal, with a franked special dividend of up to 19c possible and a ticking fee if it runs past March 2027; the unanimous board recommendation turns Cleanaway into a fixed-price arb, with FIRB, ACCC, court and a February 2027 vote left to clear.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-10-19",
-          "headline": "EQT agrees to acquire Cleanaway, a leading Australian integrated waste management and resource recovery platform",
-          "source": "EQT",
-          "priceReaction": "CWY up about 19-20%"
-        }
-      ]
-    },
-    {
-      "id": "nhc-malabar-acquisition",
-      "ticker": "NHC.AX",
-      "counterparty": "Malabar Resources",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "New Hope is issuing 0.5 of its own shares per Malabar share (about A$1.8bn equity, A$2.4bn EV) to take full control of the Maxwell underground mine it already owns 26% of, creating a ~A$6.3bn coal group in which Malabar holders get 21%; it doubles down on Hunter Valley coal in paper rather than cash, so New Hope holders take dilution for a mine still ramping toward 5.5Mtpa.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-10-19",
-          "headline": "New Hope shares hit near one-month high as it agrees $1.3 bln Malabar deal",
-          "source": "Investing.com",
-          "priceReaction": "NHC at near one-month high"
-        }
-      ]
-    },
-    {
-      "id": "slgn-trivium-acquisition",
-      "ticker": "SLGN",
-      "counterparty": "Trivium Packaging",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Silgan is folding its metal containers and closures businesses into Trivium (bought for about $3.4bn EV, 7.1x EBITDA) to form a ~$7.3bn metal packaging company, keeping 60% while American Industrial Partners takes 40% for about $1bn in cash equity; Silgan pockets roughly $2.3bn of cash and guides to at least 15% EPS and free-cash-flow accretion, setting up a possible later separation of the metal business, with closing not expected until mid-2027.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-10-19",
-          "headline": "Silgan stock surges 5.5% on $3.4B Trivium acquisition deal",
-          "source": "Investing.com",
-          "priceReaction": "+5.5%"
-        }
-      ]
-    },
-    {
       "id": "fnac-ep-group-takeover-bid",
       "ticker": "FNAC.PA",
       "counterparty": "EP Group",
@@ -222,22 +171,6 @@
           "date": "2026-10-20",
           "headline": "Fnac Darty: Merger control clearance from the European Commission of the takeover bid initiated by EP Group",
           "source": "GlobeNewswire"
-        }
-      ]
-    },
-    {
-      "id": "php-gic-hospital-jv",
-      "ticker": "PHP.L",
-      "counterparty": "GIC",
-      "type": "partnership",
-      "currentStatus": "confirmed",
-      "whyItMatters": "PHP is putting 27 private hospitals (about £0.7bn, transferred at a 5% discount to book) into a 50:50 venture with Singapore's GIC and keeping the asset-management role, raising about £0.5bn to repay variable-rate debt including the rest of the Assura bridge; it cuts net debt from about £3.4bn toward £2.9bn and gives PHP a sovereign capital partner for future growth, at the cost of half the hospital income.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-10-19",
-          "headline": "UK's PHP forms joint venture with Singapore's GIC to cut debt",
-          "source": "Reuters"
         }
       ]
     },
@@ -325,22 +258,6 @@
           "status": "confirmed",
           "date": "2026-10-21",
           "headline": "QIAGEN and EQT Private Equity announce agreement on a recommended voluntary all-cash public takeover offer",
-          "source": "Business Wire"
-        }
-      ]
-    },
-    {
-      "id": "tw-trumid-acquisition",
-      "ticker": "TW",
-      "counterparty": "Trumid",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Tradeweb is paying about $1.97bn, mostly cash from its own reserves, for Trumid's corporate-bond trading protocols to cover the full credit lifecycle on one platform; it says the deal adds to adjusted EPS in the first full year, and closing in the first half of 2027 depends on regulatory approvals.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-10-19",
-          "headline": "Tradeweb to Acquire Trumid, Expanding Tradeweb's Credit Capabilities Across the Bond Lifecycle",
           "source": "Business Wire"
         }
       ]
@@ -535,7 +452,7 @@
       "counterparty": "AVID Property Group",
       "type": "acquisition",
       "currentStatus": "confirmed",
-      "whyItMatters": "AVID, backed by Mubadala and Brookfield, used its matching right to lift its non-binding cash proposal to A$5.45 a security (~A$2.24bn) against Warburg Pincus's up-to-A$5.50, keeping exclusivity; both bids require Ingenia to scrap its Peet deal, so the auction sets both price and strategy, with no board recommendation yet.",
+      "whyItMatters": "AVID (backed by Mubadala and Brookfield) holds exclusivity at A$5.45 a security, but Warburg Pincus has topped it at A$5.55 and Ingenia has given AVID until 10 November to match; both bids require Ingenia to scrap its Peet deal, so the auction sets both price and strategy.",
       "phases": [
         {
           "status": "confirmed",
@@ -549,6 +466,12 @@
           "date": "2026-11-02",
           "headline": "AVID matches Warburg's Ingenia Communities bid and shuts out rival for now",
           "source": "The Weekly Source"
+        },
+        {
+          "status": "confirmed",
+          "date": "2026-11-06",
+          "headline": "Ingenia Communities Receives Updated $5.55 Warburg Pincus Offer, Initiates AVID Matching Rights Process",
+          "source": "Kalkine Media"
         }
       ]
     },
@@ -952,6 +875,39 @@
           "date": "2026-11-06",
           "headline": "Fox Completes $22 Billion Roku Acquisition",
           "source": "TheWrap"
+        }
+      ]
+    },
+    {
+      "id": "cnh-kobelco-construction-divestiture",
+      "ticker": "CNH",
+      "counterparty": "Kobelco Construction Machinery (Kobe Steel, 5406.T)",
+      "type": "divestiture",
+      "currentStatus": "confirmed",
+      "whyItMatters": "CNH is selling 70% of its sub-scale construction equipment arm (CASE, New Holland Construction) for $700m cash at a $1bn EV and keeping 30%, turning itself into a near pure-play agriculture equipment and precision-tech company.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-11-09",
+          "headline": "CNH Announces Agreement to Form a Joint Venture by Selling a 70% Interest in its Construction Equipment Business to Kobelco Construction Machinery",
+          "source": "GlobeNewswire"
+        }
+      ]
+    },
+    {
+      "id": "u-silver-lake-pif-take-private",
+      "ticker": "U",
+      "counterparty": "Silver Lake and Saudi Arabia's Public Investment Fund (PIF)",
+      "type": "acquisition",
+      "currentStatus": "rumored",
+      "whyItMatters": "The Electronic Arts buyers are in preliminary talks to take Unity private at about $25bn, above its ~$21.5bn market value, and Unity has hired a bank to weigh options, putting a sponsor price floor under a stock that already holds Silver Lake as an ~8% owner.",
+      "phases": [
+        {
+          "status": "rumored",
+          "date": "2026-11-06",
+          "headline": "Unity shares jump on report of takeover interest from Silver Lake, PIF",
+          "source": "Reuters",
+          "priceReaction": "nearly +5%"
         }
       ]
     }
