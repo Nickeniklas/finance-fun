@@ -1,36 +1,37 @@
 {
-  "date": "2026-11-09",
+  "date": "2026-11-10",
   "whatChanged": [
-    "NEW: CNH agrees to sell 70% of its construction equipment business to Kobe Steel's Kobelco Construction Machinery for $700m cash at a $1bn EV, keeping 30% in a joint venture (cnh-kobelco-construction-divestiture)",
-    "NEW: Silver Lake and Saudi Arabia's PIF in preliminary talks to take Unity Software private at about $25bn, Reuters reports (u-silver-lake-pif-take-private)",
-    "ADVANCED: Warburg Pincus tops AVID with an A$5.55-a-security Ingenia proposal, and Ingenia gives AVID until 10 November to match (ina-avid-takeover-proposal) (confirmed → confirmed)",
-    "DROPPED: 5 stale deals"
+    "NEW: Crédit Agricole proposes folding Crédit Agricole Italia into Banco BPM at a 20% premium plus a €1bn special dividend, lifting its stake to ~45% and creating Italy's third-largest bank (bami-credit-agricole-merger)",
+    "NEW: CVC and GBL's €53-a-share Recordati offer reportedly reaches 91.93% after the reopening, clearing the 90% squeeze-out threshold for delisting (rec-cvc-gbl-take-private)",
+    "ADVANCED: HealthSpan raises its Surgery Partners price to $25.00 cash (up to $26.61 with ticking fees) after a rival $28 bid the board deemed not superior (sgry-bon-secours-take-private) (confirmed → confirmed)",
+    "ADVANCED: Consob approves Intesa's offer document for Monte dei Paschi; acceptance period runs 24 November 2026 to 22 January 2027 (isp-bmps-takeover-offer) (approved → approved)",
+    "DROPPED: 7 stale deals"
   ],
   "themes": [
     {
       "label": "Public-to-private buyout offers on listed companies",
-      "note": "Sponsors, strategics and insiders keep trying to take listed businesses off public markets, and targets are increasingly pushing back on price. Silver Lake and PIF are in preliminary talks to take Unity private at about $25bn (u-silver-lake-pif-take-private). Controlling holder LS Power has proposed a $2.00-a-share cash buyout of EVgo's public float, now under review by a special committee (evgo-ls-power-take-private). Wendy's independent committee rejected Trian's $7.35-a-share bid and adopted a poison pill (wen-trian-take-private), and Helen of Troy's board rejected Empower Brands' $37-a-share cash proposal (hele-empower-takeover-proposal). LCI rejected Monomoy's $101-a-share approach in favour of its Patrick merger (lcii-monomoy-takeover-proposal), and Challenger rejected a A$11.80 bid from TAL Daiichi Life (cgf-tal-daiichi-takeover-proposal). In Australia, Warburg Pincus has topped AVID with A$5.55 a security for Ingenia, and AVID has until 10 November to match (ina-avid-takeover-proposal). Signed deals keep moving: Tata settled its Iveco offer with ~89% (ivg-tata-motors-takeover-offer), Thrive Holdings is buying ADT with a go-shop to 28 November (adt-thrive-take-private), Bon Secours is taking Surgery Partners private (sgry-bon-secours-take-private), EQT has a recommended offer for Qiagen (qgen-eqt-take-private), Affle is delisting Perion (peri-affle-acquisition), and EP Group's Fnac Darty tender closes on 9 November (fnac-ep-group-takeover-bid).",
-      "streak": 108
+      "note": "Sponsors, strategics and insiders keep trying to take listed businesses off public markets, and targets are pushing back on price. CVC and GBL have reportedly crossed 90% of Recordati, clearing the way to a squeeze-out and delisting (rec-cvc-gbl-take-private). HealthSpan raised its Surgery Partners price to $25 after a rival $28 approach (sgry-bon-secours-take-private). Silver Lake and PIF are in preliminary talks to take Unity private at about $25bn (u-silver-lake-pif-take-private), and LS Power has proposed a $2.00-a-share buyout of EVgo's public float (evgo-ls-power-take-private). Wendy's rejected Trian's $7.35 bid and adopted a poison pill (wen-trian-take-private), Helen of Troy rejected Empower Brands' $37 proposal (hele-empower-takeover-proposal), LCI rejected Monomoy's $101 approach (lcii-monomoy-takeover-proposal), and Challenger rejected TAL Daiichi Life's A$11.80 bid (cgf-tal-daiichi-takeover-proposal). Warburg Pincus and AVID are still bidding for Ingenia (ina-avid-takeover-proposal). Signed deals keep moving: Tata controls ~89% of Iveco (ivg-tata-motors-takeover-offer), Thrive Holdings is buying ADT with a go-shop to 28 November (adt-thrive-take-private), EQT has a recommended offer for Qiagen (qgen-eqt-take-private), and Affle is delisting Perion (peri-affle-acquisition).",
+      "streak": 109
     },
     {
       "label": "Signed M&A deals hitting regulatory or legal roadblocks",
-      "note": "Regulators and supervisors, not the parties, keep setting deal timelines. The ECB has authorised Intesa to control Monte dei Paschi, leaving Consob, which is expected to rule on the offer document around 9-10 November, and Italy's antitrust authority as the remaining gatekeepers (isp-bmps-takeover-offer). DoorDash's $17bn Instacart deal is expected to draw an in-depth US antitrust probe, with closing not before late 2027 (cart-doordash-uber-acquisition), and Marvell's $115bn Lumentum deal is not expected to close until 2028 (mrvl-lumentum-acquisition). EP Group's Fnac Darty bid needed EU merger clearance before its tender could close (fnac-ep-group-takeover-bid).",
-      "streak": 103
+      "note": "Regulators and supervisors, not the parties, keep setting deal timelines. Consob has now cleared Intesa's Monte dei Paschi offer document after ECB authorisation, leaving Italy's antitrust authority as the remaining gatekeeper (isp-bmps-takeover-offer). DoorDash's $17bn Instacart deal is expected to draw an in-depth US antitrust probe, with closing not before late 2027 (cart-doordash-uber-acquisition), and Marvell's $115bn Lumentum deal is not expected to close until 2028 (mrvl-lumentum-acquisition). Surgery Partners' board picked HealthSpan's lower $25 bid over a $28 rival largely on the rival's regulatory complexity (sgry-bon-secours-take-private).",
+      "streak": 104
     },
     {
       "label": "Large-caps scaling up buybacks on surplus cash",
-      "note": "Companies with surplus capital keep expanding buybacks. Lam Research authorized a new open-ended $25bn programme, far above the ~$3.9bn it repurchased in fiscal 2026 (lrcx-buyback-2026); GM authorized a new $20bn buyback with its Q3 results (gm-buyback-2026); and Simpson Manufacturing replaced a $200m authorization with $1.0bn (ssd-buyback-2026).",
-      "streak": 42
+      "note": "Companies with surplus capital keep expanding buybacks. Lam Research authorized a new open-ended $25bn programme, far above the ~$3.9bn it repurchased in fiscal 2026 (lrcx-buyback-2026), and Simpson Manufacturing replaced a $200m authorization with $1.0bn (ssd-buyback-2026).",
+      "streak": 43
     },
     {
       "label": "European incumbents consolidating domestic rivals for scale",
-      "note": "Europe's large chemicals groups, banks and grocers are buying rivals to reach the scale of US and Chinese peers, while controlling shareholders, governments and supervisors decide the outcomes. Evonik's board has refused to negotiate over BASF's €24-a-share approach, so RAG-Stiftung's ~43% stake is the decisive lever (evk-basf-acquisition). Intesa Sanpaolo has ECB authorisation for its Delfin-backed offer for Monte dei Paschi (isp-bmps-takeover-offer). Ahold Delhaize is buying Tesco's Czech and Slovak arm to make its Albert chain Czechia's market leader (ad-tesco-cz-sk-acquisition).",
-      "streak": 36
+      "note": "Europe's large chemicals groups, banks and grocers are buying rivals to reach the scale of US and Chinese peers, while controlling shareholders, governments and supervisors decide the outcomes. Crédit Agricole has proposed merging its Italian arm into Banco BPM to create Italy's third-largest bank (bami-credit-agricole-merger), and Intesa Sanpaolo's Monte dei Paschi offer opens on 24 November (isp-bmps-takeover-offer). Evonik's board has refused to negotiate over BASF's €24-a-share approach, so RAG-Stiftung's ~43% stake is the decisive lever (evk-basf-acquisition). Ahold Delhaize is buying Tesco's Czech and Slovak arm to make its Albert chain Czechia's market leader (ad-tesco-cz-sk-acquisition).",
+      "streak": 37
     },
     {
       "label": "North American energy companies buying scale in core assets",
       "note": "Oil, gas, refining and fuels companies are paying up to deepen positions in assets they already know. EQT agreed an all-stock deal for Range Resources to consolidate Appalachian gas (eqt-range-resources-acquisition), Ovintiv is buying Logan Energy to add Montney acreage (ovv-logan-energy-acquisition), CVR Energy is buying Marathon Petroleum's two Upper Midwest refineries for ~$4.2bn (cvi-mpc-refineries-acquisition), and The Andersons is paying $915m for Harvestone's three ethanol plants (ande-harvestone-acquisition).",
-      "streak": 6
+      "streak": 7
     }
   ]
 }
