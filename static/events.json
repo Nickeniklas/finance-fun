@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T08:00:00Z",
+  "generatedAt": "2026-11-10T08:00:00Z",
   "events": [
     {
       "id": "evk-basf-acquisition",
@@ -50,7 +50,7 @@
       "counterparty": "Banca Monte dei Paschi di Siena (BMPS.MI)",
       "type": "acquisition",
       "currentStatus": "approved",
-      "whyItMatters": "MPS shareholders, led by Delfin and Caltagirone, voted down CEO Lovaglio's all-share bids for Banco BPM and Banca Generali and the Mediobanca merger, triggering Intesa's sweetened 1.6-shares-plus-EUR1.25 offer. With ECB approval already in hand, Intesa is close to forming the eurozone's second-largest bank by market value; Consob and Italy's antitrust authority, which may demand branch sales, are the remaining hurdles.",
+      "whyItMatters": "MPS shareholders, led by Delfin and Caltagirone, voted down CEO Lovaglio's all-share bids for Banco BPM and Banca Generali and the Mediobanca merger, opening the way for Intesa's sweetened offer. With ECB authorisation in hand and Consob now approving the offer document, the acceptance period runs from 24 November 2026 to 22 January 2027; Italy's antitrust authority, which may demand branch sales, is the last visible hurdle to creating the eurozone's second-largest bank by market value.",
       "phases": [
         {
           "status": "confirmed",
@@ -82,6 +82,12 @@
           "date": "2026-10-29",
           "headline": "Monte Paschi Investors Reject Banco BPM Bid in Win For Intesa",
           "source": "Bloomberg"
+        },
+        {
+          "status": "approved",
+          "date": "2026-11-08",
+          "headline": "MPS: Consob gives the go-ahead for Intesa's offer; launch on 24 November",
+          "source": "LaPresse"
         }
       ]
     },
@@ -159,88 +165,6 @@
       ]
     },
     {
-      "id": "fnac-ep-group-takeover-bid",
-      "ticker": "FNAC.PA",
-      "counterparty": "EP Group",
-      "type": "acquisition",
-      "currentStatus": "approved",
-      "whyItMatters": "European Commission merger clearance removes the last regulatory condition on Daniel Kretinsky's EP Group €35-a-share tender offer for Fnac Darty, which the board backs and an independent expert called fair; with the AMF to set the final timetable and closing expected in early November, the stock is now a short-dated arb and France's largest electronics and books retailer is heading under Kretinsky's control.",
-      "phases": [
-        {
-          "status": "approved",
-          "date": "2026-10-20",
-          "headline": "Fnac Darty: Merger control clearance from the European Commission of the takeover bid initiated by EP Group",
-          "source": "GlobeNewswire"
-        }
-      ]
-    },
-    {
-      "id": "crm-braze-acquisition",
-      "ticker": "CRM",
-      "counterparty": "BRZE",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Salesforce's biggest deal since Informatica pays a 58% premium, about $5.66bn EV, to bolt Braze's customer-engagement platform onto its AI marketing stack, a sign that Salesforce is back to buying growth after its margin-first stretch.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-10-20",
-          "headline": "Salesforce to acquire Braze in a $5.66 billion deal",
-          "source": "Reuters",
-          "priceReaction": "Braze +50%"
-        }
-      ]
-    },
-    {
-      "id": "tsla-spacex-merger",
-      "ticker": "TSLA",
-      "counterparty": "SpaceX",
-      "type": "merger",
-      "currentStatus": "rumored",
-      "whyItMatters": "A Tesla–SpaceX combination would merge two Musk companies worth about $3.5tn and dilute both shareholder bases; any deal needs a majority of all outstanding Tesla shares, so governance and the vote are the real risk.",
-      "phases": [
-        {
-          "status": "rumored",
-          "date": "2026-10-20",
-          "headline": "Elon Musk says SpaceX and Tesla have formed special committees to discuss merger idea",
-          "source": "NBC News"
-        }
-      ]
-    },
-    {
-      "id": "lion-legendary-takeover-approach",
-      "ticker": "LION",
-      "counterparty": "Legendary Entertainment",
-      "type": "acquisition",
-      "currentStatus": "rumored",
-      "whyItMatters": "An Apollo-backed Legendary bid of about $3.5bn including debt would pin a takeout value on Lionsgate's film and TV library, while activist Anson Funds is already pushing the company to act.",
-      "phases": [
-        {
-          "status": "rumored",
-          "date": "2026-10-20",
-          "headline": "Lionsgate Stock Jumps On Report Of Takeover Offer By Legendary",
-          "source": "Deadline",
-          "priceReaction": "+15% intraday"
-        }
-      ]
-    },
-    {
-      "id": "gm-buyback-2026",
-      "ticker": "GM",
-      "counterparty": null,
-      "type": "capital-allocation",
-      "currentStatus": "confirmed",
-      "whyItMatters": "A new $20bn buyback authorization, after GM finished its $6bn programme, is a large fraction of its market cap and shows management would rather return cash than chase EV capex.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-10-20",
-          "headline": "GM releases 2026 third-quarter results and updates full-year 2026 guidance; Board approves new $20 billion share repurchase authorization, declares quarterly dividend",
-          "source": "General Motors"
-        }
-      ]
-    },
-    {
       "id": "qgen-eqt-take-private",
       "ticker": "QGEN",
       "counterparty": "EQT (EQT.ST)",
@@ -259,38 +183,6 @@
           "date": "2026-10-21",
           "headline": "QIAGEN and EQT Private Equity announce agreement on a recommended voluntary all-cash public takeover offer",
           "source": "Business Wire"
-        }
-      ]
-    },
-    {
-      "id": "pru-cnp-latam-divestiture",
-      "ticker": "PRU",
-      "counterparty": "CNP Assurances",
-      "type": "divestiture",
-      "currentStatus": "confirmed",
-      "whyItMatters": "A $4bn cash exit from Brazil and Mexico is the biggest step yet in Prudential halving its country footprint, freeing capital for asset management, group insurance and European retirement at the cost of its main emerging-market growth engine.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-10-20",
-          "headline": "Prudential sheds Brazil, Mexico units to CNP for $4 billion as it narrows its focus",
-          "source": "Reuters"
-        }
-      ]
-    },
-    {
-      "id": "dfh-beazer-acquisition",
-      "ticker": "DFH",
-      "counterparty": "Beazer Homes (BZH)",
-      "type": "acquisition",
-      "currentStatus": "closed",
-      "whyItMatters": "Closing the $2.2bn all-cash Beazer deal makes Dream Finders the sixth-largest US homebuilder; the case now rests on delivering $100m+ of synergies and bringing leverage back down within 18-24 months.",
-      "phases": [
-        {
-          "status": "closed",
-          "date": "2026-10-20",
-          "headline": "Dream Finders closes $2.2 billion all-cash acquisition of Beazer Homes",
-          "source": "HousingWire"
         }
       ]
     },
@@ -519,13 +411,20 @@
       "counterparty": "Bon Secours Mercy Health (HealthSpan Partners)",
       "type": "acquisition",
       "currentStatus": "confirmed",
-      "whyItMatters": "A not-for-profit hospital system is paying $23.50 cash, a 49% premium, to take the 200-plus-site surgery-centre operator private while Bain keeps its ~38.5% stake, putting a firm floor under SGRY pending shareholder and antitrust approval.",
+      "whyItMatters": "HealthSpan (Bon Secours) has lifted its cash price to $25.00 (up to $26.61 with ticking fees if closing slips past 1 March 2027) after an unsolicited rival bid that rose to $28; the board judged that bid not superior on regulatory risk and timing, so holders now weigh a firmer signed floor against a higher but less certain alternative while Bain rolls its ~38.5% stake.",
       "phases": [
         {
           "status": "confirmed",
           "date": "2026-10-26",
           "headline": "Surgery Partners to Be Acquired by Bon Secours for $5.7 Billion",
           "source": "Bloomberg"
+        },
+        {
+          "status": "confirmed",
+          "date": "2026-11-09",
+          "headline": "Deal fever drove a big day for Surgery Partners",
+          "source": "Finimize",
+          "priceReaction": "+14.01%"
         }
       ]
     },
@@ -908,6 +807,39 @@
           "headline": "Unity shares jump on report of takeover interest from Silver Lake, PIF",
           "source": "Reuters",
           "priceReaction": "nearly +5%"
+        }
+      ]
+    },
+    {
+      "id": "bami-credit-agricole-merger",
+      "ticker": "BAMI.MI",
+      "counterparty": "Crédit Agricole (ACA.PA)",
+      "type": "merger",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Crédit Agricole wants to fold its Italian bank and insurance arms into Banco BPM at an exchange ratio pricing BPM 20% above its own contribution, plus a €1bn special dividend, lifting its stake to ~45% without a mandatory bid; it would create Italy's third-largest bank with €800m of targeted synergies, but needs a two-thirds EGM vote and a whitewash of minority holders, and would close only in H2 2027.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-11-09",
+          "headline": "Crédit Agricole proposes to Banco BPM to create together a new leading Italian bank",
+          "source": "GlobeNewswire",
+          "priceReaction": "Banco BPM up as much as 12% intraday"
+        }
+      ]
+    },
+    {
+      "id": "rec-cvc-gbl-take-private",
+      "ticker": "REC.MI",
+      "counterparty": "CVC and GBL (Respighi BidCo)",
+      "type": "acquisition",
+      "currentStatus": "closed",
+      "whyItMatters": "CVC and GBL's €53-a-share offer has reportedly reached 91.93% of Recordati after the reopening, clearing the 90% threshold for a squeeze-out, so the remaining float is headed for a forced buy-out and delisting from Euronext Milan rather than a merger vote.",
+      "phases": [
+        {
+          "status": "closed",
+          "date": "2026-11-09",
+          "headline": "Recordati: l'Opa sale al 91,93%, titolo va verso il delisting",
+          "source": "Il Sole 24 Ore"
         }
       ]
     }
