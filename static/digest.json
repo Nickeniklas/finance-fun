@@ -1,37 +1,36 @@
 {
-  "date": "2026-11-10",
+  "date": "2026-11-11",
   "whatChanged": [
-    "NEW: Crédit Agricole proposes folding Crédit Agricole Italia into Banco BPM at a 20% premium plus a €1bn special dividend, lifting its stake to ~45% and creating Italy's third-largest bank (bami-credit-agricole-merger)",
-    "NEW: CVC and GBL's €53-a-share Recordati offer reportedly reaches 91.93% after the reopening, clearing the 90% squeeze-out threshold for delisting (rec-cvc-gbl-take-private)",
-    "ADVANCED: HealthSpan raises its Surgery Partners price to $25.00 cash (up to $26.61 with ticking fees) after a rival $28 bid the board deemed not superior (sgry-bon-secours-take-private) (confirmed → confirmed)",
-    "ADVANCED: Consob approves Intesa's offer document for Monte dei Paschi; acceptance period runs 24 November 2026 to 22 January 2027 (isp-bmps-takeover-offer) (approved → approved)",
-    "DROPPED: 7 stale deals"
+    "NEW: Strathcona agrees to buy Greenfire Resources for ~C$2.7-2.9bn including debt (C$11.00 cash or 0.25 Strathcona shares), consolidating two Waterous-controlled oil sands producers (scr-greenfire-acquisition)",
+    "NEW: CVS Health plans to spin off its retail pharmacy business as a separate listed company, CVS Pharmacy, by 1H 2028, keeping Aetna and Caremark; shares fell 12.6% (cvs-retail-pharmacy-spin-off)",
+    "ADVANCED: Mitsui Chemicals signs a ¥1.84tn (~$11.6bn) deal with DBJ backing to buy JSR from JIC; Mitsui shares fell 8.5% (4183-jsr-acquisition) (rumored → confirmed)",
+    "DROPPED: 3 stale deals"
   ],
   "themes": [
     {
       "label": "Public-to-private buyout offers on listed companies",
-      "note": "Sponsors, strategics and insiders keep trying to take listed businesses off public markets, and targets are pushing back on price. CVC and GBL have reportedly crossed 90% of Recordati, clearing the way to a squeeze-out and delisting (rec-cvc-gbl-take-private). HealthSpan raised its Surgery Partners price to $25 after a rival $28 approach (sgry-bon-secours-take-private). Silver Lake and PIF are in preliminary talks to take Unity private at about $25bn (u-silver-lake-pif-take-private), and LS Power has proposed a $2.00-a-share buyout of EVgo's public float (evgo-ls-power-take-private). Wendy's rejected Trian's $7.35 bid and adopted a poison pill (wen-trian-take-private), Helen of Troy rejected Empower Brands' $37 proposal (hele-empower-takeover-proposal), LCI rejected Monomoy's $101 approach (lcii-monomoy-takeover-proposal), and Challenger rejected TAL Daiichi Life's A$11.80 bid (cgf-tal-daiichi-takeover-proposal). Warburg Pincus and AVID are still bidding for Ingenia (ina-avid-takeover-proposal). Signed deals keep moving: Tata controls ~89% of Iveco (ivg-tata-motors-takeover-offer), Thrive Holdings is buying ADT with a go-shop to 28 November (adt-thrive-take-private), EQT has a recommended offer for Qiagen (qgen-eqt-take-private), and Affle is delisting Perion (peri-affle-acquisition).",
-      "streak": 109
+      "note": "Sponsors, strategics and insiders keep trying to take listed businesses off public markets, and targets are pushing back on price. CVC and GBL have reportedly crossed 90% of Recordati, clearing the way to a squeeze-out and delisting (rec-cvc-gbl-take-private). HealthSpan raised its Surgery Partners price to $25 after a rival $28 approach (sgry-bon-secours-take-private). Silver Lake and PIF are in preliminary talks to take Unity private at about $25bn (u-silver-lake-pif-take-private), and LS Power has proposed a $2.00-a-share buyout of EVgo's public float (evgo-ls-power-take-private). Wendy's rejected Trian's $7.35 bid and adopted a poison pill (wen-trian-take-private), Helen of Troy rejected Empower Brands' $37 proposal (hele-empower-takeover-proposal), LCI rejected Monomoy's $101 approach (lcii-monomoy-takeover-proposal), and Challenger rejected TAL Daiichi Life's A$11.80 bid (cgf-tal-daiichi-takeover-proposal). Warburg Pincus and AVID are still bidding for Ingenia (ina-avid-takeover-proposal). Signed deals keep moving: Tata controls ~89% of Iveco (ivg-tata-motors-takeover-offer), Thrive Holdings is buying ADT with a go-shop to 28 November (adt-thrive-take-private), and Affle is delisting Perion (peri-affle-acquisition).",
+      "streak": 110
     },
     {
       "label": "Signed M&A deals hitting regulatory or legal roadblocks",
-      "note": "Regulators and supervisors, not the parties, keep setting deal timelines. Consob has now cleared Intesa's Monte dei Paschi offer document after ECB authorisation, leaving Italy's antitrust authority as the remaining gatekeeper (isp-bmps-takeover-offer). DoorDash's $17bn Instacart deal is expected to draw an in-depth US antitrust probe, with closing not before late 2027 (cart-doordash-uber-acquisition), and Marvell's $115bn Lumentum deal is not expected to close until 2028 (mrvl-lumentum-acquisition). Surgery Partners' board picked HealthSpan's lower $25 bid over a $28 rival largely on the rival's regulatory complexity (sgry-bon-secours-take-private).",
-      "streak": 104
+      "note": "Regulators and supervisors, not the parties, keep setting deal timelines. Consob has cleared Intesa's Monte dei Paschi offer document after ECB authorisation, leaving Italy's antitrust authority as the remaining gatekeeper (isp-bmps-takeover-offer). DoorDash's $17bn Instacart deal is expected to draw an in-depth US antitrust probe, with closing not before late 2027 (cart-doordash-uber-acquisition), Marvell's $115bn Lumentum deal is not expected to close until 2028 (mrvl-lumentum-acquisition), and Mitsui Chemicals' $11.6bn JSR purchase needs Japanese and foreign competition and investment approvals, with closing not before late fiscal 2027 (4183-jsr-acquisition). Surgery Partners' board picked HealthSpan's lower $25 bid over a $28 rival largely on the rival's regulatory complexity (sgry-bon-secours-take-private).",
+      "streak": 105
     },
     {
       "label": "Large-caps scaling up buybacks on surplus cash",
       "note": "Companies with surplus capital keep expanding buybacks. Lam Research authorized a new open-ended $25bn programme, far above the ~$3.9bn it repurchased in fiscal 2026 (lrcx-buyback-2026), and Simpson Manufacturing replaced a $200m authorization with $1.0bn (ssd-buyback-2026).",
-      "streak": 43
+      "streak": 44
     },
     {
       "label": "European incumbents consolidating domestic rivals for scale",
       "note": "Europe's large chemicals groups, banks and grocers are buying rivals to reach the scale of US and Chinese peers, while controlling shareholders, governments and supervisors decide the outcomes. Crédit Agricole has proposed merging its Italian arm into Banco BPM to create Italy's third-largest bank (bami-credit-agricole-merger), and Intesa Sanpaolo's Monte dei Paschi offer opens on 24 November (isp-bmps-takeover-offer). Evonik's board has refused to negotiate over BASF's €24-a-share approach, so RAG-Stiftung's ~43% stake is the decisive lever (evk-basf-acquisition). Ahold Delhaize is buying Tesco's Czech and Slovak arm to make its Albert chain Czechia's market leader (ad-tesco-cz-sk-acquisition).",
-      "streak": 37
+      "streak": 38
     },
     {
       "label": "North American energy companies buying scale in core assets",
-      "note": "Oil, gas, refining and fuels companies are paying up to deepen positions in assets they already know. EQT agreed an all-stock deal for Range Resources to consolidate Appalachian gas (eqt-range-resources-acquisition), Ovintiv is buying Logan Energy to add Montney acreage (ovv-logan-energy-acquisition), CVR Energy is buying Marathon Petroleum's two Upper Midwest refineries for ~$4.2bn (cvi-mpc-refineries-acquisition), and The Andersons is paying $915m for Harvestone's three ethanol plants (ande-harvestone-acquisition).",
-      "streak": 7
+      "note": "Oil, gas, refining and fuels companies are paying up to deepen positions in assets they already know. EQT agreed an all-stock deal for Range Resources to consolidate Appalachian gas (eqt-range-resources-acquisition), Ovintiv is buying Logan Energy to add Montney acreage (ovv-logan-energy-acquisition), Strathcona is folding in fellow Waterous-controlled oil sands producer Greenfire (scr-greenfire-acquisition), CVR Energy is buying Marathon Petroleum's two Upper Midwest refineries for ~$4.2bn (cvi-mpc-refineries-acquisition), and The Andersons is paying $915m for Harvestone's three ethanol plants (ande-harvestone-acquisition).",
+      "streak": 8
     }
   ]
 }

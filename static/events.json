@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T08:00:00Z",
+  "generatedAt": "2026-11-11T08:00:00Z",
   "events": [
     {
       "id": "evk-basf-acquisition",
@@ -165,44 +165,6 @@
       ]
     },
     {
-      "id": "qgen-eqt-take-private",
-      "ticker": "QGEN",
-      "counterparty": "EQT (EQT.ST)",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "EQT's €46.50-a-share all-cash offer (about €10.8bn EV, with ADIA and CPP Investments co-investing) is board-recommended and has no financing condition, putting a 40% premium to the undisturbed price on Qiagen; the 50%-plus-one acceptance threshold and regulatory clearances into mid-2027 are what stand between holders and the cash, and KKR's reported rival interest set the floor.",
-      "phases": [
-        {
-          "status": "rumored",
-          "date": "2026-10-20",
-          "headline": "EQT in Advanced Talks to Acquire Qiagen in $10 Billion Healthcare Deal",
-          "source": "Bloomberg"
-        },
-        {
-          "status": "confirmed",
-          "date": "2026-10-21",
-          "headline": "QIAGEN and EQT Private Equity announce agreement on a recommended voluntary all-cash public takeover offer",
-          "source": "Business Wire"
-        }
-      ]
-    },
-    {
-      "id": "cor-aon-acquisition",
-      "ticker": "COR",
-      "counterparty": "American Oncology Network (AONC)",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Cencora's second big community-oncology buy in under a year (after OneOncology) deepens its bet on owning physician practices, not just distributing drugs to them, adding 350+ providers and 12 states to its MSO platform.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-10-21",
-          "headline": "Cencora to acquire majority stake in $2.4B American Oncology Network",
-          "source": "Fierce Healthcare"
-        }
-      ]
-    },
-    {
       "id": "crh-arcosa-acquisition",
       "ticker": "CRH",
       "counterparty": "Arcosa (ACA)",
@@ -215,22 +177,6 @@
           "date": "2026-10-23",
           "headline": "CRH Completes Acquisition of Arcosa",
           "source": "CRH (SEC 8-K)"
-        }
-      ]
-    },
-    {
-      "id": "udr-apollo-multifamily-jv",
-      "ticker": "UDR",
-      "counterparty": "Apollo Global Management (APO)",
-      "type": "partnership",
-      "currentStatus": "confirmed",
-      "whyItMatters": "UDR sells a two-thirds stake in 19 older communities to Apollo funds for $1.34bn of equity at a ~6% cap rate, recycling capital into its wholly-owned portfolio and balance sheet while keeping control and a buy-back option from year five.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-10-21",
-          "headline": "Apollo, UDR Partner on $2B Multifamily Joint Venture",
-          "source": "Commercial Observer"
         }
       ]
     },
@@ -653,7 +599,7 @@
       "ticker": "4183.T",
       "counterparty": "JSR (Japan Investment Corp.)",
       "type": "acquisition",
-      "currentStatus": "rumored",
+      "currentStatus": "confirmed",
       "whyItMatters": "A reported ¥1.3tn+ (~$8.2bn) purchase of chip-materials maker JSR from state fund JIC would be transformational for Mitsui Chemicals, pivoting it toward semiconductor photoresists at the cost of a much larger balance sheet.",
       "phases": [
         {
@@ -661,6 +607,13 @@
           "date": "2026-11-04",
           "headline": "Mitsui Chemicals to buy Japan chip material maker JSR for over $8.2bn",
           "source": "Nikkei Asia"
+        },
+        {
+          "status": "confirmed",
+          "date": "2026-11-09",
+          "headline": "Mitsui Chemicals to buy chip materials firm JSR for $11.6 billion",
+          "source": "Reuters",
+          "priceReaction": "Mitsui Chemicals shares -8.5%"
         }
       ]
     },
@@ -840,6 +793,39 @@
           "date": "2026-11-09",
           "headline": "Recordati: l'Opa sale al 91,93%, titolo va verso il delisting",
           "source": "Il Sole 24 Ore"
+        }
+      ]
+    },
+    {
+      "id": "scr-greenfire-acquisition",
+      "ticker": "SCR.TO",
+      "counterparty": "Greenfire Resources (GFR.TO)",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Strathcona adds Greenfire's oil sands SAGD assets for ~C$2.7-2.9bn including debt with ~C$75m of targeted synergies, while common controller Waterous Energy Fund backs the deal and lifts its Strathcona stake to ~60-64%.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-11-09",
+          "headline": "Strathcona to Acquire Greenfire in Canadian Oil Sands Deal",
+          "source": "Bloomberg"
+        }
+      ]
+    },
+    {
+      "id": "cvs-retail-pharmacy-spin-off",
+      "ticker": "CVS",
+      "counterparty": null,
+      "type": "capital-allocation",
+      "currentStatus": "confirmed",
+      "whyItMatters": "CVS will spin its ~9,000-store retail pharmacy into a separate listed company by 1H 2028, leaving CVS Health as an Aetna-plus-Caremark payer/PBM story and unwinding two decades of vertical integration.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-11-04",
+          "headline": "CVS Health to Split Retail Pharmacy from Aetna, Caremark by 2028",
+          "source": "AJMC",
+          "priceReaction": "-12.6%"
         }
       ]
     }
