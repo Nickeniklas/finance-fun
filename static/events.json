@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T08:00:00Z",
+  "generatedAt": "2026-11-14T08:00:00Z",
   "events": [
     {
       "id": "evk-basf-acquisition",
@@ -169,22 +169,6 @@
           "headline": "DoorDash to acquire Instacart in deal valued around $17B, companies announce",
           "source": "ABC News",
           "priceReaction": "DoorDash +5.6%, Maplebear -2.2%"
-        }
-      ]
-    },
-    {
-      "id": "atd-cumberland-farms-acquisition",
-      "ticker": "ATD.TO",
-      "counterparty": "Cumberland Farms (formerly EG Group)",
-      "type": "acquisition",
-      "currentStatus": "rumored",
-      "whyItMatters": "A $7.5-8bn bid for the US forecourt operator would be Couche-Tard's second big deal since July's Żabka stake, adding US scale but more leverage; it comes in below Cumberland Farms' $9bn IPO target, so TDR Capital and the Issa brothers may hold out for the float.",
-      "phases": [
-        {
-          "status": "rumored",
-          "date": "2026-10-24",
-          "headline": "Couche-Tard proposes up to $8 billion offer for Cumberland Farms, The Times reports",
-          "source": "Reuters"
         }
       ]
     },
@@ -857,6 +841,40 @@
           "date": "2026-11-12",
           "headline": "JD.com Completes Voluntary Public Takeover Offer of CECONOMY",
           "source": "GlobeNewswire"
+        }
+      ]
+    },
+    {
+      "id": "mod-samsung-acquisition",
+      "ticker": "MOD",
+      "counterparty": "Samsung Electronics (005930.KS)",
+      "type": "acquisition",
+      "currentStatus": "rumored",
+      "whyItMatters": "Samsung is reportedly in talks to buy Modine, whose data-center cooling revenue nearly doubled last quarter; a deal would put a strategic-buyer price on a ~$5.6bn AI-cooling pure play after its automotive spin-off, but no terms are disclosed and neither side has confirmed talks.",
+      "phases": [
+        {
+          "status": "rumored",
+          "date": "2026-11-12",
+          "headline": "Samsung Is in Talks to Acquire Data Center Cooling Firm Modine",
+          "source": "Bloomberg",
+          "priceReaction": "+29%"
+        }
+      ]
+    },
+    {
+      "id": "cor-covetrus-mwi-divestiture",
+      "ticker": "COR",
+      "counterparty": "Covetrus (CD&R and TPG)",
+      "type": "divestiture",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Cencora's $3.5bn sale of its MWI Animal Health unit to Covetrus now faces an FTC and multistate lawsuit in New York federal court, so the exit from animal-health distribution and its cash proceeds depend on a court fight Covetrus says it will contest.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-11-13",
+          "headline": "FTC, States Sue to Block $3.5 Billion Covetrus-MWI Deal",
+          "source": "Bloomberg Law",
+          "priceReaction": "Cencora +2%"
         }
       ]
     }
