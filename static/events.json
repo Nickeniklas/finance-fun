@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T08:00:00Z",
+  "generatedAt": "2026-11-15T08:00:00Z",
   "events": [
     {
       "id": "evk-basf-acquisition",
@@ -728,6 +728,12 @@
           "headline": "Crédit Agricole proposes to Banco BPM to create together a new leading Italian bank",
           "source": "GlobeNewswire",
           "priceReaction": "Banco BPM up as much as 12% intraday"
+        },
+        {
+          "status": "confirmed",
+          "date": "2026-11-12",
+          "headline": "Banco BPM says any Credit Agricole deal would need to reflect loss of takeover appeal",
+          "source": "Reuters"
         }
       ]
     },
@@ -875,6 +881,54 @@
           "headline": "FTC, States Sue to Block $3.5 Billion Covetrus-MWI Deal",
           "source": "Bloomberg Law",
           "priceReaction": "Cencora +2%"
+        }
+      ]
+    },
+    {
+      "id": "tsla-spacex-merger",
+      "ticker": "TSLA",
+      "counterparty": "SpaceX",
+      "type": "merger",
+      "currentStatus": "rumored",
+      "whyItMatters": "A SpaceX–Tesla combination would fold Tesla shareholders into Musk's rocket, satellite and AI empire, turning the exchange ratio and Tesla's majority-of-outstanding-shares vote requirement into the key value questions.",
+      "phases": [
+        {
+          "status": "rumored",
+          "date": "2026-11-12",
+          "headline": "SpaceX and Tesla Talks on Record Merger Are Said to Progress",
+          "source": "Bloomberg"
+        }
+      ]
+    },
+    {
+      "id": "ezj-apollo-take-private",
+      "ticker": "EZJ.L",
+      "counterparty": "Apollo Global Management (APO)",
+      "type": "acquisition",
+      "currentStatus": "approved",
+      "whyItMatters": "With ~97% of voted shares in favour, only EU regulatory clearance stands between easyJet holders and Apollo's cash, after which Europe's second-largest low-cost airline leaves the London market.",
+      "phases": [
+        {
+          "status": "approved",
+          "date": "2026-11-11",
+          "headline": "EasyJet shareholders approve £5.7 billion Apollo takeover",
+          "source": "The Irish Times"
+        }
+      ]
+    },
+    {
+      "id": "hr-un-go-residential-breakup",
+      "ticker": "HR-UN.TO",
+      "counterparty": "GO Residential REIT and Blackstone-led consortium",
+      "type": "acquisition",
+      "currentStatus": "abandoned",
+      "whyItMatters": "Unitholders killed the C$6.7bn breakup, so H&R stays listed, reinstates monthly distributions and restarts asset sales under CEO succession planning, while GO sues for a C$102m termination fee H&R says it does not owe.",
+      "phases": [
+        {
+          "status": "abandoned",
+          "date": "2026-11-13",
+          "headline": "H&R REIT calls off sale after unitholders vote against transaction",
+          "source": "BNN Bloomberg"
         }
       ]
     }
