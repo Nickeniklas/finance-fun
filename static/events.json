@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15T08:00:00Z",
+  "generatedAt": "2026-11-16T08:00:00Z",
   "events": [
     {
       "id": "evk-basf-acquisition",
@@ -173,63 +173,6 @@
       ]
     },
     {
-      "id": "eqt-range-resources-acquisition",
-      "ticker": "EQT",
-      "counterparty": "Range Resources (RRC)",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "An all-stock merger at 0.987 EQT shares per Range share creates the largest vertically integrated US natural gas producer (>$50bn pro forma EV), with Range holders taking ~27%, a big bet on Appalachian gas demand from LNG and data centres.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-10-26",
-          "headline": "EQT to acquire Range Resources in all-stock deal valued at more than $50 billion",
-          "source": "TheStreet",
-          "priceReaction": "RRC +15.95%"
-        }
-      ]
-    },
-    {
-      "id": "ovv-logan-energy-acquisition",
-      "ticker": "OVV",
-      "counterparty": "Logan Energy",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Ovintiv adds ~266,000 net Montney oil-window acres and ~20 MBOE/d for about US$890m (C$1.26bn incl. debt) in cash, its second Montney deal of 2026 after NuVista, while saying its ≥60%-of-FCF shareholder-return target is unchanged.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-10-26",
-          "headline": "Logan Energy Corp. Announces Agreement To Be Acquired By Ovintiv Inc., For $1.40 Per Share In Cash And The Spin-out Of Logan Oil Corp.",
-          "source": "Ovintiv / SEC 8-K"
-        }
-      ]
-    },
-    {
-      "id": "cgf-tal-daiichi-takeover-proposal",
-      "ticker": "CGF.AX",
-      "counterparty": "TAL Daiichi Life Australia (Dai-ichi Life, 8750.T)",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Challenger's ~20% top shareholder wants the rest at A$11.80 (~A$7.9bn); the board rejected that price but will keep engaging, so the stock now trades on whether Dai-ichi lifts its bid toward the A$12.50-13 analysts suggest.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-10-19",
-          "headline": "Australia's Challenger gets takeover bid from unit of Japan's Dai-ichi Life",
-          "source": "Reuters",
-          "priceReaction": "rose to A$11.41, an eight-year high"
-        },
-        {
-          "status": "confirmed",
-          "date": "2026-10-26",
-          "headline": "Challenger board rejects TAL Daiichi Life's takeover bid",
-          "source": "Capital Brief",
-          "priceReaction": "shares tracking lower on the ASX"
-        }
-      ]
-    },
-    {
       "id": "ina-avid-takeover-proposal",
       "ticker": "INA.AX",
       "counterparty": "AVID Property Group",
@@ -283,22 +226,6 @@
           "date": "2026-10-30",
           "headline": "Tata Motors secures control of Iveco Group, new board takes office",
           "source": "Sustainable Bus"
-        }
-      ]
-    },
-    {
-      "id": "ssd-buyback-2026",
-      "ticker": "SSD",
-      "counterparty": null,
-      "type": "capital-allocation",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Simpson replaced a $200m buyback with an open-ended $1.0bn authorization, roughly five times larger and a big slice of its market cap, a signal that management sees surplus cash and an undervalued share price.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-10-26",
-          "headline": "Simpson Manufacturing approves $1 billion buyback program",
-          "source": "Investing.com"
         }
       ]
     },
@@ -377,22 +304,6 @@
           "date": "2026-11-05",
           "headline": "Wendy's Rejects Takeover Bid From Trian to Take It Private",
           "source": "Bloomberg"
-        }
-      ]
-    },
-    {
-      "id": "intc-classiq-acquisition",
-      "ticker": "INTC",
-      "counterparty": "Classiq",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "The largest quantum-computing acquisition to date (~$2.3bn cash and stock) adds algorithm-synthesis software to Intel's spin-qubit hardware, a full-stack quantum bet made while its core foundry turnaround still needs capital.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-10-26",
-          "headline": "Intel to acquire Israeli quantum startup Classiq for $2.3 billion in record deal",
-          "source": "Ynet"
         }
       ]
     },
@@ -929,6 +840,22 @@
           "date": "2026-11-13",
           "headline": "H&R REIT calls off sale after unitholders vote against transaction",
           "source": "BNN Bloomberg"
+        }
+      ]
+    },
+    {
+      "id": "fang-double-eagle-acquisition",
+      "ticker": "FANG",
+      "counterparty": "Double Eagle V (EnCap Investments)",
+      "type": "acquisition",
+      "currentStatus": "rumored",
+      "whyItMatters": "A ~$5bn cash-and-stock Permian bolt-on would be Diamondback's second Double Eagle purchase in under two years, deepening its Midland Basin inventory while adding share dilution and integration load at a time of soft oil prices.",
+      "phases": [
+        {
+          "status": "rumored",
+          "date": "2026-11-15",
+          "headline": "Diamondback in Talks to Acquire Double Eagle for $5 Billion in Permian Deal",
+          "source": "Bloomberg"
         }
       ]
     }
