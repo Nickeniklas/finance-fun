@@ -1,38 +1,35 @@
 {
-  "date": "2026-11-17",
+  "date": "2026-11-18",
   "whatChanged": [
-    "NEW: ICEYE launches a €41-a-share, ~€2.05bn all-cash tender offer for Italian rocket maker Avio, aiming to delist it; Avio shares jump 13%+ and its board is evaluating (avio-iceye-takeover-offer)",
-    "NEW: Black Hills and NorthWestern Energy complete their all-stock merger, forming Bright Horizon Energy, now trading as NYSE: HZN (hzn-northwestern-merger)",
-    "ADVANCED: Diamondback signs a definitive deal to buy Double Eagle IV and V subsidiaries for ~15.56m shares plus $2.15bn cash, adding ~176,000 net Midland acres (fang-double-eagle-acquisition) (rumored → confirmed)",
-    "ADVANCED: The US Justice Department will review DoorDash's ~$17bn Instacart purchase, per Reuters (cart-doordash-uber-acquisition) (confirmed → confirmed)",
-    "ADVANCED: LCI's board rejects Monomoy's revised $104.50-a-share cash proposal and reaffirms the Patrick merger ahead of the 18 November vote (lcii-monomoy-takeover-proposal) (confirmed → confirmed)",
-    "DROPPED: 2 stale deals"
+    "NEW: Chevron is closing in on a majority stake in Blackstone-backed Gulf of America producer Beacon Offshore Energy, valuing it near $5bn, per the FT (cvx-beacon-offshore-acquisition)",
+    "NEW: Aon completes its $17bn all-cash purchase of USI Insurance Services from KKR, creating the leading US middle-market broker (aon-usi-acquisition)",
+    "DROPPED: 1 stale deal"
   ],
   "themes": [
     {
       "label": "Public-to-private buyout offers on listed companies",
       "note": "Sponsors, strategics and insiders keep trying to take listed businesses off public markets, and shareholders keep deciding the outcome. ICEYE has launched a €41-a-share cash tender offer to take Avio private and delist it (avio-iceye-takeover-offer). easyJet holders approved Apollo's £5.7bn take-private (ezj-apollo-take-private), and CVC and GBL have crossed 90% of Recordati, clearing the way to delisting (rec-cvc-gbl-take-private). H&R REIT unitholders went the other way and voted down the C$6.7bn breakup led by GO Residential and Blackstone (hr-un-go-residential-breakup). HealthSpan raised its Surgery Partners price to $25 after a rival $28 approach (sgry-bon-secours-take-private). Silver Lake and PIF are in preliminary talks to take Unity private at about $25bn (u-silver-lake-pif-take-private), and LS Power has proposed a $2.00-a-share buyout of EVgo's public float (evgo-ls-power-take-private). Wendy's rejected Trian's $7.35 bid and adopted a poison pill (wen-trian-take-private), Helen of Troy rejected Empower Brands' $37 proposal (hele-empower-takeover-proposal), and LCI rejected Monomoy's revised $104.50 approach ahead of its Patrick vote (lcii-monomoy-takeover-proposal). AVID has matched Warburg Pincus again at A$5.55 for Ingenia (ina-avid-takeover-proposal). Signed deals keep moving: Tata controls ~89% of Iveco (ivg-tata-motors-takeover-offer), Thrive Holdings is buying ADT with a go-shop to 28 November (adt-thrive-take-private), and Affle is delisting Perion (peri-affle-acquisition).",
-      "streak": 116
+      "streak": 117
     },
     {
       "label": "Signed M&A deals hitting regulatory or legal roadblocks",
       "note": "Regulators, courts and supervisors, not the parties, keep setting deal timelines. The US Justice Department will review DoorDash's $17bn Instacart deal, with closing not expected before late 2027 (cart-doordash-uber-acquisition). Consob has cleared Intesa's Monte dei Paschi offer document after ECB authorisation, leaving Italy's antitrust authority as the remaining gatekeeper (isp-bmps-takeover-offer). Marvell's $115bn Lumentum deal is not expected to close until 2028 (mrvl-lumentum-acquisition), Mitsui Chemicals' $11.6bn JSR purchase needs Japanese and foreign competition and investment approvals (4183-jsr-acquisition), and ICEYE's Avio offer needs Italian, French and UK clearances (avio-iceye-takeover-offer). easyJet's Apollo take-private now waits only on EU regulatory scrutiny (ezj-apollo-take-private). Bright Horizon Energy could only form after a split 3-2 Montana PSC approval (hzn-northwestern-merger). Western Union terminated its Intermex purchase after California's financial regulator imposed conditions it would not accept, with Intermex disputing the termination (wu-intermex-acquisition). JD.com could only close its Ceconomy takeover after EU merger-control, foreign-investment and foreign-subsidies clearances (jd-ceconomy-acquisition), and Hancock Whitney's Trustmark deal is timed around bank-regulator approval (hwc-trustmark-acquisition). The FTC and states have sued to block Cencora's $3.5bn sale of MWI Animal Health to Covetrus (cor-covetrus-mwi-divestiture), and GO Residential has taken H&R REIT to the Ontario Superior Court over a termination fee (hr-un-go-residential-breakup).",
-      "streak": 111
+      "streak": 112
     },
     {
       "label": "Large-caps scaling up buybacks and special payouts on surplus cash",
       "note": "Companies with surplus capital keep expanding buybacks and payouts. Costco declared a $30-a-share (~$13.3bn) special dividend alongside a new $4bn repurchase programme (cost-special-dividend-2026), and Lam Research authorized a new open-ended $25bn programme, far above the ~$3.9bn it repurchased in fiscal 2026 (lrcx-buyback-2026).",
-      "streak": 50
+      "streak": 51
     },
     {
       "label": "European incumbents consolidating domestic rivals for scale",
       "note": "Europe's large chemicals groups, banks, grocers and space companies are buying rivals to reach the scale of US and Chinese peers, while controlling shareholders, governments and supervisors decide the outcomes. Banco BPM's board has opened talks on Crédit Agricole's proposal to merge its Italian arm into the bank, demanding terms that reflect the loss of BPM's takeover appeal (bami-credit-agricole-merger), and Intesa Sanpaolo's Monte dei Paschi offer opens on 24 November (isp-bmps-takeover-offer). Evonik's board has refused to negotiate over BASF's €24-a-share approach, so RAG-Stiftung's ~43% stake is the decisive lever (evk-basf-acquisition). Finland's ICEYE is bidding for Italian launcher maker Avio to build a European space and defence group, with Leonardo's ~18% stake and Rome's golden power in play (avio-iceye-takeover-offer). Ahold Delhaize is buying Tesco's Czech and Slovak arm to make its Albert chain Czechia's market leader (ad-tesco-cz-sk-acquisition).",
-      "streak": 44
+      "streak": 45
     },
     {
       "label": "North American energy companies buying scale in core assets",
-      "note": "Oil, gas, refining and fuels companies are paying up to deepen positions in assets they already know. Diamondback has signed to buy out the rest of its Double Eagle partnership for ~15.56m shares plus $2.15bn cash, adding ~176,000 net Midland acres (fang-double-eagle-acquisition), Strathcona is folding in fellow Waterous-controlled oil sands producer Greenfire (scr-greenfire-acquisition), CVR Energy is buying Marathon Petroleum's two Upper Midwest refineries for ~$4.2bn (cvi-mpc-refineries-acquisition), and The Andersons is paying $915m for Harvestone's three ethanol plants (ande-harvestone-acquisition).",
-      "streak": 14
+      "note": "Oil, gas, refining and fuels companies are paying up to deepen positions in assets they already know. Chevron is reported by the FT to be closing in on a majority stake in Blackstone-backed Gulf producer Beacon Offshore, valued near $5bn (cvx-beacon-offshore-acquisition). Diamondback has signed to buy out the rest of its Double Eagle partnership for ~15.56m shares plus $2.15bn cash, adding ~176,000 net Midland acres (fang-double-eagle-acquisition), Strathcona is folding in fellow Waterous-controlled oil sands producer Greenfire (scr-greenfire-acquisition), CVR Energy is buying Marathon Petroleum's two Upper Midwest refineries for ~$4.2bn (cvi-mpc-refineries-acquisition), and The Andersons is paying $915m for Harvestone's three ethanol plants (ande-harvestone-acquisition).",
+      "streak": 15
     }
   ]
 }
