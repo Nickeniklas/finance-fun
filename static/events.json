@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T08:45:00Z",
+  "generatedAt": "2026-11-18T08:45:00Z",
   "events": [
     {
       "id": "evk-basf-acquisition",
@@ -255,22 +255,6 @@
           "headline": "Deal fever drove a big day for Surgery Partners",
           "source": "Finimize",
           "priceReaction": "+14.01%"
-        }
-      ]
-    },
-    {
-      "id": "gev-trench-acquisition",
-      "ticker": "GEV",
-      "counterparty": "Trench Group (Triton)",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "A $9bn cash-and-debt buy of a high-voltage grid equipment maker deepens GE Vernova's Electrification bet on AI-driven grid demand, but trades buyback firepower for a deal that only closes in late 2027.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-10-28",
-          "headline": "GE Vernova Agrees to Pay $9 Billion to Acquire Trench Group",
-          "source": "Bloomberg"
         }
       ]
     },
@@ -875,6 +859,38 @@
           "date": "2026-11-16",
           "headline": "Bright Horizon completes acquisition of NorthWestern Energy, begins trading as NYSE:HZN",
           "source": "Investing.com"
+        }
+      ]
+    },
+    {
+      "id": "cvx-beacon-offshore-acquisition",
+      "ticker": "CVX",
+      "counterparty": "Beacon Offshore Energy (Blackstone)",
+      "type": "acquisition",
+      "currentStatus": "rumored",
+      "whyItMatters": "A majority stake in Beacon (~70 deepwater leases, ~400,000 gross acres, valued near $5bn) would deepen Chevron's Gulf of America push toward its 300,000 boe/d target after Hess, adding producing deepwater barrels without a big-ticket corporate bid.",
+      "phases": [
+        {
+          "status": "rumored",
+          "date": "2026-11-16",
+          "headline": "Chevron closes in on $5 billion Beacon deal, FT reports",
+          "source": "Financial Times (via Reuters)"
+        }
+      ]
+    },
+    {
+      "id": "aon-usi-acquisition",
+      "ticker": "AON",
+      "counterparty": "USI Insurance Services (KKR)",
+      "type": "acquisition",
+      "currentStatus": "closed",
+      "whyItMatters": "The $17bn all-cash purchase of the tenth-largest US broker (~$3bn revenue) makes Aon the leading US middle-market broker and adds excess-and-surplus exposure, but loads the balance sheet and makes integration execution the key driver of Aon's earnings story through 2027.",
+      "phases": [
+        {
+          "status": "closed",
+          "date": "2026-11-16",
+          "headline": "Aon Completes Acquisition of USI to Establish the Premier U.S. Middle-Market Platform",
+          "source": "Business Wire"
         }
       ]
     }
