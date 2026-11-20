@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-19T08:45:00Z",
+  "generatedAt": "2026-11-20T08:45:00Z",
   "events": [
     {
       "id": "evk-basf-acquisition",
       "ticker": "EVK.DE",
       "counterparty": "BASF (BAS.DE)",
       "type": "acquisition",
-      "currentStatus": "confirmed",
+      "currentStatus": "abandoned",
       "whyItMatters": "A BASF takeover of Evonik would be the biggest consolidation in German chemicals in years, and RAG-Stiftung's roughly 43.8% stake -- not Evonik's board, which says there are no talks -- decides whether it happens.",
       "phases": [
         {
@@ -41,6 +41,13 @@
           "date": "2026-10-30",
           "headline": "Evonik Leaves Opening After Turning Down BASF Takeover Talks",
           "source": "Bloomberg"
+        },
+        {
+          "status": "abandoned",
+          "date": "2026-11-19",
+          "headline": "BASF ends efforts to acquire Evonik and reaffirms disciplined approach to capital allocation",
+          "source": "BASF",
+          "priceReaction": "Evonik -16% to €18.30 at close; BASF up as much as 2.9%"
         }
       ]
     },
@@ -214,28 +221,6 @@
       ]
     },
     {
-      "id": "ivg-tata-motors-takeover-offer",
-      "ticker": "IVG.MI",
-      "counterparty": "Tata Motors (TML CV Holdings)",
-      "type": "acquisition",
-      "currentStatus": "closed",
-      "whyItMatters": "Tata settled its €14.40-a-share cash offer on 30 October, taking about 89% of Iveco for roughly €3.4bn and installing a new board, so Iveco is now a Tata-controlled European truck maker heading for delisting via squeeze-out or the shareholder-approved demerger-and-liquidation route.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-10-27",
-          "headline": "Tata Motors' Iveco bid crosses 80% threshold as acceptances hit 87.81%",
-          "source": "Business Standard"
-        },
-        {
-          "status": "closed",
-          "date": "2026-10-30",
-          "headline": "Tata Motors secures control of Iveco Group, new board takes office",
-          "source": "Sustainable Bus"
-        }
-      ]
-    },
-    {
       "id": "sgry-bon-secours-take-private",
       "ticker": "SGRY",
       "counterparty": "Bon Secours Mercy Health (HealthSpan Partners)",
@@ -306,27 +291,11 @@
       ]
     },
     {
-      "id": "ad-tesco-cz-sk-acquisition",
-      "ticker": "AD.AS",
-      "counterparty": "Tesco (TSCO.L)",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Ahold Delhaize's roughly €1.7bn purchase of Tesco's 360-plus Czech and Slovak stores would make its Albert chain Czechia's grocery market leader and open Slovakia as a new market, while Tesco retreats further toward its UK and Irish core.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-10-30",
-          "headline": "Ahold Delhaize announces the acquisition of Tesco Czechia and Slovakia, strengthening its position in Europe",
-          "source": "Ahold Delhaize"
-        }
-      ]
-    },
-    {
       "id": "pcrx-viatris-acquisition",
       "ticker": "PCRX",
       "counterparty": "Viatris (VTRS)",
       "type": "acquisition",
-      "currentStatus": "confirmed",
+      "currentStatus": "closed",
       "whyItMatters": "Viatris's $36.50-a-share cash offer (about $1.65bn, a roughly 45% premium) gives Pacira holders a clean exit and moves Viatris beyond generics into branded non-opioid pain care, funded mostly from cash on hand.",
       "phases": [
         {
@@ -339,6 +308,12 @@
           "status": "confirmed",
           "date": "2026-10-30",
           "headline": "Viatris Announces Commencement of Tender Offer to Acquire Pacira BioSciences, Inc.",
+          "source": "Viatris"
+        },
+        {
+          "status": "closed",
+          "date": "2026-11-17",
+          "headline": "Viatris Completes Acquisition of Pacira BioSciences",
           "source": "Viatris"
         }
       ]
@@ -987,6 +962,23 @@
           "date": "2026-11-18",
           "headline": "LCI Stockholders Approve Merger Proposal, Pending Regulatory Approval",
           "source": "TipRanks"
+        }
+      ]
+    },
+    {
+      "id": "bill-tpg-take-private",
+      "ticker": "BILL",
+      "counterparty": "TPG (with Corpay)",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "TPG's $63.25-a-share cash take-private (~$6bn equity, 31% over the 60-day VWAP) caps BILL's upside at a price still worth only a fraction of its 2021 peak, while Corpay's ~33% minority stake makes it a strategic payments consolidation as much as a sponsor buyout; closing targeted for 1H 2027 pending holder and regulatory votes.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-11-19",
+          "headline": "BILL Agrees to be Acquired by TPG in Partnership with Corpay",
+          "source": "TPG",
+          "priceReaction": "-3.3% to $62.00 after hours, after ~19% run-up on the FT report earlier in the week"
         }
       ]
     }
