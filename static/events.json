@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T08:45:00Z",
+  "generatedAt": "2026-11-23T08:45:00Z",
   "events": [
     {
       "id": "evk-basf-acquisition",
@@ -95,56 +95,6 @@
           "date": "2026-11-08",
           "headline": "MPS: Consob gives the go-ahead for Intesa's offer; launch on 24 November",
           "source": "LaPresse"
-        }
-      ]
-    },
-    {
-      "id": "kmb-kenvue-acquisition",
-      "ticker": "KMB",
-      "counterparty": "Kenvue (KVUE)",
-      "type": "acquisition",
-      "currentStatus": "closed",
-      "whyItMatters": "EU clearance for Kimberly-Clark's ~$49bn Kenvue takeover costs only its EEA feminine-care brands (to Dilek Grup), leaving China's in-depth review as the main hurdle before the consumer-health combination can close.",
-      "phases": [
-        {
-          "status": "approved",
-          "date": "2026-10-13",
-          "headline": "Kimberly-Clark gets conditional EU approval for Kenvue acquisition",
-          "source": "MLex"
-        },
-        {
-          "status": "approved",
-          "date": "2026-10-20",
-          "headline": "Kimberly-Clark's $40B purchase of Kenvue wins China antitrust approval",
-          "source": "Seeking Alpha"
-        },
-        {
-          "status": "closed",
-          "date": "2026-11-02",
-          "headline": "Kimberly-Clark (KMB) Completes Kenvue Acquisition, Unveils $3.1 Billion Integration Program",
-          "source": "GuruFocus"
-        }
-      ]
-    },
-    {
-      "id": "insw-bruton-acquisition",
-      "ticker": "INSW",
-      "counterparty": "Bruton Limited (BRUT.OL)",
-      "type": "acquisition",
-      "currentStatus": "closed",
-      "whyItMatters": "International Seaways has closed its ~$370m, ~96%-stock purchase of Oslo-listed Bruton and its four VLCC newbuildings, adding very-large-crude-carrier exposure to its crude and product fleet in paper rather than cash; holders now own a bigger VLCC book and carry roughly 3m new shares of dilution.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-10-16",
-          "headline": "International Seaways Announces Agreements to Acquire Bruton Limited",
-          "source": "International Seaways (SEC 8-K)"
-        },
-        {
-          "status": "closed",
-          "date": "2026-11-02",
-          "headline": "International Seaways completes acquisition of Bruton Limited (Form 8-K: Completion of Acquisition or Disposition of Assets)",
-          "source": "International Seaways (SEC 8-K)"
         }
       ]
     },
@@ -263,30 +213,6 @@
           "date": "2026-11-05",
           "headline": "Wendy's Rejects Takeover Bid From Trian to Take It Private",
           "source": "Bloomberg"
-        }
-      ]
-    },
-    {
-      "id": "mrvl-lumentum-acquisition",
-      "ticker": "MRVL",
-      "counterparty": "Lumentum (LITE)",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Marvell has signed to buy Lumentum for 4.5 of its shares each, a $115bn enterprise value and a ~24% premium, bringing the lasers behind AI optical interconnects in-house; Lumentum holders end up with ~33% of the combined company, and with closing not expected until the first half of 2028, Marvell owners carry heavy dilution and a long regulatory wait against a promised $1bn+ of cost synergies.",
-      "phases": [
-        {
-          "status": "rumored",
-          "date": "2026-10-28",
-          "headline": "Marvell Is Said to Near Deal for Lumentum In AI-Related Megadeal",
-          "source": "Bloomberg",
-          "priceReaction": "Marvell -12%"
-        },
-        {
-          "status": "confirmed",
-          "date": "2026-11-02",
-          "headline": "Marvell to buy Lumentum in $115 billion deal in AI data-center bet",
-          "source": "Reuters",
-          "priceReaction": "Marvell +2.8% premarket; Lumentum halted"
         }
       ]
     },
@@ -463,22 +389,6 @@
           "date": "2026-11-05",
           "headline": "Lam Research approves $25B buyback, $0.33 quarterly dividend",
           "source": "Investing.com"
-        }
-      ]
-    },
-    {
-      "id": "evgo-ls-power-take-private",
-      "ticker": "EVGO",
-      "counterparty": "LS Power",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "EVgo's ~56% controlling holder wants to buy out public shareholders at $2.00 cash (59% premium), so the special committee's response now sets the floor for minority value and a likely Nasdaq delisting.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-11-02",
-          "headline": "EVgo Confirms Receipt of Unsolicited and Non-Binding Take-Private Proposal",
-          "source": "EVgo (SEC 8-K)"
         }
       ]
     },
@@ -1031,6 +941,22 @@
           "headline": "Intuit to Sell Mailchimp to Bending Spoons",
           "source": "Intuit",
           "priceReaction": "-10% after hours, mostly on quarterly results"
+        }
+      ]
+    },
+    {
+      "id": "ash-clariant-cdr-acquisition",
+      "ticker": "ASH",
+      "counterparty": "Clariant (CLN.SW) and CD&R",
+      "type": "acquisition",
+      "currentStatus": "rumored",
+      "whyItMatters": "Ashland's sale process looks set to end in an all-cash exit priced near its current share price, so holders may get certainty but little premium, while Clariant would take on a large US acquisition alongside a private-equity partner.",
+      "phases": [
+        {
+          "status": "rumored",
+          "date": "2026-11-22",
+          "headline": "Clariant and CD&R Are in Talks to Buy Chemicals Firm Ashland",
+          "source": "Bloomberg"
         }
       ]
     }
