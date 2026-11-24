@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23T08:45:00Z",
+  "generatedAt": "2026-11-24T08:45:00Z",
   "events": [
     {
       "id": "evk-basf-acquisition",
@@ -269,22 +269,6 @@
           "date": "2026-11-10",
           "headline": "LCI Rejects Revised Monomoy Buyout Proposal and Reaffirms Patrick Merger",
           "source": "Panabee"
-        }
-      ]
-    },
-    {
-      "id": "cvi-mpc-refineries-acquisition",
-      "ticker": "CVI",
-      "counterparty": "Marathon Petroleum (MPC)",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "A ~$4.2bn purchase of Marathon's St. Paul Park and Mandan refineries plus marketing business nearly doubles CVR's refining capacity and, on CVR's figures, more than doubles its EBITDA base, funded with new equity (incl. Trafigura) and $2.5bn of secured debt.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-11-03",
-          "headline": "CVR Energy Announces Transformative Transaction to Acquire 2 Refineries and Marketing Platform From Marathon Petroleum",
-          "source": "Business Wire"
         }
       ]
     },
@@ -881,8 +865,8 @@
       "ticker": "CRWD",
       "counterparty": "Zscaler (ZS)",
       "type": "acquisition",
-      "currentStatus": "rumored",
-      "whyItMatters": "A CrowdStrike–Zscaler tie-up (~$32bn target) would merge the leading endpoint and cloud-network security platforms into a ~$265bn combined company, trading heavy dilution and integration risk for a single-vendor platform pitch — the market's -8%/+18% split says CRWD holders doubt the price.",
+      "currentStatus": "confirmed",
+      "whyItMatters": "A signed ~$43.9bn all-stock deal (1.135 CRWD shares per ZS share, ~34% premium) bolts the largest network-security franchise onto CrowdStrike's endpoint platform, diluting CRWD holders to ~84% of the combined company in exchange for a >$10bn-ARR consolidator.",
       "phases": [
         {
           "status": "rumored",
@@ -890,6 +874,13 @@
           "headline": "CrowdStrike Is in Talks to Acquire Zscaler",
           "source": "Bloomberg",
           "priceReaction": "ZS +18%, CRWD -8% after hours"
+        },
+        {
+          "status": "confirmed",
+          "date": "2026-11-23",
+          "headline": "Zscaler Jumps 14.7% as CrowdStrike Moves to Acquire It on Nov. 23",
+          "source": "Yahoo Finance (GuruFocus)",
+          "priceReaction": "ZS +14.7% midday; CRWD down ~9%"
         }
       ]
     },
@@ -957,6 +948,22 @@
           "date": "2026-11-22",
           "headline": "Clariant and CD&R Are in Talks to Buy Chemicals Firm Ashland",
           "source": "Bloomberg"
+        }
+      ]
+    },
+    {
+      "id": "tpl-eaglerock-acquisition",
+      "ticker": "TPL",
+      "counterparty": "EagleRock Land (EROK)",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "A ~$3.0bn all-stock purchase of a freshly IPO'd Permian surface-acreage peer takes TPL to ~1.0m fee surface acres and into New Mexico's Delaware Basin, with management pledging bigger buybacks and dividend growth from the combined cash flow.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-11-23",
+          "headline": "Texas Pacific Land Corporation and EagleRock Land announced that they have entered into a definitive agreement for TPL to acquire EagleRock in an all-stock transaction",
+          "source": "Texas Pacific Land (SEC 8-K press release)"
         }
       ]
     }
