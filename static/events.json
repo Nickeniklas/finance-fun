@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T08:45:00Z",
+  "generatedAt": "2026-11-25T08:45:00Z",
   "events": [
     {
       "id": "evk-basf-acquisition",
@@ -296,55 +296,6 @@
       ]
     },
     {
-      "id": "arry-shoals-acquisition",
-      "ticker": "ARRY",
-      "counterparty": "Shoals Technologies (SHLS)",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Combines a solar tracker maker with an electrical balance-of-system supplier in an all-stock deal that hands Shoals holders ~65% of the merged company, betting scale and cross-selling can offset tariff and pricing pressure in US utility-scale solar.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-11-04",
-          "headline": "ARRAY to buy Shoals in $1.32 billion all-stock deal",
-          "source": "Reuters"
-        }
-      ]
-    },
-    {
-      "id": "ande-harvestone-acquisition",
-      "ticker": "ANDE",
-      "counterparty": "Harvestone Low Carbon Partners (Energy Capital Partners)",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Adds three carbon-capture-equipped ethanol plants and lifts renewables capacity 40%+ to ~730m gallons, with roughly half the $915m price resting on 45Z/45Q tax-credit cash flows, so the return now hinges on US clean-fuel credit policy.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-11-04",
-          "headline": "Andersons to acquire ethanol producer HLCP for $915 million",
-          "source": "Investing.com"
-        }
-      ]
-    },
-    {
-      "id": "hele-empower-takeover-proposal",
-      "ticker": "HELE",
-      "counterparty": "Empower Brands (Spectrum Brands SPB and Oaktree)",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "A public $37-a-share cash bid (~$1.6bn EV) after private approaches were rebuffed puts a floor under the tariff-hit stock and pressures a board that has unanimously rejected it as opportunistic.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-11-04",
-          "headline": "Helen of Troy jumps after Spectrum Brands makes takeover offer",
-          "source": "Seeking Alpha",
-          "priceReaction": "+13% premarket"
-        }
-      ]
-    },
-    {
       "id": "adaniports-evos-acquisition",
       "ticker": "ADANIPORTS.NS",
       "counterparty": "Evos (Igneo Infrastructure Partners)",
@@ -477,23 +428,6 @@
           "date": "2026-11-09",
           "headline": "Strathcona to Acquire Greenfire in Canadian Oil Sands Deal",
           "source": "Bloomberg"
-        }
-      ]
-    },
-    {
-      "id": "cvs-retail-pharmacy-spin-off",
-      "ticker": "CVS",
-      "counterparty": null,
-      "type": "capital-allocation",
-      "currentStatus": "confirmed",
-      "whyItMatters": "CVS will spin its ~9,000-store retail pharmacy into a separate listed company by 1H 2028, leaving CVS Health as an Aetna-plus-Caremark payer/PBM story and unwinding two decades of vertical integration.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-11-04",
-          "headline": "CVS Health to Split Retail Pharmacy from Aetna, Caremark by 2028",
-          "source": "AJMC",
-          "priceReaction": "-12.6%"
         }
       ]
     },
@@ -889,8 +823,8 @@
       "ticker": "SAN.PA",
       "counterparty": "Insmed (INSM)",
       "type": "acquisition",
-      "currentStatus": "rumored",
-      "whyItMatters": "Sanofi weighing a bid for the ~$26bn respiratory specialist (Brinsupri) signals its new CEO is hunting a post-Dupixent growth leg in lung disease, but a $30–40bn price would stretch a balance sheet carrying ~€12bn of net debt.",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Sanofi has agreed to pay $175 a share in cash (~$41bn, ~46% over the unaffected price) for Insmed and its fast-growing respiratory drug Brinsupri, buying a post-Dupixent growth leg at the cost of pharma's biggest deal in years and a much heavier balance sheet, with EPS accretion promised only by end-2028.",
       "phases": [
         {
           "status": "rumored",
@@ -898,6 +832,12 @@
           "headline": "Sanofi Considers Buying Insmed as Pharma Giants Seek New Drug Portfolios",
           "source": "Bloomberg",
           "priceReaction": "Insmed +18% intraday, volatility halt"
+        },
+        {
+          "status": "confirmed",
+          "date": "2026-11-24",
+          "headline": "Sanofi to buy Insmed for $41B in industry's largest acquisition in years",
+          "source": "Endpoints News"
         }
       ]
     },
@@ -940,7 +880,7 @@
       "ticker": "ASH",
       "counterparty": "Clariant (CLN.SW) and CD&R",
       "type": "acquisition",
-      "currentStatus": "rumored",
+      "currentStatus": "confirmed",
       "whyItMatters": "Ashland's sale process looks set to end in an all-cash exit priced near its current share price, so holders may get certainty but little premium, while Clariant would take on a large US acquisition alongside a private-equity partner.",
       "phases": [
         {
@@ -948,6 +888,13 @@
           "date": "2026-11-22",
           "headline": "Clariant and CD&R Are in Talks to Buy Chemicals Firm Ashland",
           "source": "Bloomberg"
+        },
+        {
+          "status": "confirmed",
+          "date": "2026-11-23",
+          "headline": "Ashland edges higher after Clariant confirms takeover talks",
+          "source": "Seeking Alpha",
+          "priceReaction": "Ashland up about 1% in extended trading"
         }
       ]
     },
@@ -964,6 +911,38 @@
           "date": "2026-11-23",
           "headline": "Texas Pacific Land Corporation and EagleRock Land announced that they have entered into a definitive agreement for TPL to acquire EagleRock in an all-stock transaction",
           "source": "Texas Pacific Land (SEC 8-K press release)"
+        }
+      ]
+    },
+    {
+      "id": "var-conocophillips-norway-acquisition",
+      "ticker": "VAR.OL",
+      "counterparty": "ConocoPhillips (COP)",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Vår Energi is buying ConocoPhillips' entire Norwegian upstream business, including operatorship of Greater Ekofisk and stakes in Troll and Oseberg, for a ~$4.4bn EV (~$2.5bn cash at closing plus assumed tax liabilities), lifting it toward ~550,000 boe/d with $0.7-1bn of targeted synergies, but possibly funded partly by an equity raise; closing targeted by end-Q1 2027 pending Norwegian approval.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-11-23",
+          "headline": "Vår Energi Strikes $4.4B Deal for ConocoPhillips' Norway Assets",
+          "source": "Offshore Engineer"
+        }
+      ]
+    },
+    {
+      "id": "gpn-gtcr-take-private",
+      "ticker": "GPN",
+      "counterparty": "GTCR",
+      "type": "acquisition",
+      "currentStatus": "rumored",
+      "whyItMatters": "GTCR, already Global Payments' largest holder at ~16%, is exploring a ~$50bn take-private and lining up Blackstone, Warburg Pincus and Apollo equity to reduce reliance on debt, which could put a sponsor floor under a slowing payments processor, though no offer or price has been made public.",
+      "phases": [
+        {
+          "status": "rumored",
+          "date": "2026-11-24",
+          "headline": "Exclusive-Blackstone, Warburg Pincus, Apollo in talks to back GTCR's $50 billion Global Payments deal, sources say",
+          "source": "Reuters"
         }
       ]
     }
