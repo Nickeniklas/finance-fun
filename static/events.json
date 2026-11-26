@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T08:45:00Z",
+  "generatedAt": "2026-11-26T08:45:00Z",
   "events": [
     {
       "id": "evk-basf-acquisition",
@@ -194,29 +194,6 @@
       ]
     },
     {
-      "id": "wen-trian-take-private",
-      "ticker": "WEN",
-      "counterparty": "Trian Fund Management (with Flynn Group, BlueFive Capital, Sixth Street)",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Wendy's independent committee rejected the $7.35 cash bid from its ~16% holder Trian as undervaluing its 'Dave's Way' plan and adopted a one-year 15% poison pill, so the bid floor is gone unless Trian raises its price or turns hostile.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-10-28",
-          "headline": "Wendy's Receives $1.4 Billion Buyout Offer From Peltz's Trian",
-          "source": "Bloomberg",
-          "priceReaction": "+15% premarket"
-        },
-        {
-          "status": "confirmed",
-          "date": "2026-11-05",
-          "headline": "Wendy's Rejects Takeover Bid From Trian to Take It Private",
-          "source": "Bloomberg"
-        }
-      ]
-    },
-    {
       "id": "pcrx-viatris-acquisition",
       "ticker": "PCRX",
       "counterparty": "Viatris (VTRS)",
@@ -292,38 +269,6 @@
           "headline": "Mitsui Chemicals to buy chip materials firm JSR for $11.6 billion",
           "source": "Reuters",
           "priceReaction": "Mitsui Chemicals shares -8.5%"
-        }
-      ]
-    },
-    {
-      "id": "adaniports-evos-acquisition",
-      "ticker": "ADANIPORTS.NS",
-      "counterparty": "Evos (Igneo Infrastructure Partners)",
-      "type": "acquisition",
-      "currentStatus": "confirmed",
-      "whyItMatters": "Adani Ports' first European foothold costs €2.56bn EV (€1.18bn equity, 11.7x 2025 EBITDA) for Europe's second-largest liquid-storage operator, eight terminals with 6.3m cbm across five countries; it is debt-funded, taking pro forma net debt to ~2.8x EBITDA, with completion up to 15 months away.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-11-05",
-          "headline": "Adani Ports to Buy Europe's Evos in $2.9 Billion Deal",
-          "source": "Bloomberg"
-        }
-      ]
-    },
-    {
-      "id": "lrcx-buyback-2026",
-      "ticker": "LRCX",
-      "counterparty": null,
-      "type": "capital-allocation",
-      "currentStatus": "confirmed",
-      "whyItMatters": "A new open-ended $25bn repurchase authorization, on top of the remaining balance and far above the ~$3.9bn Lam bought back in fiscal 2026, signals management expects the AI-driven wafer-fab equipment cycle to keep throwing off surplus cash.",
-      "phases": [
-        {
-          "status": "confirmed",
-          "date": "2026-11-05",
-          "headline": "Lam Research approves $25B buyback, $0.33 quarterly dividend",
-          "source": "Investing.com"
         }
       ]
     },
@@ -542,6 +487,12 @@
           "date": "2026-11-12",
           "headline": "SpaceX and Tesla Talks on Record Merger Are Said to Progress",
           "source": "Bloomberg"
+        },
+        {
+          "status": "rumored",
+          "date": "2026-11-24",
+          "headline": "SpaceX, Tesla directors negotiate potential $3.5 trillion merger, FT reports",
+          "source": "Financial Times (via Reuters)"
         }
       ]
     },
@@ -943,6 +894,22 @@
           "date": "2026-11-24",
           "headline": "Exclusive-Blackstone, Warburg Pincus, Apollo in talks to back GTCR's $50 billion Global Payments deal, sources say",
           "source": "Reuters"
+        }
+      ]
+    },
+    {
+      "id": "lkoh-eldridge-lukoil-international-divestiture",
+      "ticker": "LKOH.ME",
+      "counterparty": "Eldridge-led consortium (Todd Boehly, with US DFC)",
+      "type": "divestiture",
+      "currentStatus": "confirmed",
+      "whyItMatters": "A signed ~$10bn share-swap sale of Lukoil International (stakes producing ~350,000 bpd abroad) to a US-government-backed group would finally resolve the sanctions-forced exit from Lukoil's foreign assets after Gunvor and Carlyle failed, but proceeds sit in UAE escrow, the price is well below the ~$22bn pre-sanctions book value, and the deal still needs OFAC approval with closing up to a year away.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-11-25",
+          "headline": "American Billionaire Signs U.S.-Backed Share Swap Deal to Buy Lukoil Global Assets",
+          "source": "The Moscow Times"
         }
       ]
     }
