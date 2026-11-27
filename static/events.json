@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T08:45:00Z",
+  "generatedAt": "2026-11-27T08:45:00Z",
   "events": [
     {
       "id": "evk-basf-acquisition",
@@ -141,7 +141,7 @@
       "counterparty": "AVID Property Group",
       "type": "acquisition",
       "currentStatus": "confirmed",
-      "whyItMatters": "AVID (backed by Mubadala and Brookfield) has matched Warburg Pincus again at A$5.55 a security and keeps up to six weeks of soft exclusivity, but its proposal is still non-binding and needs Ingenia to scrap its Peet deal, so the auction sets both price and strategy.",
+      "whyItMatters": "AVID (backed by Mubadala and Brookfield) and Warburg Pincus are now level at A$5.55 a security in a non-exclusive process with binding offers due 8 December, so Ingenia's price and its decision on the competition-cleared Peet deal (A$10m break fee) are set by an open auction rather than AVID's matching rights.",
       "phases": [
         {
           "status": "confirmed",
@@ -167,6 +167,12 @@
           "date": "2026-11-10",
           "headline": "Ingenia Communities Sees Matched Offer from AVID Property Group",
           "source": "ShareCafe"
+        },
+        {
+          "status": "confirmed",
+          "date": "2026-11-16",
+          "headline": "Ingenia Opens Process to AVID and Warburg at $5.55 Cash Proposal",
+          "source": "StockWireX"
         }
       ]
     },
@@ -273,22 +279,6 @@
       ]
     },
     {
-      "id": "foxa-roku-acquisition",
-      "ticker": "FOXA",
-      "counterparty": "Roku (ROKU)",
-      "type": "acquisition",
-      "currentStatus": "closed",
-      "whyItMatters": "Fox now owns the largest US TV-streaming platform, shifting its mix from linear broadcast toward digital advertising, with ~$400m of targeted cost savings and former Roku holders owning ~26% of the enlarged company.",
-      "phases": [
-        {
-          "status": "closed",
-          "date": "2026-11-06",
-          "headline": "Fox Completes $22 Billion Roku Acquisition",
-          "source": "TheWrap"
-        }
-      ]
-    },
-    {
       "id": "cnh-kobelco-construction-divestiture",
       "ticker": "CNH",
       "counterparty": "Kobelco Construction Machinery (Kobe Steel, 5406.T)",
@@ -301,23 +291,6 @@
           "date": "2026-11-09",
           "headline": "CNH Announces Agreement to Form a Joint Venture by Selling a 70% Interest in its Construction Equipment Business to Kobelco Construction Machinery",
           "source": "GlobeNewswire"
-        }
-      ]
-    },
-    {
-      "id": "u-silver-lake-pif-take-private",
-      "ticker": "U",
-      "counterparty": "Silver Lake and Saudi Arabia's Public Investment Fund (PIF)",
-      "type": "acquisition",
-      "currentStatus": "rumored",
-      "whyItMatters": "The Electronic Arts buyers are in preliminary talks to take Unity private at about $25bn, above its ~$21.5bn market value, and Unity has hired a bank to weigh options, putting a sponsor price floor under a stock that already holds Silver Lake as an ~8% owner.",
-      "phases": [
-        {
-          "status": "rumored",
-          "date": "2026-11-06",
-          "headline": "Unity shares jump on report of takeover interest from Silver Lake, PIF",
-          "source": "Reuters",
-          "priceReaction": "nearly +5%"
         }
       ]
     },
@@ -910,6 +883,57 @@
           "date": "2026-11-25",
           "headline": "American Billionaire Signs U.S.-Backed Share Swap Deal to Buy Lukoil Global Assets",
           "source": "The Moscow Times"
+        }
+      ]
+    },
+    {
+      "id": "dib-emirates-islamic-acquisition",
+      "ticker": "DIB.AE",
+      "counterparty": "Emirates Islamic (Emirates NBD, EMIRATESNBD.AE)",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Dubai Islamic Bank is issuing about 3.5bn new shares (0.642 per Emirates Islamic share, ~$8.5bn on Bloomberg's maths) to buy Emirates NBD's Islamic arm, creating a ~AED585bn-asset lender, the world's second-largest listed Islamic bank, but leaving Emirates NBD as a ~32.5% anchor holder and requiring UAE central bank, CMA and shareholder approvals.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-11-25",
+          "headline": "Dubai Seals Deal to Form $159 Billion Islamic Banking Giant",
+          "source": "Bloomberg",
+          "priceReaction": "DIB shares up about 11%"
+        }
+      ]
+    },
+    {
+      "id": "imb-altria-takeover-proposal",
+      "ticker": "IMB.L",
+      "counterparty": "Altria (MO)",
+      "type": "acquisition",
+      "currentStatus": "confirmed",
+      "whyItMatters": "Altria has confirmed it is weighing a likely all-cash offer for Imperial Brands and is talking to a third party, reportedly Japan Tobacco, about buying part of the business, putting a bid floor under the stock until the 24 December put-up-or-shut-up deadline, though Imperial says it has received no approach.",
+      "phases": [
+        {
+          "status": "confirmed",
+          "date": "2026-11-26",
+          "headline": "Altria Response to Media Speculation on Possible Offer for Imperial Brands plc",
+          "source": "Altria (Business Wire)",
+          "priceReaction": "Imperial +14.85% at close (up as much as 17.6% intraday)"
+        }
+      ]
+    },
+    {
+      "id": "kntk-targa-acquisition",
+      "ticker": "KNTK",
+      "counterparty": "Targa Resources (TRGP)",
+      "type": "acquisition",
+      "currentStatus": "rumored",
+      "whyItMatters": "Targa buying the ~$9bn Permian gas gathering and processing operator would consolidate Delaware Basin midstream and give Blackstone (48%) and I Squared (19%) an exit after Kinetik's strategic review, with a deal possible as soon as next week but no price reported.",
+      "phases": [
+        {
+          "status": "rumored",
+          "date": "2026-11-25",
+          "headline": "Targa Is Said in Talks to Buy Kinetik in Major Pipeline Tie-Up",
+          "source": "Bloomberg",
+          "priceReaction": "Kinetik +11.5% after hours; Targa -4%"
         }
       ]
     }
