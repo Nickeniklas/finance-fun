@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-27T08:45:00Z",
+  "generatedAt": "2026-11-28T08:45:00Z",
   "events": [
     {
       "id": "evk-basf-acquisition",
@@ -934,6 +934,38 @@
           "headline": "Targa Is Said in Talks to Buy Kinetik in Major Pipeline Tie-Up",
           "source": "Bloomberg",
           "priceReaction": "Kinetik +11.5% after hours; Targa -4%"
+        }
+      ]
+    },
+    {
+      "id": "db1-allfunds-acquisition",
+      "ticker": "DB1.DE",
+      "counterparty": "Allfunds (ALLFG.AS)",
+      "type": "acquisition",
+      "currentStatus": "approved",
+      "whyItMatters": "Unconditional EU merger clearance removes the main antitrust risk from Deutsche Börse's record ~€5.35bn purchase of fund-distribution platform Allfunds, its largest deal ever, pushing it deeper into fund data and distribution; English court sanction of the scheme and remaining clearances are left, with completion now expected in Q1 2027.",
+      "phases": [
+        {
+          "status": "approved",
+          "date": "2026-11-27",
+          "headline": "EU erlaubt Deutscher Börse Milliarden-Übernahme von Allfunds",
+          "source": "Handelsblatt"
+        }
+      ]
+    },
+    {
+      "id": "sax-i-squared-take-private",
+      "ticker": "SAX.DE",
+      "counterparty": "I Squared Capital",
+      "type": "acquisition",
+      "currentStatus": "rumored",
+      "whyItMatters": "Reuters says I Squared is in advanced talks to buy Ströer, reviving a buyout that stalled earlier in 2026 after Blackstone left and an Infravia arrangement fell through; with founders Udo Müller (~24%) and Dirk Ströer (~20%) holding the key stakes and the shares down over 30% since January 2025 (~€2.1bn market value), any deal may involve rollovers or a partial buyout rather than a clean cash premium for all holders.",
+      "phases": [
+        {
+          "status": "rumored",
+          "date": "2026-11-26",
+          "headline": "I Squared in Advanced Talks to Acquire German Advertiser Stroeer",
+          "source": "Reuters (via Global Banking & Finance Review)"
         }
       ]
     }
